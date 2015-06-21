@@ -1,15 +1,34 @@
+/**
+ *
+ * LIBC_FATAL_STDERR_=1 makes the backtrace to be printed on stderr
+ */
 #include <stdio.h>
+#include <unistd.h>
 #include <string.h>
 int main(int argc, char* argv[]) {
+    unsigned int count = 264;
 
-    unsigned int count = 600;
+    int std = 0;
+    char opt;
 
-    if (argc > 1) {
-        count = atoi(argv[1]);
+    while ((opt = getopt(argc, argv, "ic:"))!= -1){
+        switch(opt) {
+            case 'i':
+                std = 1;
+                break;
+            case 'c':
+                count = atoi(optarg);
+                break;
+        }
     }
+
     char buffer[256];
 
-    memset(buffer, 'A', count);
+    if (std) {
+        gets(buffer);
+    } else {
+        memset(buffer, 'A', count);
+    }
 
     printf(buffer);
 
