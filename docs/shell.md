@@ -1,6 +1,22 @@
 # Shell
 
-The device that allows to communicate with the system
+In this page will refer as shell to the device that allows to communicate with the system, including terminal,
+shells and control characters (think about ``Ctrl-v`` in the shell).
+
+Normally in the interaction with a client you have to take into account
+
+ - the terminal
+ - the shell
+ - the application
+
+so, if we want to rename a file named ``-|^C`` to ``foo`` you  have to issue the following
+keys sequence
+
+    m v Space . / - \ | Ctrl-V Ctrl-C Space f o o Return
+
+into the terminal.
+
+Take into account also the path separator and the syntax behind it.
 
 ## Links
 
