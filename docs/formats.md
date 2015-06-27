@@ -1,5 +1,19 @@
 # Formats
 
+## Notation
+
+**Caret notation** is a notation for unprintable control characters in ASCII encoding.
+The notation consists of a caret (^) followed by a capital letter.
+
+## ASCII
+
+Stands for ``American Standard Code for Information Interchange``, it's a 7bits code.
+
+ASCII reserves the first 32 codes (numbers 0–31 decimal) for control characters: codes
+originally intended not to represent printable information, but rather to control devices
+(such as printers) that make use of ASCII, or to provide meta-information about data streams
+such as those stored on magnetic tape.
+
 ## Unicode
 
 Unicode is not an encoding but is a classification of characters: though each one is identified
