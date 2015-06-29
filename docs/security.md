@@ -18,6 +18,8 @@ list of word starting from a pristine one with the following command:
 
 See also [shellcode](/shellcode/).
 
+ - https://gbmaster.wordpress.com/2015/06/28/x86-exploitation-101-house-of-force-jedi-overflow/
+
 ## LFI/RFI
 
  - https://www.idontplaydarts.com/2011/02/using-php-filter-for-local-file-inclusion/
