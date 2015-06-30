@@ -7,8 +7,12 @@ User input **must** be sanitized!
 In some cases it's important to make the space containing certain variables
 big enough to not be guessed in human time.
 
-The most used tool is [john the ripper](http://www.openwall.com/john/); it possibile to generate a mangled
-list of word starting from a pristine one with the following command:
+The most used tool is [john the ripper](http://www.openwall.com/john/): on a Linux
+system is possible to edit the ``src/Makefile`` and compile it with
+
+    $ make -C src  -f Makefile linux-x86-64-native
+
+One usage is toto generate a mangled list of word starting from a pristine one with the following command:
 
     $ ./run/john --wordlist=wordlist.txt --stdout --rules > expanded-word-list.txt
 
