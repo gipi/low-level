@@ -55,6 +55,7 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
  - http://gwae.trollab.org/sqlite-injection.html
  - https://www.trustwave.com/Resources/SpiderLabs-Blog/Sqlmap-Tricks-for-Advanced-SQL-Injection/
  - https://websec.wordpress.com/2010/03/19/exploiting-hard-filtered-sql-injections/
+ - http://www.slideshare.net/stamparm/ph-days-2013miroslavstamparsqlmapunderthehood
 
 ## Tools
 
