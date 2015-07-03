@@ -4,6 +4,7 @@ pages:
 - [formats.md, Formats]
 - [arch.md, Architectures]
 - [shell.md, Shells]
+- [programming.md, Programming]
 - [ptrace.md, Ptrace]
 - [security.md, Security]
 - [shellcode.md, Shellcode]
