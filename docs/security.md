@@ -57,6 +57,7 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
  - https://websec.wordpress.com/2010/03/19/exploiting-hard-filtered-sql-injections/
  - http://www.slideshare.net/stamparm/ph-days-2013miroslavstamparsqlmapunderthehood
  - Bypassing ``addslashes()`` ([post](http://shiflett.org/blog/2007/jan/addslashes-versus-mysql-real-escape-string))
+ - http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/
 
 ## Tools
 
