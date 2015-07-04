@@ -7,5 +7,6 @@ pages:
 - [programming.md, Programming]
 - [ptrace.md, Ptrace]
 - [security.md, Security]
+- [randomness.md, Randomness]
 - [shellcode.md, Shellcode]
 theme: readthedocs
