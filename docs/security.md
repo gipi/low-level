@@ -23,6 +23,7 @@ One usage is toto generate a mangled list of word starting from a pristine one w
 See also [shellcode](/shellcode/).
 
  - https://gbmaster.wordpress.com/2015/06/28/x86-exploitation-101-house-of-force-jedi-overflow/
+ - http://0x90909090.blogspot.it/2015/07/no-one-expect-command-execution.html
 
 ## LFI/RFI
 
