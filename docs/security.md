@@ -60,6 +60,10 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
  - Bypassing ``addslashes()`` ([post](http://shiflett.org/blog/2007/jan/addslashes-versus-mysql-real-escape-string))
  - http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/
 
+## XXE
+
+ - http://blog.h3xstream.com/2014/06/identifying-xml-external-entity.html
+
 ## Tools
 
  - https://code.google.com/p/skipfish/
