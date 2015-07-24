@@ -35,6 +35,7 @@ See also [shellcode](/shellcode/).
 
  - https://gbmaster.wordpress.com/2015/06/28/x86-exploitation-101-house-of-force-jedi-overflow/
  - http://0x90909090.blogspot.it/2015/07/no-one-expect-command-execution.html
+ - GHOST vulnerability [report](http://www.openwall.com/lists/oss-security/2015/01/27/9)
 
 ## LFI/RFI
 
@@ -74,6 +75,8 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
 ## XXE
 
  - http://blog.h3xstream.com/2014/06/identifying-xml-external-entity.html
+ - https://www.owasp.org/images/5/5d/XML_Exteral_Entity_Attack.pdf
+ - https://users.dimi.uniud.it/~massimo.franceschet/caffe-xml/dtd/dtd-definitions4.html
 
 ## Tools
 
