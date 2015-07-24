@@ -12,3 +12,7 @@ real machines come with a great variety of architecture
 ## RISC
 
 ## POWERPC
+
+## Links
+
+ - What every programmer should know about memory, Part 1 [LWN](http://lwn.net/Articles/250967/)
