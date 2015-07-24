@@ -16,7 +16,18 @@ One usage is toto generate a mangled list of word starting from a pristine one w
 
     $ ./run/john --wordlist=wordlist.txt --stdout --rules > expanded-word-list.txt
 
+With no options, john will start in "single" mode first, then move on to "wordlist" mode, and finally to "incremental" mode.
+
+```
+$ john --incremental=Digits --stdout
+1952
+12345
+123456
+0065663
+```
+
  - http://www.lanmaster53.com/2011/02/creating-complex-password-lists-with-john-the-ripper/
+ - http://backreference.org/2009/10/26/password-recovery-with-john-the-ripper/
 
 ## Custom code execution
 
