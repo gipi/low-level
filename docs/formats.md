@@ -32,6 +32,7 @@ where for compatibility purpose the ASCII set is maintained as is.
  - http://www.utf8everywhere.org/
  - https://speakerdeck.com/mathiasbynens/hacking-with-unicode
  - http://agiliq.com/blog/2014/11/character-encoding-and-unicode/
+ - http://eev.ee/blog/2015/09/12/dark-corners-of-unicode/
 
 For testing purpose use
 
