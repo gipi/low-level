@@ -17,6 +17,13 @@ property that is certainly not checked. So that we don't get trapped by some
 very special case but we don't know which, we add the condition of effective
 checking. This signifies that we can verify the property with a program and a
 risk of being wrong that lessen with the degree of checking.
+
+## Randomness of Pi
+
+$$
+\pi = \sum_{k=0}^\infty\,{1\over16^k}\left[{4\over 8k+1} - {2\over 8k+4} - {1\over 8i + 5} - {1\over 8k + 6}\right]
+$$
+
 ## Links
 
  - https://www.cr0.org/progs/sshfun/
