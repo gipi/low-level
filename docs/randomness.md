@@ -29,3 +29,4 @@ $$
  - https://www.cr0.org/progs/sshfun/
  - https://www.seancassidy.me/your-own-verifiable-hardware-rng-with-bladerf-sdr.html
  - [Randomness of Pi](http://www.pi314.net/eng/statistique.php)
+ - [Post](http://www.turingfinance.com/hacking-the-random-walk-hypothesis/) about random walk and finance
