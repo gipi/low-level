@@ -36,6 +36,7 @@ See also [shellcode](/shellcode/).
  - https://gbmaster.wordpress.com/2015/06/28/x86-exploitation-101-house-of-force-jedi-overflow/
  - http://0x90909090.blogspot.it/2015/07/no-one-expect-command-execution.html
  - GHOST vulnerability [report](http://www.openwall.com/lists/oss-security/2015/01/27/9)
+ - [commix](https://github.com/stasinopoulos/commix): Automated All-in-One OS Command Injection and Exploitation Tool
 
 ## LFI/RFI
 
