@@ -98,3 +98,4 @@ execution context.
 
  - https://code.google.com/p/skipfish/
  - Damn Vulnerable Web App [site](http://www.dvwa.co.uk/)
+ - [DNSteal](https://github.com/m57/dnsteal): stealthily extract files from a victim machine through DNS requests
