@@ -5,6 +5,8 @@ real machines come with a great variety of architecture
 
 ## X86
 
+ - [The mysteries arround "0x7C00" in x86 architecture bios bootloader](http://www.glamenv-septzen.net/en/view/6)
+
 ## ARM
 
 ## SPARC
