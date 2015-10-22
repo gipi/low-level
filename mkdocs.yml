@@ -10,5 +10,6 @@ pages:
 - [ptrace.md, Ptrace]
 - [security.md, Security]
 - [randomness.md, Randomness]
+- [reversing.md, Reversing]
 - [shellcode.md, Shellcode]
 theme: readthedocs
