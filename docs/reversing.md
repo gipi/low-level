@@ -1,3 +1,16 @@
+
+## Radare2
+
+```
+$ docker pull radare/radare2
+$ docker run -it -v /path/to/dir/containing/binary/:/build /bin/bash
+root@8c41772329f6:/# r2 /build/binary
+ -- One does not simply write documentation.
+[0x00000000]>
+```
+
+## Links
+
  - Radare2 [tutorial](http://solidsec.blogspot.de/2015/10/tool-radare-2-open-source-alternative.html)
  - https://www.dustri.org/b/exploiting-ezhp-pwn200-from-plaidctf-2014-with-radare2.html
  - http://wapiflapi.github.io/2015/04/22/single-null-byte-heap-overflow/
