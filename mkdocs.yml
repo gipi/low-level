@@ -12,4 +12,5 @@ pages:
 - [randomness.md, Randomness]
 - [reversing.md, Reversing]
 - [shellcode.md, Shellcode]
+- [data_structures/index.md, Data structures]
 theme: readthedocs

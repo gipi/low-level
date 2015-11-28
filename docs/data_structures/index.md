@@ -2,4 +2,4 @@
 
 ## Code
 
- - [hash.c](multiplicative hashing POC)
+ - multiplicative hashing POC [hash.c](hash.c)
