@@ -42,6 +42,7 @@ See also [shellcode](/shellcode/).
 
  - https://www.idontplaydarts.com/2011/02/using-php-filter-for-local-file-inclusion/
  - https://www.idontplaydarts.com/2011/03/php-remote-file-inclusion-command-shell-using-data-stream/
+ - [Liffy](https://github.com/rotlogix/liffy): Local File Inclusion Exploitation Tool
 
 ## RCE
 
@@ -93,6 +94,10 @@ execution context.
  - http://blog.h3xstream.com/2014/06/identifying-xml-external-entity.html
  - https://www.owasp.org/images/5/5d/XML_Exteral_Entity_Attack.pdf
  - https://users.dimi.uniud.it/~massimo.franceschet/caffe-xml/dtd/dtd-definitions4.html
+
+## Side channel
+
+ - http://johoe.mooo.com/trezor-power-analysis/
 
 ## Tools
 
