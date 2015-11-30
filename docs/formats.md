@@ -80,3 +80,4 @@ Three main types of ``ELF`` files
 
  - Anatomy of a program in memory [POST](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
  - Cheating ELF [PDF](https://grugq.github.io/docs/subversiveld.pdf)
+ - [Dissection of an ELF file](https://github.com/mewrev/dissection)
