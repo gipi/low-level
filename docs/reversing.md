@@ -18,3 +18,4 @@ root@8c41772329f6:/# r2 /build/binary
  - [Slide](http://radare.org/get/lacon2k15-esil.pdf) Emulating Code In Radare2
  - http://www.oklabs.net/skype-reverse-engineering-the-long-journey/
  - [Github](https://github.com/rotlogix/Exercises) repo with exercises of ARM reversing
+ - [Post](http://ctfhacker.com/ctf/python/symbolic/execution/reverse/radare/2015/11/28/cmu-binary-bomb-flag2.html) about symbolic execution with ``angr``
