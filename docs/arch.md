@@ -18,3 +18,4 @@ real machines come with a great variety of architecture
 ## Links
 
  - What every programmer should know about memory, Part 1 [LWN](http://lwn.net/Articles/250967/)
+ - [Baking Pi – Operating Systems Development](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/)
