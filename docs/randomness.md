@@ -18,6 +18,19 @@ very special case but we don't know which, we add the condition of effective
 checking. This signifies that we can verify the property with a program and a
 risk of being wrong that lessen with the degree of checking.
 
+## Tests
+
+It's possible to use ``dieharder`` to asses randomness of a given sample:
+
+```
+$ dd if=/dev/zero of=random.bin bs=1M count=1024
+1024+0 record dentro
+1024+0 record fuori
+1073741824 byte (1,1 GB) copiati, 1,71588 s, 626 MB/s
+$ dieharder -g 201 -a -f random.bin
+
+```
+
 ## Randomness of Pi
 
 $$
