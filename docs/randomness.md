@@ -43,3 +43,4 @@ $$
  - https://www.seancassidy.me/your-own-verifiable-hardware-rng-with-bladerf-sdr.html
  - [Randomness of Pi](http://www.pi314.net/eng/statistique.php)
  - [Post](http://www.turingfinance.com/hacking-the-random-walk-hypothesis/) about random walk and finance
+ - Posts about hacking random number generators [1](https://jazzy.id.au/2010/09/20/cracking_random_number_generators_part_1.html) [2](https://jazzy.id.au/2010/09/21/cracking_random_number_generators_part_2.html) [3](https://jazzy.id.au/2010/09/22/cracking_random_number_generators_part_3.html)
