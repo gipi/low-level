@@ -92,9 +92,8 @@ Linux
 -----
 
  - [Ptrace](http://mikecvet.wordpress.com/2010/08/14/ptrace-tutorial/)
- - 
-C&C++
------
+
+## C&C++
 
  - [How to C 2016](https://matt.sh/howto-c)
  - [negating an unsigned number is well defined in C.](http://stackoverflow.com/questions/1269019/what-should-happen-to-the-negation-of-a-size-t-i-e-sizeofstruct-foo/1269049#1269049)
