@@ -9,6 +9,9 @@ real machines come with a great variety of architecture
 
 ## ARM
 
+ - [Reverse engineering the ARM1](http://www.righto.com/2015/12/reverse-engineering-arm1-ancestor-of.html)
+ - [More ARM1 processor reverse engineering: the priority encoder](http://www.righto.com/2016/01/more-arm1-processor-reverse-engineering.html)
+
 ## SPARC
 
 ## RISC
