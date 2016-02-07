@@ -13,4 +13,5 @@ pages:
 - [reversing.md, Reversing]
 - [shellcode.md, Shellcode]
 - [data_structures/index.md, Data structures]
+- [networking.md, Networking]
 theme: readthedocs
