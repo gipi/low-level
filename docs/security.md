@@ -37,6 +37,7 @@ See also [shellcode](/shellcode/).
  - http://0x90909090.blogspot.it/2015/07/no-one-expect-command-execution.html
  - GHOST vulnerability [report](http://www.openwall.com/lists/oss-security/2015/01/27/9)
  - [commix](https://github.com/stasinopoulos/commix): Automated All-in-One OS Command Injection and Exploitation Tool
+ - [How To Heap](https://github.com/shellphish/how2heap): A repository for learning various heap exploitation techniques.
 
 ## LFI/RFI
 
