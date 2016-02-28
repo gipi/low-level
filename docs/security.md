@@ -100,9 +100,14 @@ execution context.
 
  - http://johoe.mooo.com/trezor-power-analysis/
 
+## Cloud
+
+ - https://nvisium.com/documents/aws.pdf
+
 ## Tools
 
  - https://code.google.com/p/skipfish/
  - Damn Vulnerable Web App [site](http://www.dvwa.co.uk/)
+ - [security headers](https://securityheaders.io/): check headers of your site
  - [DNSteal](https://github.com/m57/dnsteal): stealthily extract files from a victim machine through DNS requests
  - [pwntools](https://pwntools.readthedocs.org) CTF framework and exploit development library

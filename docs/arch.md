@@ -3,6 +3,8 @@
 In order to run some software you need a real machine and
 real machines come with a great variety of architecture
 
+ - [Function calls in C: the boring specs](http://www.gghh.name/dibtp/2015/11/10/function-calls-in-c-the-boring-specs.html)
+
 ## X86
 
  - [The mysteries arround "0x7C00" in x86 architecture bios bootloader](http://www.glamenv-septzen.net/en/view/6)
