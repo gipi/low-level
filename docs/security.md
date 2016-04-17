@@ -111,3 +111,7 @@ execution context.
  - [security headers](https://securityheaders.io/): check headers of your site
  - [DNSteal](https://github.com/m57/dnsteal): stealthily extract files from a victim machine through DNS requests
  - [pwntools](https://pwntools.readthedocs.org) CTF framework and exploit development library
+
+## Links
+
+ - [online courses](https://github.com/prakhar1989/awesome-courses#security)
