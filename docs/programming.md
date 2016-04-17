@@ -53,28 +53,25 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - http://kukuruku.co/hub/cpp/undefined-behavior-and-fermats-last-theorem
  - https://fuzzing-project.org/tutorial-cflags.html
 
-Architecture, Interface&pattern design
-------------------------
+## Architecture, Interface&pattern design
 
  - [Fluent](http://martinfowler.com/bliki/FluentInterface.html) interface.
  - http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html
 
-OOP
----
+## OOP
 
  - ootips.org
  - gamedevelopment.tutsplus.com/tutorials/avoiding-the-blob-antipattern-a-pragmatic-approach-to-entity-composition--gamedev-1113
  - http://blog.seancassidy.me/better-java.html
 
-Complexity&Data structures
---------------------------
+##Complexity&Data structures
 
  - http://bigocheatsheet.com/
  - [Think Complexity](http://greenteapress.com/complexity/index.html): free book about data structures and algorithm
  - [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/)
 
-Algorithm
----------
+## Algorithm
+
  - [Ramer–Douglas–Peucker algorithm](http://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm): is an algorithm for reducing the number of points in a curve that is approximated by a series of points.
  - [PID controller](http://playground.arduino.cc/Code/PIDLibrary): calculates an 'error' value as the difference between a measured [Input] and a desired setpoint. The controller attempts to minimize the error by adjusting [an Output].
  - http://brm.io/game-physics-for-beginners/
@@ -83,13 +80,11 @@ Algorithm
  - http://rayli.net/blog/data/top-10-data-mining-algorithms-in-plain-english/
  - https://pograph.wordpress.com/2009/06/04/notes-on-gzip-and-deflate-format/
 
-Threads
--------
+## Threads
 
  - http://developers.memsql.com/blog/common-pitfalls-in-writing-lock-free-algorithms/
  
-Linux
------
+## Linux
 
  - [Ptrace](http://mikecvet.wordpress.com/2010/08/14/ptrace-tutorial/)
 
