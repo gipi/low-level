@@ -1,3 +1,4 @@
+# Reversing
 
 ## Radare2
 
@@ -19,3 +20,6 @@ root@8c41772329f6:/# r2 /build/binary
  - http://www.oklabs.net/skype-reverse-engineering-the-long-journey/
  - [Github](https://github.com/rotlogix/Exercises) repo with exercises of ARM reversing
  - [Post](http://ctfhacker.com/ctf/python/symbolic/execution/reverse/radare/2015/11/28/cmu-binary-bomb-flag2.html) about symbolic execution with ``angr``
+ - [Radare2 of the Lost Magic Gadget](https://0xabe.io/howto/exploit/2016/03/30/Radare2-of-the-Lost-Magic-Gadget.html)
+ - [Radare 2 in 0x1E minutes](https://blog.techorganic.com/2016/03/08/radare-2-in-0x1e-minutes/)
+ - [BINARY BOMB WITH RADARE2 - PRELUDE](https://unlogic.co.uk/2016/04/12/binary-bomb-with-radare2-prelude/)
