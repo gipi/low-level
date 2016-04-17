@@ -1,6 +1,14 @@
 # Reversing
 
-## Radare2
+## Hardware
+
+### Links
+
+ - [CSCI 4974 / 6974 Hardware Reverse Engineering](http://security.cs.rpi.edu/courses/hwre-spring2014/)
+
+## Software
+
+### Radare2
 
 ```
 $ docker pull radare/radare2
@@ -10,7 +18,7 @@ root@8c41772329f6:/# r2 /build/binary
 [0x00000000]>
 ```
 
-## Links
+### Links
 
  - Radare2 [tutorial](http://solidsec.blogspot.de/2015/10/tool-radare-2-open-source-alternative.html)
  - https://www.dustri.org/b/exploiting-ezhp-pwn200-from-plaidctf-2014-with-radare2.html
