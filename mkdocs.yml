@@ -6,6 +6,7 @@ pages:
 - [formats.md, Formats]
 - [arch.md, Architectures]
 - [shell.md, Shells]
+- [filesystem.md, Filesystem]
 - [programming.md, Programming]
 - [ptrace.md, Ptrace]
 - [security.md, Security]
