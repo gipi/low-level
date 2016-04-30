@@ -47,6 +47,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [10 Rules for Writing Safety Critical Code](http://spinroot.com/p10/)
  - https://github.com/angrave/SystemProgramming/wiki
  - [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
+ - [Michael Abrash's Graphics Programming Black Book](https://github.com/jagregory/abrash-black-book)
 
 ## Compilers
 
