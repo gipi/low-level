@@ -1,16 +1,20 @@
 # REMEMBER ":=" means early evaluation
 # https://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_6.html#SEC59
+BINS := getenv
+BINS += payload-eater
+BINS += i_crash
 
 CPPFLAGS += -Wall
 
-SUFFIX :=_
 
 ifeq ($(ARCH),32)
+	BINS += ptrace_on_segfault
 	CPPFLAGS += -m32
-	SUFFIX := $(addprefix _x86, $(SUFFIX))
+	SUFFIX := _x86
 else
 	ARCH = 64
 	CPPFLAGS += -m64
+	SUFFIX := _amd64
 endif
 
 ifeq ($(DEBUG),1)
@@ -25,11 +29,19 @@ endif
 LDFLAGS  += -Wl,-z,now -Wl,-z,relro,-z,noexecstack
 
 
+
+REAL_BINS := $(foreach bin, $(BINS), $(addsuffix $(SUFFIX), $(bin)))
+
+all: $(BINS) $(REAL_BINS)
 all: $(BIN)
 
 clean:
-	rm -f $(BIN)
+	rm -f $(BINS) $(REAL_BINS)
 
 ptrace_on_segfault: LDFLAGS= -lcapstone
 
+%_amd64:%
+%_x86:%
+	make $<
+	mv $< $@
 
