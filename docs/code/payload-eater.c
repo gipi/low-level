@@ -83,6 +83,14 @@ void handle_options(int argc, char** argv, char* progname) {
     env.shellcode_filepath = argv[optind];
 }
 
+void jmp(void* shellcode) {
+    __asm__(
+        "jmp *%%rdi\n"
+        :
+        :
+    );
+}
+
 int main(int argc, char** argv) {
     handle_options(argc, argv, argv[0]);
 
@@ -106,8 +114,10 @@ int main(int argc, char** argv) {
         fprintf(stderr, " [I] executing with stdout passed as first argument\n");
         void (*exploit_with_fd)(int fd) = exploit;
         exploit_with_fd(1);
-    } else
-        exploit();
+    } else {
+        fprintf(stderr, " [I] executing with a simple jmp *%%rax\n");
+        jmp(exploit);
+    }
 
     fprintf(stderr, " [I] completed execution of %s\n", progname);
 
