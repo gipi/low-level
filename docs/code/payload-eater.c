@@ -153,7 +153,8 @@ void jmp(void* shellcode) {
 }
 
 int main(int argc, char** argv) {
-    handle_options(argc, argv, argv[0]);
+    char* progname = argv[0];
+    handle_options(argc, argv, progname);
 
     int fd = open(env.shellcode_filepath, O_RDONLY);
 
