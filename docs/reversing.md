@@ -16,6 +16,16 @@ $ docker run -it -v /path/to/dir/containing/binary/:/build /bin/bash
 root@8c41772329f6:/# r2 /build/binary
  -- One does not simply write documentation.
 [0x00000000]>
+[0x004008e0]> f*~sym.jmp
+f sym.jmp 10 0x00400cc4
+[0x004008e0]> pdf@sym.jmp
+/ (fcn) sym.jmp 10
+|           ; var int local_8h @ rbp-0x8
+|           ; CALL XREF from 0x00400e29 (sym.main)
+|           0x00400cc4      55             push rbp
+|           0x00400cc5      4889e5         mov rbp, rsp
+|           0x00400cc8      48897df8       mov qword [rbp - local_8h], rdi
+\           0x00400ccc      ffe7           jmp rdi
 ```
 
 ### Links
