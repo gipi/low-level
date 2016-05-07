@@ -39,6 +39,10 @@ See also [shellcode](/shellcode/).
  - [commix](https://github.com/stasinopoulos/commix): Automated All-in-One OS Command Injection and Exploitation Tool
  - [How To Heap](https://github.com/shellphish/how2heap): A repository for learning various heap exploitation techniques.
 
+### Format String
+
+ - [Exploiting Format String Vulnerabilities](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20Exploiting%20Format%20String%20vulnerabilities.pdf)
+
 ## LFI/RFI
 
  - https://www.idontplaydarts.com/2011/02/using-php-filter-for-local-file-inclusion/
