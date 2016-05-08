@@ -145,11 +145,20 @@ void exploit_w_socket(void (*exploit)(int socketfd)) {
 }
 
 void jmp(void* shellcode) {
+#ifdef __x86_64__
     __asm__(
         "jmp *%%rdi\n"
         :
         :
     );
+#elif __i386__ 
+    __asm__(
+        "mov 0x8(%%ebp), %%eax;\n"
+        "jmp *%%eax\n;"
+        :
+        :
+    );
+#endif
 }
 
 int main(int argc, char** argv) {
