@@ -33,7 +33,6 @@ LDFLAGS  += -Wl,-z,now -Wl,-z,relro,-z,noexecstack
 REAL_BINS := $(foreach bin, $(BINS), $(addsuffix $(SUFFIX), $(bin)))
 
 all: $(BINS) $(REAL_BINS)
-all: $(BIN)
 
 clean:
 	rm -f $(BINS) $(REAL_BINS)
