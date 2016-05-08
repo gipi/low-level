@@ -28,7 +28,7 @@ f sym.jmp 10 0x00400cc4
 \           0x00400ccc      ffe7           jmp rdi
 ```
 
-### Links
+#### Links
 
  - Radare2 [tutorial](http://solidsec.blogspot.de/2015/10/tool-radare-2-open-source-alternative.html)
  - https://www.dustri.org/b/exploiting-ezhp-pwn200-from-plaidctf-2014-with-radare2.html
@@ -41,3 +41,9 @@ f sym.jmp 10 0x00400cc4
  - [Radare2 of the Lost Magic Gadget](https://0xabe.io/howto/exploit/2016/03/30/Radare2-of-the-Lost-Magic-Gadget.html)
  - [Radare 2 in 0x1E minutes](https://blog.techorganic.com/2016/03/08/radare-2-in-0x1e-minutes/)
  - [BINARY BOMB WITH RADARE2 - PRELUDE](https://unlogic.co.uk/2016/04/12/binary-bomb-with-radare2-prelude/)
+
+### Plasma
+
+Interactive disassembler for x86/ARM/MIPS. Generates indented pseudo-code with colored syntax code.
+
+This is the [github repo](https://github.com/joelpx/plasma).
