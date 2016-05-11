@@ -6,6 +6,12 @@ real machines come with a great variety of architecture
  - [Function calls in C: the boring specs](http://www.gghh.name/dibtp/2015/11/10/function-calls-in-c-the-boring-specs.html)
  - [Function calls in C: a practical example](http://www.gghh.name/dibtp/2015/11/11/function-calls-in-c-practical-example.html)
 
+## Assembler
+
+There are two notations: **Intel** and **AT&T**.
+
+ - [Intel and AT&T Syntax](http://www.imada.sdu.dk/Courses/DM18/Litteratur/IntelnATT.htm)
+
 ## X86
 
  - [The mysteries arround "0x7C00" in x86 architecture bios bootloader](http://www.glamenv-septzen.net/en/view/6)
