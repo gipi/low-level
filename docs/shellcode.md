@@ -2,7 +2,8 @@ Note that the usually the base pointer is trashed during the exploting
 process in a normal exploitation process, but the stack pointer is not.
 
 
-- http://www.blackhatlibrary.net/Shellcode/Null-free
+ - http://www.blackhatlibrary.net/Shellcode/Null-free
+ - [Error codes](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/Errors/unix_system_errors.html)
 
 Since the standard ``/bin/sh`` is a link to ``/bin/bash`` that
 droppes privileges when called, you can call instead a script
