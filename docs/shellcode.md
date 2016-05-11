@@ -20,6 +20,35 @@ of to a file descriptor passed as first argument into the stack:
 
 ## Stack-based
 
+In this context you are to pratically programming with assembly
+into a buffer.
+
+
+### Retrieve buffer related address
+
+This below is an example in which we do a jmp and a call back, in this
+way we obtain from the stack the address from which the call is started:
+(the code is for ``amd64``)
+
+```asm
+    /* call write(1, 4196356, 3) */
+    jmp miao
+start:
+    pop rsi
+    push (SYS_write) /* 1 */
+    pop rax
+    push 1
+    pop rdi
+    push 50
+    pop rdx
+    syscall
+    
+    ret
+miao:    call start
+.ascii "miao\0"
+```
+(is inspired from the original [Smashing The Stack For Fun And Profit](http://phrack.org/issues/49/14.html#article)).
+
 ```python
 # linux/x86/read_file - 84 bytes
 # http://www.metasploit.com
