@@ -11,10 +11,16 @@ real machines come with a great variety of architecture
 There are two notations: **Intel** and **AT&T**.
 
  - [Intel and AT&T Syntax](http://www.imada.sdu.dk/Courses/DM18/Litteratur/IntelnATT.htm)
+ - [GNU As manual](http://tigcc.ticalc.org/doc/gnuasm.html)
 
 ## X86
 
+ - [Assembly Wikibook](https://en.wikibooks.org/wiki/X86_Assembly)
  - [The mysteries arround "0x7C00" in x86 architecture bios bootloader](http://www.glamenv-septzen.net/en/view/6)
+
+## AMD64
+
+ - [Gentle Introduction to x86-64 Assembly](http://www.x86-64.org/documentation/assembly.html)
 
 ## ARM
 
