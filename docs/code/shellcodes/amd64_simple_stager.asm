@@ -13,7 +13,7 @@ stager_1:
     push rsi
     push 0
     pop rdi
-    push 25
+    push 1024
     pop rdx
 
 /* read loop */
