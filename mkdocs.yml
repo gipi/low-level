@@ -16,4 +16,5 @@ pages:
 - [shellcode.md, Shellcode]
 - [data_structures/index.md, Data structures]
 - [networking.md, Networking]
+- [cv.md, Computer Vision]
 theme: readthedocs
