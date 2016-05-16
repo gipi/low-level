@@ -4,7 +4,9 @@ import cv2
 def find_block_size(image):
     '''Search for the minimum distance between change of data.
 
-    We iterate only the row, since at least one single block exists.
+    One approach is to iterate only the row, and look for the minimum
+    block size; otherwise is simpler to divide the size of the image for
+    the 29 block expected.
     '''
     minimum = image.shape[0]
 
@@ -19,6 +21,11 @@ def find_block_size(image):
 
             last_bit = pixel
             counter += 1
+    reminder = image.shape[0] % minimum
+    if reminder != 0:
+        raise ValueError('AAHAHAH %d %d' % (minimum, reminder))
+
+    return image.shape[0]/29
 
     return minimum
 
