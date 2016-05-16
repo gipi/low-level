@@ -53,7 +53,7 @@ if __name__ == '__main__':
     print thresh1
     for row in thresh1:
         for pixel in row:
-            output = 'x' if not pixel > 0 else ' '
+            output = 'X' if not pixel > 0 else ' '
             sys.stdout.write(output)
 
         sys.stdout.write('\n')
@@ -64,7 +64,7 @@ if __name__ == '__main__':
     print 'block size:', block_size
 
     bits = [_ for _ in bitify(thresh1, block_size)]
-    signs = [' ' if _[0,0] != 0 else 'x'  for _ in bits]
+    signs = [' ' if _[0,0] != 0 else 'X'  for _ in bits]
 
     width = image.shape[0]/block_size
 
