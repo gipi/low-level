@@ -16,6 +16,7 @@ There are two notations: **Intel** and **AT&T**.
 ## X86
 
  - [Assembly Wikibook](https://en.wikibooks.org/wiki/X86_Assembly)
+ - [A fundamental introduction to x86 assembly programming](https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming)
  - [The mysteries arround "0x7C00" in x86 architecture bios bootloader](http://www.glamenv-septzen.net/en/view/6)
 
 ## AMD64
