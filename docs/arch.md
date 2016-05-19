@@ -18,6 +18,7 @@ There are two notations: **Intel** and **AT&T**.
  - [Assembly Wikibook](https://en.wikibooks.org/wiki/X86_Assembly)
  - [A fundamental introduction to x86 assembly programming](https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming)
  - [The mysteries arround "0x7C00" in x86 architecture bios bootloader](http://www.glamenv-septzen.net/en/view/6)
+ - [Shellcode obfuscation](https://breakdev.org/x86-shellcode-obfuscation-part-2/) talk about internal format of opcode
 
 ## AMD64
 
