@@ -104,6 +104,15 @@ execution context.
 
  - http://johoe.mooo.com/trezor-power-analysis/
 
+## Type juggling
+
+This is possible in language that casts automatically different types when operators are used,
+particularly when are present more than one equal operator (``==`` and ``===``).
+
+In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
+
+ - [Php type juggling slides](http://repository.root-me.org/Exploitation%20-%20Web/EN%20-%20PHP%20loose%20comparison%20-%20Type%20Juggling%20-%20OWASP.pdf)
+
 ## Cloud
 
  - https://nvisium.com/documents/aws.pdf
