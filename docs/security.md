@@ -129,3 +129,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
 
  - [online courses](https://github.com/prakhar1989/awesome-courses#security)
  - [ssh security](https://stribika.github.io/2015/01/04/secure-secure-shell.html)
+ - [preg_replace()](https://bitquark.co.uk/blog/2013/07/23/the_unexpected_dangers_of_preg_replace)
