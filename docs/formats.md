@@ -1,11 +1,15 @@
 # Formats
 
-## Notation
+## Character encoding
+
+ - [A tutorial on character code issues](https://www.cs.tut.fi/~jkorpela/chars.html)
+
+### Notation
 
 **Caret notation** is a notation for unprintable control characters in ASCII encoding.
 The notation consists of a caret (^) followed by a capital letter.
 
-## ASCII
+### ASCII
 
 Stands for ``American Standard Code for Information Interchange``, it's a 7bits code.
 
@@ -14,13 +18,13 @@ originally intended not to represent printable information, but rather to contro
 (such as printers) that make use of ASCII, or to provide meta-information about data streams
 such as those stored on magnetic tape.
 
-## Unicode
+### Unicode
 
 Unicode is not an encoding but is a classification of characters: though each one is identified
 by a number, this number is not used directly in its representation: 'UTF-8' is particular representation
 where for compatibility purpose the ASCII set is maintained as is.
 
-### Links
+#### Links
 
  - http://www.cl.cam.ac.uk/~mgk25/unicode.html
  - http://canonical.org/~kragen/strlen-utf8.html
@@ -75,6 +79,8 @@ Three main types of ``ELF`` files
  - Relocatable file
  - Executable
  - Shared objects/library
+
+### Relocation
 
 ### Links
 
