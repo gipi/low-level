@@ -83,6 +83,7 @@ treatment of encoded values within each subcontext (HTML, HTML attribute, URL, a
 execution context.
 
  - https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet
+ - [Building Advanced XSS Vectors](http://brutelogic.com.br/docs/advanced-xss.pdf)
 
 ## SQLI
 
