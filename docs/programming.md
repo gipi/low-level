@@ -91,6 +91,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
 
 ## C&C++
 
+ - [JPL Institutional Coding Standard for the C Programming Language ](http://lars-lab.jpl.nasa.gov/JPL_Coding_Standard_C.pdf)
  - [How to C 2016](https://matt.sh/howto-c)
  - [Some notes C in 2016](http://blog.erratasec.com/2016/01/some-notes-c-in-2016.html)
  - [negating an unsigned number is well defined in C.](http://stackoverflow.com/questions/1269019/what-should-happen-to-the-negation-of-a-size-t-i-e-sizeofstruct-foo/1269049#1269049)
