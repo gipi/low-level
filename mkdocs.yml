@@ -2,19 +2,23 @@ site_name: low level
 markdown_extensions: [math]
 extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML','mathjaxhelper.js']
 pages:
-- [index.md, Home]
-- [formats.md, Formats]
-- [arch.md, Architectures]
-- [shell.md, Shells]
-- [filesystem.md, Filesystem]
-- [programming.md, Programming]
-- [ptrace.md, Ptrace]
-- [security.md, Security]
-- [cve.md, CVE]
-- [randomness.md, Randomness]
-- [reversing.md, Reversing]
-- [shellcode.md, Shellcode]
-- [data_structures/index.md, Data structures]
-- [networking.md, Networking]
-- [cv.md, Computer Vision]
+- Home: index.md
+- Computer:
+  - Formats: formats.md
+  - Architectures: arch.md
+  - Shells: shell.md
+  - Filesystem: filesystem.md
+- Programming:
+  - Home: programming.md
+  - Data structures: data_structures/index.md
+  - Ptrace: ptrace.md
+  - Randomness: randomness.md
+- Security:
+  - 'Home': security.md
+  - 'XXE': security/xxe.md
+  - 'CVE': cve.md
+  - Reversing: reversing.md
+  - Shellcode: shellcode.md
+- Networking:
+  - Home: networking.md
 theme: readthedocs
