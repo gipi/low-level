@@ -80,6 +80,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - http://fabiensanglard.net/rayTracing_back_of_business_card/index.php
  - http://rayli.net/blog/data/top-10-data-mining-algorithms-in-plain-english/
  - https://pograph.wordpress.com/2009/06/04/notes-on-gzip-and-deflate-format/
+ - [Stable sorting in javascript](http://blog.vjeux.com/2010/javascript/javascript-sorting-table.html)
 
 ## Threads
 
