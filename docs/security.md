@@ -49,12 +49,6 @@ See also [shellcode](/shellcode/).
  - https://www.idontplaydarts.com/2011/03/php-remote-file-inclusion-command-shell-using-data-stream/
  - [Liffy](https://github.com/rotlogix/liffy): Local File Inclusion Exploitation Tool
 
-## RCE
-
- - [Bookfresh case](https://www.secgeek.net/bookfresh-vulnerability/)
- - Encoding Web Shell in PNG IDAT chunks ([post](https://www.idontplaydarts.com/2012/06/encoding-web-shells-in-png-idat-chunks/))
- - Exploiting PHP-GD imagecreatefromgif() function ([github repo](https://github.com/d0lph1n98/Defeating-PHP-GD-imagecreatefromgif))
-
 ## HTTP parameters pollution
 
 HPP attacks can be defined as the feasibilty to override or add ``HTTP`` ``GET``/``POST`` parameters
