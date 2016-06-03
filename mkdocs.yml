@@ -16,6 +16,7 @@ pages:
 - Security:
   - 'Home': security.md
   - 'XXE': security/xxe.md
+  - 'XSS': security/xss.md
   - 'CVE': cve.md
   - Remote code execution: security/rce.md
   - Reversing: reversing.md
