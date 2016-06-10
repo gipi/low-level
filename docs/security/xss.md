@@ -15,3 +15,4 @@ execution context.
  - https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet
  - [Building Advanced XSS Vectors](http://brutelogic.com.br/docs/advanced-xss.pdf)
  - [UNDERSTANDING XSS AUDITOR](https://www.virtuesecurity.com/blog/understanding-xss-auditor/)
+ - [A comprehensive tutorial on cross-site scripting](http://excess-xss.com/)
