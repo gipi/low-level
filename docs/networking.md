@@ -2,6 +2,11 @@
 
  - [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
  - [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+ - [Monitoring and Tuning the Linux Networking Stack: Receiving Data](http://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data/)
+ - [Tun/Tap interface tutorial](http://backreference.org/2010/03/26/tuntap-interface-tutorial/)
+ - [The TCP/IP Drinking Game](http://valerieaurora.org/tcpip.html)
+ - [Iptables](https://wiki.archlinux.org/index.php/iptables)
+
 
 ## Code example
 
