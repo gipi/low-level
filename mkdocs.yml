@@ -18,6 +18,7 @@ pages:
   - 'XXE': security/xxe.md
   - 'XSS': security/xss.md
   - 'CVE': cve.md
+  - 'Hardware': security/hardware.md
   - Remote code execution: security/rce.md
   - Reversing: reversing.md
   - Shellcode: shellcode.md
