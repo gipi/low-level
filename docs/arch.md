@@ -21,6 +21,15 @@ There are two notations: **Intel** and **AT&T**.
 
 ## ISA
 
+Four principles of IS architecture
+
+ - simplicity favors regularity
+ - smaller is faster
+ - good design demands compromise
+ - make the common case fast
+
+### Links
+
  - [Wikipedia](https://en.wikipedia.org/wiki/Instruction_set)
 
 ### Microarchitecture
