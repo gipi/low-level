@@ -1,7 +1,13 @@
 # Architecture
 
 In order to run some software you need a real machine and
-real machines come with a great variety of architecture
+real machines come with a great variety of architecture: a kind of differentiation
+could be
+
+ * **load/store** architecture: instructions are divided in two categories: **memory access** and **ALU operations** between registers.
+ * **register** architecture: instructions are not divided and operations like ``add`` can be between memory and registers.
+
+In particular, the kind of architecture can influence the way a function is called:
 
  - [Function calls in C: the boring specs](http://www.gghh.name/dibtp/2015/11/10/function-calls-in-c-the-boring-specs.html)
  - [Function calls in C: a practical example](http://www.gghh.name/dibtp/2015/11/11/function-calls-in-c-practical-example.html)
