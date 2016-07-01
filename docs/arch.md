@@ -19,7 +19,27 @@ There are two notations: **Intel** and **AT&T**.
  - [Intel and AT&T Syntax](http://www.imada.sdu.dk/Courses/DM18/Litteratur/IntelnATT.htm)
  - [GNU As manual](http://tigcc.ticalc.org/doc/gnuasm.html)
 
+## ISA
+
+ - [Wikipedia](https://en.wikipedia.org/wiki/Instruction_set)
+
+### Microarchitecture
+
+In electronics engineering and computer engineering, [microarchitecture](https://en.wikipedia.org/wiki/Microarchitecture), also
+called computer organization and sometimes abbreviated as µarch or uarch, is
+the way a given instruction set architecture (ISA) is implemented in a
+particular processor. A given ISA may be implemented with different
+microarchitectures; implementations may vary due to different goals of a
+given design or due to shifts in technology.
+
+### Computer architecture
+
+Computer architecture is the combination of microarchitecture and instruction set designs.
+
 ## X86
+
+**x86** is a family of backward compatible instruction set architectures
+based on the Intel 8086 CPU and its Intel 8088 variant.
 
  - [Assembly Wikibook](https://en.wikibooks.org/wiki/X86_Assembly)
  - [A fundamental introduction to x86 assembly programming](https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming)
@@ -28,6 +48,8 @@ There are two notations: **Intel** and **AT&T**.
 
 ## AMD64
 
+**x86-64** is the 64-bit version of the x86 instruction set. 
+
 1. User-level applications use as integer registers for passing the sequence %rdi, %rsi, %rdx, %rcx, %r8 and %r9. The kernel interface uses %rdi, %rsi, %rdx, %r10, %r8 and %r9.
 2. A system-call is done via the syscall instruction. The kernel destroys registers %rcx and %r11.
 3. The number of the syscall has to be passed in register %rax.
@@ -35,19 +57,31 @@ There are two notations: **Intel** and **AT&T**.
 5. Returning from the syscall, register %rax contains the result of the system-call. A value in the range between -4095 and -1 indicates an error, it is -errno.
 6. Only values of class INTEGER or class MEMORY are passed to the kernel.
 
+### Links
+
  - [Gentle Introduction to x86-64 Assembly](http://www.x86-64.org/documentation/assembly.html)
 
-## ARM
+## RISC
+
+The name stands for **Reduced instruction set computing**: it's a CPU design.
+
+### ARM
 
  - [Reverse engineering the ARM1](http://www.righto.com/2015/12/reverse-engineering-arm1-ancestor-of.html)
  - [More ARM1 processor reverse engineering: the priority encoder](http://www.righto.com/2016/01/more-arm1-processor-reverse-engineering.html)
  - [The ARM Instruction Set Architecture](http://users.ece.utexas.edu/~valvano/EE345M/Arm_EE382N_4.pdf)
 
-## SPARC
+### MIPS
 
-## RISC
+**Microprocessor without Interlocked Pipeline Stages**
 
-## POWERPC
+### SPARC
+
+**Scalable Processor ARChitecture**. It's an ``ISA``.
+
+### POWERPC
+
+**Performance Optimization With Enhanced RISC**
 
 ## Links
 
