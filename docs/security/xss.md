@@ -16,3 +16,10 @@ execution context.
  - [Building Advanced XSS Vectors](http://brutelogic.com.br/docs/advanced-xss.pdf)
  - [UNDERSTANDING XSS AUDITOR](https://www.virtuesecurity.com/blog/understanding-xss-auditor/)
  - [A comprehensive tutorial on cross-site scripting](http://excess-xss.com/)
+
+## RPO
+
+It stands for *relative path overwrite*.
+
+ - [First article about it](http://www.thespanner.co.uk/2014/03/21/rpo/)
+ - [RPO gadgets](http://blog.innerht.ml/rpo-gadgets/)
