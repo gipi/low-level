@@ -18,6 +18,10 @@ into the terminal.
 
 Take into account also the path separator and the syntax behind it.
 
+## Console
+
+ - [Programming with ANSI escape codes](http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html)
+
 ## Links
 
  - http://resources.mpi-inf.mpg.de/departments/rg1/teaching/unixffb-ss98/quoting-guide.html
