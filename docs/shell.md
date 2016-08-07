@@ -27,3 +27,5 @@ Take into account also the path separator and the syntax behind it.
  - http://resources.mpi-inf.mpg.de/departments/rg1/teaching/unixffb-ss98/quoting-guide.html
  - http://twistedoakstudios.com/blog/Post4872_dont-treat-paths-like-strings
  - [Why Bash is like that: suid](http://www.vidarholen.net/contents/blog/?p=30)
+ - [buffering in standard streams](http://www.pixelbeat.org/programming/stdio_buffering/)
+ - [The Design and Implementation of Userland Exec](https://grugq.github.io/docs/ul_exec.txt)

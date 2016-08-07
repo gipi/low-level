@@ -91,6 +91,19 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
 
  - [Php type juggling slides](http://repository.root-me.org/Exploitation%20-%20Web/EN%20-%20PHP%20loose%20comparison%20-%20Type%20Juggling%20-%20OWASP.pdf)
 
+## Advanced protection mechanism bypass
+
+ - [ASLR Smack & Laugh Reference](http://www.icir.org/matthias/cs161-sp13/aslr-bypass.pdf)
+ - [Bypassing non-executable-stack during exploitation using return-to-libc](http://www.infosecwriters.com/text_resources/pdf/return-to-libc.pdf)
+ - [The advanced return-into-lib(c) exploits: PaX case study](http://phrack.org/issues/58/4.html)
+ - [PAYLOAD ALREADY INSIDE: DATA REUSE FOR ROP EXPLOITS](https://media.blackhat.com/bh-us-10/whitepapers/Le/BlackHat-USA-2010-Le-Paper-Payload-already-inside-data-reuse-for-ROP-exploits-wp.pdf)
+
+## Heap 
+
+ - [Once upon a free()](http://phrack.org/issues/57/9.html)
+ - [Vudo - An object superstitiously believed to embody magical powers](http://phrack.org/issues/57/8.html)
+ - [MALLOC DES-MALEFICARUM](http://phrack.org/issues/66/10.html)
+
 ## Cloud
 
  - https://nvisium.com/documents/aws.pdf
