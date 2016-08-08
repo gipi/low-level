@@ -81,6 +81,7 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
 ## Side channel
 
  - http://johoe.mooo.com/trezor-power-analysis/
+ - [Side-channel attacks on high-security electronic safe locks](https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Plore-Side-Channel-Attacks-On-High-Security-Electronic-Safe-Locks.pdf)
 
 ## Type juggling
 
