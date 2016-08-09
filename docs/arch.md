@@ -76,6 +76,7 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 
 ### ARM
 
+ - [Generica page about ARM](https://www.aldeid.com/wiki/Category:Architecture/ARM)
  - [Reverse engineering the ARM1](http://www.righto.com/2015/12/reverse-engineering-arm1-ancestor-of.html)
  - [More ARM1 processor reverse engineering: the priority encoder](http://www.righto.com/2016/01/more-arm1-processor-reverse-engineering.html)
  - [The ARM Instruction Set Architecture](http://users.ece.utexas.edu/~valvano/EE345M/Arm_EE382N_4.pdf)
