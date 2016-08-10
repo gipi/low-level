@@ -126,6 +126,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Vulnhub](https://www.vulnhub.com/) To provide materials that allows anyone to gain
    practical 'hands-on' experience in digital security, computer software & network administration.
  - [root-me](https://www.root-me.org)
+ - [The DEFCON CTF VM](http://fuzyll.com/2016/the-defcon-ctf-vm/)
 
 ## Links
 
