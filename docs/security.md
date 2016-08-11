@@ -108,6 +108,14 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Once upon a free()](http://phrack.org/issues/57/9.html)
  - [Vudo - An object superstitiously believed to embody magical powers](http://phrack.org/issues/57/8.html)
  - [MALLOC DES-MALEFICARUM](http://phrack.org/issues/66/10.html)
+ - [Understanding glibc malloc](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)
+ - [Heap Exploitation](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/17/10_lecture.pdf) slides from from Modern Binary Exploitation
+
+## Kernel exploiting
+
+ - [Kernel stack overflows (basics)](https://blog.0x80.org/kernel-stack-overflows-basics/)
+ - [Writing kernel exploits](https://tc.gtisc.gatech.edu/bss/2014/r/kernel-exploits.pdf)
+ - [Linux Kernel Exploitation](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20Linux%20Kernel%20Exploitation%20-%20Patrick%20Biernat.pdf) slides from Modern Binary Exploitation
 
 ## Cloud
 
@@ -133,3 +141,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [online courses](https://github.com/prakhar1989/awesome-courses#security)
  - [ssh security](https://stribika.github.io/2015/01/04/secure-secure-shell.html)
  - [preg_replace()](https://bitquark.co.uk/blog/2013/07/23/the_unexpected_dangers_of_preg_replace)
+ - [Modern Binary Exploitation](http://security.cs.rpi.edu/courses/binexp-spring2015/)
