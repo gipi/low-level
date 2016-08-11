@@ -121,6 +121,10 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
 
  - https://nvisium.com/documents/aws.pdf
 
+## Hardware
+
+ - [Secure Systems and Pwning Popular Platforms](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/13/08_lecture.pdf)
+
 ## Tools
 
  - https://code.google.com/p/skipfish/
