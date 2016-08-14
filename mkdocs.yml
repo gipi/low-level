@@ -23,6 +23,7 @@ pages:
   - Remote code execution: security/rce.md
   - Reversing: reversing.md
   - Shellcode: shellcode.md
+  - Counter measure: counter-measure.md
 - Networking:
   - Home: networking.md
   - Iptables: networking/iptables.md
