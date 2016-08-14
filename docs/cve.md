@@ -5,6 +5,7 @@
  - [CVE-2016-0728](http://perception-point.io/2016/01/14/analysis-and-exploitation-of-a-linux-kernel-vulnerability-cve-2016-0728/)
  - [CVE-2015-3864](https://www.usenix.org/sites/default/files/conference/protected-files/woot16_slides_drake.pdf) stagefright
  - [Analysis of PHP's CVE-2016-6289 and CVE-2016-6297](https://blog.fortinet.com/2016/08/10/analysis-of-php-s-cve-2016-6289-and-cve-2016-6297)
+ - [CVE-2016-5696](http://www.cs.ucr.edu/~zhiyunq/pub/sec16_TCP_pure_offpath.pdf) Off-Path TCP Exploits
 
 # Writeup
 
