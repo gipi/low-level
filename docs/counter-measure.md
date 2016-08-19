@@ -1,5 +1,7 @@
 # Counter measure
 
+ - [PAX](https://pax.grsecurity.net/)
+
 You can find a script to check in this repo: ``https://github.com/slimm609/checksec.sh``.
 
 ```
@@ -41,3 +43,5 @@ If you want to check in a Linux system you can read the file ``/proc/sys/kernel/
  - [To disable randomization](https://gcc.gnu.org/wiki/Randomization)
 
 ## RELRO
+
+
