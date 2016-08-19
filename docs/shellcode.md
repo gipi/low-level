@@ -166,3 +166,7 @@ sys.stderr.write(r.dump())
 
 sys.stdout.write(str(r))
 ```
+
+### Links
+
+ - [Bypassing ASLR – Part III](https://sploitfun.wordpress.com/2015/05/08/bypassing-aslr-part-iii/) GOT overwrite and GOT dereference
