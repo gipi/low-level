@@ -170,3 +170,33 @@ sys.stdout.write(str(r))
 ### Links
 
  - [Bypassing ASLR – Part III](https://sploitfun.wordpress.com/2015/05/08/bypassing-aslr-part-iii/) GOT overwrite and GOT dereference
+
+## Tools
+
+It's possible to generate automagically shellcodes using some tools like ``shellcraft``
+a command line program included with ``pwntools``:
+
+```
+$ shellcraft i386.linux.cat .passwd --format asm
+    /* push '.passwd\x00' */
+    push 0x1010101
+    xor dword ptr [esp], 0x1657672
+    push 0x7361702e
+    /* call open('esp', 0, 'O_RDONLY') */
+    push (SYS_open) /* 5 */
+    pop eax
+    mov ebx, esp
+    xor ecx, ecx
+    cdq /* edx=0 */
+    int 0x80
+    /* call sendfile(1, 'eax', 0, 0x7fffffff) */
+    mov ecx, eax
+    xor eax, eax
+    mov al, 0xbb
+    push 1
+    pop ebx
+    push 0x7fffffff
+    pop esi
+    cdq /* edx=0 */
+    int 0x80
+```
