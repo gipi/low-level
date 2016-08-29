@@ -6,6 +6,7 @@
  - [CVE-2015-3864](https://www.usenix.org/sites/default/files/conference/protected-files/woot16_slides_drake.pdf) stagefright
  - [Analysis of PHP's CVE-2016-6289 and CVE-2016-6297](https://blog.fortinet.com/2016/08/10/analysis-of-php-s-cve-2016-6289-and-cve-2016-6297)
  - [CVE-2016-5696](http://www.cs.ucr.edu/~zhiyunq/pub/sec16_TCP_pure_offpath.pdf) Off-Path TCP Exploits
+ - [Slides](http://gsec.hitb.org/materials/sg2016/D1%20-%20Adam%20Donenfeld%20and%20Yaniv%20Mordekhay%20-%20Stumping%20The%20Mobile%20Chipset.pdf) for CVE-2016-5340, CVE-2016-2504, CVE-2016-2503 and CVE-2016-2059
 
 # Writeup
 
