@@ -76,6 +76,7 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
  - http://www.slideshare.net/stamparm/ph-days-2013miroslavstamparsqlmapunderthehood
  - Bypassing ``addslashes()`` ([post](http://shiflett.org/blog/2007/jan/addslashes-versus-mysql-real-escape-string))
  - http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/
+ - [Rails SQLI](http://rails-sqli.org/)
 
 ## XPath injection
 
