@@ -36,6 +36,25 @@ SUMMARY:
 
 ## Canary
 
+```
+/* Note how buffer overruns are undefined behavior and the compilers tend to
+   optimize these checks away if you wrote them yourself, this only works
+   robustly because the compiler did it itself. */
+extern uintptr_t __stack_chk_guard;
+noreturn void __stack_chk_fail(void);
+void foo(const char* str)
+{
+    uintptr_t canary = __stack_chk_guard;
+    char buffer[16];
+    strcpy(buffer, str);
+    if ( (canary = canary ^ __stack_chk_guard) != 0 )
+        __stack_chk_fail();
+}
+```
+
+ - [Stack Smashing Protector description on OSDev wiki](http://wiki.osdev.org/Stack_Smashing_Protector)
+ - [__stack_chk_fail specification](http://refspecs.linux-foundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic/libc---stack-chk-fail-1.html)
+
 ## ASLR
 
 If you want to check in a Linux system you can read the file ``/proc/sys/kernel/randomize_va_space``.
