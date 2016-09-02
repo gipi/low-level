@@ -3,6 +3,7 @@
 BINS := getenv
 BINS += payload-eater
 BINS += i_crash
+BINS += exe
 
 CPPFLAGS += -Wall
 
