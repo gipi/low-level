@@ -52,6 +52,7 @@ based on the Intel 8086 CPU and its Intel 8088 variant.
 
  - [Assembly Wikibook](https://en.wikibooks.org/wiki/X86_Assembly)
  - [A fundamental introduction to x86 assembly programming](https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming)
+ - [Encoding Real x86 Instructions](http://www.c-jump.com/CIS77/CPU/x86/lecture.html)
  - [The mysteries arround "0x7C00" in x86 architecture bios bootloader](http://www.glamenv-septzen.net/en/view/6)
  - [Shellcode obfuscation](https://breakdev.org/x86-shellcode-obfuscation-part-2/) talk about internal format of opcode
 
