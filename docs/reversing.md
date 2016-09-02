@@ -36,6 +36,8 @@ f sym.jmp 10 0x00400cc4
 \           0x00400ccc      ffe7           jmp rdi
 ```
 
+Disassemble also for different architecture (like arm ``r2 -aarm -b16 gy1_v162.frm``).
+
 #### Links
 
  - Radare2 [tutorial](http://solidsec.blogspot.de/2015/10/tool-radare-2-open-source-alternative.html)
