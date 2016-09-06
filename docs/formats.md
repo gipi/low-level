@@ -88,3 +88,7 @@ Three main types of ``ELF`` files
  - Cheating ELF [PDF](https://grugq.github.io/docs/subversiveld.pdf)
  - [Dissection of an ELF file](https://github.com/mewrev/dissection)
  - [Reversing an ELF from the ground up](http://anee.me/reversing-an-elf/)
+
+## Miscellanea
+
+ - [500 Byte Images: The Haiku Vector Icon Format](http://blog.leahhanson.us/post/recursecenter2016/haiku_icons.html)
