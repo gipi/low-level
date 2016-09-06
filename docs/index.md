@@ -10,3 +10,4 @@
     * [part1](https://blogs.oracle.com/ksplice/entry/hello_from_a_libc_free)
     * [part2](https://blogs.oracle.com/ksplice/entry/hello_from_a_libc_free1)
  - [Protected mode programming tutorial](http://prodebug.sourceforge.net/pmtut.html)
+ - [Linux Inside](https://www.gitbook.com/book/0xax/linux-insides/details)
