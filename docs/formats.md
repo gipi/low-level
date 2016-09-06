@@ -74,11 +74,19 @@ loopb:  lodsb
 
 ## ELF
 
-Three main types of ``ELF`` files
+An ``ELF`` file is identified by four magic bytes ``\x7FELF``; it has an header
+that gives general information about the types of ``ELF`` file that can be
 
  - Relocatable file
  - Executable
  - Shared objects/library
+
+the architecture and the entry point.
+
+It defines a series of sections and segments.
+
+The kernel loads in memory only the ``PT_LOAD`` type and if is defined an interpreter (in
+the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the dynamic sections).
 
 ### Relocation
 
@@ -88,6 +96,10 @@ Three main types of ``ELF`` files
  - Cheating ELF [PDF](https://grugq.github.io/docs/subversiveld.pdf)
  - [Dissection of an ELF file](https://github.com/mewrev/dissection)
  - [Reversing an ELF from the ground up](http://anee.me/reversing-an-elf/)
+ - [Source code of binfmt_elf](http://lxr.linux.no/linux+v3.1.4/fs/binfmt_elf.c#L559)
+ - [How programs get run: ELF binaries](https://lwn.net/Articles/631631/)
+ - [A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux](http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html)
+ - [Executable and Linkable Format](https://0xax.gitbooks.io/linux-insides/content/Theory/ELF.html)
 
 ## Miscellanea
 
