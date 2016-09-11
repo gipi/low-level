@@ -83,7 +83,7 @@ that gives general information about the types of ``ELF`` file that can be
 
 the architecture and the entry point.
 
-It defines a series of sections and segments.
+It defines a series of sections and segments (**program header** and **section header**).
 
 The kernel loads in memory only the ``PT_LOAD`` type and if is defined an interpreter (in
 the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the dynamic sections).
