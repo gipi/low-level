@@ -21,9 +21,11 @@ pages:
   - 'Hardware': security/hardware.md
   - 'Video':    security/video.md
   - Remote code execution: security/rce.md
-  - Reversing: reversing.md
   - Shellcode: shellcode.md
   - Counter measure: counter-measure.md
+- Reversing:
+  - Home: reversing/reversing.md
+  - Radare2: reversing/radare2.md
 - Networking:
   - Home: networking.md
   - Iptables: networking/iptables.md
