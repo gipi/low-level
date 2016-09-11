@@ -61,8 +61,21 @@ void foo(const char* str)
 
 ## ASLR
 
-If you want to check in a Linux system you can read the file ``/proc/sys/kernel/randomize_va_space``.
+When a process is mapped in memory, the addresses of 
+[heap](http://lxr.free-electrons.com/ident?v=3.18;i=arch_randomize_brk)
+are shifted of a random amount with a mask
 
+ - **stack: **[randomize_stack_top](http://lxr.free-electrons.com/ident?v=3.18;i=randomize_stack_top),[STACK_RND_MASK](http://lxr.free-electrons.com/ident?v=3.18;i=STACK_RND_MASK) ``0x7ff``/``0x3fffff`` for 32/64 bits
+
+Linux ASLR can be configured through /proc/sys/kernel/randomize_va_space. The following values are supported:
+
+ - No randomization. Everything is static.
+ - Conservative randomization. Shared libraries, stack, mmap(), VDSO and heap are randomized.
+ - Full randomization. In addition to elements listed in the previous point, memory managed through brk() is also randomized.
+
+### Links
+
+ - [ASLR implementation in Linux Kernel 3.7](http://shell-storm.org/blog/ASLR-implementation-in-Linux-Kernel-3.7/)
  - [To disable randomization](https://gcc.gnu.org/wiki/Randomization)
 
 ## RELRO
