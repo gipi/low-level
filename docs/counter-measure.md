@@ -34,6 +34,10 @@ SUMMARY:
 
 ## NX
 
+Avoid trivial execution of shellcodes from the stack marking the pages as not executable
+
+ - [EXSTACK_ENABLE_X](http://lxr.free-electrons.com/ident?v=3.18;i=EXSTACK_ENABLE_X)
+
 ## Canary
 
 ```
