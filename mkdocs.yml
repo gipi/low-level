@@ -13,6 +13,7 @@ pages:
   - Data structures: data_structures/index.md
   - Ptrace: ptrace.md
   - Randomness: randomness.md
+  - Memory: memory.md
 - Security:
   - 'Home': security.md
   - 'XXE': security/xxe.md
