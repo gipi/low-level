@@ -43,6 +43,7 @@ See also [shellcode](/shellcode/).
 
  - [Exploiting Format String Vulnerabilities](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20Exploiting%20Format%20String%20vulnerabilities.pdf)
  - [Advances in format string exploitation](http://phrack.org/issues/59/7.html) 0x0b, Issue 0x3b, Phile #0x07 of 0x12
+ - [Howto remotely and automatically exploit a format bug](http://julianor.tripod.com/bc/remotefs.txt)
 
 ## LFI/RFI
 

@@ -21,3 +21,4 @@ RIP: 41414141 Instruction executed: ffffffff 11
  - http://blog.0x972.info/?d=2014/11/13/10/40/50-how-does-a-debugger-work
  - https://github.com/laertis/ptrace
  - [GDB Peda](https://github.com/longld/peda)
+ - [Tips for Productive Debugging with GDB](https://metricpanda.com/tips-for-productive-debugging-with-gdb)
