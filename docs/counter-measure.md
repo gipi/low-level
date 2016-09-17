@@ -1,6 +1,7 @@
 # Counter measure
 
  - [PAX](https://pax.grsecurity.net/)
+ - [Stack Smashing as of Today](https://www.blackhat.com/presentations/bh-europe-09/Fritsch/Blackhat-Europe-2009-Fritsch-Bypassing-aslr-slides.pdf)
 
 You can find a script to check in this repo: ``https://github.com/slimm609/checksec.sh``.
 
@@ -40,6 +41,8 @@ Avoid trivial execution of shellcodes from the stack marking the pages as not ex
 
 ## Canary
 
+The implementation of the function ``__stack_chk_fail()`` is the following
+
 ```
 /* Note how buffer overruns are undefined behavior and the compilers tend to
    optimize these checks away if you wrote them yourself, this only works
@@ -56,8 +59,14 @@ void foo(const char* str)
 }
 ```
 
+with the value of ``__stack_chk_guard`` put into a static address that you can find
+reading a core dump
+
  - [Stack Smashing Protector description on OSDev wiki](http://wiki.osdev.org/Stack_Smashing_Protector)
  - [__stack_chk_fail specification](http://refspecs.linux-foundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic/libc---stack-chk-fail-1.html)
+ - [CodeGate 2012 Quals Vuln500 Write-up](http://mslc.ctf.su/wp/codegate-2012-quals-vuln500-write-up/)
+ - [Debugging __thead variables from coredumps](https://www.technovelty.org/linux/debugging-__thead-variables-from-coredumps.html)
+
 
 ## ASLR
 
