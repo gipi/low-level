@@ -94,6 +94,10 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
 
  - [core(5) man page](http://man7.org/linux/man-pages/man5/core.5.html)
 
+### TLS
+
+ - [Thread Local Storage](http://wiki.osdev.org/Thread_Local_Storage)
+
 ### Links
 
  - Anatomy of a program in memory [POST](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
