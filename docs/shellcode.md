@@ -16,6 +16,13 @@ os.setresuid(os.geteuid(), os.geteuid(), os.geteuid())
 os.execlp("bash", "bash")
 ```
 
+In order to make the payload more abstract possible (think about environmental variables) you need
+to use a shell without configuration
+
+```
+$ env -i bash --norc --noprofile
+```
+
 ## Stack-based
 
 In this context you are to pratically programming with assembly
