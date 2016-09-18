@@ -23,6 +23,24 @@ to use a shell without configuration
 $ env -i bash --norc --noprofile
 ```
 
+You can look at the system log to understand crashes, for example
+the error level in syslog are defined in ``arch/*/mm/fault.c`` in kernel
+source code: for example the kernel can log a line like
+
+    kernel: myapp[15514]: segfault at 794ef0 ip 080513b sp 794ef0 error 6 in myapp[8048000+24000]
+
+```
+/*
+ * Page fault error code bits:
+ *
+ *   bit 0 ==    0: no page found       1: protection fault
+ *   bit 1 ==    0: read access         1: write access
+ *   bit 2 ==    0: kernel-mode access  1: user-mode access
+ *   bit 3 ==                           1: use of reserved bit detected
+ *   bit 4 ==                           1: fault was an instruction fetch
+ */
+```
+
 ## Stack-based
 
 In this context you are to pratically programming with assembly
