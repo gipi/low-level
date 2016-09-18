@@ -93,9 +93,11 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
 ### Core dumps
 
  - [core(5) man page](http://man7.org/linux/man-pages/man5/core.5.html)
+ - [core File Format](https://www.ibm.com/support/knowledgecenter/ssw_aix_61/com.ibm.aix.files/core.htm)
 
 ### TLS
 
+ - [https://www.akkadia.org/drepper/tls.pdf](https://www.akkadia.org/drepper/tls.pdf)
  - [Thread Local Storage](http://wiki.osdev.org/Thread_Local_Storage)
 
 ### Links

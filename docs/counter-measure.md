@@ -63,6 +63,7 @@ with the value of ``__stack_chk_guard`` put into a static address that you can f
 reading a core dump
 
  - [Stack Smashing Protector description on OSDev wiki](http://wiki.osdev.org/Stack_Smashing_Protector)
+ - [Linux GLibC Stack Canary Values](https://xorl.wordpress.com/2010/10/14/linux-glibc-stack-canary-values/)
  - [__stack_chk_fail specification](http://refspecs.linux-foundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic/libc---stack-chk-fail-1.html)
  - [CodeGate 2012 Quals Vuln500 Write-up](http://mslc.ctf.su/wp/codegate-2012-quals-vuln500-write-up/)
  - [Debugging __thead variables from coredumps](https://www.technovelty.org/linux/debugging-__thead-variables-from-coredumps.html)
