@@ -120,7 +120,7 @@ int main(int argc, char* argv[]) {
     while (1) {
         lopper_idx++;
         fprintf(stderr, "[%c] %d\r", lopper[lopper_idx % (sizeof(lopper) - 1)], lopper_idx);
-        sleep(.05);
+        //sleep(.05);
 
         /*
         int next_entry;
@@ -167,8 +167,18 @@ int main(int argc, char* argv[]) {
             //printf("Output: (%.*s)\n", nbytes, foo);
 
             //reap_zombie_processes();
-            int status;
+            int status, signal;
             wait(&status);
+
+            if(WIFEXITED(status)) {
+                fprintf(stderr, " [I] child %d exit with status %d\n", cpid, status);
+                break;
+            }
+
+            if (WIFSIGNALED(status)) {
+                signal = WTERMSIG(status);
+                fprintf(stderr, " [I] child %d received signal %d\n", cpid, signal);
+            }
         }
         //break;
     }
