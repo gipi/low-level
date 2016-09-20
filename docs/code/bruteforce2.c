@@ -9,6 +9,11 @@
 #include <poll.h>
 #include <wait.h>
 
+typedef struct _stats {
+    unsigned int sigfault;
+    unsigned int sigtrap;
+} stats;
+
 /**
  * Specifies the maximum number of clients to keep track of.
  */
@@ -117,9 +122,13 @@ int main(int argc, char* argv[]) {
 
     fprintf(stderr, "\n");
 
+    stats s;
+
+    memset(&s, 0x00, sizeof(stats));
+
     while (1) {
         lopper_idx++;
-        fprintf(stderr, "[%c] %d\r", lopper[lopper_idx % (sizeof(lopper) - 1)], lopper_idx);
+        fprintf(stderr, "[%c] %d segfault: %d sigabort: %d\r", lopper[lopper_idx % (sizeof(lopper) - 1)], lopper_idx, s.sigfault, s.sigtrap);
         //sleep(.05);
 
         /*
@@ -171,13 +180,18 @@ int main(int argc, char* argv[]) {
             wait(&status);
 
             if(WIFEXITED(status)) {
-                fprintf(stderr, " [I] child %d exit with status %d\n", cpid, status);
-                break;
+                //fprintf(stderr, " [I] child %d exit with status %d\n", cpid, status);
+                //break;
             }
 
             if (WIFSIGNALED(status)) {
                 signal = WTERMSIG(status);
-                fprintf(stderr, " [I] child %d received signal %d\n", cpid, signal);
+                //fprintf(stderr, " [I] child %d received signal %d\n", cpid, signal);
+                if (signal == 6)
+                    s.sigtrap++;
+                    //break;
+                else if (signal == 11)
+                    s.sigfault++;
             }
         }
         //break;
