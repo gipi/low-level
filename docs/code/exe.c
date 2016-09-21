@@ -6,6 +6,10 @@ unsigned long get_esp(void) {
    __asm__("movl %esp,%eax");
 }
 
+unsigned long get_gs(void) {
+   __asm__("movl %gs:0,%eax");
+}
+
 void usage(char progname[]) {
     fprintf(stderr, "usage: %s /path/to/binary arg0 arg1 ...\n", progname);
 }
@@ -17,7 +21,8 @@ void main(int argc, char *argv[]) {
     }
     unsigned int offset = 0;
     long addr = get_esp() - offset;
-    printf("Using address: 0x%x\n", addr);
+    printf("Using esp address: 0x%x\n", addr);
+    printf("Using gs  address: 0x%x\n", get_gs());
 
     /*
      * We want to execute the program passed as argument.
