@@ -13,6 +13,7 @@
 struct _env {
     int count;
     unsigned int idx;
+    float interval;
 } env;
 
 
@@ -115,11 +116,12 @@ void launch(char* prog_args[]) {
 void handle_options(int argc, char** argv, char* progname) {
     env.count = -1;
     /* A string listing valid short options letters.  */
-    const char* const short_options = "hc:v";
+    const char* const short_options = "hc:i:v";
     /* An array describing valid long options.  */
     const struct option long_options[] = {
         { "help",     no_argument, NULL, 'h' },
         { "count",    1, NULL, 'c' },
+        { "interval",  1, NULL, 'i' },
         { "verbose",  0, NULL, 'v' },
         { NULL,       0, NULL, 0   }   /* Required at end of array.  */
     };
@@ -138,6 +140,10 @@ void handle_options(int argc, char** argv, char* progname) {
 
             case 'c':
                 env.count = atoi(optarg);
+                break;
+            case 'i':
+                env.interval = atof(optarg);
+                break;
             case 'v':   /* -v or --verbose */
                 verbose = 1;
                 break;
@@ -200,6 +206,8 @@ int main(int argc, char* argv[]) {
         lopper_idx++;
         fprintf(stderr, "[%c] %d segfault: %d sigabort: %d\r", lopper[lopper_idx % (sizeof(lopper) - 1)], lopper_idx, s.sigfault, s.sigtrap);
         //sleep(.05);
+        if (env.interval)
+            sleep(env.interval);
 
         /*
         int next_entry;
