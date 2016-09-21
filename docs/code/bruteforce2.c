@@ -5,10 +5,21 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <getopt.h>
 #include <sys/types.h>
 #include <poll.h>
 #include <wait.h>
 
+struct _env {
+    int count;
+    unsigned int idx;
+} env;
+
+
+void print_usage(FILE* output, char* progname, int exit_code) {
+    fprintf(output, "usage: %s\n", progname);
+    exit(exit_code);
+}
 typedef struct _stats {
     unsigned int sigfault;
     unsigned int sigtrap;
@@ -100,6 +111,63 @@ void launch(char* prog_args[]) {
     }
 }
 
+// http://advancedlinuxprogramming.com/listings/chapter-2/getopt_long.c
+void handle_options(int argc, char** argv, char* progname) {
+    env.count = -1;
+    /* A string listing valid short options letters.  */
+    const char* const short_options = "hc:v";
+    /* An array describing valid long options.  */
+    const struct option long_options[] = {
+        { "help",     no_argument, NULL, 'h' },
+        { "count",    1, NULL, 'c' },
+        { "verbose",  0, NULL, 'v' },
+        { NULL,       0, NULL, 0   }   /* Required at end of array.  */
+    };
+
+    int next_option;
+    const char* output_filename = NULL;
+    int verbose = 0;
+
+    do {
+        next_option = getopt_long (argc, argv, short_options, long_options, NULL);
+        switch (next_option) {
+            case 'h':   /* -h or --help */
+                /* User has requested usage information.  Print it to standard
+                 *          output, and exit with exit code zero (normal termination).  */
+                print_usage (stdout, progname, 0);
+
+            case 'c':
+                env.count = atoi(optarg);
+            case 'v':   /* -v or --verbose */
+                verbose = 1;
+                break;
+
+            case '?':   /* The user specified an invalid option.  */
+                /* Print usage information to standard error, and exit with exit
+                 *          code one (indicating abonormal termination).  */
+                print_usage (stderr, progname, 1);
+
+            case -1:    /* Done with options.  */
+                break;
+
+            default:    /* Something else: unexpected.  */
+                abort ();
+        }
+    }
+    while (next_option != -1);
+
+    /* Done with options.  OPTIND points to first non-option argument.
+     *      For demonstration purposes, print them if the verbose option was
+     *           specified.  */
+
+    if (optind == argc) {
+        print_usage(stderr, progname, 1);
+    }
+
+    // getopt reorders argv so that at the end the not-options are from here
+    env.idx = optind;
+}
+
 char lopper[] = "|/-\\";
 unsigned int lopper_idx = 0;
 
@@ -109,8 +177,9 @@ unsigned int lopper_idx = 0;
 int main(int argc, char* argv[]) {
     /* Initialize the process table */
     initialize_table();
+    handle_options(argc, argv, argv[0]);
 
-    char** prog_args = argv + 1;
+    char** prog_args = argv + env.idx;
 
     fprintf(stderr, " [+] trying to lanch ");
 
@@ -126,7 +195,8 @@ int main(int argc, char* argv[]) {
 
     memset(&s, 0x00, sizeof(stats));
 
-    while (1) {
+    while (env.count == -1 || env.count > 0) {
+        env.count = env.count == -1 ? -1 : env.count - 1;
         lopper_idx++;
         fprintf(stderr, "[%c] %d segfault: %d sigabort: %d\r", lopper[lopper_idx % (sizeof(lopper) - 1)], lopper_idx, s.sigfault, s.sigtrap);
         //sleep(.05);
