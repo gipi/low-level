@@ -29,6 +29,10 @@ source code: for example the kernel can log a line like
 
     kernel: myapp[15514]: segfault at 794ef0 ip 080513b sp 794ef0 error 6 in myapp[8048000+24000]
 
+If you want to capture the segmentation fault error you can do something like [this](https://unix.stackexchange.com/questions/53289/does-segmentation-fault-message-come-under-stderr)
+
+    { ./code; } >&log
+
 ```
 /*
  * Page fault error code bits:
