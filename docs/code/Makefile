@@ -41,7 +41,7 @@ clean:
 
 ptrace_on_segfault: LDFLAGS= -lcapstone
 
-%_amd64 %_x86:%
+%$(SUFFIX):%
 	make $<
 	mv $< $@
 
