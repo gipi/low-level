@@ -21,9 +21,27 @@ void print_usage(FILE* output, char* progname, int exit_code) {
     fprintf(output, "usage: %s\n", progname);
     exit(exit_code);
 }
+typedef struct _s {
+    unsigned int n;
+    unsigned avg;
+    unsigned int delta_avg;
+    unsigned int _previous;
+} s;
+
+
+void s_update(s* stats, unsigned int counter) {
+    unsigned int n = stats->n;
+
+    stats->n++;
+    unsigned int delta = counter - stats->_previous;
+    stats->avg = (stats->avg*n + delta) / stats->n;
+
+    stats->_previous = counter;
+}
+
 typedef struct _stats {
-    unsigned int sigfault;
-    unsigned int sigtrap;
+    s sigfault;
+    s sigtrap;
 } stats;
 
 /**
@@ -204,7 +222,7 @@ int main(int argc, char* argv[]) {
     while (env.count == -1 || env.count > 0) {
         env.count = env.count == -1 ? -1 : env.count - 1;
         lopper_idx++;
-        fprintf(stderr, "[%c] %d segfault: %d sigabort: %d\r", lopper[lopper_idx % (sizeof(lopper) - 1)], lopper_idx, s.sigfault, s.sigtrap);
+        fprintf(stderr, "[%c] %d segfault: %d/%d sigabort: %d/%d\r", lopper[lopper_idx % (sizeof(lopper) - 1)], lopper_idx, s.sigfault.n, s.sigfault.avg, s.sigtrap.n, s.sigtrap.avg);
         //sleep(.05);
         if (env.interval)
             sleep(env.interval);
@@ -266,10 +284,10 @@ int main(int argc, char* argv[]) {
                 signal = WTERMSIG(status);
                 //fprintf(stderr, " [I] child %d received signal %d\n", cpid, signal);
                 if (signal == 6)
-                    s.sigtrap++;
+                    s_update(&s.sigtrap, lopper_idx);
                     //break;
                 else if (signal == 11)
-                    s.sigfault++;
+                    s_update(&s.sigfault, lopper_idx);
             }
         }
         //break;
