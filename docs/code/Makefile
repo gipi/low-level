@@ -19,6 +19,8 @@ else
 	SUFFIX := _amd64
 endif
 
+ptrace_on_segfault: LDLIBS += -lcapstone
+
 ifeq ($(DEBUG),1)
 CPPFLAGS += -g
 endif
@@ -39,7 +41,6 @@ all: $(BINS) $(REAL_BINS)
 clean:
 	rm -f $(BINS) $(REAL_BINS)
 
-ptrace_on_segfault: LDFLAGS= -lcapstone
 
 %$(SUFFIX):%
 	make $<
