@@ -47,3 +47,6 @@ clean:
 	make $<
 	mv $< $@
 
+total:
+	make ARCH=32 SSP=1 all
+	make ARCH=64 SSP=1 all
