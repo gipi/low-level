@@ -22,7 +22,8 @@ endif
 ptrace_on_segfault: LDLIBS += -lcapstone
 
 ifeq ($(DEBUG),1)
-CPPFLAGS += -g
+	CPPFLAGS += -g
+	SUFFIX := $(addsuffix _debug,$(SUFFIX))
 endif
 
 ifeq ($(SSP),1)
