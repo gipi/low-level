@@ -42,6 +42,7 @@ all: $(BINS) $(REAL_BINS)
 clean:
 	rm -f $(BINS) $(REAL_BINS)
 
+bruteforce: CPPFLAGS += -std=c99
 
 %$(SUFFIX):%
 	make $<
