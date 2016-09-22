@@ -6,9 +6,15 @@ unsigned long get_esp(void) {
    __asm__("movl %esp,%eax");
 }
 
-unsigned long get_gs(void) {
+unsigned long get_thread_segment(void) {
+#if __GNUC__
+    #if __x86_64__
+   __asm__("movl %fs:0,%eax");
+    #else
    __asm__("movl %gs:0,%eax");
+    #endif
 }
+#endif
 
 void usage(char progname[]) {
     fprintf(stderr, "usage: %s /path/to/binary arg0 arg1 ...\n", progname);
@@ -22,7 +28,7 @@ void main(int argc, char *argv[]) {
     unsigned int offset = 0;
     long addr = get_esp() - offset;
     printf("Using esp address: 0x%x\n", addr);
-    printf("Using gs  address: 0x%x\n", get_gs());
+    printf("Using tls address: 0x%x\n", get_thread_segment());
 
     /*
      * We want to execute the program passed as argument.
