@@ -122,6 +122,16 @@ void reap_zombie_processes() {
 }
 
 void launch(char* prog_args[]) {
+    char buf[256];
+
+    snprintf(buf, 256, "_=%s", prog_args[0]);
+
+    int rc = putenv(buf);
+
+    if (rc < 0) {
+        perror("_ substitution failed");
+    }
+
     int err = execvp(prog_args[0], prog_args);
 
     if (err < 0) {
