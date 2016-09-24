@@ -11,3 +11,4 @@
     * [part2](https://blogs.oracle.com/ksplice/entry/hello_from_a_libc_free1)
  - [Protected mode programming tutorial](http://prodebug.sourceforge.net/pmtut.html)
  - [Linux Inside](https://www.gitbook.com/book/0xax/linux-insides/details)
+ - [Linux System Calls, Error Numbers, and In-Band Signaling](http://nullprogram.com/blog/2016/09/23/)

@@ -16,6 +16,7 @@ execution context.
  - [Building Advanced XSS Vectors](http://brutelogic.com.br/docs/advanced-xss.pdf)
  - [UNDERSTANDING XSS AUDITOR](https://www.virtuesecurity.com/blog/understanding-xss-auditor/)
  - [A comprehensive tutorial on cross-site scripting](http://excess-xss.com/)
+ - [Writeup](https://medium.com/@eoftedal/xss-puzzler-622f6f86c277) about ``XSS puzzler``
 
 ## RPO
 
