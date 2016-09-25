@@ -123,6 +123,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
 ## Cloud
 
  - https://nvisium.com/documents/aws.pdf
+ - [Hardening AWS Environments and Automating Incident Response](http://threatresponse.cloud/derbycon)
 
 ## Hardware
 
