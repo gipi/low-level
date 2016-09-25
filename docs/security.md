@@ -150,3 +150,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [ssh security](https://stribika.github.io/2015/01/04/secure-secure-shell.html)
  - [preg_replace()](https://bitquark.co.uk/blog/2013/07/23/the_unexpected_dangers_of_preg_replace)
  - [Modern Binary Exploitation](http://security.cs.rpi.edu/courses/binexp-spring2015/)
+ - [CSAW Quals 2016 Pwn 500 - Mom's Spaghetti](http://ctfhacker.com/pwn/2016/09/19/csaw-moms-spaghetti.html)

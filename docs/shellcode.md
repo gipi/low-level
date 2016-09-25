@@ -200,6 +200,7 @@ sys.stdout.write(str(r))
 
  - [Bypassing ASLR – Part III](https://sploitfun.wordpress.com/2015/05/08/bypassing-aslr-part-iii/) GOT overwrite and GOT dereference
  - [Exploiting WebKit on Vita 3.60](https://blog.xyz.is/2016/webkit-360.html)
+ - [Porting exploits to a Netgear WNR2200](http://www.contextis.com/resources/blog/porting-exploits-netgear-wnr2200/)
 
 ## Tools
 
