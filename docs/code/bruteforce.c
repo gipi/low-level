@@ -208,9 +208,9 @@ int main(int argc, char* argv[]) {
     fprintf(stderr, " [+] trying to lanch ");
 
     unsigned int idx;
-    char* a;
+    char* a = NULL;
 
-    for (idx = 0 ; a ; a = prog_args[idx], idx++)
+    for (idx = 0, a = prog_args[0] ; a ; a = prog_args[idx], idx++)
         fprintf(stderr, "%s ", a);
 
     fprintf(stderr, "\n");
