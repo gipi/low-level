@@ -27,6 +27,7 @@ unsigned long get_thread_segment(void) {
 struct _env {
     int count;
     int debug:1;
+    int looper:1;
     unsigned int idx;
     float interval;
 } env;
@@ -36,6 +37,7 @@ void print_usage(FILE* output, char* progname, int exit_code) {
     fprintf(output, "usage: %s\n", progname);
     exit(exit_code);
 }
+
 typedef struct _s {
     unsigned int n;
     unsigned avg;
@@ -158,6 +160,7 @@ void launch(char* prog_args[]) {
 // http://advancedlinuxprogramming.com/listings/chapter-2/getopt_long.c
 void handle_options(int argc, char** argv, char* progname) {
     env.count = -1;
+    env.looper = 1;
     /* A string listing valid short options letters.  */
     const char* const short_options = "hc:i:v";
     /* An array describing valid long options.  */
@@ -167,6 +170,7 @@ void handle_options(int argc, char** argv, char* progname) {
         { "interval",  1, NULL, 'i' },
         { "verbose",  0, NULL, 'v' },
         { "debug",    0, NULL, 'd' },
+        { "quiet",    0, NULL, 'q' },
         { NULL,       0, NULL, 0   }   /* Required at end of array.  */
     };
 
@@ -194,7 +198,9 @@ void handle_options(int argc, char** argv, char* progname) {
             case 'd':
                 env.debug = 1;
                 break;
-
+            case 'q':
+                env.looper = 0;
+                break;
             case '?':   /* The user specified an invalid option.  */
                 /* Print usage information to standard error, and exit with exit
                  *          code one (indicating abonormal termination).  */
@@ -234,16 +240,17 @@ int main(int argc, char* argv[]) {
 
     char** prog_args = argv + env.idx;
 
-    fprintf(stderr, " [+] trying to lanch ");
+    if (env.looper) {
+        fprintf(stderr, " [+] trying to lanch ");
 
-    unsigned int idx;
-    char* a = NULL;
+        unsigned int idx;
+        char* a = NULL;
 
-    for (idx = 0, a = prog_args[0] ; a ; a = prog_args[idx], idx++)
-        fprintf(stderr, "%s ", a);
+        for (idx = 0, a = prog_args[0] ; a ; a = prog_args[idx], idx++)
+            fprintf(stderr, "%s ", a);
 
-    fprintf(stderr, "\n");
-
+        fprintf(stderr, "\n");
+    }
     stats s;
 
     memset(&s, 0x00, sizeof(stats));
@@ -251,7 +258,8 @@ int main(int argc, char* argv[]) {
     while (env.count == -1 || env.count > 0) {
         env.count = env.count == -1 ? -1 : env.count - 1;
         lopper_idx++;
-        fprintf(stderr, "[%c] %d segfault: %d/%d sigabort: %d/%d\r", lopper[lopper_idx % (sizeof(lopper) - 1)], lopper_idx, s.sigfault.n, s.sigfault.avg, s.sigtrap.n, s.sigtrap.avg);
+        if (env.looper)
+            fprintf(stderr, "[%c] %d segfault: %d/%d sigabort: %d/%d\r", lopper[lopper_idx % (sizeof(lopper) - 1)], lopper_idx, s.sigfault.n, s.sigfault.avg, s.sigtrap.n, s.sigtrap.avg);
         //sleep(.05);
         if (env.interval)
             sleep(env.interval);
