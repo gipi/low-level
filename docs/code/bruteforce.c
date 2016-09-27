@@ -10,8 +10,23 @@
 #include <poll.h>
 #include <wait.h>
 
+unsigned long get_esp(void) {
+   __asm__("movl %esp,%eax");
+}
+
+unsigned long get_thread_segment(void) {
+#if __GNUC__
+    #if __x86_64__
+   __asm__("movl %fs:0,%eax");
+    #else
+   __asm__("movl %gs:0,%eax");
+    #endif
+}
+#endif
+
 struct _env {
     int count;
+    int debug:1;
     unsigned int idx;
     float interval;
 } env;
@@ -151,6 +166,7 @@ void handle_options(int argc, char** argv, char* progname) {
         { "count",    1, NULL, 'c' },
         { "interval",  1, NULL, 'i' },
         { "verbose",  0, NULL, 'v' },
+        { "debug",    0, NULL, 'd' },
         { NULL,       0, NULL, 0   }   /* Required at end of array.  */
     };
 
@@ -174,6 +190,9 @@ void handle_options(int argc, char** argv, char* progname) {
                 break;
             case 'v':   /* -v or --verbose */
                 verbose = 1;
+                break;
+            case 'd':
+                env.debug = 1;
                 break;
 
             case '?':   /* The user specified an invalid option.  */
@@ -265,6 +284,11 @@ int main(int argc, char* argv[]) {
                 exit(-1);
             if(dup2(p_out[1], STDOUT_FILENO) == -1)
                 exit(-2);*/
+
+            if (env.debug) {
+                fprintf(stderr, "esp: 0x%08x\n", get_esp());
+                fprintf(stderr, "tls: 0x%08x\n", get_thread_segment());
+            }
 
             launch(prog_args);
         } else {
