@@ -31,6 +31,11 @@ ifeq ($(SSP),1)
 	SUFFIX := $(addprefix _ssp, $(SUFFIX))
 endif
 
+ifeq ($(STATIC),1)
+	SUFFIX := $(addprefix _static, $(SUFFIX))
+	LDFLAGS += -static
+endif
+
 LDFLAGS  += -Wl,-z,now -Wl,-z,relro,-z,noexecstack
 
 
