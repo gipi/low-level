@@ -10,6 +10,29 @@
 #include <poll.h>
 #include <wait.h>
 
+void dprintf(char* fmt) {
+    unsigned int idx = 0;
+    char c;
+
+    unsigned int SPECIFIER = 0;
+
+    for (idx = 0, c = fmt[idx] ; c ; c = fmt[++idx]) {
+        if (!SPECIFIER) {
+        }
+        if (SPECIFIER) {
+            switch (c) {
+                case '%':
+                    printf("%");
+                    break;
+                case 't': // TLS
+                default:
+                    printf("%c", c);
+            };
+            SPECIFIER != SPECIFIER;
+        }
+    };
+}
+
 unsigned long get_esp(void) {
    __asm__("movl %esp,%eax");
 }
@@ -26,7 +49,7 @@ unsigned long get_thread_segment(void) {
 
 struct _env {
     int count;
-    int debug:1;
+    char* debug;
     int looper:1;
     unsigned int idx;
     float interval;
@@ -167,11 +190,11 @@ void handle_options(int argc, char** argv, char* progname) {
     const struct option long_options[] = {
         { "help",     no_argument, NULL, 'h' },
         { "count",    1, NULL, 'c' },
-        { "interval",  1, NULL, 'i' },
+        { "interval", 1, NULL, 'i' },
         { "verbose",  0, NULL, 'v' },
-        { "debug",    0, NULL, 'd' },
+        { "debug",    1, NULL, 'd' },
         { "quiet",    0, NULL, 'q' },
-        { NULL,       0, NULL, 0   }   /* Required at end of array.  */
+        { NULL,       0, NULL,  0  }   /* Required at end of array.  */
     };
 
     int next_option;
@@ -196,7 +219,7 @@ void handle_options(int argc, char** argv, char* progname) {
                 verbose = 1;
                 break;
             case 'd':
-                env.debug = 1;
+                env.debug = strdup(optarg);
                 break;
             case 'q':
                 env.looper = 0;
@@ -230,12 +253,45 @@ void handle_options(int argc, char** argv, char* progname) {
 char lopper[] = "|/-\\";
 unsigned int lopper_idx = 0;
 
+int print_tls_arginfo (const struct printf_info *info, size_t n, int *argtypes) {
+    /* we don't take any argument.. */
+  return 0;
+}
+
+
+int print_tls(FILE *stream, const struct printf_info *info, const void *const *args) {
+    char* buffer;
+    int len = asprintf(&buffer, "%p", get_thread_segment());
+
+    if (len == -1) {
+        return -1;
+    }
+
+
+    /* Pad to the minimum field width and print to the stream. */
+    len = fprintf (stream, "%*s",
+            (info->left ? -info->width : info->width),
+            buffer);
+
+    /* Clean up and return. */
+    free (buffer);
+    return len;
+}
+
+// https://www.gnu.org/software/libc/manual/html_node/Printf-Extension-Example.html#Printf-Extension-Example
+void register_xtra() {
+    //fprintf(stderr, "[+] registering 't' specifier\n");
+    if (register_printf_function('T', print_tls, print_tls_arginfo) < 0) {
+        fprintf(stderr, "[E] failed to register 't' formatter\n");
+        exit(1);
+    }
+}
+
 /**
  * Main program
  */
 int main(int argc, char* argv[]) {
-    /* Initialize the process table */
-    initialize_table();
+    register_xtra();
     handle_options(argc, argv, argv[0]);
 
     char** prog_args = argv + env.idx;
@@ -294,8 +350,7 @@ int main(int argc, char* argv[]) {
                 exit(-2);*/
 
             if (env.debug) {
-                fprintf(stderr, "esp: 0x%08x\n", get_esp());
-                fprintf(stderr, "tls: 0x%08x\n", get_thread_segment());
+                fprintf(stderr, env.debug);
             }
 
             launch(prog_args);
