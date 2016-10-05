@@ -86,4 +86,5 @@ s 0
  - [Radare 2 in 0x1E minutes](https://blog.techorganic.com/2016/03/08/radare-2-in-0x1e-minutes/)
  - [BINARY BOMB WITH RADARE2 - PRELUDE](https://unlogic.co.uk/2016/04/12/binary-bomb-with-radare2-prelude/)
  - [TUM CTF 2016: zwiebel (rev 50)](https://losfuzzys.github.io/writeup/2016/10/03/tumctf-zwiebel50/) radare2 automation
+ - [ReverUsing Radare2](https://0x6d696368.blogspot.it/2016/10/rever-using-radare2.html)
 
