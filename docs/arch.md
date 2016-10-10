@@ -83,6 +83,7 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
  - [More ARM1 processor reverse engineering: the priority encoder](http://www.righto.com/2016/01/more-arm1-processor-reverse-engineering.html)
  - [The ARM Instruction Set Architecture](http://users.ece.utexas.edu/~valvano/EE345M/Arm_EE382N_4.pdf)
  - [ARM Cortex-M0 assembly programming tips and tricks](https://community.arm.com/docs/DOC-7869)
+ - Intro to Cortex M0 and LPCxpresso 1114 [PDF](https://web.eecs.umich.edu/~prabal/teaching/eecs373-f10/slides/lec21.pdf)
 
 ### MIPS
 
