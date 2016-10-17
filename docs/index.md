@@ -12,3 +12,4 @@
  - [Protected mode programming tutorial](http://prodebug.sourceforge.net/pmtut.html)
  - [Linux Inside](https://www.gitbook.com/book/0xax/linux-insides/details)
  - [Linux System Calls, Error Numbers, and In-Band Signaling](http://nullprogram.com/blog/2016/09/23/)
+ - [Linux containers in 500 lines of code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
