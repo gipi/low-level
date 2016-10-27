@@ -64,6 +64,10 @@ loopb:  lodsb
         ret
 ```
 
+## Zip
+
+ - [Zip Files All The Way Down](http://research.swtch.com/zip)
+
 ## JPEG
 
 ## PNG
