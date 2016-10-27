@@ -76,6 +76,10 @@ loopb:  lodsb
 
  - Let's write a PDF file [speakerdeck](https://speakerdeck.com/ange/lets-write-a-pdf-file)
 
+## JSON
+
+ - [Parsing JSON is a Minefield](http://seriot.ch/parsing_json.html)
+
 ## ELF
 
 An ``ELF`` file is identified by four magic bytes ``\x7FELF``; it has an header
