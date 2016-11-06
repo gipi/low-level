@@ -76,6 +76,10 @@ loopb:  lodsb
 
  - Let's write a PDF file [speakerdeck](https://speakerdeck.com/ange/lets-write-a-pdf-file)
 
+## H264
+
+ - [H.264 is Magic](https://sidbala.com/h-264-is-magic/)
+
 ## JSON
 
  - [Parsing JSON is a Minefield](http://seriot.ch/parsing_json.html)
