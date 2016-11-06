@@ -33,6 +33,8 @@ $ john --incremental=Digits --stdout
 
 See also [shellcode](/shellcode/).
 
+ - Understanding the fundamentals of attacks What is happening when someone writes an exploit? awesome [slides](what_happens_exploit.pdf) by Halvar Flake & Thomas Dullien trying
+   to formalize exploits
  - https://gbmaster.wordpress.com/2015/06/28/x86-exploitation-101-house-of-force-jedi-overflow/
  - http://0x90909090.blogspot.it/2015/07/no-one-expect-command-execution.html
  - GHOST vulnerability [report](http://www.openwall.com/lists/oss-security/2015/01/27/9)
