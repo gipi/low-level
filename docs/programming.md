@@ -104,6 +104,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
 ## Low level
 
  - http://blog.erratasec.com/2015/03/x86-is-high-level-language.html
+ - https://idea.popcount.org/2016-11-01-a-brief-history-of-select2/
 
 WEB
 ---
