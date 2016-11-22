@@ -16,3 +16,7 @@
  - [NMOS IC Reverse Engineering](https://www.wdj-consulting.com/blog/nmos-sample.html)
  - [siliconpr0n](https://siliconpr0n.org/)
 
+## Exploit
+
+ - [Developing MIPS Exploits to Hack Routers](36806.pdf)
+
