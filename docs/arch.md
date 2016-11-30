@@ -89,6 +89,8 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 
 **Microprocessor without Interlocked Pipeline Stages**
 
+ - [MIPS Basic Training Course](https://community.imgtec.com/developers/mips/resources/training-courses/mips-basic-training-course/)
+
 ### SPARC
 
 **Scalable Processor ARChitecture**. It's an ``ISA``.
@@ -101,3 +103,5 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 
  - What every programmer should know about memory, Part 1 [LWN](http://lwn.net/Articles/250967/)
  - [Baking Pi – Operating Systems Development](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/)
+ - [Build a Debian Jessie root filesystem](http://www.acmesystems.it/debian_jessie) how to build an Debian Jessie root filesystem using ``multistrap``
+
