@@ -6,6 +6,7 @@ pages:
 - Computer:
   - Formats: formats.md
   - Architectures: arch.md
+  - Embedded Systems: embedded.md
   - Shells: shell.md
   - Filesystem: filesystem.md
 - Programming:
