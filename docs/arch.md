@@ -90,6 +90,7 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 **Microprocessor without Interlocked Pipeline Stages**
 
  - [MIPS Basic Training Course](https://community.imgtec.com/developers/mips/resources/training-courses/mips-basic-training-course/)
+ - [MIPS32® Instruction Set Quick Reference](https://www.cs.duke.edu/courses/fall13/compsci250/MIPS32_QRC.pdf)
 
 ### SPARC
 
