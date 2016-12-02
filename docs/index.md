@@ -14,3 +14,24 @@
  - [Linux System Calls, Error Numbers, and In-Band Signaling](http://nullprogram.com/blog/2016/09/23/)
  - [Linux containers in 500 lines of code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
  - [Linux Performance](http://www.brendangregg.com/linuxperf.html)
+
+## Two's complement
+
+It's used to represent signed integers. The formula is
+
+$$
+w = - a_{N - 1}\, 2^{N - 1} + \sum_{i = 0}^{N - 2} a_i\,2^i
+$$
+
+in practice the MSB has much more weight with respect to the others;
+This system can represent the range $[-2^{N - 1}, 2^{N - 1} - 1]$
+
+
+Below a simple python function to calculate the value
+
+```python
+def twos_complement(input_value, num_bits):
+    '''Calculates a two's complement integer from the given input value's bits'''
+    mask = 2**(num_bits - 1)
+    return -(input_value & mask) + (input_value & ~mask)
+```
