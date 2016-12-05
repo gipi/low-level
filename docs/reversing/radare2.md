@@ -90,4 +90,5 @@ s 0
  - [Android malware analysis with Radare: Dissecting the Triada Trojan](https://www.nowsecure.com/blog/2016/11/21/android-malware-analysis-radare-triada-trojan/)
  - [Practical Firmware Reversing and Exploit Development for AVR-based Embedded Devices](http://www.radare.org/get/avrworkshops2016.pdf)
  - Short [Video](https://www.youtube.com/watch?v=G_yqIW-pUNc): radare2 esil emulation
+ - [Emulating a simple bootloader](http://radare.today/posts/emulating-simple-bootloader/)
 
