@@ -88,4 +88,5 @@ s 0
  - [TUM CTF 2016: zwiebel (rev 50)](https://losfuzzys.github.io/writeup/2016/10/03/tumctf-zwiebel50/) radare2 automation
  - [ReverUsing Radare2](https://0x6d696368.blogspot.it/2016/10/rever-using-radare2.html)
  - [Android malware analysis with Radare: Dissecting the Triada Trojan](https://www.nowsecure.com/blog/2016/11/21/android-malware-analysis-radare-triada-trojan/)
+ - [Practical Firmware Reversing and Exploit Development for AVR-based Embedded Devices](http://www.radare.org/get/avrworkshops2016.pdf)
 
