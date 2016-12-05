@@ -19,4 +19,5 @@
 ## Exploit
 
  - [Developing MIPS Exploits to Hack Routers](36806.pdf)
-
+ - [Nifty Tricks and Sage Advice for Shellcode on Embedded Systems](https://conference.hitb.org/hitbsecconf2013ams/materials/D1T1%20-%20Travis%20Goodspeed%20-%20Nifty%20Tricks%20and%20Sage%20Advice%20for%20Shellcode%20on%20Embedded%20Systems.pdf)
+ - [Pandora’s Cash Box: The Ghost Under Your POS](https://recon.cx/2015/slides/recon2015-17-nitay-artenstein-shift-reduce-Pandora-s-Cash-Box-The-Ghost-Under-Your-POS.pdf)
