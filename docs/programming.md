@@ -99,6 +99,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [negating an unsigned number is well defined in C.](http://stackoverflow.com/questions/1269019/what-should-happen-to-the-negation-of-a-size-t-i-e-sizeofstruct-foo/1269049#1269049)
  - http://rus.har.mn/blog/2014-05-19/strtol-error-checking/
  - http://www.catb.org/esr/structure-packing/
+ - [Why does calloc exist?](https://vorpus.org/blog/why-does-calloc-exist/)
 
 
 ## Low level
