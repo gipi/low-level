@@ -154,3 +154,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Modern Binary Exploitation](http://security.cs.rpi.edu/courses/binexp-spring2015/)
  - [CSAW Quals 2016 Pwn 500 - Mom's Spaghetti](http://ctfhacker.com/pwn/2016/09/19/csaw-moms-spaghetti.html)
  - [CFT Time](https://ctftime.org)
+ - Rise of the machine [PDF](documents/ICIT-Brief-Rise-of-the-Machines.pdf)
