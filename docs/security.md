@@ -155,3 +155,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [CSAW Quals 2016 Pwn 500 - Mom's Spaghetti](http://ctfhacker.com/pwn/2016/09/19/csaw-moms-spaghetti.html)
  - [CFT Time](https://ctftime.org)
  - Rise of the machine [PDF](documents/ICIT-Brief-Rise-of-the-Machines.pdf)
+ - [Readers of popular websites targeted by stealthy Stegano exploit kit hiding in pixels of malicious ads](http://www.welivesecurity.com/2016/12/06/readers-popular-websites-targeted-stealthy-stegano-exploit-kit-hiding-pixels-malicious-ads/)
