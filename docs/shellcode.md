@@ -4,6 +4,7 @@ process in a normal exploitation process, but the stack pointer is not.
 
  - http://www.blackhatlibrary.net/Shellcode/Null-free
  - [Error codes](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/Errors/unix_system_errors.html)
+ - [ARMv8 Shellcodes from ‘A’ to ‘Z’](https://arxiv.org/pdf/1608.03415.pdf)
 
 Since the standard ``/bin/sh`` is a link to ``/bin/bash`` that
 droppes privileges when called, you can call instead a script
