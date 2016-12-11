@@ -1,6 +1,8 @@
 # Hardware
 
  - [Hardware Hacking Live at S4x16](https://www.youtube.com/watch?v=Tq5-7szmxLA)
+ - [ChipWhisperer-Lite](http://store.newae.com/chipwhisperer-lite-cw1173-basic-board/)
+ - [Repo](https://app.assembla.com/spaces/chipwhisperer/git/source/master) for chipwhisperer
 
 ## Glitching
 
@@ -15,6 +17,10 @@
 
  - [NMOS IC Reverse Engineering](https://www.wdj-consulting.com/blog/nmos-sample.html)
  - [siliconpr0n](https://siliconpr0n.org/)
+
+## JTAG
+
+ - [JTAGing Mobile Phones](https://sysforensics.org/2016/08/jtaging-mobile-phones/)
 
 ## Exploit
 

@@ -70,6 +70,8 @@ loopb:  lodsb
 
 ## JPEG
 
+ - [Polyglot JPG](http://blog.portswigger.net/2016/12/bypassing-csp-using-polyglot-jpegs.html)
+
 ## PNG
 
 ## PDF
