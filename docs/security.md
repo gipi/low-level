@@ -72,6 +72,10 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
  - [Server Side Request Forgery (SSRF)](http://niiconsulting.com/checkmate/2015/04/server-side-request-forgery-ssrf/)
  - [Guide](documents/SSRFbible.Cheatsheet.pdf)
 
+## CSRF
+
+ - [Stealing Facebook access_tokens using CSRF in device login flow](https://www.josipfranjkovic.com/blog/hacking-facebook-csrf-device-login-flow)
+
 ## SQLI
 
  - http://atta.cked.me/home/sqlite3injectioncheatsheet
