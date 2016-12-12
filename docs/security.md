@@ -70,6 +70,7 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
 
  - [Understanding Server-Side Request Forgery](https://www.bishopfox.com/blog/2015/04/vulnerable-by-design-understanding-server-side-request-forgery/)
  - [Server Side Request Forgery (SSRF)](http://niiconsulting.com/checkmate/2015/04/server-side-request-forgery-ssrf/)
+ - [Guide](documents/SSRFbible.Cheatsheet.pdf)
 
 ## SQLI
 
