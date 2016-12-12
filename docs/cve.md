@@ -8,7 +8,7 @@
  - [Analysis of PHP's CVE-2016-6289 and CVE-2016-6297](https://blog.fortinet.com/2016/08/10/analysis-of-php-s-cve-2016-6289-and-cve-2016-6297)
  - [CVE-2016-5696](http://www.cs.ucr.edu/~zhiyunq/pub/sec16_TCP_pure_offpath.pdf) Off-Path TCP Exploits
  - [Slides](http://gsec.hitb.org/materials/sg2016/D1%20-%20Adam%20Donenfeld%20and%20Yaniv%20Mordekhay%20-%20Stumping%20The%20Mobile%20Chipset.pdf) for CVE-2016-5340, CVE-2016-2504, CVE-2016-2503 and CVE-2016-2059
- - [CVE-2016-8655](http://seclists.org/oss-sec/2016/q4/607)
+ - [CVE-2016-8655](http://seclists.org/oss-sec/2016/q4/607) Linux ``af_packet.c`` race condition
  - [vmnc decoder](https://scarybeastsecurity.blogspot.it/2016/12/1day-poc-with-rip-deterministic-linux.html)
 
 # Writeup

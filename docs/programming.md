@@ -100,6 +100,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - http://rus.har.mn/blog/2014-05-19/strtol-error-checking/
  - http://www.catb.org/esr/structure-packing/
  - [Why does calloc exist?](https://vorpus.org/blog/why-does-calloc-exist/)
+ - [mem­cpy (and friends) with NULL pointers](https://www.imperialviolet.org/2016/06/26/nonnull.html)
 
 
 ## Low level
