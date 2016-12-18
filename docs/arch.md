@@ -85,6 +85,22 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
  - [ARM Cortex-M0 assembly programming tips and tricks](https://community.arm.com/docs/DOC-7869)
  - Intro to Cortex M0 and LPCxpresso 1114 [PDF](https://web.eecs.umich.edu/~prabal/teaching/eecs373-f10/slides/lec21.pdf)
 
+### AVR
+
+Modified Harvard architecture 8-bit ``RISC`` microcontroller. Atmel's AVRs have a two-stage, single-level pipeline design.
+
+There are the following registers:
+
+ - 32 general purpose 8-bit registers, ``r0``-``r31``; with some alias like ``x=r27:r26``, ``y=r29:28`` and ``z=r31:r30``
+ - ``pc`` 16- or 22-bit program counter
+ - ``sp`` 8- or 16-bit stack pointer
+ - ``sreg`` 8-bit status register
+ - ``rampx``, ``rampy``, ``rampz`` and ``eind``
+
+#### Links
+
+ - [Wikipedia's AVR Instruction set](https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set)
+
 ### MIPS
 
 **Microprocessor without Interlocked Pipeline Stages**
