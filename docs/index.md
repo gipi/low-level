@@ -14,6 +14,7 @@
  - [Linux System Calls, Error Numbers, and In-Band Signaling](http://nullprogram.com/blog/2016/09/23/)
  - [Linux containers in 500 lines of code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
  - [Linux Performance](http://www.brendangregg.com/linuxperf.html)
+ - [Video](https://www.youtube.com/watch?v=GsMs3n8CB6g): Give me 15 minutes and I'll change your view of Linux tracing
 
 ## Two's complement
 
