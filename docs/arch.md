@@ -75,6 +75,8 @@ based on the Intel 8086 CPU and its Intel 8088 variant.
 
 The name stands for **Reduced instruction set computing**: it's a CPU design.
 
+ - [MIPS vs. ARM Assembly](http://www2.ece.gatech.edu/academic/courses/ece2035/readings/embedded/MIPSvsARM.pdf)
+
 ### ARM
 
  - [ARM calling convention](http://caxapa.ru/thumbs/656023/IHI0042F_aapcs.pdf)
