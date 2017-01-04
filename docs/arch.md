@@ -41,6 +41,8 @@ particular processor. A given ISA may be implemented with different
 microarchitectures; implementations may vary due to different goals of a
 given design or due to shifts in technology.
 
+ - [MIPS Pipeline](https://www.cs.cornell.edu/courses/cs3410/2012sp/lecture/09-pipelined-cpu-i-g.pdf)
+
 ### Computer architecture
 
 Computer architecture is the combination of microarchitecture and instruction set designs.
