@@ -82,3 +82,23 @@ bridge name	bridge id		STP enabled	interfaces
 br-wlan		7fff.40a36bc0909b	no		eth0.1
 							ra0
 ```
+```
+# iwconfig 
+eth0.1    no wireless extensions.
+
+lo        no wireless extensions.
+
+ra0       RTWIFI SoftAP  ESSID:"Omega-XXXX"  
+          Mode:Managed  Channel=1  Access Point: XX:XX:XX:XX:XX:XX   
+          Bit Rate=72 Mb/s   
+          
+eth0      no wireless extensions.
+
+br-wlan   no wireless extensions.
+
+apcli0    RTWIFI SoftAP  ESSID:"YYYYYYYYYY"  
+          Mode:Managed  Channel=1  Access Point: YY:YY:YY:YY:YY:YY   
+          Bit Rate=72 Mb/s   
+          
+eth0.2    no wireless extensions.
+```
