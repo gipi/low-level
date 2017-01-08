@@ -10,6 +10,17 @@
      - [Part 4](http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/) Dumping the Flash
      - [Part 5](http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/) Digging Through the Firmware
 
+In order to generate a rootfs for testing on QEMU of architecture on your desktop you can use ``multistrap``
+
+```
+$ sudo multistrap -a mips -d /tmp/RFS -f mips-multistrap.conf
+$ sudo mount -o bind /dev/ /tmp/RFS/dev/
+$ sudo cp /usr/bin/qemu-mips-static /tmp/RFS/usr/bin/
+$ sudo LC_ALL=C LANGUAGE=C LANG=C chroot /tmp/RFS/ dpkg --configure -a
+```
+
+## Single board computers
+
 ### Omega2 plus
 
 ```
@@ -102,3 +113,11 @@ apcli0    RTWIFI SoftAP  ESSID:"YYYYYYYYYY"
           
 eth0.2    no wireless extensions.
 ```
+
+### Rpi
+
+ - [The comprehensive GPIO Pinout guide for the Raspberry Pi](https://pinout.xyz/)
+ - [Raspberry Pi Zero 4 Port USB Hub](https://openhardwarecoza.wordpress.com/2015/12/07/raspberry-pi-zero-4-port-usb-hub-open-source-pcb-design/)
+ - [raspberrypi/hats](https://github.com/raspberrypi/hats)
+
+### Beagle Bone Black
