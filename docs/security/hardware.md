@@ -18,6 +18,7 @@
 
  - [NMOS IC Reverse Engineering](https://www.wdj-consulting.com/blog/nmos-sample.html)
  - [siliconpr0n](https://siliconpr0n.org/)
+ - [Inside the 74181 ALU chip: die photos and reverse engineering](http://www.righto.com/2017/01/die-photos-and-reverse-engineering.html)
 
 ## JTAG
 
