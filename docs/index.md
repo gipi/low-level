@@ -15,6 +15,7 @@
  - [Linux containers in 500 lines of code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
  - [Linux Performance](http://www.brendangregg.com/linuxperf.html)
  - [Video](https://www.youtube.com/watch?v=GsMs3n8CB6g): Give me 15 minutes and I'll change your view of Linux tracing
+ - [gist](https://gist.github.com/marcan/a2eafd605d3d6ac76eb10a7c64f736c3) Linux kernel initialization, translated to bash
 
 ## Two's complement
 
