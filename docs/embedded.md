@@ -10,6 +10,8 @@
      - [Part 4](http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/) Dumping the Flash
      - [Part 5](http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/) Digging Through the Firmware
 
+ - [Build systems](http://elinux.org/Build_Systems)
+
 In order to generate a rootfs for testing on QEMU of architecture on your desktop you can use ``multistrap``
 
 ```
@@ -29,6 +31,14 @@ $ make menuconfig
   [choose Target System (like Broadcom BCM63xx) and then Target Profile (like Netgear DG834G v4)]
 $ make -j 8
 ```
+
+Some of the targets available are
+
+ - ``clean``
+ - ``dirclean``
+ - ``distclean``
+ - ``defconfig``
+ - ``menuconfig``
 
 ## Single board computers
 
