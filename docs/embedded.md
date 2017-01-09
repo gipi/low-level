@@ -19,6 +19,17 @@ $ sudo cp /usr/bin/qemu-mips-static /tmp/RFS/usr/bin/
 $ sudo LC_ALL=C LANGUAGE=C LANG=C chroot /tmp/RFS/ dpkg --configure -a
 ```
 
+## OpenWRT
+
+[OpenWrt](https://openwrt.org/) is described as a Linux distribution for embedded devices.
+
+```
+$ git clone git://git.openwrt.org/openwrt.git && cd openwrt
+$ make menuconfig
+  [choose Target System (like Broadcom BCM63xx) and then Target Profile (like Netgear DG834G v4)]
+$ make -j 8
+```
+
 ## Single board computers
 
 ### Omega2 plus
