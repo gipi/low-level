@@ -86,6 +86,7 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
  - Bypassing ``addslashes()`` ([post](http://shiflett.org/blog/2007/jan/addslashes-versus-mysql-real-escape-string))
  - http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/
  - [Rails SQLI](http://rails-sqli.org/)
+ - [Exploiting difficult SQL injection vulnerabilities using sqlmap: Part 1](http://www.thegreycorner.com/2017/01/exploiting-difficult-sql-injection.html)
 
 ## XPath injection
 
