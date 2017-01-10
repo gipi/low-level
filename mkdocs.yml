@@ -32,4 +32,5 @@ pages:
 - Networking:
   - Home: networking.md
   - Iptables: networking/iptables.md
+- Computer vision: cv.md
 theme: readthedocs
