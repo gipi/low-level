@@ -4,6 +4,7 @@
  - [ChipWhisperer-Lite](http://store.newae.com/chipwhisperer-lite-cw1173-basic-board/)
  - [Repo](https://app.assembla.com/spaces/chipwhisperer/git/source/master) for chipwhisperer
  - Breaking Crypto For Dummies [Slide](https://2016.zeronights.ru/wp-content/uploads/2016/12/nabdullin_brcrdu_dark.pdf)
+ - [A practical guide to RFID badge copying](https://blog.nviso.be/2017/01/11/a-practical-guide-to-rfid-badge-copying/)
 
 ## Glitching
 

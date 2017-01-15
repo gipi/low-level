@@ -17,6 +17,10 @@
  - [Video](https://www.youtube.com/watch?v=GsMs3n8CB6g): Give me 15 minutes and I'll change your view of Linux tracing
  - [gist](https://gist.github.com/marcan/a2eafd605d3d6ac76eb10a7c64f736c3) Linux kernel initialization, translated to bash
 
+## Compiling&Linking
+
+ - [LD command language](https://www.math.utah.edu/docs/info/ld_3.html)
+
 ## Two's complement
 
 It's used to represent signed integers. The formula is

@@ -51,6 +51,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [An Objection to ‘The ecosystem is moving’](https://gultsch.de/objection.html)
  - [The caching antipattern](https://www.hidefsoftware.co.uk/2016/12/25/the-caching-antipattern/)
  - [Why “Agile” and especially Scrum are terrible](https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/)
+ - [A curated list of awesome falsehoods programmers believe in](https://github.com/kdeldycke/awesome-falsehood)
 
 ## Compilers
 
