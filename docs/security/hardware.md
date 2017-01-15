@@ -14,6 +14,10 @@
  - [How the PS3 hypervisor was hacked](https://rdist.root.org/2010/01/27/how-the-ps3-hypervisor-was-hacked/)
  - [Firmware dumping technique for an ARM Cortex-M0 SoC](http://blog.includesecurity.com/2015/11/NordicSemi-ARM-SoC-Firmware-dumping-technique.html)
 
+## Timing attack
+
+ - [Timing attack on an Embedded Controller](https://hackaday.io/project/723-reverse-engineering-toshiba-r100-bios/log/51302-ec-firmware-dumped)
+
 ## Reverse engineering
 
  - [NMOS IC Reverse Engineering](https://www.wdj-consulting.com/blog/nmos-sample.html)
