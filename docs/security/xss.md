@@ -17,6 +17,7 @@ execution context.
  - [UNDERSTANDING XSS AUDITOR](https://www.virtuesecurity.com/blog/understanding-xss-auditor/)
  - [A comprehensive tutorial on cross-site scripting](http://excess-xss.com/)
  - [Writeup](https://medium.com/@eoftedal/xss-puzzler-622f6f86c277) about ``XSS puzzler``
+ - [Reflected XSS through AngularJS sandbox bypass causes password exposure of McDonald users](https://finnwea.com/blog/stealing-passwords-from-mcdonalds-users)
 
 ## RPO
 
