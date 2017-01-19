@@ -28,6 +28,7 @@
 ## JTAG
 
  - [JTAGing Mobile Phones](https://sysforensics.org/2016/08/jtaging-mobile-phones/)
+ - [The JTAG Interface: AN ATTACKER’S PERSPECTIVE](https://optivstorage.blob.core.windows.net/web/file/55e86eae3f04450d9bafcbb3a94559ca/JTAG.Whitepaper.pdf)
 
 ## Exploit
 
