@@ -91,4 +91,5 @@ s 0
  - [Practical Firmware Reversing and Exploit Development for AVR-based Embedded Devices](http://www.radare.org/get/avrworkshops2016.pdf)
  - Short [Video](https://www.youtube.com/watch?v=G_yqIW-pUNc): radare2 esil emulation
  - [Emulating a simple bootloader](http://radare.today/posts/emulating-simple-bootloader/)
+ - [Using Emulation To Unpack Metasploit Encoders](https://xpnsec.tumblr.com/post/156211722581/radare2-using-emulation-to-unpack-metasploit)
 
