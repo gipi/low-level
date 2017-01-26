@@ -7,8 +7,7 @@
  - [The TCP/IP Drinking Game](http://valerieaurora.org/tcpip.html)
  - [Iptables](https://wiki.archlinux.org/index.php/iptables)
  - [SSH Tunnel - Local and Remote Port Forwarding Explained With Examples](http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html)
- - [Monitoring and Tuning the Linux Networking Stack: Receiving Data](http://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data/)
-
+ - [Escape and Evasion Egressing Restricted Networks](https://www.optiv.com/blog/escape-and-evasion-egressing-restricted-networks)
 
 ## Code example
 
