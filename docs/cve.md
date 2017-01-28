@@ -10,6 +10,7 @@
  - [Slides](http://gsec.hitb.org/materials/sg2016/D1%20-%20Adam%20Donenfeld%20and%20Yaniv%20Mordekhay%20-%20Stumping%20The%20Mobile%20Chipset.pdf) for CVE-2016-5340, CVE-2016-2504, CVE-2016-2503 and CVE-2016-2059
  - [CVE-2016-8655](http://seclists.org/oss-sec/2016/q4/607) Linux ``af_packet.c`` race condition
  - [vmnc decoder](https://scarybeastsecurity.blogspot.it/2016/12/1day-poc-with-rip-deterministic-linux.html)
+ - [CVE-2015-6565](http://www.openwall.com/lists/oss-security/2017/01/26/2)
 
 # Writeup
 
