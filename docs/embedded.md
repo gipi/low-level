@@ -21,6 +21,21 @@ $ sudo cp /usr/bin/qemu-mips-static /tmp/RFS/usr/bin/
 $ sudo LC_ALL=C LANGUAGE=C LANG=C chroot /tmp/RFS/ dpkg --configure -a
 ```
 
+## Mips in Debian
+
+Some hints from this [answer](https://reverseengineering.stackexchange.com/questions/8829/cross-debugging-for-mips-elf-with-qemu-toolchain)
+
+```
+# apt-get install emdebian-archive-keyring
+# tee /etc/apt/sources.list.d/emdebian.list << EOF
+deb http://mirrors.mit.edu/debian squeeze main
+deb http://www.emdebian.org/debian squeeze main
+EOF
+# apt-get update
+# apt-get install libc6-mipsel-cross
+# apt-get install gcc-mipsel-linux-gnu
+```
+
 ## OpenWRT
 
 [OpenWrt](https://openwrt.org/) is described as a Linux distribution for embedded devices.
