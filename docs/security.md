@@ -41,7 +41,7 @@ See also [shellcode](/shellcode/).
  - [commix](https://github.com/stasinopoulos/commix): Automated All-in-One OS Command Injection and Exploitation Tool
  - [How To Heap](https://github.com/shellphish/how2heap): A repository for learning various heap exploitation techniques.
 
-### Format String
+## Format String
 
  - [Exploiting Format String Vulnerabilities](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20Exploiting%20Format%20String%20vulnerabilities.pdf)
  - [Advances in format string exploitation](http://phrack.org/issues/59/7.html) 0x0b, Issue 0x3b, Phile #0x07 of 0x12
