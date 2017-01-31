@@ -149,6 +149,10 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [DNSteal](https://github.com/m57/dnsteal): stealthily extract files from a victim machine through DNS requests
  - [pwntools](https://pwntools.readthedocs.org) CTF framework and exploit development library
 
+### Fuzzing
+
+ - [Hunting For Bugs With AFL 101 - A PRIMER](http://research.aurainfosec.io/hunting-for-bugs-101/)
+
 ## CTF
 
  - [Vulnhub](https://www.vulnhub.com/) To provide materials that allows anyone to gain
