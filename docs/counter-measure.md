@@ -68,7 +68,7 @@ reading a core dump
  - [__stack_chk_fail specification](http://refspecs.linux-foundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic/libc---stack-chk-fail-1.html)
  - [CodeGate 2012 Quals Vuln500 Write-up](http://mslc.ctf.su/wp/codegate-2012-quals-vuln500-write-up/)
  - [Debugging __thead variables from coredumps](https://www.technovelty.org/linux/debugging-__thead-variables-from-coredumps.html)
- - [Playing with canaries](https://www.elttam.com.au/blog/playing-with-canaries/) Looking at SSP over several architectures.
+ - [Playing with canaries](https://www.elttam.com.au/blog/playing-with-canaries/) Looking at SSP over several architectures (has [repo](https://github.com/elttam/canary-fun) with example).
 
 
 ## ASLR
