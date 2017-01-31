@@ -16,6 +16,8 @@ f sym.jmp 10 0x00400cc4
 |           0x00400cc5      4889e5         mov rbp, rsp
 |           0x00400cc8      48897df8       mov qword [rbp - local_8h], rdi
 \           0x00400ccc      ffe7           jmp rdi
+[0x00000815]> ?d sei
+set interrupt disable status
 ```
 
 Disassemble also for different architecture (like arm ``r2 -aarm -b16 gy1_v162.frm``).
@@ -92,4 +94,4 @@ s 0
  - Short [Video](https://www.youtube.com/watch?v=G_yqIW-pUNc): radare2 esil emulation
  - [Emulating a simple bootloader](http://radare.today/posts/emulating-simple-bootloader/)
  - [Using Emulation To Unpack Metasploit Encoders](https://xpnsec.tumblr.com/post/156211722581/radare2-using-emulation-to-unpack-metasploit)
-
+ - [Disassembling 6502 code with Radare – Part I](https://retro.moe/2015/11/18/disassembling-6502-code-with-radare-part-i/)
