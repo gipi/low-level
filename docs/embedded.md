@@ -11,6 +11,7 @@
      - [Part 5](http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/) Digging Through the Firmware
 
  - [Build systems](http://elinux.org/Build_Systems)
+ - [nvram-faker](https://github.com/zcutlip/nvram-faker) A simple library to intercept calls to libnvram when running embedded linux applications in emulated environments.
 
 In order to generate a rootfs for testing on QEMU of architecture on your desktop you can use ``multistrap``
 
