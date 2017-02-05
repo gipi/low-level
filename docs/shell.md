@@ -18,9 +18,10 @@ into the terminal.
 
 Take into account also the path separator and the syntax behind it.
 
-## Console
+## Console&TTY
 
  - [Programming with ANSI escape codes](http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html)
+ - [The TTY demystified](http://www.linusakesson.net/programming/tty/)
 
 ## Links
 
