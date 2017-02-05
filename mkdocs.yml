@@ -23,6 +23,7 @@ pages:
   - 'CVE': cve.md
   - 'Hardware': security/hardware.md
   - 'Video':    security/video.md
+  - 'Reverse shell': security/reverse-shell.md
   - Remote code execution: security/rce.md
   - Shellcode: shellcode.md
   - Counter measure: counter-measure.md
