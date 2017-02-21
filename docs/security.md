@@ -163,6 +163,10 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
    and [here](https://anee.me/writeup-for-zwiebel-tum-ctf-2016-e312fc129037) another writeup.
  - [Writeup about 3C33 CTF](http://bruce30262.logdown.com/tags/33C3)
 
+## Phishing
+
+  - [Spam and phishing in 2016](https://securelist.com/analysis/kaspersky-security-bulletin/77483/kaspersky-security-bulletin-spam-and-phishing-in-2016/)
+
 ## Links
 
  - [online courses](https://github.com/prakhar1989/awesome-courses#security)
