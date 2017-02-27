@@ -131,6 +131,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Kernel stack overflows (basics)](https://blog.0x80.org/kernel-stack-overflows-basics/)
  - [Writing kernel exploits](https://tc.gtisc.gatech.edu/bss/2014/r/kernel-exploits.pdf)
  - [Linux Kernel Exploitation](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20Linux%20Kernel%20Exploitation%20-%20Patrick%20Biernat.pdf) slides from Modern Binary Exploitation
+ - [repo](https://github.com/xairy/kernel-exploits) with a bunch of proof-of-concept exploits for the Linux kernel
 
 ## Cloud
 
