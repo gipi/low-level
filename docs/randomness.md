@@ -46,3 +46,4 @@ $$
  - Posts about hacking random number generators [1](https://jazzy.id.au/2010/09/20/cracking_random_number_generators_part_1.html) [2](https://jazzy.id.au/2010/09/21/cracking_random_number_generators_part_2.html) [3](https://jazzy.id.au/2010/09/22/cracking_random_number_generators_part_3.html)
  - [Can randomness add computability](https://mathoverflow.net/questions/58060/can-randomness-add-computability)
  - [Backdoors in Pseudorandom Number Generators: Possibility and Impossibility Results](https://eprint.iacr.org/2016/577.pdf)
+ - [How many floating point numbers are in the interval 0-1?](http://lemire.me/blog/2017/02/28/how-many-floating-point-numbers-are-in-the-interval-01/)
