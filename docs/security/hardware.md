@@ -10,6 +10,7 @@
 ## Bootloader
 
  - [Exploiting Android S-Boot](http://hexdetective.blogspot.it/2017/02/exploiting-android-s-boot-getting.html)
+ - [[GUIDE] USB Uart on Galaxy S devices](https://forum.xda-developers.com/showthread.php?t=1901376)
 
 ## Glitching
 
