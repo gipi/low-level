@@ -16,6 +16,7 @@
  - [Linux Performance](http://www.brendangregg.com/linuxperf.html)
  - [Video](https://www.youtube.com/watch?v=GsMs3n8CB6g): Give me 15 minutes and I'll change your view of Linux tracing
  - [gist](https://gist.github.com/marcan/a2eafd605d3d6ac76eb10a7c64f736c3) Linux kernel initialization, translated to bash
+ - [The Collapse of the UNIX Philosophy](https://kukuruku.co/post/the-collapse-of-the-unix-philosophy/)
 
 ## Compiling&Linking
 
