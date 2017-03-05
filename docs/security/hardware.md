@@ -6,6 +6,7 @@
  - Breaking Crypto For Dummies [Slide](https://2016.zeronights.ru/wp-content/uploads/2016/12/nabdullin_brcrdu_dark.pdf)
  - [A practical guide to RFID badge copying](https://blog.nviso.be/2017/01/11/a-practical-guide-to-rfid-badge-copying/)
  - [Vuln research on the WAG54G home router](https://www.elttam.com.au/blog/vuln-research-on-the-WAG54G-home-router/)
+ - [Exploiting PSoC4 for fun and profit](http://dmitry.gr/index.php?r=05.Projects&proj=23.%20PSoC4)
  
 ## Bootloader
 
