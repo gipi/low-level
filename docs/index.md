@@ -42,3 +42,6 @@ def twos_complement(input_value, num_bits):
     mask = 2**(num_bits - 1)
     return -(input_value & mask) + (input_value & ~mask)
 ```
+
+ - Twos complement: Negative numbers in binary [video](https://youtu.be/4qH4unVtJkE)
+
