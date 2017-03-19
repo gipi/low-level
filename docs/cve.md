@@ -11,7 +11,7 @@
  - [CVE-2016-8655](http://seclists.org/oss-sec/2016/q4/607) Linux ``af_packet.c`` race condition
  - [vmnc decoder](https://scarybeastsecurity.blogspot.it/2016/12/1day-poc-with-rip-deterministic-linux.html)
  - [CVE-2015-6565](http://www.openwall.com/lists/oss-security/2017/01/26/2)
-
+ - [Android kernel CVE POCs](https://github.com/ScottyBauer/Android_Kernel_CVE_POCs)
 # Writeup
 
  - [How we broke PHP, hacked Pornhub and earned 20.000$](https://www.evonide.com/how-we-broke-php-hacked-pornhub-and-earned-20000-dollar/)
