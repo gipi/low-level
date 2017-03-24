@@ -76,6 +76,7 @@ s 0
 
 ## Links
 
+ - [Cheat sheet](https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf)
  - Radare2 [tutorial](http://solidsec.blogspot.de/2015/10/tool-radare-2-open-source-alternative.html)
  - https://www.dustri.org/b/exploiting-ezhp-pwn200-from-plaidctf-2014-with-radare2.html
  - http://wapiflapi.github.io/2015/04/22/single-null-byte-heap-overflow/
