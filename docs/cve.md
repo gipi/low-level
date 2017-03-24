@@ -13,6 +13,8 @@
  - [CVE-2015-6565](http://www.openwall.com/lists/oss-security/2017/01/26/2)
  - [Android kernel CVE POCs](https://github.com/ScottyBauer/Android_Kernel_CVE_POCs)
  - [CVE-2017-6074](http://seclists.org/oss-sec/2017/q1/471)
+ - [repo with POC](https://github.com/xairy/kernel-exploits)
+
 # Writeup
 
  - [How we broke PHP, hacked Pornhub and earned 20.000$](https://www.evonide.com/how-we-broke-php-hacked-pornhub-and-earned-20000-dollar/)
