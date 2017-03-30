@@ -82,6 +82,45 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 
 ### ARM
 
+The ARM architecture is a 32-bit RISC architecture with 16 general
+purpose registers available to regular programs and a status
+register (actually there are more general purpose registers and
+status registers but those are only used in exception modes and not
+important for our discussion). Every instruction is 4 bytes long so
+we must ensure that all 4 of these bytes are alphanumeric. This is
+very different from the x86 architecture which has variable length
+instructions. As a result, getting instructions to be completely
+alphanumeric is harder on ARM than on x86.
+
+Registers R0 to R12 are real general purpose registers that do not
+have a dedicated purpose. Register R13 is used as a stack pointer
+and can also be referred to as register SP. Register R14 is used as
+the link register and is also referred to as LR. It contains the
+return address for functions and exceptions. Register R15 contains
+the current program counter and is also referred to as PC. Unlike
+x86 architectures, we can directly read and write this register.
+Reading from this register will return the currently executing
+instruction + 8 bytes in ARM mode or the current instruction + 4
+bytes in Thumb mode (see section 1.5). Writing to this register
+causes execution to continue at this address.
+
+#### Coprocessors
+
+ARM processors can be extended with a number of coprocessors to
+perform non-standard calculations and to avoid having to do these
+calculations in software. ARM supports up to 16 coprocessors, each
+of which has a unique identification number. Some processors might
+need more than one identification number, in order to accommodate
+large instruction sets. Coprocessors are available for memory
+management, floating point operations, debugging, media,
+cryptography, ...
+
+When an ARM processor encounters an instruction it cannot process,
+it sends the instruction out on the coprocessor bus. If a
+coprocessor recognizes the instruction, it can execute it and
+respond to the main processor. If none of the coprocessors respond,
+an 'illegal instruction' exception is raised.
+
  - [ARM calling convention](http://caxapa.ru/thumbs/656023/IHI0042F_aapcs.pdf)
  - [Generica page about ARM](https://www.aldeid.com/wiki/Category:Architecture/ARM)
  - [Reverse engineering the ARM1](http://www.righto.com/2015/12/reverse-engineering-arm1-ancestor-of.html)
