@@ -107,7 +107,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - http://www.catb.org/esr/structure-packing/
  - [Why does calloc exist?](https://vorpus.org/blog/why-does-calloc-exist/)
  - [mem­cpy (and friends) with NULL pointers](https://www.imperialviolet.org/2016/06/26/nonnull.html)
-
+ - [How to Write Portable C Without Complicating Your Build](http://nullprogram.com/blog/2017/03/30/)
 
 ## Low level
 
