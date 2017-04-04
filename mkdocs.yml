@@ -27,6 +27,7 @@ pages:
   - Remote code execution: security/rce.md
   - Shellcode: shellcode.md
   - Counter measure: counter-measure.md
+  - Sandbox: security/sandbox.md
 - Reversing:
   - Home: reversing/reversing.md
   - Radare2: reversing/radare2.md
