@@ -118,3 +118,19 @@ xrefs SYMBOL|0xXXXX|EP
 ### Vivisect
 
 This the [github](https://github.com/pdasilva/vivisect) page.
+
+### Capstone
+
+[Home page](http://www.capstone-engine.org/)
+
+Below a random dump of the instruction to cross compile it
+for ARM
+
+```
+# apt-get install gcc-arm-linux-gnueabi
+$ git clone https://github.com/aquynh/capstone && cd capstone
+$ CROSS=arm-linux-gnueabi- ./make.sh
+ ...
+$ file libcapstone.so
+libcapstone.so: ELF 32-bit LSB  shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=d3aa90b9edfef4bdd461ac5908c7a2ec08b7d199, not stripped
+```
