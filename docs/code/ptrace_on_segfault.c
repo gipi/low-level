@@ -59,7 +59,7 @@ int disassemble(uint8_t* code, unsigned int codesize, uint64_t address) {
     cs_insn *insn;
     size_t count;
 
-    if (cs_open(CS_ARCH_X86, CS_MODE_64, &handle) != CS_ERR_OK) { // FIXME: make configurable
+    if (cs_open(CS_ARCH_ARM, CS_MODE_32, &handle) != CS_ERR_OK) { // FIXME: make configurable
         return -1;
     }
 
@@ -137,7 +137,7 @@ int main(int argc, char* argv[]) {
 
     int status;
 
-    struct user_regs_struct regs;
+    struct user_regs regs;
     long ins;
 
     while(1) {
@@ -158,24 +158,21 @@ int main(int argc, char* argv[]) {
         ptrace(PTRACE_GETREGS, child, NULL, &regs);
 
         // retrieve info about code
-        ins = ptrace(PTRACE_PEEKTEXT, child, regs.eip, NULL);
+        ins = ptrace(PTRACE_PEEKTEXT, child, regs.uregs[REG_R15], NULL);
 
         // TODO: use breakpoint to stop, using bp_check() is a performance hit
-        if (is_only_ptrace(signal) || (bp_check(breakpoints, regs.eip) == BP_FOUND)) {
+        if (is_only_ptrace(signal) || (bp_check(breakpoints, regs.uregs[REG_R15]) == BP_FOUND)) {
             // retrieve the signal infos (man sigaction)
             siginfo_t si;
             ptrace(PTRACE_GETSIGINFO, child, NULL, &si);
 
             // print all the infos
             printf("RIP: %08lx Instruction " "executed: %lx %d\n",
-                    regs.eip, ins, signal);
-            printf("EBP: %08lx\tESP: %lx\n", regs.ebp, regs.esp);
-            printf("EAX: %08lx\tEDI: %08lx\n", regs.eax, regs.edi);
-            printf("EBX: %lx\n", regs.ebx);
-            printf("ECX: %lx\n", regs.ecx);
-            printf("EDX: %lx\n", regs.edx);
+                    regs.uregs[REG_R15], ins, signal);
+            printf("lr: %08lx\tsp: %lx\n", regs.uregs[REG_R14], regs.uregs[REG_R13]);
+            printf("r0: %08lx\tr1: %08lx\n", regs.uregs[REG_R0], regs.uregs[REG_R1]);
 
-            disassemble((uint8_t*)&ins, sizeof(ins), regs.eip);
+            disassemble((uint8_t*)&ins, sizeof(ins), regs.uregs[REG_R15]);
 
             fprintf(stderr, " [I] child %d received signal %d at address %p\n", child, signal, si.si_addr);
 
