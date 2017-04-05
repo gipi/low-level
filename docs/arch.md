@@ -130,6 +130,7 @@ an 'illegal instruction' exception is raised.
  - Intro to Cortex M0 and LPCxpresso 1114 [PDF](https://web.eecs.umich.edu/~prabal/teaching/eecs373-f10/slides/lec21.pdf)
  - [Difference between arm-eabi arm-gnueabi and gnueabi-hf compilers](https://stackoverflow.com/questions/26692065/difference-between-arm-eabi-arm-gnueabi-and-gnueabi-hf-compilers)
  - [What is the difference between arm-linux-gcc and arm-none-linux-gnueabi](https://stackoverflow.com/questions/13797693/what-is-the-difference-between-arm-linux-gcc-and-arm-none-linux-gnueabi)
+ - [VPF](https://en.wikipedia.org/wiki/ARM_architecture#Floating-point_.28VFP.29): technology is an FPU (Floating-Point Unit) coprocessor extension to the ARM architecture
 
 ### AVR
 
