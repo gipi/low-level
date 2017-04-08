@@ -14,6 +14,7 @@
  - [Android kernel CVE POCs](https://github.com/ScottyBauer/Android_Kernel_CVE_POCs)
  - [CVE-2017-6074](http://seclists.org/oss-sec/2017/q1/471)
  - [repo with POC](https://github.com/xairy/kernel-exploits)
+ - [CVE-2016-7201](https://www.endgame.com/blog/chakra-exploit-and-limitations-modern-mitigation-techniques) IE Edge
 
 # Writeup
 
