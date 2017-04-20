@@ -108,6 +108,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [Why does calloc exist?](https://vorpus.org/blog/why-does-calloc-exist/)
  - [mem­cpy (and friends) with NULL pointers](https://www.imperialviolet.org/2016/06/26/nonnull.html)
  - [How to Write Portable C Without Complicating Your Build](http://nullprogram.com/blog/2017/03/30/)
+ - [C is not your friend: sizeof and side-effects](http://blog.tjd.phlegethon.org/post/159564806182/c-is-not-your-friend-sizeof-and-side-effects)
 
 ## Low level
 
