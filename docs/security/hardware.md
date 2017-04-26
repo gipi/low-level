@@ -7,7 +7,8 @@
  - [A practical guide to RFID badge copying](https://blog.nviso.be/2017/01/11/a-practical-guide-to-rfid-badge-copying/)
  - [Vuln research on the WAG54G home router](https://www.elttam.com.au/blog/vuln-research-on-the-WAG54G-home-router/)
  - [Exploiting PSoC4 for fun and profit](http://dmitry.gr/index.php?r=05.Projects&proj=23.%20PSoC4)
- 
+ - [A2: Analog Malicious Hardware](http://static1.1.sqspcdn.com/static/f/543048/26931843/1464016046717/A2_SP_2016.pdf)
+
 ## Bootloader
 
  - [Exploiting Android S-Boot](http://hexdetective.blogspot.it/2017/02/exploiting-android-s-boot-getting.html)
