@@ -23,6 +23,7 @@
  - [Toy decompiler for x86-64 written in Python](https://yurichev.com/writings/toy_decompiler.pdf)
  - [Finding the actual Thumb code in firmware](https://reverseengineering.stackexchange.com/questions/5945/finding-the-actual-thumb-code-in-firmware)
  - [Reverse Engineering Exercises](https://github.com/rotlogix/arm_reverse_engineering_exercises) for ARM
+ - [Android application reversing 101](https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/)
 
 ### Binwalk
 
