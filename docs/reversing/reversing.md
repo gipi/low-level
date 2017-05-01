@@ -13,6 +13,7 @@
  - [Reversing the parrot skycontroller firmware](http://thecyberrecce.net/2017/01/09/reversing-the-parrot-skycontroller-firmware/)
  - [Reverse Engineering the TP-Link HS110](https://www.softscheck.com/en/reverse-engineering-tp-link-hs110/)
  - [depcb](https://github.com/unixdj/depcb): PCB Reverse Engineering tool
+ - [Reversing the 76477 "Space Invaders" sound effect chip from die photos](http://www.righto.com/2017/04/reverse-engineering-76477-space.html)
 
 
 ## Software
