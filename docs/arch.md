@@ -165,6 +165,14 @@ There are the following registers:
 
 **Performance Optimization With Enhanced RISC**
 
+## 65(C)02
+
+The MOS Technology 6502 is a little-endian 8-bit microprocessor with a 16 bit address bus 
+
+ - [Wikipedia page](https://en.wikipedia.org/wiki/MOS_Technology_6502)
+ - [cc65](https://cc65.github.io/cc65/) is a complete cross development package for 65(C)02 systems, including a powerful macro assembler, a C compiler, linker, librarian and several other tools.
+
+
 ## Links
 
  - What every programmer should know about memory, Part 1 [LWN](http://lwn.net/Articles/250967/)
