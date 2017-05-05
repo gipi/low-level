@@ -131,6 +131,7 @@ an 'illegal instruction' exception is raised.
  - [Difference between arm-eabi arm-gnueabi and gnueabi-hf compilers](https://stackoverflow.com/questions/26692065/difference-between-arm-eabi-arm-gnueabi-and-gnueabi-hf-compilers)
  - [What is the difference between arm-linux-gcc and arm-none-linux-gnueabi](https://stackoverflow.com/questions/13797693/what-is-the-difference-between-arm-linux-gcc-and-arm-none-linux-gnueabi)
  - [VPF](https://en.wikipedia.org/wiki/ARM_architecture#Floating-point_.28VFP.29): technology is an FPU (Floating-Point Unit) coprocessor extension to the ARM architecture
+ - [Alphanumeric RISC ARM Shellcode](http://phrack.org/issues/66/12.html)
 
 ### AVR
 
