@@ -57,6 +57,7 @@ Some of the targets available are
  - ``menuconfig``
 
 If you want to test it into Qemu you can launch it with the following oneliner
+(for more info look at the [wiki](https://wiki.openwrt.org/doc/howto/qemu))
 
 ```
 $ qemu-system-mipsel -kernel bin/malta/openwrt-malta-le-vmlinux-initramfs.elf -nographic -m 256
