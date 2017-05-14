@@ -56,6 +56,41 @@ Some of the targets available are
  - ``defconfig``
  - ``menuconfig``
 
+If you want to test it into Qemu you can launch it with the following oneliner
+
+```
+$ qemu-system-mipsel -kernel bin/malta/openwrt-malta-le-vmlinux-initramfs.elf -nographic -m 256
+[    0.000000] Linux version 3.18.45 (packz@durruti) (gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 r49389) ) #2 SMP Sun May 14 20:02:35 CEST 2017
+[    0.000000] Early serial console at I/O port 0x3f8 (options '38400n8')
+[    0.000000] bootconsole [uart0] enabled
+ ...
+Press the [f] key and hit [enter] to enter failsafe mode
+Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
+[    5.000000] procd: - early -
+[    6.110000] procd: - ubus -
+[    7.160000] procd: - init -
+Please press Enter to activate this console.
+
+
+BusyBox v1.23.2 (2017-05-14 19:59:13 CEST) built-in shell (ash)
+
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
+ -----------------------------------------------------
+ CHAOS CALMER (Chaos Calmer, r49389)
+ -----------------------------------------------------
+  * 1 1/2 oz Gin            Shake with a glassful
+  * 1/4 oz Triple Sec       of broken ice and pour
+  * 3/4 oz Lime Juice       unstrained into a goblet.
+  * 1 1/2 oz Orange Juice
+  * 1 tsp. Grenadine Syrup
+ -----------------------------------------------------
+root@(none):/#
+```
+
 ## Single board computers
 
 ### Omega2 plus
