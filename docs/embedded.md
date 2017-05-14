@@ -42,9 +42,9 @@ EOF
 [OpenWrt](https://openwrt.org/) is described as a Linux distribution for embedded devices.
 
 ```
-$ git clone git://git.openwrt.org/openwrt.git && cd openwrt
+$ git clone git://github.com/openwrt/openwrt.git && cd openwrt
 $ make menuconfig
-  [choose Target System (like Broadcom BCM63xx) and then Target Profile (like Netgear DG834G v4)]
+  [choose Target System (like Broadcom BCM63xx or Malta if you want Qemu) and then Target Profile (like Netgear DG834G v4)]
 $ make -j 8
 ```
 
