@@ -154,6 +154,7 @@ There are the following registers:
 
 **Microprocessor without Interlocked Pipeline Stages**
 
+ - [MIPS alternative registers name](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Mips/altReg.html)
  - [MIPS Basic Training Course](https://community.imgtec.com/developers/mips/resources/training-courses/mips-basic-training-course/)
  - [MIPS32® Instruction Set Quick Reference](https://www.cs.duke.edu/courses/fall13/compsci250/MIPS32_QRC.pdf)
  - [MIPS: non-virtualizable architecture (Part 1)](http://www.nulltrace.org/2011/04/mips-non-virtualizable-architecture.html)
