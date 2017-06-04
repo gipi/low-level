@@ -14,6 +14,7 @@
  - [Reverse Engineering the TP-Link HS110](https://www.softscheck.com/en/reverse-engineering-tp-link-hs110/)
  - [depcb](https://github.com/unixdj/depcb): PCB Reverse Engineering tool
  - [Reversing the 76477 "Space Invaders" sound effect chip from die photos](http://www.righto.com/2017/04/reverse-engineering-76477-space.html)
+ - [NMOS IC Reverse Engineering](https://www.wdj-consulting.com/blog/nmos-sample.html)
 
 
 ## Software
