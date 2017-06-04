@@ -146,6 +146,8 @@ There are the following registers:
  - ``sreg`` 8-bit status register
  - ``rampx``, ``rampy``, ``rampz`` and ``eind``
 
+Usually ``r0`` and ``r1`` are [fixed](https://gcc.gnu.org/wiki/avr-gcc#Fixed_Registers) as usage.
+
 #### Links
 
  - [Wikipedia's AVR Instruction set](https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set)
