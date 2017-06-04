@@ -149,6 +149,8 @@ There are the following registers:
 #### Links
 
  - [Wikipedia's AVR Instruction set](https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set)
+ - [Instruction set manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf)
+ - [Instruction set summary](http://www.avr-tutorials.com/sites/default/files/Instruction%20Set%20Summary.pdf)
 
 ### MIPS
 
