@@ -8,6 +8,7 @@
  - [Vuln research on the WAG54G home router](https://www.elttam.com.au/blog/vuln-research-on-the-WAG54G-home-router/)
  - [Exploiting PSoC4 for fun and profit](http://dmitry.gr/index.php?r=05.Projects&proj=23.%20PSoC4)
  - [A2: Analog Malicious Hardware](http://static1.1.sqspcdn.com/static/f/543048/26931843/1464016046717/A2_SP_2016.pdf)
+ - [IoT goes nuclear](https://blog.acolyer.org/2017/06/22/iot-goes-nuclear-creating-a-zigbee-chain-reaction/)
 
 ## Bootloader
 
@@ -23,7 +24,11 @@
  - [How the PS3 hypervisor was hacked](https://rdist.root.org/2010/01/27/how-the-ps3-hypervisor-was-hacked/)
  - [Firmware dumping technique for an ARM Cortex-M0 SoC](http://blog.includesecurity.com/2015/11/NordicSemi-ARM-SoC-Firmware-dumping-technique.html)
 
-## Timing attack
+## Side channel attack
+
+ - [TEMPEST attacks against AES](https://www.fox-it.com/nl/wp-content/uploads/sites/12/Tempest_attacks_against_AES.pdf)
+
+### Timing attack
 
  - [Timing attack on an Embedded Controller](https://hackaday.io/project/723-reverse-engineering-toshiba-r100-bios/log/51302-ec-firmware-dumped)
 
