@@ -16,6 +16,7 @@
  - [repo with POC](https://github.com/xairy/kernel-exploits)
  - [Unix privilege escalation exploits pack](https://github.com/LukaSikic/Unix-Privilege-Escalation-Exploits-Pack)
  - [CVE-2016-7201](https://www.endgame.com/blog/chakra-exploit-and-limitations-modern-mitigation-techniques) IE Edge
+ - [CVE-2017-1000366](https://www.qualys.com/research/security-advisories/) Stack clash
 
 # Writeup
 
