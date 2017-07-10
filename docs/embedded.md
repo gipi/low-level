@@ -22,6 +22,16 @@ $ sudo cp /usr/bin/qemu-mips-static /tmp/RFS/usr/bin/
 $ sudo LC_ALL=C LANGUAGE=C LANG=C chroot /tmp/RFS/ dpkg --configure -a
 ```
 
+After that mith ``binfmt-support`` is possible to use a chroot directly
+
+```
+$ uname -a
+Linux 4.9.0-3-amd64 #1 SMP Debian 4.9.30-2 (2017-06-12) x86_64 GNU/Linux
+$ sudo chroot /tmp/RFS/ /bin/bash
+/# uname -a
+Linux 4.9.0-3-amd64 #1 SMP Debian 4.9.30-2 (2017-06-12) mips GNU/Linux
+```
+
 ## Mips in Debian
 
 Some hints from this [answer](https://reverseengineering.stackexchange.com/questions/8829/cross-debugging-for-mips-elf-with-qemu-toolchain)
