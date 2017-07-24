@@ -197,6 +197,11 @@ sys.stderr.write(r.dump())
 sys.stdout.write(str(r))
 ```
 
+ - [Some universal gadget sequence for Linux x86_64 ROP payload](https://v0ids3curity.blogspot.it/2013/07/some-gadget-sequence-for-x8664-rop.html)
+ - [ROP stack pivoting](https://neilscomputerblog.blogspot.it/2012/06/stack-pivoting.html)
+ - [ROPShell](http://ropshell.com/) online rop gadgets
+ - [X64 Sigreturn Oriented Programming](http://blackbunny.io/x64-sigreturn-oriented-programming/)
+
 ### Links
 
  - [Bypassing ASLR – Part III](https://sploitfun.wordpress.com/2015/05/08/bypassing-aslr-part-iii/) GOT overwrite and GOT dereference
