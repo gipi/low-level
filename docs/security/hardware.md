@@ -9,6 +9,7 @@
  - [Exploiting PSoC4 for fun and profit](http://dmitry.gr/index.php?r=05.Projects&proj=23.%20PSoC4)
  - [A2: Analog Malicious Hardware](http://static1.1.sqspcdn.com/static/f/543048/26931843/1464016046717/A2_SP_2016.pdf)
  - [IoT goes nuclear](https://blog.acolyer.org/2017/06/22/iot-goes-nuclear-creating-a-zigbee-chain-reaction/)
+ - [Reverse Engineering Hardware of Embedded Devices: From China to the World](http://blog.sec-consult.com/2017/07/reverse-engineering-hardware.html)
 
 ## Bootloader
 
