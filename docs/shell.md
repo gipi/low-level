@@ -33,3 +33,4 @@ Take into account also the path separator and the syntax behind it.
  - [How main() is executed on Linux](http://www.tldp.org/LDP/LG/issue84/hawk.html)
  - [__libc_start_main() specification](https://refspecs.linuxbase.org/LSB_3.0.0/LSB-PDA/LSB-PDA/baselib---libc-start-main-.html)
  - [What happens when you start a process on Linux?](http://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/)
+ - [Command Injection Without Spaces](http://www.betterhacker.com/2016/10/command-injection-without-spaces.html)
