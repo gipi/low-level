@@ -18,6 +18,7 @@ execution context.
  - [A comprehensive tutorial on cross-site scripting](http://excess-xss.com/)
  - [Writeup](https://medium.com/@eoftedal/xss-puzzler-622f6f86c277) about ``XSS puzzler``
  - [Reflected XSS through AngularJS sandbox bypass causes password exposure of McDonald users](https://finnwea.com/blog/stealing-passwords-from-mcdonalds-users)
+ - [XSStrike](https://github.com/UltimateHackers/XSStrike) is a program which can crawl, fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs
 
 ## RPO
 
