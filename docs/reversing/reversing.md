@@ -54,38 +54,44 @@ $ ./install.sh --update
 ```
 $ plasma -i /opt/low-level/docs/code/payload-eater_x86
 plasma> help
-analyzer 
-      Analyzer information
+analyzer
+      Analyzer status.
 dump SYMBOL|0xXXXX|EP [NB_LINES]
-      Disassemble only.
-exit 
+      Print contents at the specified address.
+exit
       Exit
-functions 
+frame_size [SYMBOL|0xXXXX|EP] frame_size
+      Change the frame size of a function, the function will be re-analyzed.
+functions
       Print the function list.
-help 
-      Display this help
+help
+      Display this help.
 hexdump SYMBOL|0xXXXX|EP [NB_LINES]
       Dump memory in hexa.
-history 
-      Display the command history
-info 
-      Information about the current binary
+history
+      Display the command history.
+info
+      Information about the current binary.
 jmptable INST_ADDR TABLE_ADDR NB_ENTRIES SIZE_ENTRY
       Create a jump table referenced at TABLE_ADDR and called
       from INST_ADDR.
+memmap
+      Open a qt window to display the memory.
 mips_set_gp ADDR
-      Set the register $gp to a fixed value.
-py [FILE]
+      Set the register $gp to a fixed value. Note that it will
+      erase all defined memory.
+py [!][FILE]
       Run an interactive python shell or execute a script.
-      The global variable 'api' will be accessible.
-push_analyze_symbols 
+      Global variables api and args will be passed to the script.
+      The character ! is an alias to the scripts directory.
+push_analyze_symbols
       Force to analyze the entry point, symbols and a memory scan will be done.
 rename OLD_SYM NEW_SYM
       Rename a symbol.
-save 
-      Save the database (only symbols and history currently).
-sections 
-      Print all sections
+save
+      Save the database.
+sections
+      Print all sections.
 sym [SYMBOL 0xXXXX] [| FILTER]
       Print all symbols or set a new symbol.
       You can filter symbols by searching the word FILTER.
@@ -94,38 +100,48 @@ x [SYMBOL|0xXXXX|EP]
       Decompile and print on stdout. By default it will be main.
       The decompilation is forced, it dosn't check if addresses
       are defined as code.
-v [SYMBOL|0xXXXX|EP]
-      Visual mode
-      Shortcuts:
+v [SYMBOL|0xXXXX|EP|%VISUAL]
+      Visual mode: if no address is given, previous visual is
+      reopen. You can keep up to 3 visuals. Use %1, %2 or %3
+      to select the visual.
+
+      Main shortcuts:
       c       create code
       b/w/d/Q create byte/word/dword/qword
       a       create ascii string
       p       create function
       o       set [d|q]word as an offset
+      *       create an array
       x       show xrefs
       r       rename
-      /       binary search: if the first char is ! you can put an
-              hexa string example: /!ab 13 42
-      n/N     next/previous search occurence
-      I       switch to traditional instruction string output
+      space   highlight current word (ctrl-k to clear)
+      ;       edit inline comment (enter/escape to validate/cancel)
+      U       undefine
+
+      Options:
+      I       switch to traditional instruction string output (3 modes)
       M       show/hide mangling
       B       show/hide bytes
+
+      Navigation:
+      |       split the window
+      j       jump to an address or a symbol
+      /       binary search: if the first char is ! you can put an
+              hexa string example: /!ab 13 42
+              the search is case sensitive.
+      n/N     next/previous search occurence
       g       top
       G       bottom
       z       set current line on the middle
-      Q       quit
-      ;       edit inline comment (enter/escape to validate/cancel)
       %       goto next bracket
-      *       highlight current word (ctrl-k to clear)
       { }     previous/next paragraph
       tab     switch between dump/decompilation
       enter   follow address
       escape  go back
-      u       re-enter (for undo)
-display.print_section 
-      Print or not section when an address is found
+      u       re-enter
+      q       quit
 xrefs SYMBOL|0xXXXX|EP
-      Print all xrefs.
+      Print cross references to the specified address.
 ```
 
 ### Vivisect
