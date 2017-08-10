@@ -41,7 +41,15 @@ $ sudo python setup.py install
 
 Interactive disassembler for x86/ARM/MIPS. Generates indented pseudo-code with colored syntax code.
 
-This is the [github repo](https://github.com/joelpx/plasma).
+This is the [github repo](https://github.com/joelpx/plasma). The installation instructions are strange
+but a simple
+
+```
+$ pip3 install -r requirements.txt
+$ ./install.sh --update
+```
+
+(use ``update`` also the first time otherwise it will clone ``capstone`` without reason).
 
 ```
 $ plasma -i /opt/low-level/docs/code/payload-eater_x86
