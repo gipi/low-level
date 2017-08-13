@@ -2,6 +2,14 @@
 
 User input **must** be sanitized!
 
+## Weird machines
+
+ - [LANGSEC](http://langsec.org/) Language-theoretic Security
+ - [Exploitation and state machines](http://archives.scovetta.com/pub/conferences/infiltrate_2011/Fundamentals_of_exploitation_revisited.pdf) Programming the “weird machine”, revisited)
+ - [Hacking & Computer Science](https://events.ccc.de/congress/2010/Fahrplan/attachments/1807_ccc-hacker-research.pdf)
+ - [The science of insecurity](http://langsec.org/insecurity-theory-28c3.pdf)
+ - [Accidentally Turing-Complete](http://beza1e1.tuxen.de/articles/accidentally_turing_complete.html)
+
 ## Bruteforce
 
 In some cases it's important to make the space containing certain variables
