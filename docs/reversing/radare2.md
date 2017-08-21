@@ -16,6 +16,30 @@ f sym.jmp 10 0x00400cc4
 |           0x00400cc5      4889e5         mov rbp, rsp
 |           0x00400cc8      48897df8       mov qword [rbp - local_8h], rdi
 \           0x00400ccc      ffe7           jmp rdi
+[0x00400ec0]> afi sym.imp.strcpy 
+#
+offset: 0x00400c70
+name: sym.imp.strcpy
+size: 16
+realsz: 48
+stackframe: 24
+call-convention: amd64
+cyclomatic-cost : 18
+cyclomatic-complexity: 2
+bits: 64
+type: sym [NEW]
+num-bbs: 2
+edges: 2
+end-bbs: 0
+call-refs: 0x00400c40 J 0x00400c40 J 
+data-refs: 0x00603028 0x00000002 0x00603010 0x00603018 0x00000000 
+code-xrefs: 
+in-degree: 0
+out-degree: 0
+data-xrefs: 
+locals:0
+args: 0
+diff: type: new
 [0x00000815]> ?d sei
 set interrupt disable status
 ```
