@@ -133,6 +133,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Once upon a free()](http://phrack.org/issues/57/9.html)
  - [Vudo - An object superstitiously believed to embody magical powers](http://phrack.org/issues/57/8.html)
  - [MALLOC DES-MALEFICARUM](http://phrack.org/issues/66/10.html)
+ - [Understanding the HEAP breaking it](https://www.blackhat.com/presentations/bh-usa-07/Ferguson/Whitepaper/bh-usa-07-ferguson-WP.pdf)
  - [Understanding glibc malloc](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)
  - [Heap Exploitation](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/17/10_lecture.pdf) slides from from Modern Binary Exploitation
 
