@@ -137,6 +137,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Understanding glibc malloc](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)
  - [Heap Exploitation](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/17/10_lecture.pdf) slides from from Modern Binary Exploitation
  - [Heap Exploitation](https://heap-exploitation.dhavalkapil.com) short book about internals of 'heap memory'
+ - [Post](https://wapiflapi.github.io/2015/04/22/single-null-byte-heap-overflow/) about visualizing heap operations and exploiting them
 
 ## Kernel exploiting
 
