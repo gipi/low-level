@@ -201,6 +201,7 @@ sys.stdout.write(str(r))
  - [ROP stack pivoting](https://neilscomputerblog.blogspot.it/2012/06/stack-pivoting.html)
  - [ROPShell](http://ropshell.com/) online rop gadgets
  - [X64 Sigreturn Oriented Programming](http://blackbunny.io/x64-sigreturn-oriented-programming/)
+ - [Sigreturn Oriented Programming](https://0x00sec.org/t/srop-signals-you-say/2890)
 
 ### Links
 
