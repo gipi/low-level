@@ -11,11 +11,14 @@
  - [IoT goes nuclear](https://blog.acolyer.org/2017/06/22/iot-goes-nuclear-creating-a-zigbee-chain-reaction/)
  - [Reverse Engineering Hardware of Embedded Devices: From China to the World](http://blog.sec-consult.com/2017/07/reverse-engineering-hardware.html)
  - [Shedding too much Light on a Microcontroller’s Firmware Protection](https://www.usenix.org/system/files/conference/woot17/woot17-paper-obermaier.pdf) paper about microcontroller security protection bypass
+ - [paper](https://eprint.iacr.org/2015/260.pdf) Computational Aspects of Correlation Power Analysis
 
 ## Bootloader
 
  - [Exploiting Android S-Boot](http://hexdetective.blogspot.it/2017/02/exploiting-android-s-boot-getting.html)
  - [[GUIDE] USB Uart on Galaxy S devices](https://forum.xda-developers.com/showthread.php?t=1901376)
+ - [NXP LPC1343 Bootloader Bypass (Part 1) - Communicating with the bootloader](https://toothless.co/blog/bootloader-bypass-part1/)
+ - [BootStomp: On the Security of Bootloaders in Mobile Devices](http://cs.ucsb.edu/~yanick/publications/2017_sec_bootstomp.pdf)
 
 ## Glitching
 
