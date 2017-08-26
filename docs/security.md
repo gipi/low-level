@@ -9,6 +9,7 @@ User input **must** be sanitized!
  - [Hacking & Computer Science](https://events.ccc.de/congress/2010/Fahrplan/attachments/1807_ccc-hacker-research.pdf)
  - [The science of insecurity](http://langsec.org/insecurity-theory-28c3.pdf)
  - [Accidentally Turing-Complete](http://beza1e1.tuxen.de/articles/accidentally_turing_complete.html)
+ - [Video](https://archive.org/details/2010-07-28LenSassaman-ExploitingTheForestWithTrees) 2010-07-28 Meredith L. Patterson and Len Sassaman - Black Hat USA 2010 - Exploiting the Forest with Trees
 
 ## Bruteforce
 
