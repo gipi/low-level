@@ -23,6 +23,7 @@
 ## Compiling&Linking
 
  - [LD command language](https://www.math.utah.edu/docs/info/ld_3.html)
+ - [Breaking the links: Exploiting the linker](https://www.nth-dimension.org.uk/pub/BTL.pdf)
 
 ## Two's complement
 
