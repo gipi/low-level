@@ -199,3 +199,5 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Don't use VPN services](https://gist.github.com/joepie91/5a9909939e6ce7d09e29)
  - [Facebook’s ImageTragick story](http://4lemon.ru/2017-01-17_facebook_imagetragick_remote_code_execution.html)
  - [Escaping a Python sandbox with a memory corruption bug](https://medium.com/@gabecpike/python-sandbox-escape-via-a-memory-corruption-bug-19dde4d5fea5)
+ - [
+Jinja2 template injection filter bypasses](https://0day.work/jinja2-template-injection-filter-bypasses/)
