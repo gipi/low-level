@@ -202,7 +202,9 @@ sys.stdout.write(str(r))
  - [ROPShell](http://ropshell.com/) online rop gadgets
  - [X64 Sigreturn Oriented Programming](http://blackbunny.io/x64-sigreturn-oriented-programming/)
  - [Sigreturn Oriented Programming](https://0x00sec.org/t/srop-signals-you-say/2890)
-
+ - [Ropemporium](https://ropemporium.com) Learn return-oriented programming through a series of challenges designed to teach ROP techniques in isolation, with minimal reverse-engineering and bug-hunting.
+ - [one_gadget](https://github.com/david942j/one_gadget) A tool for you easy to find the one gadget RCE in libc.so.6
+ - [one-gadget RCE in Ubuntu 16.04 libc](https://kimiyuki.net/blog/2016/09/16/one-gadget-rce-ubuntu-1604/)
 ### Links
 
  - [Bypassing ASLR – Part III](https://sploitfun.wordpress.com/2015/05/08/bypassing-aslr-part-iii/) GOT overwrite and GOT dereference
