@@ -31,6 +31,7 @@
 
 ## Side channel attack
 
+ - [Differential Power Analysis](http://www.cse.msstate.edu/~ramkumar/DPA.pdf) original paper by Paul Kocher
  - [TEMPEST attacks against AES](https://www.fox-it.com/nl/wp-content/uploads/sites/12/Tempest_attacks_against_AES.pdf)
 
 ### Timing attack
