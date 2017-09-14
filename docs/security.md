@@ -142,6 +142,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Post](https://wapiflapi.github.io/2015/04/22/single-null-byte-heap-overflow/) about visualizing heap operations and exploiting them
  - Phrack's [Yet another free()](http://phrack.org/issues/66/6.html) article
  - [libheap](https://github.com/cloudburst/libheap) python library to examine ptmalloc (the glibc userland heap implementation). It has a very interesting [image](https://raw.githubusercontent.com/cloudburst/libheap/master/heap.png) describing the internal flow chart of glibc.
+ - [writeup](https://0x00sec.org/t/heap-exploitation-abusing-use-after-free/3580) about ``rhme3`` exploitation challenge
 
 ## Kernel exploiting
 
