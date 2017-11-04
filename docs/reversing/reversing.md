@@ -6,6 +6,9 @@
 
 ### Links
 
+ - [zeptobars](https://zeptobars.com/en/)
+ - [visual6502](http://visual6502.org/)
+ - [siliconpr0n](http://siliconpr0n.org/)
  - [CSCI 4974 / 6974 Hardware Reverse Engineering](http://security.cs.rpi.edu/courses/hwre-spring2014/)
  - [UPC UBEE EVW3226 WPA2 Password Reverse Engineering](https://deadcode.me/blog/2016/07/01/UPC-UBEE-EVW3226-WPA2-Reversing.html)
  - [im-me LCD Interface Hacked](https://daveshacks.blogspot.it/2010/01/im-me-lcd-interface-hacked.html)
@@ -17,6 +20,7 @@
  - [depcb](https://github.com/unixdj/depcb): PCB Reverse Engineering tool
  - [Reversing the 76477 "Space Invaders" sound effect chip from die photos](http://www.righto.com/2017/04/reverse-engineering-76477-space.html)
  - [NMOS IC Reverse Engineering](https://www.wdj-consulting.com/blog/nmos-sample.html)
+ - [Video](https://www.youtube.com/watch?v=aHx-XUA6f9g) Reading Silicon: How to Reverse Engineer Integrated Circuits
 
 
 ## Software
