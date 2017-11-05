@@ -39,6 +39,11 @@ $ john --incremental=Digits --stdout
  - http://www.lanmaster53.com/2011/02/creating-complex-password-lists-with-john-the-ripper/
  - http://backreference.org/2009/10/26/password-recovery-with-john-the-ripper/
 
+Obviously you need a good wordlist!
+
+ - [Munging password](https://th3s3cr3tag3nt.blogspot.it/2017/03/munging-passwords.html)
+ - [wordsmith](https://github.com/skahwah/wordsmith)
+
 ## Custom code execution
 
 See also [shellcode](/shellcode/).
