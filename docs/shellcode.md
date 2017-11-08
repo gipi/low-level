@@ -205,12 +205,14 @@ sys.stdout.write(str(r))
  - [Ropemporium](https://ropemporium.com) Learn return-oriented programming through a series of challenges designed to teach ROP techniques in isolation, with minimal reverse-engineering and bug-hunting.
  - [one_gadget](https://github.com/david942j/one_gadget) A tool for you easy to find the one gadget RCE in libc.so.6
  - [one-gadget RCE in Ubuntu 16.04 libc](https://kimiyuki.net/blog/2016/09/16/one-gadget-rce-ubuntu-1604/)
+
 ### Links
 
  - [Bypassing ASLR – Part III](https://sploitfun.wordpress.com/2015/05/08/bypassing-aslr-part-iii/) GOT overwrite and GOT dereference
  - [Exploiting WebKit on Vita 3.60](https://blog.xyz.is/2016/webkit-360.html)
  - [Porting exploits to a Netgear WNR2200](http://www.contextis.com/resources/blog/porting-exploits-netgear-wnr2200/)
  - [Common Pitfalls When Writing Exploits](http://www.mathyvanhoef.com/2012/11/common-pitfalls-when-writing-exploits.html)
+ - [Finding kernel symbols for shell code](https://ryiron.wordpress.com/2013/09/05/kptr_restrict-finding-kernel-symbols-for-shell-code/) methodology to find address of kernel symbols
 
 ## Tools
 
