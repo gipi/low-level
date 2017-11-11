@@ -122,3 +122,4 @@ s 0
  - [Using Emulation To Unpack Metasploit Encoders](https://xpnsec.tumblr.com/post/156211722581/radare2-using-emulation-to-unpack-metasploit)
  - [Disassembling 6502 code with Radare – Part I](https://retro.moe/2015/11/18/disassembling-6502-code-with-radare-part-i/)
  - [A journey into Radare 2 – Part 2: Exploitation](https://www.megabeets.net/a-journey-into-radare-2-part-2/)
+ - [Hitcon2017CTF writeup](http://pwning.fun//writeup/2017/11/03/HitconCTF2017-Everlasting-Imaginative-Void.html)
