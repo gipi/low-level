@@ -125,6 +125,7 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
  - [How programs get run: ELF binaries](https://lwn.net/Articles/631631/)
  - [A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux](http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html)
  - [Executable and Linkable Format](https://0xax.gitbooks.io/linux-insides/content/Theory/ELF.html)
+ - [Writeup about reversing ELF](http://pwning.fun//writeup/2017/11/03/HitconCTF2017-Everlasting-Imaginative-Void.html) with forged sections/segments
 
 ## Miscellanea
 
