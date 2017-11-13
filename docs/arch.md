@@ -58,6 +58,7 @@ based on the Intel 8086 CPU and its Intel 8088 variant.
  - [The mysteries arround "0x7C00" in x86 architecture bios bootloader](http://www.glamenv-septzen.net/en/view/6)
  - [Shellcode obfuscation](https://breakdev.org/x86-shellcode-obfuscation-part-2/) talk about internal format of opcode
  - [x86 paging](http://www.cirosantilli.com/x86-paging/)
+ - [Repo](https://github.com/cirosantilli/x86-assembly-cheat) with running examples.
 
 ## AMD64
 
