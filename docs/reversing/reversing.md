@@ -1,6 +1,7 @@
 # Reversing
 
  - https://advancedpersistentjest.com/2017/06/19/reversing-the-balong-m3mcu-console-lightning-the-path-to-ring-0/
+ - https://blog.ret2.io/2017/11/16/dangers-of-the-decompiler/
  
 ## Hardware
 
