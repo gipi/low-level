@@ -19,6 +19,7 @@
  - [[GUIDE] USB Uart on Galaxy S devices](https://forum.xda-developers.com/showthread.php?t=1901376)
  - [NXP LPC1343 Bootloader Bypass (Part 1) - Communicating with the bootloader](https://toothless.co/blog/bootloader-bypass-part1/)
  - [BootStomp: On the Security of Bootloaders in Mobile Devices](http://cs.ucsb.edu/~yanick/publications/2017_sec_bootstomp.pdf)
+ - [Amlogic S905 SoC: bypassing the (not so) Secure Boot to dump the BootROM](http://www.fredericb.info/2016/10/amlogic-s905-soc-bypassing-not-so.html)
 
 ## Glitching
 
