@@ -205,6 +205,7 @@ sys.stdout.write(str(r))
  - [Ropemporium](https://ropemporium.com) Learn return-oriented programming through a series of challenges designed to teach ROP techniques in isolation, with minimal reverse-engineering and bug-hunting.
  - [one_gadget](https://github.com/david942j/one_gadget) A tool for you easy to find the one gadget RCE in libc.so.6
  - [one-gadget RCE in Ubuntu 16.04 libc](https://kimiyuki.net/blog/2016/09/16/one-gadget-rce-ubuntu-1604/)
+ - [universalrop](https://github.com/kokjo/universalrop) Small tool for generating ropchains using unicorn and z3
 
 ### Links
 
