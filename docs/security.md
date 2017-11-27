@@ -5,6 +5,7 @@ User input **must** be sanitized!
 ## Weird machines
 
  - [LANGSEC](http://langsec.org/) Language-theoretic Security
+ - [Page](http://www.cs.dartmouth.edu/~sergey/wm/) about weird machines by halvar flake
  - [Exploitation and state machines](http://archives.scovetta.com/pub/conferences/infiltrate_2011/Fundamentals_of_exploitation_revisited.pdf) Programming the “weird machine”, revisited)
  - [Hacking & Computer Science](https://events.ccc.de/congress/2010/Fahrplan/attachments/1807_ccc-hacker-research.pdf)
  - [The science of insecurity](http://langsec.org/insecurity-theory-28c3.pdf)
