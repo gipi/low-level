@@ -12,6 +12,18 @@ User input **must** be sanitized!
  - [Video](https://archive.org/details/2010-07-28LenSassaman-ExploitingTheForestWithTrees) 2010-07-28 Meredith L. Patterson and Len Sassaman - Black Hat USA 2010 - Exploiting the Forest with Trees
  - [From Buffer Overflows to “Weird Machines” and Theory of Computation](http://langsec.org/papers/Bratus.pdf)
 
+## Pentesting
+
+There are several phases
+
+ 1. **recon**
+ 2. **scan**
+ 3. **gain access**
+ 4. **maintain access**
+ 5. **cover tracks**
+
+ - https://github.com/coreb1t/awesome-pentest-cheat-sheets
+
 ## Bruteforce
 
 In some cases it's important to make the space containing certain variables
