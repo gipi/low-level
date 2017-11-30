@@ -135,6 +135,7 @@ an 'illegal instruction' exception is raised.
  - [Alphanumeric RISC ARM Shellcode](http://phrack.org/issues/66/12.html)
  - [ARM assembly tutorial](https://azeria-labs.com/writing-arm-assembly-part-1/)
  - [ARM immediate value encoding](https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/)
+ - [The Instruction Set](http://www.peter-cockerell.net/aalp/html/ch-3.html)
 
 ### AVR
 
