@@ -134,6 +134,7 @@ an 'illegal instruction' exception is raised.
  - [VPF](https://en.wikipedia.org/wiki/ARM_architecture#Floating-point_.28VFP.29): technology is an FPU (Floating-Point Unit) coprocessor extension to the ARM architecture
  - [Alphanumeric RISC ARM Shellcode](http://phrack.org/issues/66/12.html)
  - [ARM assembly tutorial](https://azeria-labs.com/writing-arm-assembly-part-1/)
+ - [ARM immediate value encoding](https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/)
 
 ### AVR
 
