@@ -123,3 +123,4 @@ s 0
  - [Disassembling 6502 code with Radare – Part I](https://retro.moe/2015/11/18/disassembling-6502-code-with-radare-part-i/)
  - [A journey into Radare 2 – Part 2: Exploitation](https://www.megabeets.net/a-journey-into-radare-2-part-2/)
  - [Hitcon2017CTF writeup](http://pwning.fun//writeup/2017/11/03/HitconCTF2017-Everlasting-Imaginative-Void.html)
+ - [REVERSE ENGINEERING A GAMEBOY ROM WITH RADARE2](https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2/)
