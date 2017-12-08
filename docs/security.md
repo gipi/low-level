@@ -84,6 +84,8 @@ a string as little as possible**.
  - https://www.idontplaydarts.com/2011/02/using-php-filter-for-local-file-inclusion/
  - https://www.idontplaydarts.com/2011/03/php-remote-file-inclusion-command-shell-using-data-stream/
  - [Liffy](https://github.com/rotlogix/liffy): Local File Inclusion Exploitation Tool
+ - [Upgrade from LFI to RCE via PHP Sessions](https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/)
+ - [Exploiting PHP File Inclusion – Overview](https://websec.wordpress.com/2010/02/22/exploiting-php-file-inclusion-overview/)
 
 ## HTTP parameters pollution
 
