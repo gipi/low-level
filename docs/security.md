@@ -13,6 +13,8 @@ User input **must** be sanitized!
  - [Video](https://archive.org/details/2010-07-28LenSassaman-ExploitingTheForestWithTrees) 2010-07-28 Meredith L. Patterson and Len Sassaman - Black Hat USA 2010 - Exploiting the Forest with Trees
  - [From Buffer Overflows to “Weird Machines” and Theory of Computation](http://langsec.org/papers/Bratus.pdf)
 
+Unrelated for now but there is an Android's vulnerabilities [CVE-2017-13156](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) where the system parses an ``APK`` or a ``DEX`` allowing to bypass signature.
+
 ## Pentesting
 
 There are several phases
