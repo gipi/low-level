@@ -3,6 +3,9 @@
  - https://advancedpersistentjest.com/2017/06/19/reversing-the-balong-m3mcu-console-lightning-the-path-to-ring-0/
  - https://blog.ret2.io/2017/11/16/dangers-of-the-decompiler/
  - https://puri.sm/posts/primer-to-reverse-engineering-intel-fsp/
+ - https://quequero.org/2017/07/arm-exploitation-iot-episode-1/
+ - https://quequero.org/2017/09/arm-exploitation-iot-episode-2/
+ - https://quequero.org/2017/11/arm-exploitation-iot-episode-3/
  
 ## Hardware
 
