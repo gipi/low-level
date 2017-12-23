@@ -18,6 +18,7 @@
  - [CVE-2016-7201](https://www.endgame.com/blog/chakra-exploit-and-limitations-modern-mitigation-techniques) IE Edge
  - [CVE-2017-1000366](https://www.qualys.com/research/security-advisories/) Stack clash
  - [Solving a post exploitation issue with CVE-2017-7308](https://www.coresecurity.com/blog/solving-post-exploitation-issue-cve-2017-7308)
+ - [CVE-2017-2636](https://a13xp0p0v.github.io/2017/03/24/CVE-2017-2636.html) race condition in the n_hdlc Linux kernel driver bypassing SMEP
 
 # Writeup
 
