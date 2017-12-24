@@ -22,6 +22,9 @@ Take into account also the path separator and the syntax behind it.
 
  - [Programming with ANSI escape codes](http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html)
  - [The TTY demystified](http://www.linusakesson.net/programming/tty/)
+ - [Abusing the FILE structure](https://outflux.net/blog/archives/2011/12/22/abusing-the-file-structure/)
+ - http://blog.hostilefork.com/where-printf-rubber-meets-road/
+ - https://sourceware.org/glibc/wiki/LibioVtables
 
 ## Links
 
