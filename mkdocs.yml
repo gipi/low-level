@@ -22,6 +22,7 @@ pages:
   - 'Crypto': security/crypto.md
   - 'XXE': security/xxe.md
   - 'XSS': security/xss.md
+  - 'CTF': security/ctf.md
   - 'CVE': cve.md
   - 'Hardware': security/hardware.md
   - 'Heap': security/heap.md
