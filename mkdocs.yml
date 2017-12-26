@@ -18,6 +18,7 @@ pages:
   - Memory: memory.md
 - Security:
   - 'Home': security.md
+  - 'Browers': security/browser.md
   - 'Crypto': security/crypto.md
   - 'XXE': security/xxe.md
   - 'XSS': security/xss.md
