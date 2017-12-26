@@ -17,7 +17,7 @@ pages:
   - Randomness: randomness.md
   - Memory: memory.md
 - Security:
-  - 'Home': security.md
+  - 'Home': security/index.md
   - 'Browers': security/browser.md
   - 'Crypto': security/crypto.md
   - 'XXE': security/xxe.md
