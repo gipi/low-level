@@ -24,6 +24,7 @@ pages:
   - 'XSS': security/xss.md
   - 'CVE': cve.md
   - 'Hardware': security/hardware.md
+  - 'Heap': security/heap.md
   - 'Video':    security/video.md
   - 'Reverse shell': security/reverse-shell.md
   - Remote code execution: security/rce.md
