@@ -5,6 +5,7 @@ library, memory model etc...
 
 ## Links
 
+ - [Phrack's paper](http://www.phrack.org/papers/attacking_javascript_engines.html) .:: Attacking JavaScript Engines: A case study of JavaScriptCore and CVE-2016-4622 ::.
  - https://github.com/julienbedard/browsersploit
  - https://github.com/HynekPetrak/malware-jail
  - https://phoenhex.re/ pwning WebKit related browsers
