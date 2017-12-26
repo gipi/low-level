@@ -82,6 +82,7 @@ a string as little as possible**.
  - [Advances in format string exploitation](http://phrack.org/issues/59/7.html) 0x0b, Issue 0x3b, Phile #0x07 of 0x12
  - [Howto remotely and automatically exploit a format bug](http://julianor.tripod.com/bc/remotefs.txt)
  - [libformatstr](https://github.com/hellman/libformatstr) Simplify format string exploitation.
+ - [0CTF 2017 Quals: EasiestPrintf](https://poning.me/2017/03/23/EasiestPrintf/) exploiting ``__free_hook`` using ``printf``
 
 ## LFI/RFI
 
