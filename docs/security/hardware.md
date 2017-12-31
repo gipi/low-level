@@ -12,6 +12,7 @@
  - [Reverse Engineering Hardware of Embedded Devices: From China to the World](http://blog.sec-consult.com/2017/07/reverse-engineering-hardware.html)
  - [Shedding too much Light on a Microcontroller’s Firmware Protection](https://www.usenix.org/system/files/conference/woot17/woot17-paper-obermaier.pdf) paper about microcontroller security protection bypass
  - [paper](https://eprint.iacr.org/2015/260.pdf) Computational Aspects of Correlation Power Analysis
+ - [Console Security - Switch](https://media.ccc.de/v/34c3-8941-console_security_-_switch)
 
 ## Bootloader
 
