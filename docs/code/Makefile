@@ -5,6 +5,7 @@ BINS += payload-eater
 BINS += i_crash
 BINS += exe
 BINS += bruteforce
+BINS += fork
 
 CPPFLAGS += -Wall
 
@@ -43,6 +44,11 @@ LDFLAGS  += -Wl,-z,now -Wl,-z,relro,-z,noexecstack
 REAL_BINS := $(foreach bin, $(BINS), $(addsuffix $(SUFFIX), $(bin)))
 
 all: $(BINS) $(REAL_BINS)
+
+help:
+	@echo CPPFLAGS = $(CPPFLAGS)
+	@echo suffix = $(SUFFIX)
+	@echo $(REAL_BINS)
 
 clean:
 	rm -f $(BINS) $(REAL_BINS)

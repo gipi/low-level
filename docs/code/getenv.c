@@ -10,7 +10,7 @@ int main() {
         return 1;
     }
 
-    fprintf(stderr, "%08x", env);
+    fprintf(stderr, "%p", env);
 
     return 0;
 }
