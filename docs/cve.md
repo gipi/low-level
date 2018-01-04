@@ -25,3 +25,4 @@
 
  - [How we broke PHP, hacked Pornhub and earned 20.000$](https://www.evonide.com/how-we-broke-php-hacked-pornhub-and-earned-20000-dollar/)
  - Explaining Dirty COW local root exploit - CVE-2016-5195 [Video](https://www.youtube.com/watch?v=kEsshExn7aE)
+ - [PS4 kernel exploit write-up for 4.05](https://github.com/Cryptogenic/Exploit-Writeups/blob/master/PS4/%22NamedObj%22%204.05%20Kernel%20Exploit%20Writeup.md#stage-3---heap-sprayobject-fake)
