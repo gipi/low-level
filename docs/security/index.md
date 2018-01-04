@@ -28,6 +28,7 @@ There are several phases
  5. **cover tracks**
 
  - https://github.com/coreb1t/awesome-pentest-cheat-sheets
+ - https://github.com/nixawk/pentest-wiki
 
 ## Bruteforce
 
