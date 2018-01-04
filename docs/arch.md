@@ -59,6 +59,7 @@ based on the Intel 8086 CPU and its Intel 8088 variant.
  - [Shellcode obfuscation](https://breakdev.org/x86-shellcode-obfuscation-part-2/) talk about internal format of opcode
  - [x86 paging](http://www.cirosantilli.com/x86-paging/)
  - [Repo](https://github.com/cirosantilli/x86-assembly-cheat) with running examples.
+ - http://flint.cs.yale.edu/cs421/papers/x86-asm/asm.html
 
 ## AMD64
 
