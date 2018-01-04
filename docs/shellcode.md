@@ -245,3 +245,5 @@ $ shellcraft i386.linux.cat .passwd --format asm
     cdq /* edx=0 */
     int 0x80
 ```
+
+ - https://github.com/Gallopsled/pwntools-tutorial
