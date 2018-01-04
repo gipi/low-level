@@ -114,6 +114,14 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
 
  - [https://www.akkadia.org/drepper/tls.pdf](https://www.akkadia.org/drepper/tls.pdf)
  - [Thread Local Storage](http://wiki.osdev.org/Thread_Local_Storage)
+ 
+### Dwarf
+ 
+  - https://www.ibm.com/developerworks/aix/library/au-dwarf-debug-format/index.html
+  - http://www.dwarfstd.org/doc/Debugging%20using%20DWARF-2012.pdf
+  - https://stackoverflow.com/questions/5954140/dumping-c-structure-sizes-from-elf-object-file
+  - http://wiki.dwarfstd.org/index.php?title=DWARF_FAQ
+  - https://landley.net/kdocs/ols/2007/ols2007v2-pages-35-44.pdf
 
 ### Links
 
