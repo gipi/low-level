@@ -33,6 +33,9 @@
 
 ## Side channel attack
 
+ - [Reading privileged memory with a side-channel](https://googleprojectzero.blogspot.it/2018/01/reading-privileged-memory-with-side.html)
+ - Intel Analysis of Speculative Execution Side Channels [PDF](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf)
+
 ### Power analysis
 
  - [Differential Power Analysis](http://www.cse.msstate.edu/~ramkumar/DPA.pdf) original paper by Paul Kocher
