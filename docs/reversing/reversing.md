@@ -8,6 +8,7 @@
  - https://quequero.org/2017/11/arm-exploitation-iot-episode-3/
  - http://kakaroto.homelinux.net/2017/11/introduction-to-reverse-engineering-and-assembly/
  - https://rdomanski.github.io/Reverse-engineering-of-ARM-Microcontrollers/
+ - http://grangeia.io/2015/11/30/hacking-tomtom-runner-pt3/
  
 ## Hardware
 
