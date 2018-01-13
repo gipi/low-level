@@ -167,6 +167,7 @@ Usually ``r0`` and ``r1`` are [fixed](https://gcc.gnu.org/wiki/avr-gcc#Fixed_Reg
  - [MIPS32® Instruction Set Quick Reference](https://www.cs.duke.edu/courses/fall13/compsci250/MIPS32_QRC.pdf)
  - [MIPS: non-virtualizable architecture (Part 1)](http://www.nulltrace.org/2011/04/mips-non-virtualizable-architecture.html)
  - [Exceptions in MIPS](http://www.cs.iit.edu/~virgil/cs470/Labs/Lab7.pdf)
+ - MIPS binary [repo](https://github.com/darkerego/mips-binaries)
 
 ### SPARC
 
