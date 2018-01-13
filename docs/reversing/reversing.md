@@ -7,6 +7,7 @@
  - https://quequero.org/2017/09/arm-exploitation-iot-episode-2/
  - https://quequero.org/2017/11/arm-exploitation-iot-episode-3/
  - http://kakaroto.homelinux.net/2017/11/introduction-to-reverse-engineering-and-assembly/
+ - https://rdomanski.github.io/Reverse-engineering-of-ARM-Microcontrollers/
  
 ## Hardware
 
