@@ -13,6 +13,7 @@
  - [Shedding too much Light on a Microcontroller’s Firmware Protection](https://www.usenix.org/system/files/conference/woot17/woot17-paper-obermaier.pdf) paper about microcontroller security protection bypass
  - [paper](https://eprint.iacr.org/2015/260.pdf) Computational Aspects of Correlation Power Analysis
  - [Console Security - Switch](https://media.ccc.de/v/34c3-8941-console_security_-_switch)
+ - [Exploiting cheap labor!](https://cr0n1c.wordpress.com/2018/01/08/exploiting-cheap-labor/) D-Link 815N vulnerabilities hunt
 
 ## Bootloader
 
