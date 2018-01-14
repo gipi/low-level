@@ -27,6 +27,7 @@ pages:
   - 'Hardware': security/hardware.md
   - 'Heap': security/heap.md
   - 'Kernel': security/kernel.md
+  - 'Malware&Rootkit': security/malware.md
   - 'Video':    security/video.md
   - 'Reverse shell': security/reverse-shell.md
   - Remote code execution: security/rce.md
