@@ -198,3 +198,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Escaping a Python sandbox with a memory corruption bug](https://medium.com/@gabecpike/python-sandbox-escape-via-a-memory-corruption-bug-19dde4d5fea5)
  - [
 Jinja2 template injection filter bypasses](https://0day.work/jinja2-template-injection-filter-bypasses/)
+ - [Spring Boot RCE](http://deadpool.sh/2017/RCE-Springs/) via a template code injection
