@@ -155,7 +155,7 @@ Usually ``r0`` and ``r1`` are [fixed](https://gcc.gnu.org/wiki/avr-gcc#Fixed_Reg
 #### Links
 
  - [Wikipedia's AVR Instruction set](https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set)
- - [Instruction set manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf)
+ - [Instruction set manual](http://roncella.iet.unipi.it/Didattica/Corsi/Elettronica/Risorse/Atmel-0856-AVR-Instruction-Set-Manual.pdf)
  - [Instruction set summary](http://www.avr-tutorials.com/sites/default/files/Instruction%20Set%20Summary.pdf)
 
 ### MIPS
