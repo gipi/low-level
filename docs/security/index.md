@@ -7,13 +7,14 @@ User input **must** be sanitized!
  - [LANGSEC](http://langsec.org/) Language-theoretic Security
  - [Page](http://www.cs.dartmouth.edu/~sergey/wm/) about weird machines by halvar flake
  - [Weird machines, exploitability, and provable
-unexploitability](http://ieeexplore.ieee.org/stamp/stamp.jsp?reload=true&tp=&arnumber=8226852)
+unexploitability](http://ieeexplore.ieee.org/stamp/stamp.jsp?reload=true&tp=&arnumber=8226852) also [slide](https://docs.google.com/presentation/d/1lfQGEX2aGEA1H7flsXw4V30ZkbnrfikYk9IrctuwZO8/edit)
  - [Exploitation and state machines](http://archives.scovetta.com/pub/conferences/infiltrate_2011/Fundamentals_of_exploitation_revisited.pdf) Programming the “weird machine”, revisited)
  - [Hacking & Computer Science](https://events.ccc.de/congress/2010/Fahrplan/attachments/1807_ccc-hacker-research.pdf)
  - [The science of insecurity](http://langsec.org/insecurity-theory-28c3.pdf)
  - [Accidentally Turing-Complete](http://beza1e1.tuxen.de/articles/accidentally_turing_complete.html)
  - [Video](https://archive.org/details/2010-07-28LenSassaman-ExploitingTheForestWithTrees) 2010-07-28 Meredith L. Patterson and Len Sassaman - Black Hat USA 2010 - Exploiting the Forest with Trees
  - [From Buffer Overflows to “Weird Machines” and Theory of Computation](http://langsec.org/papers/Bratus.pdf)
+ - [On Validating Inputs](https://noncombatant.org/2018/01/15/on-validating-inputs/)
 
 Unrelated for now but there is an Android's vulnerabilities [CVE-2017-13156](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) where the system parses an ``APK`` or a ``DEX`` allowing to bypass signature.
 
