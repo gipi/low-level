@@ -15,4 +15,4 @@
  - [Riding free on the heap – Double free attacks!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-riding-free-on-the-heap-double-free-attacks/)
  - [GIST](https://gist.github.com/inaz2/0fbfe243ca9e4b904edad037d0d76697) overwrite ``malloc_hook`` by fastbins unlink attack
 Raw
-
+ - [Heap Safari - Thread Local Caching](https://0x00sec.org/t/heap-safari-thread-local-caching/5054)
