@@ -9,4 +9,5 @@
    kernel stack data (probably fixed by now)
  - [Practical SMEP/SMAP bypass techniques on Linux](https://www.syscan360.org/slides/2016_SG_Vitaly_Nikolenko_Practical_SMEP_Bypass_Techniques.pdf)
  - [SMEP: What is It, and How to Beat It on Linux](http://vulnfactory.org/blog/2011/06/05/smep-what-is-it-and-how-to-beat-it-on-linux/)
+ - [The State of Kernel Self Protection](https://outflux.net/slides/2018/lca/kspp.pdf)
 
