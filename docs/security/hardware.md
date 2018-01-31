@@ -14,6 +14,7 @@
  - [paper](https://eprint.iacr.org/2015/260.pdf) Computational Aspects of Correlation Power Analysis
  - [Console Security - Switch](https://media.ccc.de/v/34c3-8941-console_security_-_switch)
  - [Exploiting cheap labor!](https://cr0n1c.wordpress.com/2018/01/08/exploiting-cheap-labor/) D-Link 815N vulnerabilities hunt
+ - [THE CAR HACKER’S HANDBOOK](http://opengarages.org/handbook/ebook/)
 
 ## Bootloader
 
