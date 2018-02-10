@@ -184,6 +184,13 @@ The MOS Technology 6502 is a little-endian 8-bit microprocessor with a 16 bit ad
  - [Wikipedia page](https://en.wikipedia.org/wiki/MOS_Technology_6502)
  - [cc65](https://cc65.github.io/cc65/) is a complete cross development package for 65(C)02 systems, including a powerful macro assembler, a C compiler, linker, librarian and several other tools.
 
+### RISC-V
+
+Open source ISA
+
+ - [Home page](https://riscv.org/)
+ - [potato](https://github.com/skordal/potato) A simple RISC-V processor for use in FPGA designs.
+
 
 ## Links
 
