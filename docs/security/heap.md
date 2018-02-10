@@ -16,3 +16,4 @@
  - [GIST](https://gist.github.com/inaz2/0fbfe243ca9e4b904edad037d0d76697) overwrite ``malloc_hook`` by fastbins unlink attack
 Raw
  - [Heap Safari - Thread Local Caching](https://0x00sec.org/t/heap-safari-thread-local-caching/5054)
+ - [Adobe Flash Exploitation, Then and Now: From CVE-2015-5119 to CVE-2018-4878](https://www.mdsec.co.uk/2018/02/adobe-flash-exploitation-then-and-now-from-cve-2015-5119-to-cve-2018-4878/)
