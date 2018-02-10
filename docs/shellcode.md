@@ -216,6 +216,7 @@ sys.stdout.write(str(r))
  - [Common Pitfalls When Writing Exploits](http://www.mathyvanhoef.com/2012/11/common-pitfalls-when-writing-exploits.html)
  - [Finding kernel symbols for shell code](https://ryiron.wordpress.com/2013/09/05/kptr_restrict-finding-kernel-symbols-for-shell-code/) methodology to find address of kernel symbols
  - [Linux Kernel pktcdvd Memory Disclosure](https://jon.oberheide.org/blog/2010/10/23/linux-kernel-pktcdvd-memory-disclosure/)
+ - [Super-Stealthy Droppers](https://0x00sec.org/t/super-stealthy-droppers/3715) about injecting code in running processes without using ``ptrace`` but ``memfd_create`` and ``fexecve``
 
 ## Tools
 
