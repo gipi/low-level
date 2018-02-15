@@ -49,10 +49,12 @@ Disassemble also for different architecture (like arm ``r2 -aarm -b16 gy1_v162.f
 ## Print ELF
 
 In the example below we print the ``ELF`` header of an executable and then
-examine the first three program headers:
+examine the first three program headers: open the file with ``-nn`` otherwise
+``radare2`` tries to map only the program headers
 
 ```
-s 0
+$ r2 -nn file.elf
+[]> s 0
 [0x00000000]> pfo elf32
 [0x00000000]> pf.elf_header 
      ident : 0x00000000 = .ELF...
