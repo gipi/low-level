@@ -159,6 +159,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Bypassing non-executable-stack during exploitation using return-to-libc](http://www.infosecwriters.com/text_resources/pdf/return-to-libc.pdf)
  - [The advanced return-into-lib(c) exploits: PaX case study](http://phrack.org/issues/58/4.html)
  - [PAYLOAD ALREADY INSIDE: DATA REUSE FOR ROP EXPLOITS](https://media.blackhat.com/bh-us-10/whitepapers/Le/BlackHat-USA-2010-Le-Paper-Payload-already-inside-data-reuse-for-ROP-exploits-wp.pdf)
+ - [Linux ASLR and GNU Libc: Address space layout computing and defence, and “stack canary” protection bypass](documents/offensivecon-talk.pdf)
 
 ## Cloud
 
