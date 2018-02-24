@@ -1,4 +1,13 @@
-# Embedded Systems
+# Microcontrollers&Embedded Systems
+
+## Microcontrollers
+
+### ESP32
+
+ - [Video](https://www.youtube.com/watch?v=k_D_Qu0cgu8) ESP32 Dual Core on Arduino IDE including Data Passing and Task Synchronization
+
+
+## Embedded systems
 
  - [Analyzing Malware for Embedded Devices: TheMoon Worm](https://w00tsec.blogspot.it/2014/02/analyzing-malware-for-embedded-devices.html)
  - [Build a Debian Jessie root filesystem](http://www.acmesystems.it/debian_jessie)
