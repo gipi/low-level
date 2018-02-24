@@ -186,6 +186,11 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
 
   - [Spam and phishing in 2016](https://securelist.com/analysis/kaspersky-security-bulletin/77483/kaspersky-security-bulletin-spam-and-phishing-in-2016/)
 
+## DNS Rebinding
+
+ - https://lock.cmpxchg8b.com/rebinder.html
+ - https://bugs.chromium.org/p/project-zero/issues/detail?id=1471&desc=2
+
 ## Links
 
  - [online courses](https://github.com/prakhar1989/awesome-courses#security)
