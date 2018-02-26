@@ -104,6 +104,7 @@ The kernel loads in memory only the ``PT_LOAD`` type and if is defined an interp
 the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the dynamic sections).
 
  - [Specification](http://www.skyfree.org/linux/references/ELF_Format.pdf)
+ - [Cheating the ELF](documents/subversiveld.pdf)
 
 ### Relocation
 
