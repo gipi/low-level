@@ -105,6 +105,7 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
 
  - [Specification](http://www.skyfree.org/linux/references/ELF_Format.pdf)
  - [Cheating the ELF](documents/subversiveld.pdf)
+ - [LIEF](https://lief-project.github.io) The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats
 
 ### Relocation
 
