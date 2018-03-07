@@ -9,6 +9,7 @@
  - http://kakaroto.homelinux.net/2017/11/introduction-to-reverse-engineering-and-assembly/
  - https://rdomanski.github.io/Reverse-engineering-of-ARM-Microcontrollers/
  - http://grangeia.io/2015/11/30/hacking-tomtom-runner-pt3/
+ - [Reverse Engineering using the Linux Operating System](http://reverse.lostrealm.com/)
  
 ## Hardware
 
