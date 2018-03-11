@@ -34,6 +34,8 @@
  - Fault attacks on secure chips: from glitch to flash [PDF](https://www.cl.cam.ac.uk/~sps32/ECRYPT2011_1.pdf)
  - [How the PS3 hypervisor was hacked](https://rdist.root.org/2010/01/27/how-the-ps3-hypervisor-was-hacked/)
  - [Firmware dumping technique for an ARM Cortex-M0 SoC](http://blog.includesecurity.com/2015/11/NordicSemi-ARM-SoC-Firmware-dumping-technique.html)
+ - [An In-depth and Black-box characterization of
+the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0bcd/7c1ddac0667f54cb3e05739409f47a0d6467.pdf)
 
 ## Side channel attack
 
