@@ -39,6 +39,7 @@
 
  - [Reading privileged memory with a side-channel](https://googleprojectzero.blogspot.it/2018/01/reading-privileged-memory-with-side.html)
  - Intel Analysis of Speculative Execution Side Channels [PDF](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf)
+ - [Hiding your White-Box Designs is Not Enough](https://www.troopers.de/media/filer_public/b8/4f/b84f0051-3992-4b34-8b7d-7f0be5f209e0/troopers16_teuwen_hiding_your_wb_designs.pdf)
 
 ### Power analysis
 
