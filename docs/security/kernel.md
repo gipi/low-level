@@ -12,4 +12,5 @@
  - [SMEP: What is It, and How to Beat It on Linux](http://vulnfactory.org/blog/2011/06/05/smep-what-is-it-and-how-to-beat-it-on-linux/)
  - [The State of Kernel Self Protection](https://outflux.net/slides/2018/lca/kspp.pdf)
  - [Linux Kernel x86-64 bypass SMEP - KASLR - kptr_restric](http://blackbunny.io/linux-kernel-x86-64-bypass-smep-kaslr-kptr_restric/)
+ - Linux Kernel ROP - Ropping your way to [part 1](https://www.trustwave.com/Resources/SpiderLabs-Blog/Linux-Kernel-ROP---Ropping-your-way-to---(Part-1)/) and [part 2](https://www.trustwave.com/Resources/SpiderLabs-Blog/Linux-Kernel-ROP---Ropping-your-way-to---(Part-2)/)
 
