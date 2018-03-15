@@ -15,4 +15,6 @@
  - Linux Kernel ROP - Ropping your way to [part 1](https://www.trustwave.com/Resources/SpiderLabs-Blog/Linux-Kernel-ROP---Ropping-your-way-to---(Part-1)/) and [part 2](https://www.trustwave.com/Resources/SpiderLabs-Blog/Linux-Kernel-ROP---Ropping-your-way-to---(Part-2)/)
  - [Hacking the PS4, part 3](https://cturt.github.io/ps4-3.html) kernel exploitation
  - [Kernel-mode exploits primer](http://old.iseclab.org/projects/vifuzz/docs/exploit.pdf)
+ - Smashing The Kernel Stack For Fun And Profit [Phrack 60::6](http://phrack.org/issues/60/6.html)
+ - Attacking the Core: Kernel Exploitation Notes [Phrack 64::6](http://phrack.org/issues/64/6.html#article)
 
