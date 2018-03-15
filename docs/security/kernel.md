@@ -14,4 +14,5 @@
  - [Linux Kernel x86-64 bypass SMEP - KASLR - kptr_restric](http://blackbunny.io/linux-kernel-x86-64-bypass-smep-kaslr-kptr_restric/)
  - Linux Kernel ROP - Ropping your way to [part 1](https://www.trustwave.com/Resources/SpiderLabs-Blog/Linux-Kernel-ROP---Ropping-your-way-to---(Part-1)/) and [part 2](https://www.trustwave.com/Resources/SpiderLabs-Blog/Linux-Kernel-ROP---Ropping-your-way-to---(Part-2)/)
  - [Hacking the PS4, part 3](https://cturt.github.io/ps4-3.html) kernel exploitation
+ - [Kernel-mode exploits primer](http://old.iseclab.org/projects/vifuzz/docs/exploit.pdf)
 
