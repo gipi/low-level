@@ -10,4 +10,5 @@
  - [0x00sec](https://0x00sec.org)
  - [hack the box](https://www.hackthebox.eu)
  - [CHES2015 Writeup](http://wiki.yobi.be/wiki/CHES2015_Writeup)
+ - [Blizzard CTF 2017 – The LichKing Reverse Engineering challenge walkthrough](http://0xeb.net/2018/02/blizzard-ctf-2017-the-lichking-reverse-engineering-challenge-walkthrough/)
 
