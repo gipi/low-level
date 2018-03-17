@@ -138,6 +138,7 @@ an 'illegal instruction' exception is raised.
  - [ARM immediate value encoding](https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/)
  - [The Instruction Set](http://www.peter-cockerell.net/aalp/html/ch-3.html)
  - [Cortex-M for beginners](documents/Cortex-M for Beginners - 2017_EN_v2.pdf)
+ - [open source baremetal coding resources for ARM Cortex-M](http://asm.thi.ng/)
 
 ### AVR
 
