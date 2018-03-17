@@ -18,3 +18,4 @@ Raw
  - [Heap Safari - Thread Local Caching](https://0x00sec.org/t/heap-safari-thread-local-caching/5054)
  - [Adobe Flash Exploitation, Then and Now: From CVE-2015-5119 to CVE-2018-4878](https://www.mdsec.co.uk/2018/02/adobe-flash-exploitation-then-and-now-from-cve-2015-5119-to-cve-2018-4878/)
  - [Post](http://tukan.farm/2017/07/08/tcache/) about new cache mechanism into glibc malloc that reduce security
+ - [From Heap to RIP](http://blog.frizn.fr/glibc/glibc-heap-to-rip)
