@@ -119,6 +119,7 @@ Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us
 ## CSRF
 
  - [Stealing Facebook access_tokens using CSRF in device login flow](https://www.josipfranjkovic.com/blog/hacking-facebook-csrf-device-login-flow)
+ - [Report Spam. Get Owned](https://www.lanmaster53.com/2018/03/15/report-spam-get-owned/)
 
 ## SQLI
 
