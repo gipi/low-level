@@ -1,5 +1,6 @@
 # Hardware
 
+ - [Overview of Hardware Hacking for Security Assessment](https://medium.com/@LargeCardinal/pentesting-hardware-42cf915c4b21)
  - [Hardware Hacking Live at S4x16](https://www.youtube.com/watch?v=Tq5-7szmxLA)
  - [ChipWhisperer-Lite](http://store.newae.com/chipwhisperer-lite-cw1173-basic-board/)
  - [Repo](https://app.assembla.com/spaces/chipwhisperer/git/source/master) for chipwhisperer
