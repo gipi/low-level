@@ -26,6 +26,7 @@
  - [BootStomp: On the Security of Bootloaders in Mobile Devices](http://cs.ucsb.edu/~yanick/publications/2017_sec_bootstomp.pdf)
  - [Amlogic S905 SoC: bypassing the (not so) Secure Boot to dump the BootROM](http://www.fredericb.info/2016/10/amlogic-s905-soc-bypassing-not-so.html)
  - [Emulating Exynos 4210 BootROM in QEMU](https://www.fredericb.info/2018/03/emulating-exynos-4210-bootrom-in-qemu.html)
+ - [Extracting TREZOR Secrets from SRAM](https://saleemrashid.com/2017/08/17/extracting-trezor-secrets-sram/)
 
 ## Glitching
 
