@@ -1,5 +1,9 @@
 # Formats
 
+## Endianess
+
+ - [How Endianness Effects Bitfield Packing](http://mjfrazer.org/mjfrazer/bitfields/)
+
 ## Character encoding
 
  - [A tutorial on character code issues](https://www.cs.tut.fi/~jkorpela/chars.html)
