@@ -17,6 +17,7 @@
  - [Exploiting cheap labor!](https://cr0n1c.wordpress.com/2018/01/08/exploiting-cheap-labor/) D-Link 815N vulnerabilities hunt
  - [THE CAR HACKER’S HANDBOOK](http://opengarages.org/handbook/ebook/)
  - Bypassing CRP on Microcontrollers by Andrew Tierney [video](https://www.youtube.com/watch?v=DTuzuaiQL_Q)
+ - [Microcontroller Firmware Recovery Using Invasive Analysis](https://duo.com/blog/microcontroller-firmware-recovery-using-invasive-analysis)
 
 ## Bootloader
 
