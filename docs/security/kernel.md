@@ -17,4 +17,8 @@
  - [Kernel-mode exploits primer](http://old.iseclab.org/projects/vifuzz/docs/exploit.pdf)
  - Smashing The Kernel Stack For Fun And Profit [Phrack 60::6](http://phrack.org/issues/60/6.html)
  - Attacking the Core: Kernel Exploitation Notes [Phrack 64::6](http://phrack.org/issues/64/6.html#article)
+ - [Stairway to Successful Kernel Exploitation](http://booksite.elsevier.com/samplechapters/9781597494861/Chapter_3.pdf)
+ - [Exploiting “BadIRET” vulnerability (CVE-2014-9322, Linux kernel privilege escalation)](https://blogs.bromium.com/exploiting-badiret-vulnerability-cve-2014-9322-linux-kernel-privilege-escalation/)
+ - [Linux Kernel Vulnerability Can Lead to Privilege Escalation: Analyzing CVE-2017-1000112](https://securingtomorrow.mcafee.com/mcafee-labs/linux-kernel-vulnerability-can-lead-to-privilege-escalation-analyzing-cve-2017-1000112/)
+ - [CVE-2016-0728](https://perception-point.io/2016/01/14/analysis-and-exploitation-of-a-linux-kernel-vulnerability-cve-2016-0728/)
 
