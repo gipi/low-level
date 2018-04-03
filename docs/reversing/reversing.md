@@ -11,6 +11,7 @@
  - http://grangeia.io/2015/11/30/hacking-tomtom-runner-pt3/
  - [Reverse Engineering using the Linux Operating System](http://reverse.lostrealm.com/)
  - [Breaking State-of-the-Art Binary Code Obfuscation](https://recon.cx/2018/brussels/resources/slides/RECON-BRX-2018-Breaking-state-of-the-art-binary-code-obfuscation.pdf)
+ - RECON Bruxelles 2018 [slide](https://recon.cx/2018/brussels/slides/)
  
 ## Hardware
 
