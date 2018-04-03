@@ -20,6 +20,7 @@ execution context.
  - [Reflected XSS through AngularJS sandbox bypass causes password exposure of McDonald users](https://finnwea.com/blog/stealing-passwords-from-mcdonalds-users)
  - [XSStrike](https://github.com/UltimateHackers/XSStrike) is a program which can crawl, fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs
  - [Top 500 Most Important XSS Script Cheat Sheet for Web Application Penetration Testing](https://gbhackers.com/top-500-important-xss-cheat-sheet/)
+ - [Stored XSS on Facebook](https://opnsec.com/2018/03/stored-xss-on-facebook/) wall by embedding an external video with Open Graph
 
 ## RPO
 
