@@ -145,6 +145,7 @@ Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us
  - [Side-channel attacks on high-security electronic safe locks](https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Plore-Side-Channel-Attacks-On-High-Security-Electronic-Safe-Locks.pdf)
  - [Exploiting Timed Based RCE](https://securitycafe.ro/2017/02/28/time-based-data-exfiltration/)
  - [commix](https://github.com/commixproject/commix) Automated All-in-One OS command injection and exploitation tool.
+ - [BranchScope: A New Side-Channel Attack on Directional Branch Predictor](http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf)
 
 ## Type juggling
 
