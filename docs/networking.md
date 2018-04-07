@@ -10,6 +10,8 @@
  - [Escape and Evasion Egressing Restricted Networks](https://www.optiv.com/blog/escape-and-evasion-egressing-restricted-networks)
  - [Linux Bridge - how it works](http://goyalankit.com/blog/linux-bridge)
  - [Linux Raw Sockets](https://www.schoenitzer.de/blog/2018/Linux%20Raw%20Sockets.html)
+ - Let's code a TCP/IP stack
+   - [Ethernet & ARP](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
 
 ## Code example
 
