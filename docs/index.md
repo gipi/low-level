@@ -1,4 +1,5 @@
 
+ - [Color](http://jamie-wong.com/post/color/)
  - [Practical Guide to Bare Metal C++](https://arobenko.gitbooks.io/bare_metal_cpp)
  - [Writing C++17 for 16-bit x86](https://dev.krzaq.cc/post/writing-cpp17-for-16bit-x86/)
  - [Anatomy of a Program in Memory](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
