@@ -34,3 +34,4 @@ Take into account also the path separator and the syntax behind it.
  - [Why Bash is like that: suid](http://www.vidarholen.net/contents/blog/?p=30)
  - [buffering in standard streams](http://www.pixelbeat.org/programming/stdio_buffering/)
  - [Command Injection Without Spaces](http://www.betterhacker.com/2016/10/command-injection-without-spaces.html)
+ - [HINTS FOR WRITING UNIX TOOLS](https://monkey.org/~marius/unix-tools-hints.html)
