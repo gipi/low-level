@@ -116,6 +116,14 @@ BusyBox v1.23.2 (2017-05-14 19:59:13 CEST) built-in shell (ash)
 root@(none):/#
 ```
 
+## Yocto
+
+ - [Building Raspberry Pi Systems with Yocto](http://www.jumpnowtek.com/rpi/Raspberry-Pi-Systems-with-Yocto.html)
+ - [Creating Linux based Embedded System Images with Yocto](https://github.com/Nuand/bladeRF/wiki/Creating-Linux-based-Embedded-System-Images-with-Yocto)
+ - [Integrating Yocto and OpenEmbedded](https://elinux.org/images/d/de/Elc2011_kooi.pdf)
+ - [Yocto Project Quick Start](https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html)
+ - [Building Our First Poky Image for the Raspberry Pi](https://hub.packtpub.com/building-our-first-poky-image-raspberry-pi/)
+
 ## Single board computers
 
 ### Omega2 plus
