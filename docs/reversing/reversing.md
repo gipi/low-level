@@ -32,6 +32,7 @@
  - [Reversing the 76477 "Space Invaders" sound effect chip from die photos](http://www.righto.com/2017/04/reverse-engineering-76477-space.html)
  - [NMOS IC Reverse Engineering](https://www.wdj-consulting.com/blog/nmos-sample.html)
  - [Video](https://www.youtube.com/watch?v=aHx-XUA6f9g) Reading Silicon: How to Reverse Engineer Integrated Circuits
+ - [Pwn2Win 2017 - Shift Register](http://blog.dragonsector.pl/2017/10/pwn2win-2017-shift-register.html)
 
 
 ## Software
