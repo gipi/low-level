@@ -17,6 +17,7 @@
  - [Analyzing Malware for Embedded Devices: TheMoon Worm](https://w00tsec.blogspot.it/2014/02/analyzing-malware-for-embedded-devices.html)
  - [Build a Debian Jessie root filesystem](http://www.acmesystems.it/debian_jessie)
  - [Device Tree for dummies](http://free-electrons.com/pub/conferences/2013/elce/petazzoni-device-tree-dummies/petazzoni-device-tree-dummies.pdf)
+ - [Device Tree Usage](https://elinux.org/Device_Tree_Usage)
  - Series about hardware analysis and firmware reversing
      - [Part 1](http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/) Hunting for Debug Ports
      - [Part 2](http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/) Scouting the Firmware
