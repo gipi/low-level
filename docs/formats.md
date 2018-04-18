@@ -85,7 +85,13 @@ loopb:  lodsb
 
 ## PDF
 
+ - [Reference](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf)
  - Let's write a PDF file [speakerdeck](https://speakerdeck.com/ange/lets-write-a-pdf-file)
+ - [PDF file format basic structure](http://resources.infosecinstitute.com/pdf-file-format-basic-structure/)
+ - https://www.aldeid.com/wiki/Analysis-of-a-malicious-pdf
+ - http://esec-lab.sogeti.com/posts/2009/06/26/at-least-4-ways-to-die-opening-a-pdf.html
+ - https://www.osdefsec.com/analyzing-malicious-pdf/
+ - http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
 
 ## H264
 
