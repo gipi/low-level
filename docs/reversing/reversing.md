@@ -12,6 +12,7 @@
  - [Reverse Engineering using the Linux Operating System](http://reverse.lostrealm.com/)
  - [Breaking State-of-the-Art Binary Code Obfuscation](https://recon.cx/2018/brussels/resources/slides/RECON-BRX-2018-Breaking-state-of-the-art-binary-code-obfuscation.pdf)
  - RECON Bruxelles 2018 [slide](https://recon.cx/2018/brussels/slides/)
+ - [BOLO: Reverse Engineering — Part 1 (Basic Programming Concepts)](https://medium.com/@danielabloom/bolo-reverse-engineering-part-1-basic-programming-concepts-f88b233c63b7)
  
 ## Hardware
 
