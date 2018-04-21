@@ -229,5 +229,6 @@ eth0.2    no wireless extensions.
  - [The comprehensive GPIO Pinout guide for the Raspberry Pi](https://pinout.xyz/)
  - [Raspberry Pi Zero 4 Port USB Hub](https://openhardwarecoza.wordpress.com/2015/12/07/raspberry-pi-zero-4-port-usb-hub-open-source-pcb-design/)
  - [raspberrypi/hats](https://github.com/raspberrypi/hats)
+ - [RPi troubleshooting](https://elinux.org/R-Pi_Troubleshooting)
 
 ### Beagle Bone Black
