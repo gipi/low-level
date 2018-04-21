@@ -38,6 +38,10 @@
 
 ## Software
 
+### Android 
+
+ - http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/
+
 ### Links
 
  - [Reverse engineering and removing Pokémon GO’s certificate pinning](https://eaton-works.com/2016/07/31/reverse-engineering-and-removing-pokemon-gos-certificate-pinning/)
