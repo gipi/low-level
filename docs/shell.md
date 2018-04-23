@@ -20,6 +20,10 @@ Take into account also the path separator and the syntax behind it.
 
 ## Console&TTY
 
+An useful diagram from [here](https://clementc.github.io/blog/2018/01/25/moving_cli/)
+
+![](moving_cli.png)
+
  - [Programming with ANSI escape codes](http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html)
  - [The TTY demystified](http://www.linusakesson.net/programming/tty/)
  - [Abusing the FILE structure](https://outflux.net/blog/archives/2011/12/22/abusing-the-file-structure/)
