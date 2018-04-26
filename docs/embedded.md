@@ -231,5 +231,6 @@ eth0.2    no wireless extensions.
  - [Raspberry Pi Zero 4 Port USB Hub](https://openhardwarecoza.wordpress.com/2015/12/07/raspberry-pi-zero-4-port-usb-hub-open-source-pcb-design/)
  - [raspberrypi/hats](https://github.com/raspberrypi/hats)
  - [RPi troubleshooting](https://elinux.org/R-Pi_Troubleshooting)
+ - Raspberry Pi Zero Extreme Teardown [video](https://www.youtube.com/watch?v=HH5cFqc9OcM)
 
 ### Beagle Bone Black
