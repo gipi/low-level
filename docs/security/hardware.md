@@ -18,6 +18,7 @@
  - [THE CAR HACKER’S HANDBOOK](http://opengarages.org/handbook/ebook/)
  - Bypassing CRP on Microcontrollers by Andrew Tierney [video](https://www.youtube.com/watch?v=DTuzuaiQL_Q)
  - [Microcontroller Firmware Recovery Using Invasive Analysis](https://duo.com/blog/microcontroller-firmware-recovery-using-invasive-analysis)
+ - [ShofEL2, a Tegra X1 and Nintendo Switch exploit](https://fail0verflow.com/blog/2018/shofel2/)
 
 ## Bootloader
 
