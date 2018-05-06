@@ -133,6 +133,7 @@ Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us
  - http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/
  - [Rails SQLI](http://rails-sqli.org/)
  - [Exploiting difficult SQL injection vulnerabilities using sqlmap: Part 1](http://www.thegreycorner.com/2017/01/exploiting-difficult-sql-injection.html)
+ - [SQL Injection Wiki](https://sqlwiki.netspi.com/)
 
 ## XPath injection
 
