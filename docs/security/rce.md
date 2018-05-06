@@ -8,3 +8,4 @@
  - Encoding Web Shell in PNG IDAT chunks ([post](https://www.idontplaydarts.com/2012/06/encoding-web-shells-in-png-idat-chunks/))
  - Exploiting PHP-GD imagecreatefromgif() function ([github repo](https://github.com/d0lph1n98/Defeating-PHP-GD-imagecreatefromgif))
  - [Series](https://dfir.it/blog/categories/webshell/) about webshells detection
+ - [Exploit/bypass PHP escapeshellarg/escapeshellcmd functions](https://security.szurek.pl/exploit-bypass-php-escapeshellarg-escapeshellcmd.html)
