@@ -19,6 +19,8 @@
  - Bypassing CRP on Microcontrollers by Andrew Tierney [video](https://www.youtube.com/watch?v=DTuzuaiQL_Q)
  - [Microcontroller Firmware Recovery Using Invasive Analysis](https://duo.com/blog/microcontroller-firmware-recovery-using-invasive-analysis)
  - [ShofEL2, a Tegra X1 and Nintendo Switch exploit](https://fail0verflow.com/blog/2018/shofel2/)
+ - [Critical RCE Vulnerability Found in Over a Million GPON Home Routers](https://www.vpnmentor.com/blog/critical-vulnerability-gpon-router/)
+ - [Rooting a Logitech Harmony Hub: Improving Security in Today's IoT World](https://www.fireeye.com/blog/threat-research/2018/05/rooting-logitech-harmony-hub-improving-iot-security.html)
 
 ## Bootloader
 
