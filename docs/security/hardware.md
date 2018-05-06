@@ -21,6 +21,8 @@
  - [ShofEL2, a Tegra X1 and Nintendo Switch exploit](https://fail0verflow.com/blog/2018/shofel2/)
  - [Critical RCE Vulnerability Found in Over a Million GPON Home Routers](https://www.vpnmentor.com/blog/critical-vulnerability-gpon-router/)
  - [Rooting a Logitech Harmony Hub: Improving Security in Today's IoT World](https://www.fireeye.com/blog/threat-research/2018/05/rooting-logitech-harmony-hub-improving-iot-security.html)
+ - [Insomni’hack 2018 write-up – S3curLock level 1, 2 & 3](https://phil242.wordpress.com/2018/03/29/insomnihack-2018-write-up-s3curlock-level-1-2-3/)
+ - [Post](http://blog.seekintoo.com/chimay-red.html) about 0day into the MikroTik's RouterOS
 
 ## Bootloader
 
