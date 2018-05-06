@@ -20,7 +20,9 @@
  - [CVE-2017-1000366](https://www.qualys.com/research/security-advisories/) Stack clash
  - [Solving a post exploitation issue with CVE-2017-7308](https://www.coresecurity.com/blog/solving-post-exploitation-issue-cve-2017-7308)
  - [CVE-2017-2636](https://a13xp0p0v.github.io/2017/03/24/CVE-2017-2636.html) race condition in the n_hdlc Linux kernel driver bypassing SMEP
-  - [CVE-2018-6789](https://devco.re/blog/2018/03/06/exim-off-by-one-RCE-exploiting-CVE-2018-6789-en/) Exim Off-by-one RCE
+  - CVE-2018-6789: Exim Off-by-one RCE
+   - [writeup](https://devco.re/blog/2018/03/06/exim-off-by-one-RCE-exploiting-CVE-2018-6789-en/)
+   - [writeup](https://medium.com/@straightblast426/my-poc-walk-through-for-cve-2018-6789-2e402e4ff588)
 
 # Writeup
 
