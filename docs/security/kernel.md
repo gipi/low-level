@@ -21,4 +21,5 @@
  - [Exploiting “BadIRET” vulnerability (CVE-2014-9322, Linux kernel privilege escalation)](https://blogs.bromium.com/exploiting-badiret-vulnerability-cve-2014-9322-linux-kernel-privilege-escalation/)
  - [Linux Kernel Vulnerability Can Lead to Privilege Escalation: Analyzing CVE-2017-1000112](https://securingtomorrow.mcafee.com/mcafee-labs/linux-kernel-vulnerability-can-lead-to-privilege-escalation-analyzing-cve-2017-1000112/)
  - [CVE-2016-0728](https://perception-point.io/2016/01/14/analysis-and-exploitation-of-a-linux-kernel-vulnerability-cve-2016-0728/)
+ - [MMap Vulnerabilities](https://research.checkpoint.com/mmap-vulnerabilities-linux-kernel/) also [PDF](https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-mmap-exploitation-whitepaper-2017-09-18.pdf)
 
