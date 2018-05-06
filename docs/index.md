@@ -1,4 +1,5 @@
 
+ - [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
  - [Color](http://jamie-wong.com/post/color/)
  - [Practical Guide to Bare Metal C++](https://arobenko.gitbooks.io/bare_metal_cpp)
  - [Writing C++17 for 16-bit x86](https://dev.krzaq.cc/post/writing-cpp17-for-16bit-x86/)
