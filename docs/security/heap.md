@@ -25,3 +25,4 @@ Raw
    - [The magicians cape – 1 Byte Overflow](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-the-magicians-cape-1-byte-overflow/)
    - [Riding free on the heap – Double free attacks!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-riding-free-on-the-heap-double-free-attacks/)
    - [Set you free()](https://sensepost.com/blog/2018/linux-heap-exploitation-intro-series-set-you-free-part-1/)
+ - [House Of Roman](https://gist.github.com/romanking98/9aab2804832c0fb46615f025e8ffb0bc)
