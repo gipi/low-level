@@ -19,3 +19,9 @@ Raw
  - [Adobe Flash Exploitation, Then and Now: From CVE-2015-5119 to CVE-2018-4878](https://www.mdsec.co.uk/2018/02/adobe-flash-exploitation-then-and-now-from-cve-2015-5119-to-cve-2018-4878/)
  - [Post](http://tukan.farm/2017/07/08/tcache/) about new cache mechanism into glibc malloc that reduce security
  - [From Heap to RIP](http://blog.frizn.fr/glibc/glibc-heap-to-rip)
+ - Linux Heap Exploitation Intro Series
+   - [printf might be leaking!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-bonus-printf-might-be-leaking/)
+   - [Used and Abused – Use After Free](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-used-and-abused-use-after-free/)
+   - [The magicians cape – 1 Byte Overflow](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-the-magicians-cape-1-byte-overflow/)
+   - [Riding free on the heap – Double free attacks!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-riding-free-on-the-heap-double-free-attacks/)
+   - [Set you free()](https://sensepost.com/blog/2018/linux-heap-exploitation-intro-series-set-you-free-part-1/)
