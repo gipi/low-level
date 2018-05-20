@@ -33,6 +33,7 @@ An useful diagram from [here](https://clementc.github.io/blog/2018/01/25/moving_
 
 ## Links
 
+ - [Google Bash style guide](https://google.github.io/styleguide/shell.xml)
  - http://resources.mpi-inf.mpg.de/departments/rg1/teaching/unixffb-ss98/quoting-guide.html
  - http://twistedoakstudios.com/blog/Post4872_dont-treat-paths-like-strings
  - [Why Bash is like that: suid](http://www.vidarholen.net/contents/blog/?p=30)
