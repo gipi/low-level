@@ -1,5 +1,6 @@
 
  - [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
+ - [C++ tutorial for C users](http://www.ericbrasseur.org/cppcen.html)
  - [Build-your-own-X](https://github.com/danistefanovic/build-your-own-x)
  - [Color](http://jamie-wong.com/post/color/)
  - [Practical Guide to Bare Metal C++](https://arobenko.gitbooks.io/bare_metal_cpp)
