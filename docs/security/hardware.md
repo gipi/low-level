@@ -24,6 +24,7 @@
  - [Rooting a Logitech Harmony Hub: Improving Security in Today's IoT World](https://www.fireeye.com/blog/threat-research/2018/05/rooting-logitech-harmony-hub-improving-iot-security.html)
  - [Insomni’hack 2018 write-up – S3curLock level 1, 2 & 3](https://phil242.wordpress.com/2018/03/29/insomnihack-2018-write-up-s3curlock-level-1-2-3/)
  - [Post](http://blog.seekintoo.com/chimay-red.html) about 0day into the MikroTik's RouterOS
+ - Ghost in the Machine: Challenges in Embedded Binary Security [video](https://www.youtube.com/watch?v=pMRa8xDFpiE) at USENIX Enigma 2017
 
 ## Bootloader
 
