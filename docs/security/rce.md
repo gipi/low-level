@@ -9,3 +9,4 @@
  - Exploiting PHP-GD imagecreatefromgif() function ([github repo](https://github.com/d0lph1n98/Defeating-PHP-GD-imagecreatefromgif))
  - [Series](https://dfir.it/blog/categories/webshell/) about webshells detection
  - [Exploit/bypass PHP escapeshellarg/escapeshellcmd functions](https://security.szurek.pl/exploit-bypass-php-escapeshellarg-escapeshellcmd.html)
+ - [GTFOBins](https://gtfobins.github.io/) is a curated list of Unix binaries that can be exploited by an attacker to bypass local security restrictions.
