@@ -46,4 +46,5 @@ def twos_complement(input_value, num_bits):
 ```
 
  - Twos complement: Negative numbers in binary [video](https://youtu.be/4qH4unVtJkE)
+ - [Number Systems](http://www.syssec.ethz.ch/content/dam/ethz/special-interest/infk/inst-infsec/system-security-group-dam/education/Digitaltechnik_14/12_NumberSystems.pdf)
 
