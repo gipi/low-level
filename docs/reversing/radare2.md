@@ -104,6 +104,7 @@ $ r2 -nn file.elf
 
  - [Cheat sheet](https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf)
  - [A journey into radare2](https://www.megabeets.net/a-journey-into-radare-2-part-1/)
+ - [Awesome radare 2](https://github.com/dukebarman/awesome-radare2)
  - Radare2 [tutorial](http://solidsec.blogspot.de/2015/10/tool-radare-2-open-source-alternative.html)
  - https://www.dustri.org/b/exploiting-ezhp-pwn200-from-plaidctf-2014-with-radare2.html
  - http://wapiflapi.github.io/2015/04/22/single-null-byte-heap-overflow/
@@ -127,4 +128,3 @@ $ r2 -nn file.elf
  - [Hitcon2017CTF writeup](http://pwning.fun//writeup/2017/11/03/HitconCTF2017-Everlasting-Imaginative-Void.html)
  - [REVERSE ENGINEERING A GAMEBOY ROM WITH RADARE2](https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2/)
  - [Reversing EVM bytecode with radare2](https://blog.positive.com/reversing-evm-bytecode-with-radare2-ab77247e5e53)
-
