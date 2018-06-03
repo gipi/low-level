@@ -1,5 +1,6 @@
 
  - [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
+ - [C Primer Plus, Fifth Edition](http://faculty.euc.ac.cy/scharalambous/csc131/books/C%20book%201.pdf)
  - [C++ tutorial for C users](http://www.ericbrasseur.org/cppcen.html)
  - [Build-your-own-X](https://github.com/danistefanovic/build-your-own-x)
  - [Color](http://jamie-wong.com/post/color/)
