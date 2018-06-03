@@ -25,6 +25,7 @@
  - [Insomni’hack 2018 write-up – S3curLock level 1, 2 & 3](https://phil242.wordpress.com/2018/03/29/insomnihack-2018-write-up-s3curlock-level-1-2-3/)
  - [Post](http://blog.seekintoo.com/chimay-red.html) about 0day into the MikroTik's RouterOS
  - Ghost in the Machine: Challenges in Embedded Binary Security [video](https://www.youtube.com/watch?v=pMRa8xDFpiE) at USENIX Enigma 2017
+ - Hacking the PS4, From zero to ring zero in two easy steps [slide](http://crack.bargains/02r0.pdf)
 
 ## Bootloader
 
