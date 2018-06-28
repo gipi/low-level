@@ -156,6 +156,7 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
  - [Writeup about reversing ELF](http://pwning.fun//writeup/2017/11/03/HitconCTF2017-Everlasting-Imaginative-Void.html) with forged sections/segments
  - [Executable and Linkable Format 101 - Part 1 Sections and Segments](http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/)
  - [Executable and Linkable Format 101. Part 2: Symbols](http://www.intezer.com/executable-linkable-format-101-part-2-symbols/)
+ - [Shared libraries and execute permissions](https://www.technovelty.org/linux/shared-libraries-and-execute-permissions.html)
 
 ## Miscellanea
 
