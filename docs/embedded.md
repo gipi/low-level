@@ -1,5 +1,23 @@
 # Microcontrollers&Embedded Systems
 
+## GPIO
+
+Usually an embedded system has a certain numbers of devices interconnected via different signals. To configure
+these interconnections in some cases **gpio** are used.
+
+```
+>>> gpio2num = lambda a,b:(a -1)*32 + b
+>>> print gpio2num(7,16)
+208
+>>> print gpio2num(7,9)
+201
+num2gpio = lambda x: (x /32 + 1, x%32)
+>>> num2gpio(98)
+(4, 2)
+```
+
+ - [Definitive GPIO guide](https://www.kosagi.com/w/index.php?title=Definitive_GPIO_guide)
+
 ## Microcontrollers
 
 ### ESP8266
