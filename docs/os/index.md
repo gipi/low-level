@@ -19,3 +19,4 @@
  - [OOPS debugging with GDB](http://mokosays.com/work/?p=22)
  - [slide](http://haifux.org/lectures/258/gpio_spi_i2c_userspace.pdf) on using ``SPI`` and ``I2C`` in user space.
  - Post about Linux implementation and history of the [Device tree](http://junyelee.blogspot.com/2014/04/linux-device-tree.html)
+ - [slide](http://www.cs.fsu.edu/~cop4610t/lectures/project2/kthreads/kthreads.pdf) about kthreads
