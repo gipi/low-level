@@ -139,6 +139,8 @@ an 'illegal instruction' exception is raised.
  - [The Instruction Set](http://www.peter-cockerell.net/aalp/html/ch-3.html)
  - [Cortex-M for beginners](documents/Cortex-M for Beginners - 2017_EN_v2.pdf)
  - [open source baremetal coding resources for ARM Cortex-M](http://asm.thi.ng/)
+ - [Why does the ARM PC register point to the instruction after the next one to be executed?
+](https://stackoverflow.com/questions/24091566/why-does-the-arm-pc-register-point-to-the-instruction-after-the-next-one-to-be-e/24092329#24092329): original ARM has 3-stage pipeline (fetch-decode-execute) so you have to add 2 words to calculate offset from pc.
 
 ### AVR
 
