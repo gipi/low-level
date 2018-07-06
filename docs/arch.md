@@ -140,7 +140,14 @@ an 'illegal instruction' exception is raised.
  - [Cortex-M for beginners](documents/Cortex-M for Beginners - 2017_EN_v2.pdf)
  - [open source baremetal coding resources for ARM Cortex-M](http://asm.thi.ng/)
  - [Why does the ARM PC register point to the instruction after the next one to be executed?
-](https://stackoverflow.com/questions/24091566/why-does-the-arm-pc-register-point-to-the-instruction-after-the-next-one-to-be-e/24092329#24092329): original ARM has 3-stage pipeline (fetch-decode-execute) so you have to add 2 words to calculate offset from pc.
+](https://stackoverflow.com/questions/24091566/why-does-the-arm-pc-register-point-to-the-instruction-after-the-next-one-to-be-e/24092329#24092329): original ARM has 3-stage pipeline (fetch-decode-execute) so you have to add 2 words to calculate offset from pc: it's more useful in reversing probably
+
+    In ARM state, the value of the PC is the address of the current instruction plus 8 bytes.
+
+    In Thumb state:
+
+    For B, BL, CBNZ, and CBZ instructions, the value of the PC is the address of the current instruction plus 4 bytes.
+    For all other instructions that use labels, the value of the PC is the address of the current instruction plus 4 bytes, with bit[1] of the result cleared to 0 to make it word-aligned.
 
 ### AVR
 
