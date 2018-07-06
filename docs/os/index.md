@@ -16,6 +16,7 @@
  - [How main() is executed on Linux](http://www.tldp.org/LDP/LG/issue84/hawk.html)
  - [__libc_start_main() specification](https://refspecs.linuxbase.org/LSB_3.0.0/LSB-PDA/LSB-PDA/baselib---libc-start-main-.html)
  - [What happens when you start a process on Linux?](http://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/)
+ - [getauxval() and the auxiliary vector](https://lwn.net/Articles/519085/)
  - [OOPS debugging with GDB](http://mokosays.com/work/?p=22)
  - [slide](http://haifux.org/lectures/258/gpio_spi_i2c_userspace.pdf) on using ``SPI`` and ``I2C`` in user space.
  - Post about Linux implementation and history of the [Device tree](http://junyelee.blogspot.com/2014/04/linux-device-tree.html)
