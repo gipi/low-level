@@ -26,3 +26,7 @@
 
  - [Clock Framework User Guide](http://processors.wiki.ti.com/index.php/Clock_Framework_User_Guide)
  - Common clock framework: how to use it [slide](https://elinux.org/images/b/b8/Elc2013_Clement.pdf)
+
+### Modules/drivers
+
+ - [How does the Linux kernel determine the order of __init calls?](https://stackoverflow.com/questions/10540008/how-does-the-linux-kernel-determine-the-order-of-init-calls/)
