@@ -253,3 +253,8 @@ eth0.2    no wireless extensions.
  - Raspberry Pi Zero Extreme Teardown [video](https://www.youtube.com/watch?v=HH5cFqc9OcM)
 
 ### Beagle Bone Black
+
+A variant of the Beagle Bone, a board with the [TI Sitara AM335x](http://www.ti.com/am335x), an application processor SoC containing an ARM Cortex-A8 core.
+
+ - [eLinux page](https://elinux.org/BeagleBone_Community)
+ - [AM335x Technical Reference Manual](https://www.ti.com/lit/ug/spruh73p/spruh73p.pdf)
