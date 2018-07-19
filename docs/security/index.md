@@ -214,3 +214,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [
 Jinja2 template injection filter bypasses](https://0day.work/jinja2-template-injection-filter-bypasses/)
  - [Spring Boot RCE](http://deadpool.sh/2017/RCE-Springs/) via a template code injection
+ - [CVE-2018-13784: PrestaShop 1.6.x Privilege Escalation](https://www.ambionics.io/blog/prestashop-privilege-escalation)
