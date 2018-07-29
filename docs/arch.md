@@ -60,6 +60,7 @@ based on the Intel 8086 CPU and its Intel 8088 variant.
  - [x86 paging](http://www.cirosantilli.com/x86-paging/)
  - [Repo](https://github.com/cirosantilli/x86-assembly-cheat) with running examples.
  - http://flint.cs.yale.edu/cs421/papers/x86-asm/asm.html
+ - [Intel x86 JUMP quick reference](http://unixwiz.net/techtips/x86-jumps.html)
 
 ## AMD64
 
