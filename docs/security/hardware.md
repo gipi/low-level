@@ -26,6 +26,7 @@
  - [Post](http://blog.seekintoo.com/chimay-red.html) about 0day into the MikroTik's RouterOS
  - Ghost in the Machine: Challenges in Embedded Binary Security [video](https://www.youtube.com/watch?v=pMRa8xDFpiE) at USENIX Enigma 2017
  - Hacking the PS4, From zero to ring zero in two easy steps [slide](http://crack.bargains/02r0.pdf)
+ - [PS4 Aux Hax 1: Intro & Aeolia](https://fail0verflow.com/blog/2018/ps4-aeolia/)
 
 ## Bootloader
 
