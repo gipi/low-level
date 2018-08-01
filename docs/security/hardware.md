@@ -59,7 +59,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
 
 ### Power analysis
 
- - [Differential Power Analysis](http://www.cse.msstate.edu/~ramkumar/DPA.pdf) original paper by Paul Kocher
+ - [Differential Power Analysis](https://www.paulkocher.com/doc/DifferentialPowerAnalysis.pdf) original paper by Paul Kocher
  - [Power-Based Side-Channel Attack for AES Key Extraction on the ATMega328 Microcontroller](https://skoppula.github.io/pdfs/sidechannel-report.pdf) with a [github repo](https://github.com/skoppula/aes-sidechannel)
  - [TEMPEST attacks against AES](https://www.fox-it.com/nl/wp-content/uploads/sites/12/Tempest_attacks_against_AES.pdf)
 
