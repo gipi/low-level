@@ -114,7 +114,8 @@ that gives general information about the types of ``ELF`` file that can be
 
 the architecture and the entry point.
 
-It defines a series of sections and segments (**program header** and **section header**).
+It defines a series of sections and segments (**program header** and **section header**), respectively describing
+the execution and the linking for the file.
 
 The kernel loads in memory only the ``PT_LOAD`` type and if is defined an interpreter (in
 the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the dynamic sections).
@@ -122,6 +123,7 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
  - [Specification](http://www.skyfree.org/linux/references/ELF_Format.pdf)
  - [Cheating the ELF](documents/subversiveld.pdf)
  - [LIEF](https://lief-project.github.io) The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats
+ - [Why doesn't `strip` remove section headers from ELF executables?](https://unix.stackexchange.com/questions/267070/why-doesnt-strip-remove-section-headers-from-elf-executables)
 
 ### Relocation
 
