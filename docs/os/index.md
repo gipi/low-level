@@ -2,6 +2,10 @@
 
  - [Raspberry pi os](https://github.com/s-matyukevich/raspberry-pi-os) This repository contains a step-by-step guide that teaches how to create a simple operating system (OS) kernel from scratch
 
+Related to that there are **Hypervisor**s
+
+ - [Hypervisor From Scratch – Part 1: Basic Concepts & Configure Testing Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
+
 ## Linux
 
  - [The definitive guide to linux system calls](http://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/)
