@@ -40,6 +40,10 @@
 
 ## Software
 
+### Java
+
+ - [Introduction to Radare Java Reverse Engineering](http://deeso.github.io/posts/2014/04/radare-java-intro/)
+
 ### Android 
 
  - http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/
