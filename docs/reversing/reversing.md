@@ -43,6 +43,7 @@
 ### Java
 
  - [Introduction to Radare Java Reverse Engineering](http://deeso.github.io/posts/2014/04/radare-java-intro/)
+ - [Using Radare to Enumerate Artifacts in a Java Class File](http://deeso.github.io/posts/2014/04/radare-java-artifact-enumeration/)
 
 It is possible to edit a single class file and save it, after that you can reput it into the jar with
 
