@@ -50,6 +50,12 @@ It is possible to edit a single class file and save it, after that you can reput
 $ jar uf jar-file input-file(s)
 ```
 
+If you want to quickly find class names you can launch this oneliner 
+
+```
+$ for f in $(ls /path/to/jars/*); do echo '-- '$f' --';strings -10 $f;done | less
+```
+
 ### Android 
 
  - http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/
