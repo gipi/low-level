@@ -44,6 +44,12 @@
 
  - [Introduction to Radare Java Reverse Engineering](http://deeso.github.io/posts/2014/04/radare-java-intro/)
 
+It is possible to edit a single class file and save it, after that you can reput it into the jar with
+
+```
+$ jar uf jar-file input-file(s)
+```
+
 ### Android 
 
  - http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/
