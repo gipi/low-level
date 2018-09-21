@@ -59,6 +59,48 @@ If you want to quickly find class names you can launch this oneliner
 $ for f in $(ls /path/to/jars/*); do echo '-- '$f' --';strings -10 $f;done | less
 ```
 
+An example with ``radare2`` of what you can see reversing the simple ``hello world`` program:
+
+```
+/ (fcn) sym.HelloWorld.main 9
+|   sym.HelloWorld.main ();
+|           0x00000183      b20002         getstatic java/lang/System/out Ljava/io/PrintStream;
+|           0x00000186      1203           ldc "Hello, World"
+|           0x00000188      b60004         invokevirtual java/io/PrintStream/println(Ljava/lang/String;)V
+\           0x0000018b      b1             return
+[0x00000158]> is
+[Symbols]
+Num Paddr      Vaddr      Bind     Type Size Name
+000 0x00000158 0x00000158   NONE   FUNC    5 <init>
+000 0x00000142 0x00000142   NONE FUNC_META   43 meta_<init>
+001 0x00000183 0x00000183   NONE   FUNC    9 main
+001 0x0000016d 0x0000016d   NONE FUNC_META   51 meta_main
+001 0x00000001 0x00000001   NONE import    0 imp.<init>
+002 0x00000002 0x00000002   NONE import    0 imp.out
+004 0x00000004 0x00000004   NONE import    0 imp.println
+
+[0x00000158]> iz
+[Strings]
+Num Vaddr      Paddr      Len Size Section  Type  String
+007 0x00000022 0x00000022   6   9 () ascii <init>
+008 0x0000002b 0x0000002b   3   6 () ascii ()V
+009 0x00000031 0x00000031   4   7 () ascii Code
+010 0x00000038 0x00000038  15  18 () ascii LineNumberTable
+011 0x0000004a 0x0000004a   4   7 () ascii main
+012 0x00000051 0x00000051  22  25 () ascii ([Ljava/lang/String;)V
+013 0x0000006a 0x0000006a  10  13 () ascii SourceFile
+014 0x00000077 0x00000077  15  18 () ascii HelloWorld.java
+018 0x00000096 0x00000096  12  15 () ascii Hello, World
+021 0x000000ad 0x000000ad  10  13 () ascii HelloWorld
+022 0x000000ba 0x000000ba  16  19 () ascii java/lang/Object
+023 0x000000cd 0x000000cd  16  19 () ascii java/lang/System
+024 0x000000e0 0x000000e0   3   6 () ascii out
+025 0x000000e6 0x000000e6  21  24 () ascii Ljava/io/PrintStream;
+026 0x000000fe 0x000000fe  19  22 () ascii java/io/PrintStream
+027 0x00000114 0x00000114   7  10 () ascii println
+028 0x0000011e 0x0000011e  21  24 () ascii (Ljava/lang/String;)V
+```
+
 ### Android 
 
  - http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/
