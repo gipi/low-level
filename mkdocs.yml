@@ -4,11 +4,12 @@ extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX
 pages:
 - Home: index.md
 - Computer:
-  - Formats: formats.md
+  - Hardware: hw.md
   - Architectures: arch.md
   - OS: os/index.md
   - Embedded Systems: embedded.md
   - Shells: shell.md
+  - Formats: formats.md
   - Filesystem: filesystem.md
 - Programming:
   - Home: programming.md
