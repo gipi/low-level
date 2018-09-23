@@ -1,5 +1,14 @@
 # Hardware
 
+## CPU
+
+ - [CPU utilization is wrong](http://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html)
+
+### Wait state
+
+ - [Wikipedia page](https://en.wikipedia.org/wiki/Wait_state)
+ - [SO question about it](https://stackoverflow.com/questions/1546756/does-a-one-cycle-instruction-take-one-cycle-even-if-ram-is-slow)
+
 ## Bus
 
 ### Wishbone
