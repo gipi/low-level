@@ -15,7 +15,9 @@
  - [BOLO: Reverse Engineering — Part 1 (Basic Programming Concepts)](https://medium.com/@danielabloom/bolo-reverse-engineering-part-1-basic-programming-concepts-f88b233c63b7)
  - [Starting Embedded Reverse Engineering: FreeRTOS, libopencm3 on STM32F103C8T6](https://blog.3or.de/starting-embedded-reverse-engineering-freertos-libopencm3-on-stm32f103c8t6.html)
  - [Intro to x64 reversing](https://pdfs.semanticscholar.org/presentation/a653/8fe41866bc0937f3aaaeb7f16f2be72f2369.pdf)
- 
+ - [Ida- how to find connection between 2 functions
+](https://reverseengineering.stackexchange.com/questions/17659/ida-how-to-find-connection-between-2-functions)
+
 ## Hardware
 
 ### Links
