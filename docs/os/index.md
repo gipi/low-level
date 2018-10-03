@@ -36,3 +36,4 @@ Related to that there are **Hypervisor**s
  - [How does the Linux kernel determine the order of __init calls?](https://stackoverflow.com/questions/10540008/how-does-the-linux-kernel-determine-the-order-of-init-calls/)
  - [Platform Device Driver - a practical approach](http://linuxseekernel.blogspot.com/2014/05/platform-device-driver-practical.html)
  - [Linux Kernel architecture for device drivers](http://2010.rmll.info/IMG/pdf/kernel-device-drivers-rmll2010.pdf)
+ - https://elinux.org/Device_drivers
