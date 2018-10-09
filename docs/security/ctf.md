@@ -13,3 +13,8 @@
  - [Blizzard CTF 2017 – The LichKing Reverse Engineering challenge walkthrough](http://0xeb.net/2018/02/blizzard-ctf-2017-the-lichking-reverse-engineering-challenge-walkthrough/)
  - [Pwn2own 2018 Firefox case study](http://blogs.360.cn/blog/how-to-kill-a-firefox-en/)
 
+## RHME
+
+ - [slide](https://insomnihack.ch/wp-content/uploads/2017/04/AM-ESF-rhme2.pdf) with some writeups by riscure itself
+ - [repo](https://github.com/Riscure/Rhme-2017)
+ - https://s0s1-team.github.io/ctf/rhme3/
