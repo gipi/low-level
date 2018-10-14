@@ -159,6 +159,12 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
  - [Executable and Linkable Format 101 - Part 1 Sections and Segments](http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/)
  - [Executable and Linkable Format 101. Part 2: Symbols](http://www.intezer.com/executable-linkable-format-101-part-2-symbols/)
  - [Shared libraries and execute permissions](https://www.technovelty.org/linux/shared-libraries-and-execute-permissions.html)
+ - Introduction to the ELF Format
+   - [ELF Header](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html)
+   - [Understanding Program Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html)
+   - [Section Header Table](https://blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html)
+   - [Section Types and Special Sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html)
+   - [Understanding C start up .init_array and .fini_array sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html)
 
 ## Miscellanea
 
