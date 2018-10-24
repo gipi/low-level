@@ -26,3 +26,4 @@ Raw
    - [Riding free on the heap – Double free attacks!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-riding-free-on-the-heap-double-free-attacks/)
    - [Set you free()](https://sensepost.com/blog/2018/linux-heap-exploitation-intro-series-set-you-free-part-1/)
  - [House Of Roman](https://gist.github.com/romanking98/9aab2804832c0fb46615f025e8ffb0bc)
+ - [heap-feng-shui](http://www.phreedom.org/research/heap-feng-shui/heap-feng-shui.html)
