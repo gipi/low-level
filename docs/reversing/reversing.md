@@ -43,6 +43,10 @@
 
 ## Software
 
+## C++
+
+ - [Reversing C++ Virtual Functions: Part 1](https://alschwalm.com/blog/static/2016/12/17/reversing-c-virtual-functions/)
+
 ## Win32
 
  - [Reversing Microsoft Visual C++ Part I: Exception Handling](http://www.openrce.org/articles/full_view/21)
