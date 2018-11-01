@@ -143,6 +143,10 @@ Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us
  - [Slides](http://repository.root-me.org/Exploitation%20-%20Web/EN%20-%20Blind%20Xpath%20injection.pdf)
  - [Slides](https://github.com/feakk/xxxpwn/raw/master/HAAS_Kiwicon7-Automating%20Advanced%20XPath%20Injection%20Attacks.pdf)
 
+## Serialization
+
+ - [DISGUISE PHAR PACKAGES AS IMAGES](https://www.nc-lp.com/blog/disguise-phar-packages-as-images) also [slide](https://github.com/s-n-t/presentations/blob/master/us-18-Thomas-It's-A-PHP-Unserialization-Vulnerability-Jim-But-Not-As-We-Know-It.pdf) from US BlackHat 2018
+
 ## Side channel
 
  - http://johoe.mooo.com/trezor-power-analysis/
