@@ -22,6 +22,9 @@ execution context.
  - [Top 500 Most Important XSS Script Cheat Sheet for Web Application Penetration Testing](https://gbhackers.com/top-500-important-xss-cheat-sheet/)
  - [Stored XSS on Facebook](https://opnsec.com/2018/03/stored-xss-on-facebook/) wall by embedding an external video with Open Graph
  - [From PNG tEXt to Persistent XSS](https://www.pentestpartners.com/security-blog/from-png-text-to-persistent-xss/)
+ - [Polyglot payloads](https://www.slideshare.net/MathiasKarlsson2/polyglot-payloads-in-practice-by-avlidienbrunn-at-hackpra)
+ - [XSS Polyglot Challenge v2](https://polyglot.innerht.ml/)
+ - [Awesome XSS](https://github.com/s0md3v/AwesomeXSS)
 
 ## RPO
 
