@@ -1,5 +1,9 @@
 # Microcontrollers&Embedded Systems
 
+## Bootloader
+
+ - [A tour of bootloading](http://www.bxsays.com/blog/2015/09/03/a-toure-of-bootloading.html)
+
 ## GPIO
 
 Usually an embedded system has a certain numbers of devices interconnected via different signals. To configure
