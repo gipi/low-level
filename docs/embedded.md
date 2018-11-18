@@ -258,3 +258,5 @@ A variant of the Beagle Bone, a board with the [TI Sitara AM335x](http://www.ti.
 
  - [eLinux page](https://elinux.org/BeagleBone_Community)
  - [AM335x Technical Reference Manual](https://www.ti.com/lit/ug/spruh73p/spruh73p.pdf)
+ - [Writing MLO](https://witekio.com/blog/writing-mlo-beagleboard-xm/)
+
