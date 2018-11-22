@@ -1,5 +1,7 @@
 # Hardware
 
+ - [Pentesting hardware - a pratical handbook](https://github.com/unprovable/PentestHardware)
+
 ## CPU
 
  - [CPU utilization is wrong](http://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html)
