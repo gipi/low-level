@@ -5,7 +5,11 @@ pages:
 - Home: index.md
 - Computer:
   - Hardware: hw.md
-  - Architectures: arch.md
+  - Architectures:
+    - General: arch/index.md
+    - ARM: arch/arm.md
+    - AVR: arch/avr.md
+    - X86/AMD64: arch/x86.md
   - OS: os/index.md
   - Embedded Systems: embedded.md
   - Shells: shell.md
