@@ -19,6 +19,7 @@ unexploitability](http://ieeexplore.ieee.org/stamp/stamp.jsp?reload=true&tp=&arn
  - [Proving un-exploitability of parsers](https://docs.google.com/presentation/d/1ODczTJnajepL-TCeN-9Ob_AIxxIzY4vXQvN5fL543Ac/edit)
   - [The Good, the Bad, and the Weird](https://blog.trailofbits.com/2018/10/26/the-good-the-bad-and-the-weird/)
   - [Data oriented programming](https://huhong-nus.github.io/advanced-DOP/papers/dop.pdf)
+  - [Secure Code Partitioning With ELF binaries, aka. SCOP](http://bitlackeys.org/papers/secure_code_partitioning_2018.txt)
 
 Unrelated for now but there is an Android's vulnerabilities [CVE-2017-13156](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) where the system parses an ``APK`` or a ``DEX`` allowing to bypass signature.
 
