@@ -102,6 +102,7 @@ $ r2 -nn file.elf
 
 ## Links
 
+ - https://r2wiki.readthedocs.io
  - [Cheat sheet](https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf)
  - [A journey into radare2](https://www.megabeets.net/a-journey-into-radare-2-part-1/)
  - [Awesome radare 2](https://github.com/dukebarman/awesome-radare2)
@@ -128,3 +129,5 @@ $ r2 -nn file.elf
  - [Hitcon2017CTF writeup](http://pwning.fun//writeup/2017/11/03/HitconCTF2017-Everlasting-Imaginative-Void.html)
  - [REVERSE ENGINEERING A GAMEBOY ROM WITH RADARE2](https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2/)
  - [Reversing EVM bytecode with radare2](https://blog.positive.com/reversing-evm-bytecode-with-radare2-ab77247e5e53)
+ - [INTRO TO RADARE2 FOR MALWARE ANALYSIS](https://malwology.com/2018/11/30/intro-to-radare2-for-malware-analysis/)
+ - []()
