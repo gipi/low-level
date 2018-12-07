@@ -1,6 +1,7 @@
 # Hardware
 
  - [Pentesting hardware - a pratical handbook](https://github.com/unprovable/PentestHardware)
+ - [hardware-effects](https://github.com/Kobzol/hardware-effects): repo with demonstration of various hardware effects.
 
 ## CPU
 
