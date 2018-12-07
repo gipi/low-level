@@ -27,3 +27,4 @@ Raw
    - [Set you free()](https://sensepost.com/blog/2018/linux-heap-exploitation-intro-series-set-you-free-part-1/)
  - [House Of Roman](https://gist.github.com/romanking98/9aab2804832c0fb46615f025e8ffb0bc)
  - [heap-feng-shui](http://www.phreedom.org/research/heap-feng-shui/heap-feng-shui.html)
+ - [Glibc Heap Exploitation Basics : Introduction to ptmalloc2 internals ](https://blog.k3170makan.com/2018/11/glibc-heap-exploitation-basics.html)
