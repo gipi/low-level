@@ -37,3 +37,7 @@ Related to that there are **Hypervisor**s
  - [Platform Device Driver - a practical approach](http://linuxseekernel.blogspot.com/2014/05/platform-device-driver-practical.html)
  - [Linux Kernel architecture for device drivers](http://2010.rmll.info/IMG/pdf/kernel-device-drivers-rmll2010.pdf)
  - https://elinux.org/Device_drivers
+ - [An Introduction to the Video4Linux Framework](https://events.static.linuxfound.org/sites/events/files/slides/v4l2-testing.pdf)
+ - [Linux media subsystem docs](https://linuxtv.org/downloads/v4l-dvb-apis/index.html)
+
+
