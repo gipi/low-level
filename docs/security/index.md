@@ -80,6 +80,7 @@ See also [shellcode](/shellcode/).
  - GHOST vulnerability [report](http://www.openwall.com/lists/oss-security/2015/01/27/9)
  - [commix](https://github.com/stasinopoulos/commix): Automated All-in-One OS Command Injection and Exploitation Tool
  - [How To Heap](https://github.com/shellphish/how2heap): A repository for learning various heap exploitation techniques.
+ - [Pure In-Memory (Shell)Code Injection In Linux Userland](https://blog.sektor7.net/#!res/2018/pure-in-memory-linux.md)
 
 ## Format String
 
