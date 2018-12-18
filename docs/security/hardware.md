@@ -27,6 +27,7 @@
  - Ghost in the Machine: Challenges in Embedded Binary Security [video](https://www.youtube.com/watch?v=pMRa8xDFpiE) at USENIX Enigma 2017
  - Hacking the PS4, From zero to ring zero in two easy steps [slide](http://crack.bargains/02r0.pdf)
  - [PS4 Aux Hax 1: Intro & Aeolia](https://fail0verflow.com/blog/2018/ps4-aeolia/)
+ - [Rocking the pocket book: Hacking chemical plants for competition and extortion](https://www.blackhat.com/docs/us-15/materials/us-15-Krotofil-Rocking-The-Pocket-Book-Hacking-Chemical-Plant-For-Competition-And-Extortion-wp.pdf)
 
 ## Bootloader
 
