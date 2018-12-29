@@ -4,11 +4,10 @@ The ARM architecture is a 32-bit RISC architecture with 16 general
 purpose registers available to regular programs and a status
 register (actually there are more general purpose registers and
 status registers but those are only used in exception modes and not
-important for our discussion). Every instruction is 4 bytes long so
-we must ensure that all 4 of these bytes are alphanumeric. This is
+important for our discussion). Every instruction is 4 bytes long,
+this is
 very different from the x86 architecture which has variable length
-instructions. As a result, getting instructions to be completely
-alphanumeric is harder on ARM than on x86.
+instructions.
 
 Registers R0 to R12 are real general purpose registers that do not
 have a dedicated purpose. Register R13 is used as a stack pointer
