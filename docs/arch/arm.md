@@ -39,6 +39,7 @@ respond to the main processor. If none of the coprocessors respond,
 an 'illegal instruction' exception is raised.
 
  - [ARM architecture overview](https://web.eecs.umich.edu/~prabal/teaching/eecs373-f10/readings/ARM_Architecture_Overview.pdf)
+ - [ARM instruction set](http://vision.gel.ulaval.ca/~jflalonde/cours/1001/h17/docs/arm-instructionset.pdf)
  - [ARM calling convention](http://caxapa.ru/thumbs/656023/IHI0042F_aapcs.pdf)
  - [Generica page about ARM](https://www.aldeid.com/wiki/Category:Architecture/ARM)
  - [Reverse engineering the ARM1](http://www.righto.com/2015/12/reverse-engineering-arm1-ancestor-of.html)
