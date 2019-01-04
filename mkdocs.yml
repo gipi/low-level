@@ -46,4 +46,5 @@ pages:
   - Home: networking.md
   - Iptables: networking/iptables.md
 - Computer vision: cv.md
+- Physics: physics.md
 theme: readthedocs
