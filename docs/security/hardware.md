@@ -40,6 +40,10 @@
  - [Extracting TREZOR Secrets from SRAM](https://saleemrashid.com/2017/08/17/extracting-trezor-secrets-sram/)
  - [De Rebus Antiquis](https://xerub.github.io/ios/iboot/2018/05/10/de-rebus-antiquis.html) exploiting the recursive stack overflow bug in the iOS 7 bootchain
 
+## Jailbreak
+
+ - [Jailbreaking iOS: From past to present](https://api.tihmstar.net/35c3slides.pdf)
+
 ## Glitching
 
  - [fault injection attacks on microcontrollers: clock glitching tutorial](http://www.t4f.org/articles/fault-injection-attacks-clock-glitching-tutorial/)
