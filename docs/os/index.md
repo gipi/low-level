@@ -5,6 +5,7 @@
 Related to that there are **Hypervisor**s
 
  - [Hypervisor From Scratch – Part 1: Basic Concepts & Configure Testing Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
+ - [Learning KVM - implement your own Linux kernel ](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)
 
 ## Linux
 
