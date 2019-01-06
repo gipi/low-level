@@ -209,6 +209,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
 ## Links
 
  - [online courses](https://github.com/prakhar1989/awesome-courses#security)
+ - [Exploit Development](https://rmusser.net/docs/Exploit%20Development.html)
  - [ssh security](https://stribika.github.io/2015/01/04/secure-secure-shell.html)
  - [preg_replace()](https://bitquark.co.uk/blog/2013/07/23/the_unexpected_dangers_of_preg_replace)
  - [Modern Binary Exploitation](http://security.cs.rpi.edu/courses/binexp-spring2015/)
