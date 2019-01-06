@@ -46,6 +46,7 @@ an 'illegal instruction' exception is raised.
    - [ARM instruction set](http://vision.gel.ulaval.ca/~jflalonde/cours/1001/h17/docs/arm-instructionset.pdf)
    - [The ARM Instruction Set Architecture](http://users.ece.utexas.edu/~valvano/EE345M/Arm_EE382N_4.pdf)
    - [ARM immediate value encoding](https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/)
+   - [Instruction set](https://cs107e.github.io/readings/armisa.pdf)
 
 
  - [Why does the ARM PC register point to the instruction after the next one to be executed?
