@@ -1,5 +1,7 @@
 # Microcontrollers&Embedded Systems
 
+ - [Cross debugging for ARM / MIPS ELF with QEMU/toolchain](https://reverseengineering.stackexchange.com/questions/8829/cross-debugging-for-arm-mips-elf-with-qemu-toolchain)
+
 ## Bootloader
 
  - [A tour of bootloading](http://www.bxsays.com/blog/2015/09/03/a-toure-of-bootloading.html)
