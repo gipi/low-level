@@ -30,6 +30,15 @@ Remove annoying stuffs from ``gdb``
 (gdb) set pagination off
 ```
 
+Exist a ``curses`` interface
+
+```
+(gdb) tui enable
+(gdb) layout asm
+(gdb) focus cmd
+```
+
+
  - [GDB Peda](https://github.com/longld/peda)
  - [Tips for Productive Debugging with GDB](https://metricpanda.com/tips-for-productive-debugging-with-gdb)
  - [GEF](https://github.com/hugsy/gef) Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers 
