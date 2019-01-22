@@ -63,6 +63,9 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
  - [MIPS: non-virtualizable architecture (Part 1)](http://www.nulltrace.org/2011/04/mips-non-virtualizable-architecture.html)
  - [Exceptions in MIPS](http://www.cs.iit.edu/~virgil/cs470/Labs/Lab7.pdf)
  - MIPS binary [repo](https://github.com/darkerego/mips-binaries)
+ - The MIPS R4000
+   - [Introduction](https://blogs.msdn.microsoft.com/oldnewthing/20180402-00/?p=98415)
+   - [32-bit integer calculations](https://blogs.msdn.microsoft.com/oldnewthing/20180403-00/?p=98425)
 
 ### SPARC
 
