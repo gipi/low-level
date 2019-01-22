@@ -22,6 +22,7 @@
 
 ## Compiling&Linking
 
+ - [A ToC of the 20 part linker essay](https://lwn.net/Articles/276782/)
  - [LD command language](https://www.math.utah.edu/docs/info/ld_3.html)
  - [Breaking the links: Exploiting the linker](https://www.nth-dimension.org.uk/pub/BTL.pdf)
 
