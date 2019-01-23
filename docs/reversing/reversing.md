@@ -39,7 +39,7 @@
  - [Video](https://www.youtube.com/watch?v=aHx-XUA6f9g) Reading Silicon: How to Reverse Engineer Integrated Circuits
  - [Pwn2Win 2017 - Shift Register](http://blog.dragonsector.pl/2017/10/pwn2win-2017-shift-register.html)
  - [Silicon die analysis: inside an op amp with interesting "butterfly" transistors](http://www.righto.com/2018/06/silicon-die-analysis-op-amp-with.html)
-
+ - [Reverse Engineering a Philips TriMedia CPU based IP camera - Part 1](https://blog.quarkslab.com/reverse-engineering-a-philips-trimedia-cpu-based-ip-camera-part-1.html)
 
 ## Software
 
