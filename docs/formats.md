@@ -8,6 +8,7 @@
 
 ## Numeric format
 
+ - [One hot](https://en.wikipedia.org/wiki/One-hot) is an encoding such that only one bit is one, all the other are zero
  - [The secret life of NaN](https://anniecherkaev.com/the-secret-life-of-nan)
 
 ## Character encoding
