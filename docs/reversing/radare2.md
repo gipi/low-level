@@ -130,4 +130,4 @@ $ r2 -nn file.elf
  - [REVERSE ENGINEERING A GAMEBOY ROM WITH RADARE2](https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2/)
  - [Reversing EVM bytecode with radare2](https://blog.positive.com/reversing-evm-bytecode-with-radare2-ab77247e5e53)
  - [INTRO TO RADARE2 FOR MALWARE ANALYSIS](https://malwology.com/2018/11/30/intro-to-radare2-for-malware-analysis/)
- - []()
+ - SUE 2017 - Reverse Engineering Embedded ARM Devices - by pancake [video](https://www.youtube.com/watch?v=oXSx0Qo2Upk)
