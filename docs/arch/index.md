@@ -57,6 +57,21 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 
 **Microprocessor without Interlocked Pipeline Stages**
 
+| number | name | description |
+|--------|------|-------------|
+| 0 | zero | always zero |
+| 1 | at | temporary |
+| 2-3 | v0-v1 | return value from a function call |
+| 4-7 | a0-a3 | first four parameters of a function call |
+| 8-15 | t0-t7 | temporary variables need not to be preserved |
+| 16-23 | s0-s7 | function variables, must be preserved |
+| 24-25 | t8-t9 | two more temporary variables |
+| 26-27 | k0-k1 | kernel use registers |
+| 28 | gp | global pointer |
+| 29 | st | stack pointer |
+| 30 | fp | frame pointer |
+| 31 | ra | return address register |
+
  - [MIPS alternative registers name](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Mips/altReg.html)
  - [MIPS Basic Training Course](https://community.imgtec.com/developers/mips/resources/training-courses/mips-basic-training-course/)
  - [MIPS32® Instruction Set Quick Reference](https://www.cs.duke.edu/courses/fall13/compsci250/MIPS32_QRC.pdf)
