@@ -57,6 +57,8 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 
 **Microprocessor without Interlocked Pipeline Stages**
 
+#### Registers
+
 | number | name | description |
 |--------|------|-------------|
 | 0 | zero | always zero |
@@ -71,6 +73,14 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 | 29 | st | stack pointer |
 | 30 | fp | frame pointer |
 | 31 | ra | return address register |
+
+#### Instruction set
+
+| Instruction | short name | description |
+|-------------|------------|-------------|
+| slti r, s, imm | Set on less than immediate (signed) | If ``s`` is less than immediate, ``t`` is set to one. It gets zero otherwise. |
+
+#### Links
 
  - [MIPS alternative registers name](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Mips/altReg.html)
  - [MIPS Basic Training Course](https://community.imgtec.com/developers/mips/resources/training-courses/mips-basic-training-course/)
