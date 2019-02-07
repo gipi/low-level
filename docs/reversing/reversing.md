@@ -117,6 +117,10 @@ Num Vaddr      Paddr      Len Size Section  Type  String
 028 0x0000011e 0x0000011e  21  24 () ascii (Ljava/lang/String;)V
 ```
 
+### Go
+
+ - [The Go low-level calling convention on x86-64](https://science.raphael.poss.name/go-calling-convention-x86-64.html)
+
 ### Android 
 
  - http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/
