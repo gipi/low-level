@@ -36,6 +36,7 @@
  - [NXP LPC1343 Bootloader Bypass (Part 1) - Communicating with the bootloader](https://toothless.co/blog/bootloader-bypass-part1/)
  - [BootStomp: On the Security of Bootloaders in Mobile Devices](http://cs.ucsb.edu/~yanick/publications/2017_sec_bootstomp.pdf)
  - [Amlogic S905 SoC: bypassing the (not so) Secure Boot to dump the BootROM](http://www.fredericb.info/2016/10/amlogic-s905-soc-bypassing-not-so.html)
+ - [HARDENING SECURE BOOT ON EMBEDDED DEVICES FOR HOSTILE ENVIRONMENTS](http://www.pulse-sec.com/drive/BlueHat_IL_2019_-_Hardening_Secure_Boot_on_Embedded_Devices_for_Hostile_Environments.pdf)
  - [Emulating Exynos 4210 BootROM in QEMU](https://www.fredericb.info/2018/03/emulating-exynos-4210-bootrom-in-qemu.html)
  - [Extracting TREZOR Secrets from SRAM](https://saleemrashid.com/2017/08/17/extracting-trezor-secrets-sram/)
  - [De Rebus Antiquis](https://xerub.github.io/ios/iboot/2018/05/10/de-rebus-antiquis.html) exploiting the recursive stack overflow bug in the iOS 7 bootchain
