@@ -105,6 +105,7 @@ $ r2 -nn file.elf
  - https://r2wiki.readthedocs.io
  - [Cheat sheet](https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf)
  - [A journey into radare2](https://www.megabeets.net/a-journey-into-radare-2-part-1/)
+ - [Diving into radare2](https://blog.devit.co/diving-into-radare2/)
  - [Awesome radare 2](https://github.com/dukebarman/awesome-radare2)
  - Radare2 [tutorial](http://solidsec.blogspot.de/2015/10/tool-radare-2-open-source-alternative.html)
  - https://www.dustri.org/b/exploiting-ezhp-pwn200-from-plaidctf-2014-with-radare2.html
