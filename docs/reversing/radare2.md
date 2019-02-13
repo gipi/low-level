@@ -104,7 +104,10 @@ $ r2 -nn file.elf
 
  - https://r2wiki.readthedocs.io
  - [Cheat sheet](https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf)
- - [A journey into radare2](https://www.megabeets.net/a-journey-into-radare-2-part-1/)
+ - A journey into radare2
+     - [part 1](https://www.megabeets.net/a-journey-into-radare-2-part-1/)
+     - [part 2](https://www.megabeets.net/a-journey-into-radare-2-part-2/)
+ - [Reversing a Self-Modifying Binary with radare2](https://www.megabeets.net/reversing-a-self-modifying-binary-with-radare2/)
  - [Diving into radare2](https://blog.devit.co/diving-into-radare2/)
  - [Awesome radare 2](https://github.com/dukebarman/awesome-radare2)
  - Radare2 [tutorial](http://solidsec.blogspot.de/2015/10/tool-radare-2-open-source-alternative.html)
