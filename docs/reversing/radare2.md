@@ -107,6 +107,7 @@ $ r2 -nn file.elf
  - A journey into radare2
      - [part 1](https://www.megabeets.net/a-journey-into-radare-2-part-1/)
      - [part 2](https://www.megabeets.net/a-journey-into-radare-2-part-2/)
+ - [Down the Rabbit Hole - Part II: Analyzing an EFI Application with Radare2](https://erfur.github.io/down_the_rabbit_hole_pt2/)
  - [Reversing a Self-Modifying Binary with radare2](https://www.megabeets.net/reversing-a-self-modifying-binary-with-radare2/)
  - [Diving into radare2](https://blog.devit.co/diving-into-radare2/)
  - [Awesome radare 2](https://github.com/dukebarman/awesome-radare2)
