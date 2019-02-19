@@ -92,6 +92,11 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [Stable sorting in javascript](http://blog.vjeux.com/2010/javascript/javascript-sorting-table.html)
  - [Blob Sallad — Canvas Tag and JavaScript Physics Simulation Experiment](https://dev.opera.com/articles/blob-sallad-canvas-tag-and-javascript/)
 
+### CRC
+
+ - [Cyclic Redundancy Check (CRC)](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
+ - [Cyclic Redundancy Check: TMS320C64+ Implementation](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
+
 ## Threads
 
  - http://developers.memsql.com/blog/common-pitfalls-in-writing-lock-free-algorithms/
