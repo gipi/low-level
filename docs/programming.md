@@ -59,6 +59,9 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - http://kukuruku.co/hub/cpp/undefined-behavior-and-fermats-last-theorem
  - https://fuzzing-project.org/tutorial-cflags.html
  - [Compiler explorer](http://godbolt.org/)
+## Linkers
+
+ - [10 LDFLAGS I Love](https://blog.jessfraz.com/post/top-10-favorite-ldflags/)
 
 ## Architecture, Interface&pattern design
 
