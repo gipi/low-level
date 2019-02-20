@@ -38,6 +38,20 @@ coprocessor recognizes the instruction, it can execute it and
 respond to the main processor. If none of the coprocessors respond,
 an 'illegal instruction' exception is raised.
 
+[However](https://stackoverflow.com/questions/19544694/understanding-mrc-on-arm7) coprocessor in ARM is a misleading notion. It's shorthand for an
+optional piece of functionality that is not exposed via the core
+instruction set. ARM CPUs are modular. There are bits and pieces
+of CPU hardware that implementers of the architecture may or may
+not place on the chip. The memory management unit (MMU) is one example;
+there are others, such is the hardware debugging facility. Those are,
+indeed, identified by coprocessor number (pXX), so that more than one
+coprocessor can be present at the same time. The coprocessor number
+for MMU is traditionally p15. Coprocessors p0..p14 have nothing to
+do with memory management and may not be present. The debugging subsystem,
+for example, is p14.
+
+ - [Processor setup via co-processor 15 and about co-processors](http://www.heyrick.co.uk/assembler/coprocmnd.html)
+
 ## Instruction set
 
  - A few documents about it
