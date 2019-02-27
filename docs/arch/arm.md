@@ -75,6 +75,7 @@ for example, is p14.
 
 ## Links
 
+ - [List of ARM microarchitectures](https://en.wikipedia.org/wiki/List_of_ARM_microarchitectures)
  - [ARM architecture overview](https://web.eecs.umich.edu/~prabal/teaching/eecs373-f10/readings/ARM_Architecture_Overview.pdf)
  - [Cortex-M for beginners](documents/Cortex-M for Beginners - 2017_EN_v2.pdf)
  - [open source baremetal coding resources for ARM Cortex-M](http://asm.thi.ng/)
