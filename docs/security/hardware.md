@@ -58,6 +58,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Electromagnetic fault injection: towards a fault model on a 32-bit microcontroller](https://arxiv.org/pdf/1402.6421.pdf)
  - [Glitching the switch](https://media.ccc.de/v/c4.openchaos.2018.06.glitching-the-switch)
  - Injecting Software Vulnerabilities with Voltage Glitching [PDF](https://yifan.lu/images/2019/01/Injecting_Software_Vulnerabilities_with_Voltage_Glitching.pdf)
+ - [There Will Be Glitches: Extracting and Analyzing Automotive Firmware Efficiently](https://www.riscure.com/uploads/2018/11/Riscure_Whitepaper_Analyzing_Automotive_Firmware.pdf)
 
 ## Side channel attack
 
