@@ -78,6 +78,7 @@ for example, is p14.
  - [List of ARM microarchitectures](https://en.wikipedia.org/wiki/List_of_ARM_microarchitectures)
  - [ARM architecture overview](https://web.eecs.umich.edu/~prabal/teaching/eecs373-f10/readings/ARM_Architecture_Overview.pdf)
  - [ARM1176JZFS specification](http://infocenter.arm.com/help/topic/com.arm.doc.ddi0301h/ddi0301h_arm1176jzfs_r0p7_trm.pdf)
+ - [Status register](https://www.heyrick.co.uk/armwiki/The_Status_register)
  - [Cortex-M for beginners](documents/Cortex-M for Beginners - 2017_EN_v2.pdf)
  - [open source baremetal coding resources for ARM Cortex-M](http://asm.thi.ng/)
  - [Alphanumeric RISC ARM Shellcode](http://phrack.org/issues/66/12.html)
