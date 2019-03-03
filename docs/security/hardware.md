@@ -59,6 +59,8 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Glitching the switch](https://media.ccc.de/v/c4.openchaos.2018.06.glitching-the-switch)
  - Injecting Software Vulnerabilities with Voltage Glitching [PDF](https://yifan.lu/images/2019/01/Injecting_Software_Vulnerabilities_with_Voltage_Glitching.pdf)
  - [There Will Be Glitches: Extracting and Analyzing Automotive Firmware Efficiently](https://www.riscure.com/uploads/2018/11/Riscure_Whitepaper_Analyzing_Automotive_Firmware.pdf)
+ - [Controlling PC on ARM using Fault Injection](https://www.riscure.com/uploads/2017/09/Controlling-PC-on-ARM-using-Fault-Injection.pdf)
+ - [The Sorcerer’s Apprentice Guide to Fault Attacks](https://eprint.iacr.org/2004/100.pdf)
 
 ## Side channel attack
 
