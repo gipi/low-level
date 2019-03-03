@@ -40,6 +40,7 @@
  - [Pwn2Win 2017 - Shift Register](http://blog.dragonsector.pl/2017/10/pwn2win-2017-shift-register.html)
  - [Silicon die analysis: inside an op amp with interesting "butterfly" transistors](http://www.righto.com/2018/06/silicon-die-analysis-op-amp-with.html)
  - [Reverse Engineering a Philips TriMedia CPU based IP camera - Part 1](https://blog.quarkslab.com/reverse-engineering-a-philips-trimedia-cpu-based-ip-camera-part-1.html)
+ - [REVERSE ENGINEERING ARCHITECTURE AND PINOUT OF CUSTOM ASICS](https://sec-consult.com/en/blog/2019/02/reverse-engineering-architecture-pinout-plc/)
 
 ## Software
 
