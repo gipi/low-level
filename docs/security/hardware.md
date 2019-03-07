@@ -61,6 +61,8 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [There Will Be Glitches: Extracting and Analyzing Automotive Firmware Efficiently](https://www.riscure.com/uploads/2018/11/Riscure_Whitepaper_Analyzing_Automotive_Firmware.pdf)
  - [Controlling PC on ARM using Fault Injection](https://www.riscure.com/uploads/2017/09/Controlling-PC-on-ARM-using-Fault-Injection.pdf)
  - [The Sorcerer’s Apprentice Guide to Fault Attacks](https://eprint.iacr.org/2004/100.pdf)
+ - [https://pulse-sec.com/drive/PANDA2018_-_Advancing_FI_attacks_-_Fault_Models_opportunities.pdf](https://pulse-sec.com/drive/PANDA2018_-_Advancing_FI_attacks_-_Fault_Models_opportunities.pdf)
+ - [Glitching Trezor using EMFI Through The Enclosure](http://colinoflynn.com/2019/03/glitching-trezor-using-emfi-through-the-enclosure/)
 
 ## Side channel attack
 
