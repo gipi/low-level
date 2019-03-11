@@ -18,6 +18,7 @@
  - [Ida- how to find connection between 2 functions](https://reverseengineering.stackexchange.com/questions/17659/ida-how-to-find-connection-between-2-functions)
  - [How to Hack an Expensive Camera and Not Get Killed by Your Wife](https://alexhude.github.io/2019/01/24/hacking-leica-m240.html)
  - [Ghidra's Online Courses](http://ghidra.re/online-courses/)
+ - [ghidraninja/ghidra_scripts](https://github.com/ghidraninja/ghidra_scripts)
 
 ## Hardware
 
