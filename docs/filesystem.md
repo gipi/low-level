@@ -6,3 +6,4 @@
  - [Right To Your Own Devices](http://linuxgazette.net/114/kapil.html) device mapper examples
  - Linux File Permission Confusion [part 1](http://www.hackinglinuxexposed.com/articles/20030417.html) and [part 2](http://www.hackinglinuxexposed.com/articles/20030424.html)
  - [Practical filesystem design](https://www.haiku-os.org/legacy-docs/practical-file-system-design.pdf)
+ - [Fixing Unix/Linux/POSIX Filenames: Control Characters (such as Newline), Leading Dashes, and Other Problems](https://dwheeler.com/essays/fixing-unix-linux-filenames.html)
