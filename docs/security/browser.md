@@ -13,3 +13,4 @@ library, memory model etc...
  - [CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/)
  - [Timeless Debugging of Complex Software - Root Cause Analysis of a Non-Deterministic JavaScriptCore Bug](https://blog.ret2.io/2018/06/19/pwn2own-2018-root-cause-analysis/)
  - [Introduction to SpiderMonkey exploitation](https://doar-e.github.io/blog/2018/11/19/introduction-to-spidermonkey-exploitation/)
+ - [CVE-2019-0539 Exploitation. Microsoft Edge Chakra JIT Type Confusion](https://perception-point.io/resources/research/cve-2019-0539-exploitation/)
