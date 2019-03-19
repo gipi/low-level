@@ -17,9 +17,10 @@ unexploitability](http://ieeexplore.ieee.org/stamp/stamp.jsp?reload=true&tp=&arn
  - [On Validating Inputs](https://noncombatant.org/2018/01/15/on-validating-inputs/)
  - [Security, Moore’s law, and the anomaly of cheap complexity](https://docs.google.com/presentation/d/17bKudNDduvN-7hWv7S84MiHUj2AnOPNbwjTM8euDC8w/edit)
  - [Proving un-exploitability of parsers](https://docs.google.com/presentation/d/1ODczTJnajepL-TCeN-9Ob_AIxxIzY4vXQvN5fL543Ac/edit)
-  - [The Good, the Bad, and the Weird](https://blog.trailofbits.com/2018/10/26/the-good-the-bad-and-the-weird/)
-  - [Data oriented programming](https://huhong-nus.github.io/advanced-DOP/papers/dop.pdf)
-  - [Secure Code Partitioning With ELF binaries, aka. SCOP](http://bitlackeys.org/papers/secure_code_partitioning_2018.txt)
+ - [Maths for Hackers - The Hacker Theorem](https://unprovable.github.io/jekyll/update/2016/11/13/Maths-For-Hackers-The-Hacker-Theorem.html)
+ - [The Good, the Bad, and the Weird](https://blog.trailofbits.com/2018/10/26/the-good-the-bad-and-the-weird/)
+ - [Data oriented programming](https://huhong-nus.github.io/advanced-DOP/papers/dop.pdf)
+ - [Secure Code Partitioning With ELF binaries, aka. SCOP](http://bitlackeys.org/papers/secure_code_partitioning_2018.txt)
 
 Unrelated for now but there is an Android's vulnerabilities [CVE-2017-13156](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) where the system parses an ``APK`` or a ``DEX`` allowing to bypass signature.
 
