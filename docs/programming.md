@@ -91,6 +91,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - https://pograph.wordpress.com/2009/06/04/notes-on-gzip-and-deflate-format/
  - [Stable sorting in javascript](http://blog.vjeux.com/2010/javascript/javascript-sorting-table.html)
  - [Blob Sallad — Canvas Tag and JavaScript Physics Simulation Experiment](https://dev.opera.com/articles/blob-sallad-canvas-tag-and-javascript/)
+ - [algorithm-cheat](https://github.com/cirosantilli/algorithm-cheat) Algorithm tutorials and simple multi-language implementations with unit tests.
 
 ### CRC
 
