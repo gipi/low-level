@@ -1,6 +1,7 @@
 # CVE
 
  - [awesome cve poc](https://github.com/qazbnm456/awesome-cve-poc)
+ - [CVE-2019-0211](https://cfreal.github.io/carpe-diem-cve-2019-0211-apache-local-root.html) Apache Root Privilege Escalation
  - [CVE-2018-13784: PrestaShop 1.6.x Privilege Escalation](https://www.ambionics.io/blog/prestashop-privilege-escalation)
  - [CVE-2018-8120](https://www.welivesecurity.com/2018/05/15/tale-two-zero-days/) RCE in Acrobat reader
  - CVE-2017-11176:  A step-by-step Linux Kernel exploitation
