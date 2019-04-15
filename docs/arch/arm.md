@@ -75,6 +75,8 @@ for example, is p14.
 
 ## Links
 
+ - [A Brief History of Arm: Part 1](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/a-brief-history-of-arm-part-1)
+ - [A Brief History of Arm: Part 2](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/a-brief-history-of-arm-part-2)
  - [List of ARM microarchitectures](https://en.wikipedia.org/wiki/List_of_ARM_microarchitectures)
  - [ARM architecture overview](https://web.eecs.umich.edu/~prabal/teaching/eecs373-f10/readings/ARM_Architecture_Overview.pdf)
  - [ARM1176JZFS specification](http://infocenter.arm.com/help/topic/com.arm.doc.ddi0301h/ddi0301h_arm1176jzfs_r0p7_trm.pdf)
