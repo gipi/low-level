@@ -14,3 +14,4 @@ library, memory model etc...
  - [Timeless Debugging of Complex Software - Root Cause Analysis of a Non-Deterministic JavaScriptCore Bug](https://blog.ret2.io/2018/06/19/pwn2own-2018-root-cause-analysis/)
  - [Introduction to SpiderMonkey exploitation](https://doar-e.github.io/blog/2018/11/19/introduction-to-spidermonkey-exploitation/)
  - [CVE-2019-0539 Exploitation. Microsoft Edge Chakra JIT Type Confusion](https://perception-point.io/resources/research/cve-2019-0539-exploitation/)
+ - [Exploiting the Math.expm1 typing bug in V8](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
