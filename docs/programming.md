@@ -98,6 +98,10 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [Cyclic Redundancy Check (CRC)](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
  - [Cyclic Redundancy Check: TMS320C64+ Implementation](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
  - [What Truncated polynomial mean in CRC16 CCITT context](https://stackoverflow.com/questions/40787529/what-truncated-polynomial-mean-in-crc16-ccitt-context)
+ - [Best CRC Polynomials](https://users.ece.cmu.edu/~koopman/crc/)
+ - [Brute forcing CRC parameters](http://sitsec.net/blog/2012/02/10/brute-forcing-crc-parameters/)
+ - [CRC16-CCITT](http://srecord.sourceforge.net/crc16-ccitt.html)
+ - [crcmod](http://crcmod.sourceforge.net/) python module
 
 ## Threads
 
