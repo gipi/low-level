@@ -97,6 +97,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
 
  - [Cyclic Redundancy Check (CRC)](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
  - [Cyclic Redundancy Check: TMS320C64+ Implementation](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
+ - [What Truncated polynomial mean in CRC16 CCITT context](https://stackoverflow.com/questions/40787529/what-truncated-polynomial-mean-in-crc16-ccitt-context)
 
 ## Threads
 
