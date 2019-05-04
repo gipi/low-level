@@ -62,6 +62,7 @@
  - [Reversing C++ Virtual Functions: Part 1](https://alschwalm.com/blog/static/2016/12/17/reversing-c-virtual-functions/)
  - [Reversing C++](https://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Paper/bh-dc-07-Sabanal_Yason-WP.pdf)
  - [How to find the location of the vtable?](https://reverseengineering.stackexchange.com/questions/5956/how-to-find-the-location-of-the-vtable/)
+ - [Guidelines to MFC reversing](https://quequero.org/2008/08/guidelines-to-mfc-reversing/)
 
 ## Win32
 
