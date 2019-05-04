@@ -55,6 +55,7 @@ for example, is p14.
 ## Instruction set
 
  - A few documents about it
+   - [Cheat sheet](http://infocenter.arm.com/help/topic/com.arm.doc.qrc0001l/QRC0001_UAL.pdf)
    - [specification](http://vision.gel.ulaval.ca/~jflalonde/cours/1001/h17/docs/arm-instructionset.pdf)
    - [The Instruction Set](http://www.peter-cockerell.net/aalp/html/ch-3.html)
    - [ARM instruction set](http://vision.gel.ulaval.ca/~jflalonde/cours/1001/h17/docs/arm-instructionset.pdf)
