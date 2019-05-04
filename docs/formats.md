@@ -82,6 +82,7 @@ loopb:  lodsb
 
 ## JPEG
 
+ - [Unraveling the JPEG](https://parametric.press/issue-01/unraveling-the-jpeg/)
  - [Polyglot JPG](http://blog.portswigger.net/2016/12/bypassing-csp-using-polyglot-jpegs.html)
 
 ## PNG
