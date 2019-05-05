@@ -2,6 +2,7 @@
 
  - [Pentesting hardware - a pratical handbook](https://github.com/unprovable/PentestHardware)
  - [hardware-effects](https://github.com/Kobzol/hardware-effects): repo with demonstration of various hardware effects.
+ - [Beginners guide to car hacking](https://hackcar.uk/Beginners-Guide-To-Car-Hacking/)
 
 ## CPU
 
