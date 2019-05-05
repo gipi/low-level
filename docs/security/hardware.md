@@ -50,6 +50,7 @@
 ## Glitching
 
  - [fault injection attacks on microcontrollers: clock glitching tutorial](http://www.t4f.org/articles/fault-injection-attacks-clock-glitching-tutorial/)
+ - [Shaping the Glitch: Optimizing Voltage Fault Injection Attacks](https://tches.iacr.org/index.php/TCHES/article/view/7390/6562)
  - [Introduction to Glitch Attacks (including Glitch Explorer)](http://www.newae.com/sidechannel/cwdocs/tutorialglitch.html)
  - [Copy Protection in Modern Microcontrollers](http://www.cl.cam.ac.uk/~sps32/mcu_lock.html)
  - Fault attacks on secure chips: from glitch to flash [PDF](https://www.cl.cam.ac.uk/~sps32/ECRYPT2011_1.pdf)
