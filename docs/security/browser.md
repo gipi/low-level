@@ -6,6 +6,7 @@ library, memory model etc...
 ## Links
 
  - [Phrack's paper](http://www.phrack.org/papers/attacking_javascript_engines.html) .:: Attacking JavaScript Engines: A case study of JavaScriptCore and CVE-2016-4622 ::.
+ - [Exploiting Logic Bugs in JavaScript JIT Engines](http://phrack.org/papers/jit_exploitation.html) by saelo on Phrack
  - [browsersploit](https://github.com/julienbedard/browsersploit) is an advanced browser exploit pack for doing internal and external pentesting, helping gaining access to internal computers.
  - [malware jail](https://github.com/HynekPetrak/malware-jail) Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction. Written for Node.js
  - [phoenhex.re](https://phoenhex.re/) pwning WebKit related browsers
