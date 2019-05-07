@@ -74,7 +74,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - gamedevelopment.tutsplus.com/tutorials/avoiding-the-blob-antipattern-a-pragmatic-approach-to-entity-composition--gamedev-1113
  - http://blog.seancassidy.me/better-java.html
 
-##Complexity&Data structures
+## Complexity&Data structures
 
  - http://bigocheatsheet.com/
  - [Think Complexity](http://greenteapress.com/complexity/index.html): free book about data structures and algorithm
@@ -92,6 +92,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [Stable sorting in javascript](http://blog.vjeux.com/2010/javascript/javascript-sorting-table.html)
  - [Blob Sallad — Canvas Tag and JavaScript Physics Simulation Experiment](https://dev.opera.com/articles/blob-sallad-canvas-tag-and-javascript/)
  - [algorithm-cheat](https://github.com/cirosantilli/algorithm-cheat) Algorithm tutorials and simple multi-language implementations with unit tests.
+ - [Modified preorder tree traversal](https://www.caktusgroup.com/blog/2016/01/04/modified-preorder-tree-traversal-django/)
 
 ### CRC
 
