@@ -138,6 +138,10 @@ Num Vaddr      Paddr      Len Size Section  Type  String
 
  - http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/
 
+### Python
+
+ - [Looking inside the box](https://anvilventures.com/blog/looking-inside-the-box.html): notes about reversing Dropbox's client
+
 ### Links
 
  - [Reverse engineering and removing Pokémon GO’s certificate pinning](https://eaton-works.com/2016/07/31/reverse-engineering-and-removing-pokemon-gos-certificate-pinning/)
