@@ -125,6 +125,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [How to Write Portable C Without Complicating Your Build](http://nullprogram.com/blog/2017/03/30/)
  - [C is not your friend: sizeof and side-effects](http://blog.tjd.phlegethon.org/post/159564806182/c-is-not-your-friend-sizeof-and-side-effects)
  - [Inside the C Standard Library](https://begriffs.com/posts/2019-01-19-inside-c-standard-lib.html)
+ - [Unwinding the Stack](https://github.com/CppCon/CppCon2018/blob/master/Presentations/unwinding_the_stack_exploring_how_cpp_exceptions_work_on_windows/unwinding_the_stack_exploring_how_cpp_exceptions_work_on_windows__james_mcnellis__cppcon_2018.pdf) Exploring how C++ Exceptions work on Windows
 
 ## Low level
 
