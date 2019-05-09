@@ -7,6 +7,7 @@ process in a normal exploitation process, but the stack pointer is not.
  - [ARMv8 Shellcodes from ‘A’ to ‘Z’](https://arxiv.org/pdf/1608.03415.pdf)
  - https://www.codeproject.com/Articles/325776/The-Art-of-Win-Shellcoding
  - https://blog.senr.io/blog/why-is-my-perfectly-good-shellcode-not-working-cache-coherency-on-mips-and-arm
+ - [ARM Polyglot Shellcode - HITB2019AMS](https://www.slideshare.net/saumilshah/arm-polyglot-shellcode-hitb2019ams)
 
 Since the standard ``/bin/sh`` is a link to ``/bin/bash`` that
 droppes privileges when called, you can call instead a script
