@@ -24,6 +24,7 @@
 
  - [Ghidra's Online Courses](http://ghidra.re/online-courses/)
  - [ghidraninja/ghidra_scripts](https://github.com/ghidraninja/ghidra_scripts)
+ - [WORKING WITH GHIDRA'S P-CODE TO IDENTIFY VULNERABLE FUNCTION CALLS](https://www.riverloopsecurity.com/blog/2019/05/pcode/)
  - [Writing a wasm loader for Ghidra. Part 1: Problem statement and setting up environment](https://habr.com/en/post/443318/)
  - [SEGA Genesis ROM hacking](https://zznop.github.io/romhacking/2019/03/14/sega-genesis-rom-hacking-with-ghidra.html)
 
