@@ -101,6 +101,7 @@ a string as little as possible**.
  - [Liffy](https://github.com/rotlogix/liffy): Local File Inclusion Exploitation Tool
  - [Upgrade from LFI to RCE via PHP Sessions](https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/)
  - [Exploiting PHP File Inclusion – Overview](https://websec.wordpress.com/2010/02/22/exploiting-php-file-inclusion-overview/)
+ - [Exploiting Remote File Inclusion (RFI) in PHP application and bypassing remote URL inclusion restriction](http://www.mannulinux.org/2019/05/exploiting-rfi-in-php-bypass-remote-url-inclusion-restriction.html?)
 
 ## HTTP parameters pollution
 
