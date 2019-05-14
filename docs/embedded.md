@@ -1,5 +1,6 @@
 # Microcontrollers&Embedded Systems
 
+ - [From zero to main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
  - [Cross debugging for ARM / MIPS ELF with QEMU/toolchain](https://reverseengineering.stackexchange.com/questions/8829/cross-debugging-for-arm-mips-elf-with-qemu-toolchain)
 
 ## Bootloader
