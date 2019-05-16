@@ -1,5 +1,6 @@
 # Hardware
 
+ - [The hackers hardware toolkit](https://github.com/yadox666/The-Hackers-Hardware-Toolkit)
  - [A FRAMEWORK FOR EMBEDDED HARDWARE SECURITY ANALYSIS](https://pdfs.semanticscholar.org/2a2d/23cd993f5fbc77470ae7d04720e8ed7dfa89.pdf)
  - [Overview of Hardware Hacking for Security Assessment](https://medium.com/@LargeCardinal/pentesting-hardware-42cf915c4b21)
  - [Hardware Hacking Live at S4x16](https://www.youtube.com/watch?v=Tq5-7szmxLA)
