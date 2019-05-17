@@ -32,6 +32,7 @@
  - [Rocking the pocket book: Hacking chemical plants for competition and extortion](https://www.blackhat.com/docs/us-15/materials/us-15-Krotofil-Rocking-The-Pocket-Book-Hacking-Chemical-Plant-For-Competition-And-Extortion-wp.pdf)
  - [Hardware Hacking 101 talk](https://github.com/rdomanski/hardware_hacking/tree/master/my_talks/Hardware_Hacking_101)
  - [eyeDisk. Hacking the unhackable. Again](https://www.pentestpartners.com/security-blog/eyedisk-hacking-the-unhackable-again/)
+ - [Make It Rain with MikroTik](https://medium.com/tenable-techblog/make-it-rain-with-mikrotik-c90705459bc6)
 
 ## Bootloader
 
