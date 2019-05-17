@@ -90,6 +90,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
 ### Timing attack
 
  - [Timing attack on an Embedded Controller](https://hackaday.io/project/723-reverse-engineering-toshiba-r100-bios/log/51302-ec-firmware-dumped)
+ - [Timing Attacks using Machine Learning](https://parzelsec.de/timing-attacks-with-machine-learning/)
 
 ## Reverse engineering
 
