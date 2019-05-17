@@ -1,5 +1,6 @@
 # Hardware
 
+ - [SWD – ARM’S ALTERNATIVE TO JTAG](https://research.kudelskisecurity.com/2019/05/16/swd-arms-alternative-to-jtag/)
  - [The hackers hardware toolkit](https://github.com/yadox666/The-Hackers-Hardware-Toolkit)
  - [A FRAMEWORK FOR EMBEDDED HARDWARE SECURITY ANALYSIS](https://pdfs.semanticscholar.org/2a2d/23cd993f5fbc77470ae7d04720e8ed7dfa89.pdf)
  - [Overview of Hardware Hacking for Security Assessment](https://medium.com/@LargeCardinal/pentesting-hardware-42cf915c4b21)
