@@ -126,6 +126,7 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
  - [Cheating the ELF](documents/subversiveld.pdf)
  - [LIEF](https://lief-project.github.io) The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats
  - [Why doesn't `strip` remove section headers from ELF executables?](https://unix.stackexchange.com/questions/267070/why-doesnt-strip-remove-section-headers-from-elf-executables)
+ - [0pack](https://github.com/Luis-Hebendanz/0pack) A novel technique to hide code from debuggers
 
 ### Relocation
 
