@@ -57,6 +57,7 @@
 ## ARM
 
  - [S6 Sboot](https://blog.quarkslab.com/reverse-engineering-samsung-s6-sboot-part-i.html)
+ - [Reverse-engineering Samsung Exynos 9820 bootloader and TZ](http://allsoftwaresucks.blogspot.com/2019/05/reverse-engineering-samsung-exynos-9820.html?m=1)
 
 ## C++
 
