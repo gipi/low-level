@@ -1,5 +1,6 @@
 # Microcontrollers&Embedded Systems
 
+ - [Anatomy of cross-compilation toolchains](https://elinux.org/images/1/15/Anatomy_of_Cross-Compilation_Toolchains.pdf)
  - [From zero to main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
  - [Cross debugging for ARM / MIPS ELF with QEMU/toolchain](https://reverseengineering.stackexchange.com/questions/8829/cross-debugging-for-arm-mips-elf-with-qemu-toolchain)
  - [Emulating Embedded Linux Devices with QEMU](https://www.novetta.com/2018/02/emulating-embedded-linux-devices-with-qemu/)
