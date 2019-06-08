@@ -7,6 +7,11 @@
  - [Emulating Embedded Linux Systems with QEMU](https://www.novetta.com/2018/02/emulating-embedded-linux-systems-with-qemu/)
  - [GNU Build IDs for Firmware](https://interrupt.memfault.com/blog/gnu-build-id-for-firmware)
 
+## Build Systems
+
+ - [Yocto project](https://www.yoctoproject.org/)
+ - [OpenEmbedded layers index](https://layers.openembedded.org/)
+
 ## Bootloader
 
  - [A tour of bootloading](http://www.bxsays.com/blog/2015/09/03/a-toure-of-bootloading.html)
@@ -270,4 +275,5 @@ A variant of the Beagle Bone, a board with the [TI Sitara AM335x](http://www.ti.
  - [eLinux page](https://elinux.org/BeagleBone_Community)
  - [AM335x Technical Reference Manual](https://www.ti.com/lit/ug/spruh73p/spruh73p.pdf)
  - [Writing MLO](https://witekio.com/blog/writing-mlo-beagleboard-xm/)
+ - [Building BeagleBone Systems with Yocto](https://jumpnowtek.com/beaglebone/BeagleBone-Systems-with-Yocto.html)
 
