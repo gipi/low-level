@@ -54,6 +54,10 @@ for example, is p14.
 
 ## Instruction set
 
+![](/images/arm-isa.png)
+
+### Links
+
  - A few documents about it
    - [Cheat sheet](http://infocenter.arm.com/help/topic/com.arm.doc.qrc0001l/QRC0001_UAL.pdf)
    - [specification](http://vision.gel.ulaval.ca/~jflalonde/cours/1001/h17/docs/arm-instructionset.pdf)
