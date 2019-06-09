@@ -276,4 +276,118 @@ A variant of the Beagle Bone, a board with the [TI Sitara AM335x](http://www.ti.
  - [AM335x Technical Reference Manual](https://www.ti.com/lit/ug/spruh73p/spruh73p.pdf)
  - [Writing MLO](https://witekio.com/blog/writing-mlo-beagleboard-xm/)
  - [Building BeagleBone Systems with Yocto](https://jumpnowtek.com/beaglebone/BeagleBone-Systems-with-Yocto.html)
+ - https://www.eewiki.net/display/linuxonarm/BeagleBone+Black
+ - http://icculus.org/~hendersa/android/
 
+You can build a complete system with this [instruction](http://www.crashcourse.ca/wiki/index.php/BBB_meta-bb)
+or create an image using [this](https://github.com/RobertCNelson/omap-image-builder)
+
+[Home page](http://beagleboard.org/black) | [Wiki](http://www.elinux.org/Beagleboard:BeagleBoneBlack) | [Android](http://beagleboard.org/project/rowboat/)
+
+The ``uENV.txt`` file is in the FAT partition not in the ``/boot`` directory, the ``BOOT`` button
+decides only if the system will use the file from the ``eMMC`` or from the SD ([source](https://groups.google.com/d/msg/beagleboard/_mOlo6T-70E/yZdHiD_ftbcJ)).
+
+![Schema](http://elinux.org/images/2/2b/Features.jpg)
+
+#### U-Boot
+
+
+ - http://www.twam.info/hardware/beaglebone-black/u-boot-on-beaglebone-black
+
+#### Android
+
+It's possible to build Android using the following mannifest
+
+    repo init -u git://gitorious.org/rowboat/manifest.git -m rowboat-jb-am335x.xml
+
+and the command
+
+    make TARGET_PRODUCT=beagleboneblack OMAPES=4.x droid -j8
+
+source: https://eewiki.net/display/AOA/BeagleBone+Black
+
+#### Kernel
+
+
+    $ git clone https://github.com/RobertCNelson/bb-kernel.git && cd bb-kernel
+    $ git checkout --track origin/am33x-v3.18
+    $ ./build_kernel.sh
+
+#### Serial pinout
+
+From the original [wiki](http://elinux.org/Beagleboard:BeagleBone_Black_Serial)
+
+    J1 GND
+    J4 RX
+    J5 TX
+
+The connection is
+
+ - Baud 115,200
+ - Bits 8
+ - Parity N
+ - Stop Bits 1
+ - Handshake None
+
+With the Bus Pirate remember to set select *normal* as output type
+
+```
+(1)>
+Select output type:
+ 1. Open drain (H=Hi-Z, L=GND)
+ 2. Normal (H=3.3V, L=GND)
+```
+
+http://codechief.wordpress.com/2013/11/11/beaglebone-black-serial-debug-connection/
+
+#### HDMI issues
+
+```
+root@beaglebone:/sys/class/drm/card0/card0-HDMI-A-1# xrandr --verbose                                                                                                                        
+Screen 0: minimum 320 x 200, current 1280 x 720, maximum 2048 x 2048                                                                                                                         
+HDMI-0 connected 1280x720+0+0 (0x42) normal (normal left inverted right x axis y axis) 474mm x 296mm                                                                                         
+       Identifier: 0x40                                                                                                                                                                      
+       Timestamp:  1523547016
+       Subpixel:   unknown
+       Gamma:      1.0:1.0:1.0
+       Brightness: 1.0
+       Clones:
+       CRTC:       0
+       CRTCs:      0
+       Transform:  1.000000 0.000000 0.000000
+                   0.000000 1.000000 0.000000
+                   0.000000 0.000000 1.000000
+                  filter:
+       EDID:
+               00ffffffffffff000469f12201010101
+               20130103802f1e782e78f5a655489b26
+               125054bfef80b30081809500950f9040
+               714f0101010121399030621a274068b0
+               3600da281100001c000000ff0039384c
+               4d56443030343433360a000000fd0038
+               4b1f5111000a202020202020000000fc
+               00415355532d4c5332323148ffff01ff
+               02031e764b909f859484930312010716
+               230907078301000065030c000000023a
+               801871382d40582c9600da2811000018
+               023a80d072382d40102c4580da281100
+               001e011d8018711c1620582c2500da28
+               1100009e011d80d0721c1620102c2580
+               da281100009e011d00bc52d01e20b828
+               5540da281100001e00000000000000dd
+  1280x720 (0x41)   74.2MHz +HSync +VSync
+        h: width  1280 start 1720 end 1760 total 1980 skew    0 clock   37.5KHz
+        v: height  720 start  725 end  730 total  750           clock   50.0Hz
+  1280x720 (0x42)   74.2MHz +HSync +VSync *current
+        h: width  1280 start 1390 end 1430 total 1650 skew    0 clock   45.0KHz
+        v: height  720 start  725 end  730 total  750           clock   60.0Hz
+  720x576 (0x43)   27.0MHz -HSync -VSync
+        h: width   720 start  732 end  796 total  864 skew    0 clock   31.2KHz
+        v: height  576 start  581 end  586 total  625           clock   50.0Hz
+  720x480 (0x44)   27.0MHz -HSync -VSync
+        h: width   720 start  736 end  798 total  858 skew    0 clock   31.5KHz
+        v: height  480 start  489 end  495 total  525           clock   59.9Hz
+  640x480 (0x45)   25.2MHz -HSync -VSync
+        h: width   640 start  656 end  752 total  800 skew    0 clock   31.5KHz
+        v: height  480 start  490 end  492 total  525           clock   59.9Hz
+```
