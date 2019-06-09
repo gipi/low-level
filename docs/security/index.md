@@ -74,7 +74,7 @@ Obviously you need a good wordlist!
 
 See also [shellcode](/shellcode/).
 
- - Understanding the fundamentals of attacks What is happening when someone writes an exploit? awesome [slides](what_happens_exploit.pdf) by Halvar Flake & Thomas Dullien trying
+ - Understanding the fundamentals of attacks What is happening when someone writes an exploit? awesome [slides](/what_happens_exploit.pdf) by Halvar Flake & Thomas Dullien trying
    to formalize exploits
  - https://gbmaster.wordpress.com/2015/06/28/x86-exploitation-101-house-of-force-jedi-overflow/
  - http://0x90909090.blogspot.it/2015/07/no-one-expect-command-execution.html
@@ -120,7 +120,7 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
 
  - [Understanding Server-Side Request Forgery](https://www.bishopfox.com/blog/2015/04/vulnerable-by-design-understanding-server-side-request-forgery/)
  - [Server Side Request Forgery (SSRF)](http://niiconsulting.com/checkmate/2015/04/server-side-request-forgery-ssrf/)
- - [Guide](documents/SSRFbible.Cheatsheet.pdf)
+ - [Guide](/documents/SSRFbible.Cheatsheet.pdf)
  - [A New Era of SSRF - Exploiting URL Parser in
 Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf)
  - [How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!](http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html)
@@ -175,7 +175,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Bypassing non-executable-stack during exploitation using return-to-libc](http://www.infosecwriters.com/text_resources/pdf/return-to-libc.pdf)
  - [The advanced return-into-lib(c) exploits: PaX case study](http://phrack.org/issues/58/4.html)
  - [PAYLOAD ALREADY INSIDE: DATA REUSE FOR ROP EXPLOITS](https://media.blackhat.com/bh-us-10/whitepapers/Le/BlackHat-USA-2010-Le-Paper-Payload-already-inside-data-reuse-for-ROP-exploits-wp.pdf)
- - [Linux ASLR and GNU Libc: Address space layout computing and defence, and “stack canary” protection bypass](documents/offensivecon-talk.pdf)
+ - [Linux ASLR and GNU Libc: Address space layout computing and defence, and “stack canary” protection bypass](/documents/offensivecon-talk.pdf)
  - [New bypass and protection techniques for ASLR on Linux](http://blog.ptsecurity.com/2018/02/new-bypass-and-protection-techniques.html)
 
 ## Cloud
@@ -217,7 +217,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Modern Binary Exploitation](http://security.cs.rpi.edu/courses/binexp-spring2015/)
  - [CSAW Quals 2016 Pwn 500 - Mom's Spaghetti](http://ctfhacker.com/pwn/2016/09/19/csaw-moms-spaghetti.html)
  - [CFT Time](https://ctftime.org)
- - Rise of the machine [PDF](documents/ICIT-Brief-Rise-of-the-Machines.pdf)
+ - Rise of the machine [PDF](/documents/ICIT-Brief-Rise-of-the-Machines.pdf)
  - [Readers of popular websites targeted by stealthy Stegano exploit kit hiding in pixels of malicious ads](http://www.welivesecurity.com/2016/12/06/readers-popular-websites-targeted-stealthy-stegano-exploit-kit-hiding-pixels-malicious-ads/)
  - [Don't use VPN services](https://gist.github.com/joepie91/5a9909939e6ce7d09e29)
  - [Facebook’s ImageTragick story](http://4lemon.ru/2017-01-17_facebook_imagetragick_remote_code_execution.html)
