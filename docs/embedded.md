@@ -9,8 +9,11 @@
 
 ## Build Systems
 
+### Yocto
+
  - [Yocto project](https://www.yoctoproject.org/)
  - [OpenEmbedded layers index](https://layers.openembedded.org/)
+ - [Improving Your Embedded Linux Security Posture with Yocto](/documents/improving-embedded-linux-security-yocto.pdf)
 
 ## Bootloader
 
