@@ -59,6 +59,8 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - http://kukuruku.co/hub/cpp/undefined-behavior-and-fermats-last-theorem
  - https://fuzzing-project.org/tutorial-cflags.html
  - [Compiler explorer](http://godbolt.org/)
+ - [Compile-time stack requirements analysis with GCC](https://www.adacore.com/uploads/technical-papers/Stack_Analysis.pdf)
+
 ## Linkers
 
  - [10 LDFLAGS I Love](https://blog.jessfraz.com/post/top-10-favorite-ldflags/)
@@ -93,6 +95,10 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [Blob Sallad — Canvas Tag and JavaScript Physics Simulation Experiment](https://dev.opera.com/articles/blob-sallad-canvas-tag-and-javascript/)
  - [algorithm-cheat](https://github.com/cirosantilli/algorithm-cheat) Algorithm tutorials and simple multi-language implementations with unit tests.
  - [Modified preorder tree traversal](https://www.caktusgroup.com/blog/2016/01/04/modified-preorder-tree-traversal-django/)
+
+### Channel coding
+
+ - [Reed-Solomon Codes](http://tesi.cab.unipd.it/43857/1/martini_tommaso_1008717_reedSolomonCodes.pdf)
 
 ### CRC
 
