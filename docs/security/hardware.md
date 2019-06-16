@@ -81,6 +81,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - Intel Analysis of Speculative Execution Side Channels [PDF](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf)
  - [Hiding your White-Box Designs is Not Enough](https://www.troopers.de/media/filer_public/b8/4f/b84f0051-3992-4b34-8b7d-7f0be5f209e0/troopers16_teuwen_hiding_your_wb_designs.pdf)
  - [Return-Oriented Flush-Reload Side Channels on ARM and Their Implications for Android Devices](http://web.cse.ohio-state.edu/~zhang.834/papers/ccs16b.pdf)
+ - [On-Device Power Analysis Across Hardware Security Domains](https://eprint.iacr.org/2019/689.pdf)
 
 ### Power analysis
 
