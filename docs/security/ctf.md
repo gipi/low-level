@@ -13,6 +13,7 @@
  - [Blizzard CTF 2017 – The LichKing Reverse Engineering challenge walkthrough](http://0xeb.net/2018/02/blizzard-ctf-2017-the-lichking-reverse-engineering-challenge-walkthrough/)
  - [Pwn2own 2018 Firefox case study](http://blogs.360.cn/blog/how-to-kill-a-firefox-en/)
  - [My HackTheBox CTF Methodology - From fresh box to root!](https://0x00sec.org/t/my-hackthebox-ctf-methodology-from-fresh-box-to-root/13980)
+ - [JIT - Google CTF Quals 2019](https://devcraft.io/2019/06/24/jit-google-ctf-quals-2019.html)
 
 ## RHME
 
