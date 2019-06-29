@@ -76,8 +76,17 @@ loopb:  lodsb
         ret
 ```
 
-## Zip
+## Compression related (Zip, GZip)
 
+The most common compression formats are all using the ``DEFLATE`` algorithm defined in
+[RFC 1951](https://www.ietf.org/rfc/rfc1951.txt), in particular ``ZLIB`` (defined in
+[RFC 1950](https://www.ietf.org/rfc/rfc1950.txt) and ``GZip`` (defined in
+[RFC 1952](https://tools.ietf.org/html/rfc1952)); the ``Zip`` format instead is defined
+[here](https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT).
+
+### Links
+
+ - [Dissecting the GZIP format](http://www.infinitepartitions.com/art001.html)
  - [Zip Files All The Way Down](http://research.swtch.com/zip)
 
 ## JPEG
