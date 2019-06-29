@@ -86,6 +86,10 @@ The most common compression formats are all using the ``DEFLATE`` algorithm defi
 
 ### Links
 
+ - [LZ77&LZ78](https://en.wikipedia.org/wiki/LZ77_and_LZ78)
+ - [LZW](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Welch)
+ - [LZSS](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Storer%E2%80%93Szymanski)
+ - [LZMA](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm)
  - [Dissecting the GZIP format](http://www.infinitepartitions.com/art001.html)
  - [Zip Files All The Way Down](http://research.swtch.com/zip)
 
