@@ -1,5 +1,6 @@
 # Formats
 
+ - [Linux Foundation Referenced Specifications](https://refspecs.linuxfoundation.org/)
  - [CyberChef](https://gchq.github.io/CyberChef/) A simple, intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages. CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression.
 
 ## Endianess
