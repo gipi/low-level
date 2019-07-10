@@ -144,6 +144,10 @@ the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the 
 
 ### Relocation
 
+Relocations are the entities used by the linking process, dynamic or not
+
+ - [Study of ELF loading and relocs](http://netwinder.osuosl.org/users/p/patb/public_html/elf_relocs.html)
+
 ### Core dumps
 
  - [core(5) man page](http://man7.org/linux/man-pages/man5/core.5.html)
