@@ -1,5 +1,9 @@
 # Cryptography
 
+## RNG
+
+ - [Cracking RNGs: Linear Congruential Generators](https://tailcall.net/blog/cracking-randomness-lcgs/)
+
 ## Hash functions
 
  - [Sponge functions](https://keccak.team/sponge_duplex.html)
