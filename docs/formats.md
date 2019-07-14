@@ -94,6 +94,7 @@ The most common compression formats are all using the ``DEFLATE`` algorithm defi
  - [Dissecting the GZIP format](http://www.infinitepartitions.com/art001.html)
  - [Zip Files All The Way Down](http://research.swtch.com/zip)
  - [The structure of a PKZip file](https://users.cs.jmu.edu/buchhofp/forensics/formats/pkzip.html)
+ - [A better zip bomb](https://www.bamsoftware.com/hacks/zipbomb/)
 
 ## JPEG
 
