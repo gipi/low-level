@@ -103,6 +103,8 @@ The most common compression formats are all using the ``DEFLATE`` algorithm defi
 
 ## PNG
 
+ - [PNG Merge](http://wiki.yobi.be/wiki/PNG_Merge) this is a Poc (Proof of Concept) to create a PNG file that contains different images somehow entangled together. 
+
 ## PDF
 
  - [Reference](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf)
