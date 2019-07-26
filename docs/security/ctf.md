@@ -16,6 +16,9 @@
  - [Pwn2own 2018 Firefox case study](http://blogs.360.cn/blog/how-to-kill-a-firefox-en/)
  - [My HackTheBox CTF Methodology - From fresh box to root!](https://0x00sec.org/t/my-hackthebox-ctf-methodology-from-fresh-box-to-root/13980)
  - [JIT - Google CTF Quals 2019](https://devcraft.io/2019/06/24/jit-google-ctf-quals-2019.html)
+ - [WCTF 2019 BabyPwn](https://theromanxpl0it.github.io/articles/2019/07/06/WCTF-babypwn.html)
+ - [Hardware task for WCTF2019](https://github.com/q3k/tpm2137)
+ - [An Android CTF practice challenge](https://github.com/tlamb96/kgb_messenger)
 
 ## RHME
 
