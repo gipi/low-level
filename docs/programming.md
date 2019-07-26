@@ -115,6 +115,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [Brute forcing CRC parameters](http://sitsec.net/blog/2012/02/10/brute-forcing-crc-parameters/)
  - [CRC16-CCITT](http://srecord.sourceforge.net/crc16-ccitt.html)
  - [crcmod](http://crcmod.sourceforge.net/) python module
+ - [CRC Tool Kit](https://github.com/henryk/ctk)
 
 
 ## Threads
