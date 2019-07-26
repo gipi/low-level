@@ -100,7 +100,13 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
 
  - [Reed-Solomon Codes](http://tesi.cab.unipd.it/43857/1/martini_tommaso_1008717_reedSolomonCodes.pdf)
 
-### CRC
+### Error-correcting codes
+
+#### Reed-Solomon
+
+ - [Linear Feedback Shift Registers for the Uninitiated, Part XVI: Reed-Solomon Error Correction](https://www.embeddedrelated.com/showarticle/1182.php)
+
+#### CRC
 
  - [Cyclic Redundancy Check (CRC)](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
  - [Cyclic Redundancy Check: TMS320C64+ Implementation](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
@@ -109,6 +115,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [Brute forcing CRC parameters](http://sitsec.net/blog/2012/02/10/brute-forcing-crc-parameters/)
  - [CRC16-CCITT](http://srecord.sourceforge.net/crc16-ccitt.html)
  - [crcmod](http://crcmod.sourceforge.net/) python module
+
 
 ## Threads
 

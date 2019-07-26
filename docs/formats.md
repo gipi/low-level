@@ -189,6 +189,10 @@ Relocations are the entities used by the linking process, dynamic or not
    - [Section Types and Special Sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html)
    - [Understanding C start up .init_array and .fini_array sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html)
 
+## QRcode
+
+ - [Wikipedia page](https://en.wikipedia.org/wiki/QR_code)
+
 ## Miscellanea
 
  - [500 Byte Images: The Haiku Vector Icon Format](http://blog.leahhanson.us/post/recursecenter2016/haiku_icons.html)

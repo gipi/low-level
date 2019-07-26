@@ -297,7 +297,7 @@ int main(int argc, char* argv[]) {
     char** prog_args = argv + env.idx;
 
     if (env.looper) {
-        fprintf(stderr, " [+] trying to lanch ");
+        fprintf(stderr, " [+] trying to launch ");
 
         unsigned int idx;
         char* a = NULL;
