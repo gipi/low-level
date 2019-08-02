@@ -30,6 +30,8 @@
  - [ghidra-firmware-utils](https://github.com/al3xtjames/ghidra-firmware-utils) Ghidra utilities for analyzing PC firmware
  - [Using OOAnalyzer to Reverse Engineer Object Oriented Code with Ghidra](https://insights.sei.cmu.edu/sei_blog/2019/07/using-ooanalyzer-to-reverse-engineer-object-oriented-code-with-ghidra.html)
  - [how to run a python 3 script with headless analyzer](https://reverseengineering.stackexchange.com/questions/21630/ghidra-how-to-run-a-python-3-script-with-headless-analyzer?atw=1)
+ - [Save Ghidra's control flow graph into a parsable format](https://reverseengineering.stackexchange.com/questions/21693/save-ghidras-control-flow-graph-into-a-parsable-format)
+ - [GHIDRA + MSDN OFFLINE LIBRARY = ￼love](https://blag.nullteilerfrei.de/2019/07/29/ghidra-msdn-offline-library-love/)
 
 ## Hardware
 
