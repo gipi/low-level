@@ -95,6 +95,7 @@ The most common compression formats are all using the ``DEFLATE`` algorithm defi
  - [Zip Files All The Way Down](http://research.swtch.com/zip)
  - [The structure of a PKZip file](https://users.cs.jmu.edu/buchhofp/forensics/formats/pkzip.html)
  - [A better zip bomb](https://www.bamsoftware.com/hacks/zipbomb/)
+ - [How to make compressed file quines, step by step](https://blog.matthewbarber.io/2019/07/22/how-to-make-compressed-file-quines)
 
 ## JPEG
 
