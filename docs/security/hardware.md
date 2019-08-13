@@ -34,6 +34,7 @@
  - [Hardware Hacking 101 talk](https://github.com/rdomanski/hardware_hacking/tree/master/my_talks/Hardware_Hacking_101)
  - [eyeDisk. Hacking the unhackable. Again](https://www.pentestpartners.com/security-blog/eyedisk-hacking-the-unhackable-again/)
  - [Make It Rain with MikroTik](https://medium.com/tenable-techblog/make-it-rain-with-mikrotik-c90705459bc6)
+ - [Taking a Look into Execute-Only Memory](https://www.usenix.org/system/files/woot19-paper_schink.pdf)
 
 ## Bootloader
 
