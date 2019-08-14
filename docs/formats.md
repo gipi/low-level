@@ -141,6 +141,12 @@ the execution and the linking for the file.
 The kernel loads in memory only the ``PT_LOAD`` type and if is defined an interpreter (in
 the section ``PT_INTERP``) call the interpreter to do its job (i.e. resolve the dynamic sections).
 
+This is a prime that is also an ``ELF``:
+
+```
+7f454c46010101000000000000000000020003000100000054800408340000000000000000000000340020000100000000000000010000000000000000800408008004085b0000005b0000000500000000100000b32a31c040cd80597ec9b11d
+```
+
  - [Specification](http://www.skyfree.org/linux/references/ELF_Format.pdf)
  - [Cheating the ELF](documents/subversiveld.pdf)
  - [LIEF](https://lief-project.github.io) The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats
