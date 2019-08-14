@@ -40,3 +40,4 @@ An useful diagram from [here](https://clementc.github.io/blog/2018/01/25/moving_
  - [buffering in standard streams](http://www.pixelbeat.org/programming/stdio_buffering/)
  - [Command Injection Without Spaces](http://www.betterhacker.com/2016/10/command-injection-without-spaces.html)
  - [HINTS FOR WRITING UNIX TOOLS](https://monkey.org/~marius/unix-tools-hints.html)
+ - [PIPES, FORKS, & DUPS: UNDERSTANDING COMMAND EXECUTION AND INPUT/OUTPUT DATA FLOW](http://www.rozmichelle.com/pipes-forks-dups/)
