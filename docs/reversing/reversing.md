@@ -26,7 +26,6 @@
  - [ghidraninja/ghidra_scripts](https://github.com/ghidraninja/ghidra_scripts)
  - [WORKING WITH GHIDRA'S P-CODE TO IDENTIFY VULNERABLE FUNCTION CALLS](https://www.riverloopsecurity.com/blog/2019/05/pcode/)
  - [Writing a wasm loader for Ghidra. Part 1: Problem statement and setting up environment](https://habr.com/en/post/443318/)
- - [SEGA Genesis ROM hacking](https://zznop.github.io/romhacking/2019/03/14/sega-genesis-rom-hacking-with-ghidra.html)
  - [ghidra-firmware-utils](https://github.com/al3xtjames/ghidra-firmware-utils) Ghidra utilities for analyzing PC firmware
  - [Using OOAnalyzer to Reverse Engineer Object Oriented Code with Ghidra](https://insights.sei.cmu.edu/sei_blog/2019/07/using-ooanalyzer-to-reverse-engineer-object-oriented-code-with-ghidra.html)
  - [how to run a python 3 script with headless analyzer](https://reverseengineering.stackexchange.com/questions/21630/ghidra-how-to-run-a-python-3-script-with-headless-analyzer?atw=1)
@@ -59,22 +58,29 @@
 
 ## Software
 
-## ARM
+ - [Reverse engineering and removing Pokémon GO’s certificate pinning](https://eaton-works.com/2016/07/31/reverse-engineering-and-removing-pokemon-gos-certificate-pinning/)
+ - [Toy decompiler for x86-64 written in Python](https://yurichev.com/writings/toy_decompiler.pdf)
+ - [Finding the actual Thumb code in firmware](https://reverseengineering.stackexchange.com/questions/5945/finding-the-actual-thumb-code-in-firmware)
+ - [Reverse Engineering Exercises](https://github.com/rotlogix/arm_reverse_engineering_exercises) for ARM
+
+### ARM
 
  - [S6 Sboot](https://blog.quarkslab.com/reverse-engineering-samsung-s6-sboot-part-i.html)
  - [Reverse-engineering Samsung Exynos 9820 bootloader and TZ](http://allsoftwaresucks.blogspot.com/2019/05/reverse-engineering-samsung-exynos-9820.html?m=1)
 
-## C++
+### C++
 
  - [Reversing C++ Virtual Functions: Part 1](https://alschwalm.com/blog/static/2016/12/17/reversing-c-virtual-functions/)
  - [Reversing C++](https://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Paper/bh-dc-07-Sabanal_Yason-WP.pdf)
  - [How to find the location of the vtable?](https://reverseengineering.stackexchange.com/questions/5956/how-to-find-the-location-of-the-vtable/)
  - [Guidelines to MFC reversing](https://quequero.org/2008/08/guidelines-to-mfc-reversing/)
 
-## Win32
+### Win32
 
+ - [How to GetProcAddress() like a boss](https://blog.benoitblanchon.fr/getprocaddress-like-a-boss/)
  - [Reversing Microsoft Visual C++ Part I: Exception Handling](http://www.openrce.org/articles/full_view/21)
  - [Reversing Microsoft Visual C++ Part II: Classes, Methods and RTTI](http://www.openrce.org/articles/full_view/23)
+ - [PortEx](https://github.com/katjahahn/PortEx) Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness
 
 ### Java
 
@@ -144,18 +150,23 @@ Num Vaddr      Paddr      Len Size Section  Type  String
 ### Android 
 
  - http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/
+ - [Kotlin and Java: How Hackers See Your Code](https://brompwnie.github.io/reversing/2018/02/12/Kotlin-and-Java-How-Hackers-See-Your-Code.html)
+ - [Android application reversing 101](https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/)
 
 ### Python
 
  - [Looking inside the box](https://anvilventures.com/blog/looking-inside-the-box.html): notes about reversing Dropbox's client
 
-### Links
+### SEGA
 
- - [Reverse engineering and removing Pokémon GO’s certificate pinning](https://eaton-works.com/2016/07/31/reverse-engineering-and-removing-pokemon-gos-certificate-pinning/)
- - [Toy decompiler for x86-64 written in Python](https://yurichev.com/writings/toy_decompiler.pdf)
- - [Finding the actual Thumb code in firmware](https://reverseengineering.stackexchange.com/questions/5945/finding-the-actual-thumb-code-in-firmware)
- - [Reverse Engineering Exercises](https://github.com/rotlogix/arm_reverse_engineering_exercises) for ARM
- - [Android application reversing 101](https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/)
+ - [PHDays "Best Reverser" contest (SEGA Genesis/MD ROM) write-up](https://romhack.github.io/doc/segaBestReverserWriteup/)
+ - [SEGA Genesis ROM hacking](https://zznop.github.io/romhacking/2019/03/14/sega-genesis-rom-hacking-with-ghidra.html)
+
+## Tools
+
+### Z3
+
+ - [Z3 API in Python](https://github.com/Z3Prover/z3/blob/master/examples/python/tutorial/jupyter/guide.ipynb)
 
 ### Binwalk
 

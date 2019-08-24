@@ -35,6 +35,8 @@
  - [eyeDisk. Hacking the unhackable. Again](https://www.pentestpartners.com/security-blog/eyedisk-hacking-the-unhackable-again/)
  - [Make It Rain with MikroTik](https://medium.com/tenable-techblog/make-it-rain-with-mikrotik-c90705459bc6)
  - [Taking a Look into Execute-Only Memory](https://www.usenix.org/system/files/woot19-paper_schink.pdf)
+ - [Breaking Through Another Side: Bypassing Firmware Security Boundaries](https://medium.com/@matrosov/breaking-through-another-side-bypassing-firmware-security-boundaries-85807d3fe604) Hardware/Firmware Security != Summary of all Security Boundaries -> Hardware/Firmware Security == HW_SEC_Boundary_1||HW_SEC_Boundary_2|| ... || HW_SEC_Boundary_N
+ - [Pwn the ESP32 crypto-core](https://limitedresults.com/2019/08/pwn-the-esp32-crypto-core/)
 
 ## Bootloader
 

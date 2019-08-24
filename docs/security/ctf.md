@@ -19,6 +19,8 @@
  - [WCTF 2019 BabyPwn](https://theromanxpl0it.github.io/articles/2019/07/06/WCTF-babypwn.html)
  - [Hardware task for WCTF2019](https://github.com/q3k/tpm2137)
  - [An Android CTF practice challenge](https://github.com/tlamb96/kgb_messenger)
+ - [Some writeups by SecurisecCTF](https://www.securisec.com/writeups/)
+ - [CODE BLUE CTF 2018 Quals - watch_cats (solved by q3k)](https://blog.dragonsector.pl/2018/08/code-blue-ctf-2018-quals-watchcats.html) hardware challenge (verilog)
 
 ## RHME
 

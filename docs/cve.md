@@ -2,6 +2,7 @@
 
  - [awesome cve poc](https://github.com/qazbnm456/awesome-cve-poc)
  - [CVE-2019-13272](https://bugs.chromium.org/p/project-zero/issues/detail?id=1903) Linux 4.10 < 5.1.17 PTRACE_TRACEME local root [PoC](https://github.com/bcoles/kernel-exploits/blob/master/CVE-2019-13272/poc.c)
+ - [CVE-2019-2107](https://github.com/marcinguy/CVE-2019-2107) Android stagefright-like HW vulnerability
  - [CVE-2019–0708](https://medium.com/@straightblast426/a-debugging-primer-with-cve-2019-0708-ccfa266682f6) A Debugging Primer with CVE-2019–0708
  - [CVE-2019-0752](https://www.zerodayinitiative.com/blog/2019/5/21/rce-without-native-code-exploitation-of-a-write-what-where-in-internet-explorer) RCE WITHOUT NATIVE CODE: EXPLOITATION OF A WRITE-WHAT-WHERE IN INTERNET EXPLORER
  - [CVE-2019-0211](https://cfreal.github.io/carpe-diem-cve-2019-0211-apache-local-root.html) Apache Root Privilege Escalation
