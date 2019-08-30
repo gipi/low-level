@@ -45,6 +45,7 @@ pages:
 - Networking:
   - Home: networking.md
   - Iptables: networking/iptables.md
+- Fuzzing: fuzzing.md
 - Computer vision: cv.md
 - Physics: physics.md
 theme: readthedocs
