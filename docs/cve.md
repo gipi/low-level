@@ -1,6 +1,7 @@
 # CVE
 
  - [awesome cve poc](https://github.com/qazbnm456/awesome-cve-poc)
+ - [CVE-2019-14378](https://blog.bi0s.in/2019/08/24/Pwn/VM-Escape/2019-07-29-qemu-vm-escape-cve-2019-14378/) Qemu escape
  - [CVE-2019-13272](https://bugs.chromium.org/p/project-zero/issues/detail?id=1903) Linux 4.10 < 5.1.17 PTRACE_TRACEME local root [PoC](https://github.com/bcoles/kernel-exploits/blob/master/CVE-2019-13272/poc.c)
  - [CVE-2019-2107](https://github.com/marcinguy/CVE-2019-2107) Android stagefright-like HW vulnerability
  - [CVE-2019–0708](https://medium.com/@straightblast426/a-debugging-primer-with-cve-2019-0708-ccfa266682f6) A Debugging Primer with CVE-2019–0708
