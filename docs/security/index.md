@@ -70,6 +70,10 @@ Obviously you need a good wordlist!
  - [Munging password](https://th3s3cr3tag3nt.blogspot.it/2017/03/munging-passwords.html)
  - [wordsmith](https://github.com/skahwah/wordsmith)
 
+## Privilege escalation
+
+ - [Privilege Escalation Cheatsheet](https://www.hackingarticles.in/privilege-escalation-cheatsheet-vulnhub/)
+
 ## Custom code execution
 
 See also [shellcode](/shellcode/).
