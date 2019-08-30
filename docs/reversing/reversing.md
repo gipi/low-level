@@ -31,6 +31,7 @@
  - [how to run a python 3 script with headless analyzer](https://reverseengineering.stackexchange.com/questions/21630/ghidra-how-to-run-a-python-3-script-with-headless-analyzer?atw=1)
  - [Save Ghidra's control flow graph into a parsable format](https://reverseengineering.stackexchange.com/questions/21693/save-ghidras-control-flow-graph-into-a-parsable-format)
  - [GHIDRA + MSDN OFFLINE LIBRARY = ￼love](https://blag.nullteilerfrei.de/2019/07/29/ghidra-msdn-offline-library-love/)
+ - [Reversing Raw Binary Firmware Files in Ghidra](https://gist.github.com/nstarke/ed0aba2c882b8b3078747a567ee00520)
 
 ## Hardware
 
