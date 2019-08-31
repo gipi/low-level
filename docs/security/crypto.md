@@ -20,6 +20,11 @@
 
  - [Ruining the Magic of Magento's Encryption Library](http://www.openwall.com/lists/oss-security/2016/07/19/3)
 
+## Attacks
+
+ - [Sybil attack](https://en.wikipedia.org/wiki/Sybil_attack) the attacker subverts the reputation system of a
+ peer-to-peer network by creating a large number of pseudonymous identities and uses them to gain a disproportionately large influence
+
 ## Links
 
  - [cryptopals](https://cryptopals.com/) We've built a collection of 48 exercises that demonstrate attacks on real-world crypto.

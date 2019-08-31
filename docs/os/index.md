@@ -31,6 +31,11 @@ Related to that there are **Hypervisor**s
  - [Use mmap With Care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)
  - [signalfd is useless](https://ldpreload.com/blog/signalfd-is-useless)
 
+### Gate
+
+ - [A little tour of linux-gate.so](https://www.technovelty.org/linux/a-little-tour-of-linux-gateso.html)
+ - [Creating a vDSO: the Colonel's Other Chicken](https://www.linuxjournal.com/content/creating-vdso-colonels-other-chicken)
+
 ### Clock
 
  - [Clock Framework User Guide](http://processors.wiki.ti.com/index.php/Clock_Framework_User_Guide)
