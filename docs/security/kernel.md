@@ -23,4 +23,5 @@
  - [CVE-2016-0728](https://perception-point.io/2016/01/14/analysis-and-exploitation-of-a-linux-kernel-vulnerability-cve-2016-0728/)
  - [MMap Vulnerabilities](https://research.checkpoint.com/mmap-vulnerabilities-linux-kernel/) also [PDF](https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-mmap-exploitation-whitepaper-2017-09-18.pdf)
  - [out-of-tree](https://out-of-tree.io/) {module, exploit} development tool: is for automating some routine actions for creating development environments for debugging kernel modules and exploits, generating reliability statistics for exploits, and also provides the ability to easily integrate into CI (Continuous Integration).
+ - [collection of verified Linux kernel exploits](https://github.com/jollheef/lpe)
 

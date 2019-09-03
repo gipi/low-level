@@ -32,6 +32,7 @@
  - [Save Ghidra's control flow graph into a parsable format](https://reverseengineering.stackexchange.com/questions/21693/save-ghidras-control-flow-graph-into-a-parsable-format)
  - [GHIDRA + MSDN OFFLINE LIBRARY = ￼love](https://blag.nullteilerfrei.de/2019/07/29/ghidra-msdn-offline-library-love/)
  - [Reversing Raw Binary Firmware Files in Ghidra](https://gist.github.com/nstarke/ed0aba2c882b8b3078747a567ee00520)
+ - [An Introduction To Code Analysis With Ghidra](https://threatvector.cylance.com/en_us/home/an-introduction-to-code-analysis-with-ghidra.html)
 
 ## Hardware
 
@@ -167,7 +168,10 @@ Num Vaddr      Paddr      Len Size Section  Type  String
 
 ### Z3
 
+MIT licensed SMT solver from Microsoft Research
+
  - [Z3 API in Python](https://github.com/Z3Prover/z3/blob/master/examples/python/tutorial/jupyter/guide.ipynb)
+ - [Breaking Algorithms - SMT Solvers for WebApp Security](https://alephsecurity.com/2019/09/02/Z3-for-webapp-security/)
 
 ### Binwalk
 

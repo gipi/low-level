@@ -42,3 +42,5 @@ Exist a ``curses`` interface
  - [GDB Peda](https://github.com/longld/peda)
  - [Tips for Productive Debugging with GDB](https://metricpanda.com/tips-for-productive-debugging-with-gdb)
  - [GEF](https://github.com/hugsy/gef) Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers 
+ - [Automate Debugging with GDB Python API](https://interrupt.memfault.com/blog/automate-debugging-with-gdb-python-api)
+
