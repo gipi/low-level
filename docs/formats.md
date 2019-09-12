@@ -77,6 +77,10 @@ loopb:  lodsb
         ret
 ```
 
+## Regex
+
+![](/images/regex.png)
+
 ## Compression related (Zip, GZip)
 
 The most common compression formats are all using the ``DEFLATE`` algorithm defined in
