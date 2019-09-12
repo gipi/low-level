@@ -31,3 +31,4 @@ Raw
  - [Heap Overflow Exploitation on Windows 10 Explained](https://blog.rapid7.com/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/)
  - [how2heap](https://github.com/shellphish/how2heap) a repository for learning various heap exploitation techniques.
  - [Linux Heap Fast Bin Double Free Exploitation](https://drive.google.com/file/d/1KM0Y1NWckIa3unePqYk5tkZ3FN8icgQW/view)
+ - [House of corrosion](https://github.com/CptGibbon/House-of-Corrosion) A description of the "House of Corrosion" GLIBC heap exploitation technique.
