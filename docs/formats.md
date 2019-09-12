@@ -96,6 +96,8 @@ The most common compression formats are all using the ``DEFLATE`` algorithm defi
  - [The structure of a PKZip file](https://users.cs.jmu.edu/buchhofp/forensics/formats/pkzip.html)
  - [A better zip bomb](https://www.bamsoftware.com/hacks/zipbomb/)
  - [How to make compressed file quines, step by step](https://blog.matthewbarber.io/2019/07/22/how-to-make-compressed-file-quines)
+ - [YouFLATE](https://github.com/XlogicX/YouFLATE) An interactive tool that allows you to DEFLATE (compress) data using your own length-distance pairs, not merely the most efficient ones as is default with DEFLATE.
+ - [infgen](https://github.com/madler/infgen) Deflate disassember to convert a deflate, zlib, or gzip stream into a readable form.
 
 ## JPEG
 
