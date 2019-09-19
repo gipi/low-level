@@ -102,3 +102,4 @@ for example, is p14.
  - [VPF](https://en.wikipedia.org/wiki/ARM_architecture#Floating-point_.28VFP.29): technology is an FPU (Floating-Point Unit) coprocessor extension to the ARM architecture
  - [Whirlwind Tour of ARM Assembly](http://www.coranac.com/tonc/text/asm.htm)
  - [Online ARM To Hex Converter](http://armconverter.com/)
+ - [White Paper: DSP capabilities of Cortex-M4 and Cortex-M7](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/white-paper-dsp-capabilities-of-cortex-m4-and-cortex-m7)
