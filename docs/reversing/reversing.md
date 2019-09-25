@@ -19,6 +19,7 @@
  - [Ida- how to find connection between 2 functions](https://reverseengineering.stackexchange.com/questions/17659/ida-how-to-find-connection-between-2-functions)
  - [How to Hack an Expensive Camera and Not Get Killed by Your Wife](https://alexhude.github.io/2019/01/24/hacking-leica-m240.html)
  - [Deobfuscating MoVfuscator - Part 2](https://x0r19x91.github.io/2019/swamp-future-fun)
+ - [[DSCTF 2019] CPU Adventure – Unknown CPU Reversing](https://www.robertxiao.ca/hacking/dsctf-2019-cpu-adventure-unknown-cpu-reversing/)
  
 ## Ghidra
 
@@ -33,6 +34,8 @@
  - [GHIDRA + MSDN OFFLINE LIBRARY = ￼love](https://blag.nullteilerfrei.de/2019/07/29/ghidra-msdn-offline-library-love/)
  - [Reversing Raw Binary Firmware Files in Ghidra](https://gist.github.com/nstarke/ed0aba2c882b8b3078747a567ee00520)
  - [An Introduction To Code Analysis With Ghidra](https://threatvector.cylance.com/en_us/home/an-introduction-to-code-analysis-with-ghidra.html)
+ - [SVD-Loader for Ghidra: Simplifying bare-metal ARM reverse engineering](https://leveldown.de/blog/svd-loader/)
+ - [Analysing RPC With Ghidra and Neo4j](https://blog.xpnsec.com/analysing-rpc-with-ghidra-neo4j/)
 
 ## Hardware
 
