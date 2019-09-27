@@ -43,6 +43,8 @@ It is possible to use python
 
 ```python
 >>> bytearray(getBytes(toAddr(0x4c00), 0x2a10))
+>>> getCurrentProgram().getCodeManager().getCodeUnitBefore(toAddr(0xa0010004))
+addiu sp,sp,-0x38
 ```
 
 ## Hardware
