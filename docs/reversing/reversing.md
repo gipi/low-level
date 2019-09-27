@@ -37,6 +37,14 @@
  - [SVD-Loader for Ghidra: Simplifying bare-metal ARM reverse engineering](https://leveldown.de/blog/svd-loader/)
  - [Analysing RPC With Ghidra and Neo4j](https://blog.xpnsec.com/analysing-rpc-with-ghidra-neo4j/)
 
+### Scripting
+
+It is possible to use python
+
+```python
+>>> bytearray(getBytes(toAddr(0x4c00), 0x2a10))
+```
+
 ## Hardware
 
 ### Links
