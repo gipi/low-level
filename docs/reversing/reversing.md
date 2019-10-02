@@ -36,6 +36,8 @@
  - [An Introduction To Code Analysis With Ghidra](https://threatvector.cylance.com/en_us/home/an-introduction-to-code-analysis-with-ghidra.html)
  - [SVD-Loader for Ghidra: Simplifying bare-metal ARM reverse engineering](https://leveldown.de/blog/svd-loader/)
  - [Analysing RPC With Ghidra and Neo4j](https://blog.xpnsec.com/analysing-rpc-with-ghidra-neo4j/)
+ - [How to get the address of vertex in Function graph by using some python api?](https://github.com/NationalSecurityAgency/ghidra/issues/734)
+ - [Ghidra -- A quick start guide with pictures and a C++ example](http://hwreblog.com/projects/ghidra.html)
 
 ### Scripting
 
