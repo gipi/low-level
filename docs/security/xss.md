@@ -27,6 +27,7 @@ execution context.
  - [Awesome XSS](https://github.com/s0md3v/AwesomeXSS)
  - [XSS-Auditor — the protector of unprotected](https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b)
  - [Intigriti XSS Challenge - Solution and problem solving approach](https://dee-see.github.io/intigriti/xss/2019/05/02/intigriti-xss-challenge-writeup.html)
+ - [XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 
 ## RPO
 
