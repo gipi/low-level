@@ -27,3 +27,9 @@
  - [slide](https://insomnihack.ch/wp-content/uploads/2017/04/AM-ESF-rhme2.pdf) with some writeups by riscure itself
  - [repo](https://github.com/Riscure/Rhme-2017)
  - https://s0s1-team.github.io/ctf/rhme3/
+
+## Flare-on
+
+ - 2019 solutions
+   - [from flare-on](https://www.fireeye.com/blog/threat-research/2019/09/2019-flare-on-challenge-solutions.html)
+   - [from malwareunicorn](https://malwareunicorn.org/workshops/flareon6_2019.html)
