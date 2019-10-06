@@ -25,6 +25,7 @@
 
  - [Ghidra's Online Courses](http://ghidra.re/online-courses/)
  - [ghidraninja/ghidra_scripts](https://github.com/ghidraninja/ghidra_scripts)
+ - [Decompiler Analysis Engine](https://ghidra-decompiler-docs.netlify.com/index.html)
  - [WORKING WITH GHIDRA'S P-CODE TO IDENTIFY VULNERABLE FUNCTION CALLS](https://www.riverloopsecurity.com/blog/2019/05/pcode/)
  - [Writing a wasm loader for Ghidra. Part 1: Problem statement and setting up environment](https://habr.com/en/post/443318/)
  - [ghidra-firmware-utils](https://github.com/al3xtjames/ghidra-firmware-utils) Ghidra utilities for analyzing PC firmware
