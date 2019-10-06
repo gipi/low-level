@@ -49,6 +49,18 @@ It is possible to use python
 addiu sp,sp,-0x38
 ```
 
+### Decompiler
+
+From [this issue](https://github.com/NationalSecurityAgency/ghidra/issues/720) some indication on how debug the decompiler
+
+```
+$ cd Ghidra/Feature/Decompiler/src/decompile/cpp
+$ make decomp_dbg
+$ export SLEIGHHOME=~/git/ghidra/
+$ ./decomp_dbg 
+[decomp]>
+```
+
 ## Hardware
 
 ### Links
