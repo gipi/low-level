@@ -2,6 +2,8 @@
 
 ## RNG
 
+ - Discussion on [hacker news](https://news.ycombinator.com/item?id=21185594) about ``/dev/random`` going out of randomness and its non-senseness
+ - [Myths about /dev/urandom](https://www.2uo.de/myths-about-urandom)
  - [Cracking RNGs: Linear Congruential Generators](https://tailcall.net/blog/cracking-randomness-lcgs/)
 
 ## Hash functions
