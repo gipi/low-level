@@ -1,7 +1,7 @@
 # CTF
 
  - [Google CTF 2019](https://capturetheflag.withgoogle.com)
-
+ - [SquareCTF](https://squarectf.com)
  - [Vulnhub](https://www.vulnhub.com/) To provide materials that allows anyone to gain
    practical 'hands-on' experience in digital security, computer software & network administration.
  - [root-me](https://www.root-me.org)
