@@ -33,6 +33,7 @@ An useful diagram from [here](https://clementc.github.io/blog/2018/01/25/moving_
 
 ## Links
 
+ - [dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible) A collection of pure bash alternatives to external processes
  - [Google Bash style guide](https://google.github.io/styleguide/shell.xml)
  - http://resources.mpi-inf.mpg.de/departments/rg1/teaching/unixffb-ss98/quoting-guide.html
  - http://twistedoakstudios.com/blog/Post4872_dont-treat-paths-like-strings
