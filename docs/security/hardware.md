@@ -54,7 +54,16 @@
 
  - [Jailbreaking iOS: From past to present](https://api.tihmstar.net/35c3slides.pdf)
 
-## Glitching
+## Side channel attack
+
+ - [Reading privileged memory with a side-channel](https://googleprojectzero.blogspot.it/2018/01/reading-privileged-memory-with-side.html)
+ - Intel Analysis of Speculative Execution Side Channels [PDF](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf)
+ - [Hiding your White-Box Designs is Not Enough](https://www.troopers.de/media/filer_public/b8/4f/b84f0051-3992-4b34-8b7d-7f0be5f209e0/troopers16_teuwen_hiding_your_wb_designs.pdf)
+ - [Return-Oriented Flush-Reload Side Channels on ARM and Their Implications for Android Devices](http://web.cse.ohio-state.edu/~zhang.834/papers/ccs16b.pdf)
+ - [On-Device Power Analysis Across Hardware Security Domains](https://eprint.iacr.org/2019/689.pdf)
+ - [In Transactional Memory, No One Can Hear You Scream](http://blog.ret2.io/2019/06/26/attacking-intel-tsx/)
+
+### Glitching
 
  - [fault injection attacks on microcontrollers: clock glitching tutorial](http://www.t4f.org/articles/fault-injection-attacks-clock-glitching-tutorial/)
  - [Shaping the Glitch: Optimizing Voltage Fault Injection Attacks](https://tches.iacr.org/index.php/TCHES/article/view/7390/6562)
@@ -79,14 +88,6 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Escalating Privileges in Linux using Voltage Fault Injection](https://www.riscure.com/uploads/2017/10/Riscure_Whitepaper_Escalating_Privileges_in_Linux_using_Fault_Injection.pdf)
  - [Glitching a $20k Piece of History](https://yifan.lu/2019/08/16/glitching-a-20k-piece-of-history/)
 
-## Side channel attack
-
- - [Reading privileged memory with a side-channel](https://googleprojectzero.blogspot.it/2018/01/reading-privileged-memory-with-side.html)
- - Intel Analysis of Speculative Execution Side Channels [PDF](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf)
- - [Hiding your White-Box Designs is Not Enough](https://www.troopers.de/media/filer_public/b8/4f/b84f0051-3992-4b34-8b7d-7f0be5f209e0/troopers16_teuwen_hiding_your_wb_designs.pdf)
- - [Return-Oriented Flush-Reload Side Channels on ARM and Their Implications for Android Devices](http://web.cse.ohio-state.edu/~zhang.834/papers/ccs16b.pdf)
- - [On-Device Power Analysis Across Hardware Security Domains](https://eprint.iacr.org/2019/689.pdf)
- - [In Transactional Memory, No One Can Hear You Scream](http://blog.ret2.io/2019/06/26/attacking-intel-tsx/)
 
 ### Power analysis
 
@@ -94,6 +95,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Introduction to differential power analysis](https://link.springer.com/content/pdf/10.1007%2Fs13389-011-0006-y.pdf)
  - [Power-Based Side-Channel Attack for AES Key Extraction on the ATMega328 Microcontroller](https://people.csail.mit.edu/skoppula/papers/sidechannel.pdf) with a [github repo](https://github.com/skoppula/aes-sidechannel)
  - [TEMPEST attacks against AES](https://www.fox-it.com/nl/wp-content/uploads/sites/12/Tempest_attacks_against_AES.pdf)
+ - [Breaking AES128 with Multi-Bit DPA](https://crysec.dev/2019/08/25/breaking-aes128-with-multi-bit-dpa.html)
 
 ### Timing attack
 
