@@ -37,6 +37,7 @@ There are several phases
  - https://github.com/coreb1t/awesome-pentest-cheat-sheets
  - https://github.com/nixawk/pentest-wiki
  - Kali Linux Revelead [PDF](https://kali.training/downloads/Kali-Linux-Revealed-1st-edition.pdf)
+ - [OWASP-Testing-Checklist](https://github.com/tanprathan/OWASP-Testing-Checklist)
 
 ## Bruteforce
 
