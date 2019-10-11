@@ -28,6 +28,7 @@ execution context.
  - [XSS-Auditor — the protector of unprotected](https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b)
  - [Intigriti XSS Challenge - Solution and problem solving approach](https://dee-see.github.io/intigriti/xss/2019/05/02/intigriti-xss-challenge-writeup.html)
  - [XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
+ - [HackMD Stored XSS and HackMD Desktop RCE](https://5alt.me/2019/10/HackMD%20Stored%20XSS%20and%20HackMD%20Desktop%20RCE/)
 
 ## RPO
 
