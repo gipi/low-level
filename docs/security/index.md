@@ -136,6 +136,7 @@ Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us
 
 ## SQLI
 
+ - [Understanding the full potential of sqlmap during bug bounty hunting](https://vavkamil.cz/2019/10/09/understanding-the-full-potential-of-sqlmap-during-bug-bounty-hunting/)
  - http://atta.cked.me/home/sqlite3injectioncheatsheet
  - http://gwae.trollab.org/sqlite-injection.html
  - https://www.trustwave.com/Resources/SpiderLabs-Blog/Sqlmap-Tricks-for-Advanced-SQL-Injection/
