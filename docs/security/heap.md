@@ -14,17 +14,16 @@
  - [Use after free](https://bugs.exim.org/show_bug.cgi?id=2199) in Exim CVE-2017-16943 with POC
  - [Riding free on the heap – Double free attacks!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-riding-free-on-the-heap-double-free-attacks/)
  - [GIST](https://gist.github.com/inaz2/0fbfe243ca9e4b904edad037d0d76697) overwrite ``malloc_hook`` by fastbins unlink attack
-Raw
  - [Heap Safari - Thread Local Caching](https://0x00sec.org/t/heap-safari-thread-local-caching/5054)
  - [Adobe Flash Exploitation, Then and Now: From CVE-2015-5119 to CVE-2018-4878](https://www.mdsec.co.uk/2018/02/adobe-flash-exploitation-then-and-now-from-cve-2015-5119-to-cve-2018-4878/)
  - [Post](http://tukan.farm/2017/07/08/tcache/) about new cache mechanism into glibc malloc that reduce security
  - [From Heap to RIP](http://blog.frizn.fr/glibc/glibc-heap-to-rip)
  - Linux Heap Exploitation Intro Series
-   - [printf might be leaking!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-bonus-printf-might-be-leaking/)
-   - [Used and Abused – Use After Free](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-used-and-abused-use-after-free/)
-   - [The magicians cape – 1 Byte Overflow](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-the-magicians-cape-1-byte-overflow/)
-   - [Riding free on the heap – Double free attacks!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-riding-free-on-the-heap-double-free-attacks/)
-   - [Set you free()](https://sensepost.com/blog/2018/linux-heap-exploitation-intro-series-set-you-free-part-1/)
+    - [printf might be leaking!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-bonus-printf-might-be-leaking/)
+    - [Used and Abused – Use After Free](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-used-and-abused-use-after-free/)
+    - [The magicians cape – 1 Byte Overflow](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-the-magicians-cape-1-byte-overflow/)
+    - [Riding free on the heap – Double free attacks!](https://sensepost.com/blog/2017/linux-heap-exploitation-intro-series-riding-free-on-the-heap-double-free-attacks/)
+    - [Set you free()](https://sensepost.com/blog/2018/linux-heap-exploitation-intro-series-set-you-free-part-1/)
  - [House Of Roman](https://gist.github.com/romanking98/9aab2804832c0fb46615f025e8ffb0bc)
  - [heap-feng-shui](http://www.phreedom.org/research/heap-feng-shui/heap-feng-shui.html)
  - [Glibc Heap Exploitation Basics : Introduction to ptmalloc2 internals ](https://blog.k3170makan.com/2018/11/glibc-heap-exploitation-basics.html)
