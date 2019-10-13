@@ -21,6 +21,7 @@ unexploitability](http://ieeexplore.ieee.org/stamp/stamp.jsp?reload=true&tp=&arn
  - [The Good, the Bad, and the Weird](https://blog.trailofbits.com/2018/10/26/the-good-the-bad-and-the-weird/)
  - [Data oriented programming](https://huhong-nus.github.io/advanced-DOP/papers/dop.pdf)
  - [Secure Code Partitioning With ELF binaries, aka. SCOP](http://bitlackeys.org/papers/secure_code_partitioning_2018.txt)
+ - [A Guide to Undefined Behavior in C and C++, Part 1](https://blog.regehr.org/archives/213)
 
 Unrelated for now but there is an Android's vulnerabilities [CVE-2017-13156](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) where the system parses an ``APK`` or a ``DEX`` allowing to bypass signature.
 
@@ -74,6 +75,7 @@ Obviously you need a good wordlist!
 ## Privilege escalation
 
  - [Privilege Escalation Cheatsheet](https://www.hackingarticles.in/privilege-escalation-cheatsheet-vulnhub/)
+ - [WINDOWS PRIVILEGE ESCALATION – AN APPROACH FOR PENETRATION TESTERS](https://sec-consult.com/en/blog/2019/04/windows-privilege-escalation-an-approach-for-penetration-testers/)
 
 ## Custom code execution
 
@@ -107,6 +109,7 @@ a string as little as possible**.
  - [Upgrade from LFI to RCE via PHP Sessions](https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/)
  - [Exploiting PHP File Inclusion – Overview](https://websec.wordpress.com/2010/02/22/exploiting-php-file-inclusion-overview/)
  - [Exploiting Remote File Inclusion (RFI) in PHP application and bypassing remote URL inclusion restriction](http://www.mannulinux.org/2019/05/exploiting-rfi-in-php-bypass-remote-url-inclusion-restriction.html?)
+ - [Bitbucket 6.1.1 Path Traversal to RCE](https://blog.ripstech.com/2019/bitbucket-path-traversal-to-rce/)
 
 ## HTTP parameters pollution
 

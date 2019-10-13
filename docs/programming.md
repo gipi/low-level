@@ -60,6 +60,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - https://fuzzing-project.org/tutorial-cflags.html
  - [Compiler explorer](http://godbolt.org/)
  - [Compile-time stack requirements analysis with GCC](https://www.adacore.com/uploads/technical-papers/Stack_Analysis.pdf)
+ - [A Guide to Undefined Behavior in C and C++, Part 1](https://blog.regehr.org/archives/213)
 
 ## Linkers
 

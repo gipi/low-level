@@ -32,3 +32,4 @@ Raw
  - [how2heap](https://github.com/shellphish/how2heap) a repository for learning various heap exploitation techniques.
  - [Linux Heap Fast Bin Double Free Exploitation](https://drive.google.com/file/d/1KM0Y1NWckIa3unePqYk5tkZ3FN8icgQW/view)
  - [House of corrosion](https://github.com/CptGibbon/House-of-Corrosion) A description of the "House of Corrosion" GLIBC heap exploitation technique.
+ - [HEAP OVERFLOWS AND THE IOS KERNEL HEAP](https://azeria-labs.com/heap-overflows-and-the-ios-kernel-heap/)

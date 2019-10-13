@@ -37,6 +37,7 @@
  - [Taking a Look into Execute-Only Memory](https://www.usenix.org/system/files/woot19-paper_schink.pdf)
  - [Breaking Through Another Side: Bypassing Firmware Security Boundaries](https://medium.com/@matrosov/breaking-through-another-side-bypassing-firmware-security-boundaries-85807d3fe604) Hardware/Firmware Security != Summary of all Security Boundaries -> Hardware/Firmware Security == HW_SEC_Boundary_1||HW_SEC_Boundary_2|| ... || HW_SEC_Boundary_N
  - [Pwn the ESP32 crypto-core](https://limitedresults.com/2019/08/pwn-the-esp32-crypto-core/)
+ - [Pwn the ESP32 Secure Boot](https://limitedresults.com/2019/09/pwn-the-esp32-secure-boot/)
 
 ## Bootloader
 
