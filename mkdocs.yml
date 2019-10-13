@@ -41,6 +41,7 @@ pages:
   - Sandbox: security/sandbox.md
 - Reversing:
   - Home: reversing/reversing.md
+  - Ghidra: reversing/ghidra.md
   - Radare2: reversing/radare2.md
 - Networking:
   - Home: networking.md

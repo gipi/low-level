@@ -1,0 +1,41 @@
+# Ghidra
+
+ - [Ghidra's Online Courses](http://ghidra.re/online-courses/)
+ - [ghidraninja/ghidra_scripts](https://github.com/ghidraninja/ghidra_scripts)
+ - [Decompiler Analysis Engine](https://ghidra-decompiler-docs.netlify.com/index.html)
+ - [WORKING WITH GHIDRA'S P-CODE TO IDENTIFY VULNERABLE FUNCTION CALLS](https://www.riverloopsecurity.com/blog/2019/05/pcode/)
+ - [Writing a wasm loader for Ghidra. Part 1: Problem statement and setting up environment](https://habr.com/en/post/443318/)
+ - [ghidra-firmware-utils](https://github.com/al3xtjames/ghidra-firmware-utils) Ghidra utilities for analyzing PC firmware
+ - [Using OOAnalyzer to Reverse Engineer Object Oriented Code with Ghidra](https://insights.sei.cmu.edu/sei_blog/2019/07/using-ooanalyzer-to-reverse-engineer-object-oriented-code-with-ghidra.html)
+ - [how to run a python 3 script with headless analyzer](https://reverseengineering.stackexchange.com/questions/21630/ghidra-how-to-run-a-python-3-script-with-headless-analyzer?atw=1)
+ - [Save Ghidra's control flow graph into a parsable format](https://reverseengineering.stackexchange.com/questions/21693/save-ghidras-control-flow-graph-into-a-parsable-format)
+ - [GHIDRA + MSDN OFFLINE LIBRARY = ￼love](https://blag.nullteilerfrei.de/2019/07/29/ghidra-msdn-offline-library-love/)
+ - [Reversing Raw Binary Firmware Files in Ghidra](https://gist.github.com/nstarke/ed0aba2c882b8b3078747a567ee00520)
+ - [An Introduction To Code Analysis With Ghidra](https://threatvector.cylance.com/en_us/home/an-introduction-to-code-analysis-with-ghidra.html)
+ - [SVD-Loader for Ghidra: Simplifying bare-metal ARM reverse engineering](https://leveldown.de/blog/svd-loader/)
+ - [Analysing RPC With Ghidra and Neo4j](https://blog.xpnsec.com/analysing-rpc-with-ghidra-neo4j/)
+ - [How to get the address of vertex in Function graph by using some python api?](https://github.com/NationalSecurityAgency/ghidra/issues/734)
+ - [Ghidra -- A quick start guide with pictures and a C++ example](http://hwreblog.com/projects/ghidra.html)
+
+## Scripting
+
+It is possible to use python
+
+```python
+>>> bytearray(getBytes(toAddr(0x4c00), 0x2a10))
+>>> getCurrentProgram().getCodeManager().getCodeUnitBefore(toAddr(0xa0010004))
+addiu sp,sp,-0x38
+```
+
+## Decompiler
+
+From [this issue](https://github.com/NationalSecurityAgency/ghidra/issues/720) some indication on how debug the decompiler
+
+```
+$ cd Ghidra/Feature/Decompiler/src/decompile/cpp
+$ make decomp_dbg
+$ export SLEIGHHOME=~/git/ghidra/
+$ ./decomp_dbg 
+[decomp]>
+```
+
