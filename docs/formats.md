@@ -211,3 +211,4 @@ Relocations are the entities used by the linking process, dynamic or not
 ## Miscellanea
 
  - [500 Byte Images: The Haiku Vector Icon Format](http://blog.leahhanson.us/post/recursecenter2016/haiku_icons.html)
+ - [Compact Disc Structure](https://byuu.net/compact-discs/structure)
