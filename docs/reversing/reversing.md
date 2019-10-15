@@ -184,6 +184,7 @@ Num Vaddr      Paddr      Len Size Section  Type  String
  - [Kotlin and Java: How Hackers See Your Code](https://brompwnie.github.io/reversing/2018/02/12/Kotlin-and-Java-How-Hackers-See-Your-Code.html)
  - [Android application reversing 101](https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/)
  - [Android OWASP crackmes: Write-up UnCrackable Level 2](https://enovella.github.io/android/reverse/2017/05/20/android-owasp-crackmes-level-2.html)
+ - [Reversing HackEx - An android game](https://0x00sec.org/t/reversing-hackex-an-android-game/16243/3)
 
 ### Python
 
