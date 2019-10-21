@@ -25,3 +25,6 @@
  - [out-of-tree](https://out-of-tree.io/) {module, exploit} development tool: is for automating some routine actions for creating development environments for debugging kernel modules and exploits, generating reliability statistics for exploits, and also provides the ability to easily integrate into CI (Continuous Integration).
  - [collection of verified Linux kernel exploits](https://github.com/jollheef/lpe)
 
+## Heap
+
+ - [Linux Kernel universal heap spray](https://duasynt.com/blog/linux-kernel-heap-spray)
