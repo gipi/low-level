@@ -24,6 +24,7 @@
  - [MMap Vulnerabilities](https://research.checkpoint.com/mmap-vulnerabilities-linux-kernel/) also [PDF](https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-mmap-exploitation-whitepaper-2017-09-18.pdf)
  - [out-of-tree](https://out-of-tree.io/) {module, exploit} development tool: is for automating some routine actions for creating development environments for debugging kernel modules and exploits, generating reliability statistics for exploits, and also provides the ability to easily integrate into CI (Continuous Integration).
  - [collection of verified Linux kernel exploits](https://github.com/jollheef/lpe)
+ - [Tailoring CVE-2019-2215 to Achieve Root](https://hernan.de/blog/2019/10/15/tailoring-cve-2019-2215-to-achieve-root/)
 
 ## Heap
 
