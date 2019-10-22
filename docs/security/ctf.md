@@ -21,6 +21,7 @@
  - [An Android CTF practice challenge](https://github.com/tlamb96/kgb_messenger)
  - [Some writeups by SecurisecCTF](https://www.securisec.com/writeups/)
  - [CODE BLUE CTF 2018 Quals - watch_cats (solved by q3k)](https://blog.dragonsector.pl/2018/08/code-blue-ctf-2018-quals-watchcats.html) hardware challenge (verilog)
+ - [esanfelix/r2con2019-ctf-kernel](https://github.com/esanfelix/r2con2019-ctf-kernel) Kernel exploitation challenge(s) prepared for the r2con 2019 CTF
 
 ## RHME
 
