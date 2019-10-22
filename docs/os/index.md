@@ -31,6 +31,8 @@ Related to that there are **Hypervisor**s
  - [Evolution of the x86 context switch in Linux](http://www.maizure.org/projects/evolution_x86_context_switch_linux/)
  - [Use mmap With Care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)
  - [signalfd is useless](https://ldpreload.com/blog/signalfd-is-useless)
+ - [Linux Capabilities In Practice](https://blog.container-solutions.com/linux-capabilities-in-practice)
+ - [A deep dive into Linux namespaces](http://ifeanyi.co/posts/linux-namespaces-part-1/)
 
 ### Gate
 
