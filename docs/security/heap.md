@@ -32,3 +32,4 @@
  - [Linux Heap Fast Bin Double Free Exploitation](https://drive.google.com/file/d/1KM0Y1NWckIa3unePqYk5tkZ3FN8icgQW/view)
  - [House of corrosion](https://github.com/CptGibbon/House-of-Corrosion) A description of the "House of Corrosion" GLIBC heap exploitation technique.
  - [HEAP OVERFLOWS AND THE IOS KERNEL HEAP](https://azeria-labs.com/heap-overflows-and-the-ios-kernel-heap/)
+ - [How a double-free bug in WhatsApp turns to RCE](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/)
