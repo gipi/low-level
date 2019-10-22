@@ -30,6 +30,7 @@ execution context.
  - [XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
  - [HackMD Stored XSS and HackMD Desktop RCE](https://5alt.me/2019/10/HackMD%20Stored%20XSS%20and%20HackMD%20Desktop%20RCE/)
  - [Microsoft Edge - Universal XSS](https://leucosite.com/Microsoft-Edge-uXSS/?q)
+ - [Remote Code Execution in Firefox beyond memory corruptions](https://frederik-braun.com/firefox-ui-xss-leading-to-rce.html)
 
 ## RPO
 
