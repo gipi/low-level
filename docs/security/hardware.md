@@ -54,6 +54,7 @@
 ## Jailbreak
 
  - [Jailbreaking iOS: From past to present](https://api.tihmstar.net/35c3slides.pdf)
+ - [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
 
 ## Side channel attack
 
