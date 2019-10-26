@@ -25,6 +25,11 @@
  - [out-of-tree](https://out-of-tree.io/) {module, exploit} development tool: is for automating some routine actions for creating development environments for debugging kernel modules and exploits, generating reliability statistics for exploits, and also provides the ability to easily integrate into CI (Continuous Integration).
  - [collection of verified Linux kernel exploits](https://github.com/jollheef/lpe)
  - [Tailoring CVE-2019-2215 to Achieve Root](https://hernan.de/blog/2019/10/15/tailoring-cve-2019-2215-to-achieve-root/)
+ - CVE-2017-11176:  A step-by-step Linux Kernel exploitation
+   - [part 1/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part1.html)
+   - [part 2/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part2.html)
+   - [part 3/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part3.html)
+   - [part 4/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part4.html)
 
 ## Heap
 
