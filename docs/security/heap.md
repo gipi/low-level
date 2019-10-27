@@ -33,3 +33,4 @@
  - [House of corrosion](https://github.com/CptGibbon/House-of-Corrosion) A description of the "House of Corrosion" GLIBC heap exploitation technique.
  - [HEAP OVERFLOWS AND THE IOS KERNEL HEAP](https://azeria-labs.com/heap-overflows-and-the-ios-kernel-heap/)
  - [How a double-free bug in WhatsApp turns to RCE](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/)
+ - [yannayl/glibc_malloc_for_exploiters](https://github.com/yannayl/glibc_malloc_for_exploiters) GlibC Malloc for Exploiters presentation
