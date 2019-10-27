@@ -50,6 +50,8 @@
  - [Emulating Exynos 4210 BootROM in QEMU](https://www.fredericb.info/2018/03/emulating-exynos-4210-bootrom-in-qemu.html)
  - [Extracting TREZOR Secrets from SRAM](https://saleemrashid.com/2017/08/17/extracting-trezor-secrets-sram/)
  - [De Rebus Antiquis](https://xerub.github.io/ios/iboot/2018/05/10/de-rebus-antiquis.html) exploiting the recursive stack overflow bug in the iOS 7 bootchain
+ - [Analysis of Qualcomm Secure Boot Chains](https://blog.quarkslab.com/analysis-of-qualcomm-secure-boot-chains.html)
+ - [Exploiting Qualcomm EDL Programmers (1): Gaining Access & PBL Internals](https://alephsecurity.com/2018/01/22/qualcomm-edl-1/)
 
 ## Jailbreak
 
