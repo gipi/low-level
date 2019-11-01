@@ -16,6 +16,8 @@
  - [Analysing RPC With Ghidra and Neo4j](https://blog.xpnsec.com/analysing-rpc-with-ghidra-neo4j/)
  - [How to get the address of vertex in Function graph by using some python api?](https://github.com/NationalSecurityAgency/ghidra/issues/734)
  - [Ghidra -- A quick start guide with pictures and a C++ example](http://hwreblog.com/projects/ghidra.html)
+ - [astrelsky/Ghidra-Cpp-Class-Analyzer](https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer) C++ Class and Run Time Type Information Analyzer
+ - [Ghidra Plugin: JNIAnalyzer](https://www.ayrx.me/ghidra-jnianalyzer)
 
 ## Scripting
 
@@ -27,9 +29,50 @@ It is possible to use python
 addiu sp,sp,-0x38
 ```
 
+```python
+>>> function = currentProgram.getFunctionManager().getFunctionContaining(toAddr(0x005259c0))
+>>> import ghidra.app.decompiler as decomp
+>>> decomp = decomp.DecompInterface()
+>>> decomp.openProgram(currentProgram)
+True
+>>> results = decomp.decompileFunction(function, 10, None)
+>>> dec = results.getDecompiledFunction()
+>>> print(dec.getC())
+
+void FUN_005259c0(int param_1,int *param_2,int param_3)
+
+{
+  bool bVar1;
+  undefined *puVar2;
+  int iVar3;
+  int iVar4;
+  
+  iVar4 = 0;
+  while( true ) {
+    puVar2 = PTR_strlen_0058eb64;
+    bVar1 = param_3 <= iVar4;
+    iVar4 = iVar4 + 1;
+    if (bVar1) break;
+    *param_2 = param_1;
+    iVar3 = (*(code *)puVar2)(param_1);
+    param_1 = param_1 + iVar3 + 1;
+    param_2 = param_2 + 1;
+  }
+  return;
+}
+```
+
+```python
+>>> function = currentProgram.getFunctionManager().getFunctionContaining(toAddr(0x005259c0))
+>>> list(currentProgram.getReferenceManager().getReferencesTo(function.getEntryPoint()))
+[From: 00525a78 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT, From: 00525a90 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT, From: 00525aa8 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT, From: 00525ac0 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT, From: 00525ad8 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT]
+>>> [(getInstructionAt(_.getFromAddress()).getMnemonicString(), getFunctionContaining(_.getFromAddress()),_.getReferenceType()) for _ in currentProgram.getReferenceManager().getReferencesTo(function.getEntryPoint())]
+[(u'jal', http_get_code_text, UNCONDITIONAL_CALL), (u'jal', http_get_code_text, UNCONDITIONAL_CALL), (u'jal', http_get_code_text, UNCONDITIONAL_CALL), (u'jal', http_get_code_text, UNCONDITIONAL_CALL), (u'jal', http_get_code_text, UNCONDITIONAL_CALL)]
+```
+
 ## Decompiler
 
-From [this issue](https://github.com/NationalSecurityAgency/ghidra/issues/720) some indication on how debug the decompiler
+From [this issue](https://github.com/NationalSecurityAgency/ghidra/issues/720) some indication on how to debug the decompiler
 
 ```
 $ cd Ghidra/Feature/Decompiler/src/decompile/cpp
