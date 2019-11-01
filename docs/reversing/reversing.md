@@ -53,6 +53,7 @@
  - [Toy decompiler for x86-64 written in Python](https://yurichev.com/writings/toy_decompiler.pdf)
  - [Finding the actual Thumb code in firmware](https://reverseengineering.stackexchange.com/questions/5945/finding-the-actual-thumb-code-in-firmware)
  - [Reverse Engineering Exercises](https://github.com/rotlogix/arm_reverse_engineering_exercises) for ARM
+ - [Static analysis of an unknown compression format](https://blog.lse.epita.fr/articles/8-static-analysis-of-an-unknown-compression-format.html)
 
 ### ARM
 
@@ -145,6 +146,7 @@ Num Vaddr      Paddr      Len Size Section  Type  String
  - [Android application reversing 101](https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/)
  - [Android OWASP crackmes: Write-up UnCrackable Level 2](https://enovella.github.io/android/reverse/2017/05/20/android-owasp-crackmes-level-2.html)
  - [Reversing HackEx - An android game](https://0x00sec.org/t/reversing-hackex-an-android-game/16243/3)
+ - [CyberTruckChallenge](https://www.verso.re/posts/cybertruck/) The CyberTruckChallenge is a workshop about Android Security sponsored by NowSecure and created by @enovella.
 
 ### Python
 
@@ -175,6 +177,8 @@ other tools like Emscripten:
  - [Mozill's documentation](https://developer.mozilla.org/en-US/docs/WebAssembly)
  - [WASM fiddle](https://wasdk.github.io/WasmFiddle/)
  - [Reversing WASM](https://www.pnfsoftware.com/reversing-wasm.pdf)
+ - [wasmdec](https://github.com/wwwg/wasmdec) WebAssembly to C decompiler
+ - [Writing WebAssembly By Hand](https://blog.scottlogic.com/2018/04/26/webassembly-by-hand.html)
 
 ## Tools
 

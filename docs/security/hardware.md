@@ -39,6 +39,7 @@
  - [Pwn the ESP32 crypto-core](https://limitedresults.com/2019/08/pwn-the-esp32-crypto-core/)
  - [Pwn the ESP32 Secure Boot](https://limitedresults.com/2019/09/pwn-the-esp32-secure-boot/)
  - [Xiaomi Zigbee (1): Getting to know the hardware](https://alephsecurity.com/2019/07/01/xiaomi-zigbee-1/)
+ - [RouterOS: Chain to Root](https://medium.com/tenable-techblog/routeros-chain-to-root-f4e0b07c0b21)
 
 ## Bootloader
 
@@ -67,6 +68,7 @@
  - [Return-Oriented Flush-Reload Side Channels on ARM and Their Implications for Android Devices](http://web.cse.ohio-state.edu/~zhang.834/papers/ccs16b.pdf)
  - [On-Device Power Analysis Across Hardware Security Domains](https://eprint.iacr.org/2019/689.pdf)
  - [In Transactional Memory, No One Can Hear You Scream](http://blog.ret2.io/2019/06/26/attacking-intel-tsx/)
+ - [Bypassing KPTI Using the Speculative Behavior of the SWAPGS Instruction](https://businessresources.bitdefender.com/hubfs/noindex/Bitdefender-WhitePaper-SWAPGS.pdf)
 
 ### Glitching
 

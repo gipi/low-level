@@ -53,6 +53,7 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - [Why “Agile” and especially Scrum are terrible](https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/)
  - [A curated list of awesome falsehoods programmers believe in](https://github.com/kdeldycke/awesome-falsehood)
  - [Blocking I/O, Nonblocking I/O, And Epoll](https://eklitzke.org/blocking-io-nonblocking-io-and-epoll)
+ - [whitequark/unfork](https://github.com/whitequark/unfork) unfork(2) is the inverse of fork(2). sort of.
 
 ## Compilers
 

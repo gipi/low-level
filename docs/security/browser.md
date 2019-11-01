@@ -17,3 +17,5 @@ library, memory model etc...
  - [CVE-2019-0539 Exploitation. Microsoft Edge Chakra JIT Type Confusion](https://perception-point.io/resources/research/cve-2019-0539-exploitation/)
  - [Exploiting the Math.expm1 typing bug in V8](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
  - [Writeup for CVE-2019-11707](https://blog.bi0s.in/2019/08/18/Pwn/Browser-Exploitation/cve-2019-11707-writeup/)
+ - [saelo/3_years_of_attacking_javascript_engines.txt](https://gist.github.com/saelo/dd598a91a27ddd7cb9e410dc92bf37a1)
+ - [Geluchat/chrome_v8_exploit](https://github.com/Geluchat/chrome_v8_exploit) A collection of 1days and solutions to challenges related to v8/chrome I developed

@@ -26,6 +26,7 @@
  - https://github.com/faif/python-patterns
  - [Decorator cheat sheet](http://www.pydanny.com/python-decorator-cheatsheet.html)
  - https://wiki.python.org/moin/TimeComplexity
+ - [Writing sustainable Python scripts](https://vincent.bernat.ch/en/blog/2019-sustainable-python-script)
 
 ## Internals
 
@@ -35,6 +36,7 @@
  - Using [Cython](http://blog.perrygeo.net/2008/04/19/a-quick-cython-introduction/) to speed up
  - http://late.am/post/2012/03/26/exploring-python-code-objects
  - [We are all consenting adult here](https://mail.python.org/pipermail/tutor/2003-October/025932.html)
+ - [Python Attribute Access and the Descriptor Protocol](https://amir.rachum.com/blog/2019/10/16/descriptors/)
 
 ## Exceptions
 
@@ -88,6 +90,7 @@
  - [Docopts](https://github.com/docopt/docopts) command line arguments parser for Human Beings.
  - [Get started with the Natural Language Toolkit](http://www.ibm.com/developerworks/linux/library/l-cpnltk/index.html)
  - [pdb++](https://github.com/pdbpp/pdbpp) pdb++, a drop-in replacement for pdb (the Python debugger)
+ - [napari/napari](https://github.com/napari/napari) a fast, interactive, multi-dimensional image viewer for python
 
 ## Interesting Stuffs
 
