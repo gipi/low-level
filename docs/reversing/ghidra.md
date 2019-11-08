@@ -18,6 +18,7 @@
  - [Ghidra -- A quick start guide with pictures and a C++ example](http://hwreblog.com/projects/ghidra.html)
  - [astrelsky/Ghidra-Cpp-Class-Analyzer](https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer) C++ Class and Run Time Type Information Analyzer
  - [Ghidra Plugin: JNIAnalyzer](https://www.ayrx.me/ghidra-jnianalyzer)
+ - [AN ABSTRACT INTERPRETATION-BASED DEOBFUSCATION PLUGIN FOR GHIDRA](https://www.msreverseengineering.com/blog/2019/4/17/an-abstract-interpretation-based-deobfuscation-plugin-for-ghidra)
 
 ## Scripting
 

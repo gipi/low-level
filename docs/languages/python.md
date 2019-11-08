@@ -36,6 +36,8 @@
  - Using [Cython](http://blog.perrygeo.net/2008/04/19/a-quick-cython-introduction/) to speed up
  - http://late.am/post/2012/03/26/exploring-python-code-objects
  - [We are all consenting adult here](https://mail.python.org/pipermail/tutor/2003-October/025932.html)
+ - [Understanding internals of Python classes](https://rushter.com/blog/python-class-internals/)
+ - [Python Descriptors Demystified](https://nbviewer.jupyter.org/urls/gist.github.com/ChrisBeaumont/5758381/raw/descriptor_writeup.ipynb)
  - [Python Attribute Access and the Descriptor Protocol](https://amir.rachum.com/blog/2019/10/16/descriptors/)
 
 ## Exceptions
@@ -80,6 +82,7 @@
  - http://tech.marksblogg.com/better-python-package-management.html
  - https://tommikaikkonen.github.io/timezones/
  - [format()](https://zerokspot.com/weblog/2015/12/31/new-string-formatting-in-python/)
+ - [pyformat.info/](https://pyformat.info/)
 
 ## LIBRARIES
 

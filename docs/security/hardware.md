@@ -103,6 +103,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Power-Based Side-Channel Attack for AES Key Extraction on the ATMega328 Microcontroller](https://people.csail.mit.edu/skoppula/papers/sidechannel.pdf) with a [github repo](https://github.com/skoppula/aes-sidechannel)
  - [TEMPEST attacks against AES](https://www.fox-it.com/nl/wp-content/uploads/sites/12/Tempest_attacks_against_AES.pdf)
  - [Breaking AES128 with Multi-Bit DPA](https://crysec.dev/2019/08/25/breaking-aes128-with-multi-bit-dpa.html)
+ - [POWER (ANALYSIS) TO THE PEOPLE](https://research.kudelskisecurity.com/2019/10/16/power-analysis-to-the-people/)
 
 ### Timing attack
 

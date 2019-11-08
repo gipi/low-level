@@ -11,3 +11,8 @@
  - [Exploit/bypass PHP escapeshellarg/escapeshellcmd functions](https://security.szurek.pl/exploit-bypass-php-escapeshellarg-escapeshellcmd.html)
  - [GTFOBins](https://gtfobins.github.io/) is a curated list of Unix binaries that can be exploited by an attacker to bypass local security restrictions.
  - [LOLBAS](https://lolbas-project.github.io) Living Off The Land Binaries and Scripts (and also Libraries)
+ - [FILE Structure Exploitation ('vtable' check bypass)](https://dhavalkapil.com/blogs/FILE-Structure-Exploitation/)
+ - [Play with FILE Structure](https://gsec.hitb.org/materials/sg2018/D1%20-%20FILE%20Structures%20-%20Another%20Binary%20Exploitation%20Technique%20-%20An-Jie%20Yang.pdf)
+ - [File Stream Pointer Overflow](https://www.w0lfzhang.com/2016/11/19/File-Stream-Pointer-Overflow/)
+ - [david942j/one_gadget](https://github.com/david942j/one_gadget) The best tool for finding one gadget RCE in libc.so.6
+

@@ -147,6 +147,7 @@ Num Vaddr      Paddr      Len Size Section  Type  String
  - [Android OWASP crackmes: Write-up UnCrackable Level 2](https://enovella.github.io/android/reverse/2017/05/20/android-owasp-crackmes-level-2.html)
  - [Reversing HackEx - An android game](https://0x00sec.org/t/reversing-hackex-an-android-game/16243/3)
  - [CyberTruckChallenge](https://www.verso.re/posts/cybertruck/) The CyberTruckChallenge is a workshop about Android Security sponsored by NowSecure and created by @enovella.
+ - [shroudedcode/apk-mitm](https://github.com/shroudedcode/apk-mitm) A CLI application that prepares Android APK files for HTTPS inspection
 
 ### Python
 
