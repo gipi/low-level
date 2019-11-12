@@ -40,6 +40,7 @@
  - [Pwn the ESP32 Secure Boot](https://limitedresults.com/2019/09/pwn-the-esp32-secure-boot/)
  - [Xiaomi Zigbee (1): Getting to know the hardware](https://alephsecurity.com/2019/07/01/xiaomi-zigbee-1/)
  - [RouterOS: Chain to Root](https://medium.com/tenable-techblog/routeros-chain-to-root-f4e0b07c0b21)
+ - [Hacking microcontroller firmware through a USB](https://securelist.com/hacking-microcontroller-firmware-through-a-usb/89919/)
 
 ## Bootloader
 
