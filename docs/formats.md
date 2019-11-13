@@ -158,6 +158,7 @@ This is a prime that is also an ``ELF``:
  - [LIEF](https://lief-project.github.io) The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats
  - [Why doesn't `strip` remove section headers from ELF executables?](https://unix.stackexchange.com/questions/267070/why-doesnt-strip-remove-section-headers-from-elf-executables)
  - [0pack](https://github.com/Luis-Hebendanz/0pack) A novel technique to hide code from debuggers
+ - [Analyzing ELF Binaries with Malformed Headers Part 1 - Emulating Tiny Programs](https://binaryresearch.github.io/2019/09/17/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-1-Emulating-Tiny-Programs.html)
 
 ### Relocation
 

@@ -33,6 +33,11 @@ Related to that there are **Hypervisor**s
  - [signalfd is useless](https://ldpreload.com/blog/signalfd-is-useless)
  - [Linux Capabilities In Practice](https://blog.container-solutions.com/linux-capabilities-in-practice)
  - [A deep dive into Linux namespaces](http://ifeanyi.co/posts/linux-namespaces-part-1/)
+ - [How to run Docker containers using common Linux tools (without Docker)](https://ilearnedhowto.wordpress.com/tag/unshare/)
+
+## MM
+
+ - [How The Kernel Manages Your Memory](https://manybutfinite.com/post/how-the-kernel-manages-your-memory/)
 
 ### Gate
 
