@@ -7,6 +7,7 @@
 
 ## List
 
+ - [CVE-2019-2215](https://dayzerosec.com/posts/analyzing-androids-cve-2019-2215-dev-binder-uaf/) Android's ``/dev/binder`` UAF
  - [CVE-2019-11707](https://blog.bi0s.in/2019/08/18/Pwn/Browser-Exploitation/cve-2019-11707-writeup/) Exploit code for a vulnerability in Firefox, found by saelo and coinbase security
  - [CVE-2019-11932](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) How a double-free bug in WhatsApp turns to RCE
  - [CVE-2019-14378](https://blog.bi0s.in/2019/08/24/Pwn/VM-Escape/2019-07-29-qemu-vm-escape-cve-2019-14378/) Qemu escape
