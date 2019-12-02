@@ -213,7 +213,11 @@ Relocations are the entities used by the linking process, dynamic or not
 
  - [Wikipedia page](https://en.wikipedia.org/wiki/QR_code)
 
+## Compact disc
+
+ - [Compact Disc Structure](https://byuu.net/compact-discs/structure)
+ - [Origins and successors of the Compact Disc](https://sci-hub.se/https://doi.org/10.1007/978-1-4020-9553-5)
+
 ## Miscellanea
 
  - [500 Byte Images: The Haiku Vector Icon Format](http://blog.leahhanson.us/post/recursecenter2016/haiku_icons.html)
- - [Compact Disc Structure](https://byuu.net/compact-discs/structure)
