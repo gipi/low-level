@@ -18,3 +18,5 @@ Usually ``r0`` and ``r1`` are [fixed](https://gcc.gnu.org/wiki/avr-gcc#Fixed_Reg
  - [Instruction set manual](http://roncella.iet.unipi.it/Didattica/Corsi/Elettronica/Risorse/Atmel-0856-AVR-Instruction-Set-Manual.pdf)
  - [Instruction set summary](http://www.avr-tutorials.com/sites/default/files/Instruction%20Set%20Summary.pdf)
  - [Branching](http://web.csulb.edu/~hill/ee346/Lectures/05%20AVR%20Branching.pdf)
+ - [AVR opcodes table](https://embarc.org/man-pages/as/AVR-Opcodes.html) by ``as``
+ - [Instructions encoding](http://web.csulb.edu/~hill/ee346/Lectures/16%20AVR%20Instruction%20Encoding.pdf)
