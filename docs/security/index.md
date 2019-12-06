@@ -235,3 +235,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Spring Boot RCE](http://deadpool.sh/2017/RCE-Springs/) via a template code injection
  - [CVE-2018-13784: PrestaShop 1.6.x Privilege Escalation](https://www.ambionics.io/blog/prestashop-privilege-escalation)
  - [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn)
+ - [JWT (JSON Web Token) (in)security](https://research.securitum.com/jwt-json-web-token-security/)
