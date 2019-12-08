@@ -149,6 +149,7 @@ Num Vaddr      Paddr      Len Size Section  Type  String
  - [Reversing HackEx - An android game](https://0x00sec.org/t/reversing-hackex-an-android-game/16243/3)
  - [CyberTruckChallenge](https://www.verso.re/posts/cybertruck/) The CyberTruckChallenge is a workshop about Android Security sponsored by NowSecure and created by @enovella.
  - [shroudedcode/apk-mitm](https://github.com/shroudedcode/apk-mitm) A CLI application that prepares Android APK files for HTTPS inspection
+ - [fkie-cad/DeStroid](https://github.com/fkie-cad/DeStroid) Fighting String Encryption in Android Malware
 
 ### Python
 
