@@ -137,4 +137,5 @@ $ r2 -nn file.elf
  - [INTRO TO RADARE2 FOR MALWARE ANALYSIS](https://malwology.com/2018/11/30/intro-to-radare2-for-malware-analysis/)
  - SUE 2017 - Reverse Engineering Embedded ARM Devices - by pancake [video](https://www.youtube.com/watch?v=oXSx0Qo2Upk)
  - THC2018 [slide](https://www.radare.org/get/THC2018.pdf)
+ - [Deobfuscating APT32 Flow Graphs with Cutter and Radare2](https://research.checkpoint.com/2019/deobfuscating-apt32-flow-graphs-with-cutter-and-radare2/)
  
