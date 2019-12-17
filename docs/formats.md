@@ -50,6 +50,7 @@ where for compatibility purpose the ASCII set is maintained as is.
  - http://agiliq.com/blog/2014/11/character-encoding-and-unicode/
  - http://eev.ee/blog/2015/09/12/dark-corners-of-unicode/
  - http://reedbeta.com/blog/programmers-intro-to-unicode/
+ - [Hacking GitHub with Unicode's dotless 'i'](https://eng.getwisdom.io/hacking-github-with-unicode-dotless-i/)
 
 For testing purpose use
 
