@@ -1,6 +1,8 @@
 # Ghidra
 
  - [Ghidra's Online Courses](http://ghidra.re/online-courses/)
+ - [Ghidra - Journey from Classified NSA Tool to Open Source](youtube.com/watch?v=kx2xp7IQNSc) Black Hat 2019 talk
+ - [Mike Bell: Extending Ghidra: from Script to Plugins and Beyond](https://thecyberwire.com/stories/Mike-Bell-Extending-Ghidra-from-Script-to-Plugins-and-Beyond.html) Mike Bell speaking at the Jailbreak Brewing Company Security Summit on Friday, October 11, 2019
  - [ghidraninja/ghidra_scripts](https://github.com/ghidraninja/ghidra_scripts)
  - [Decompiler Analysis Engine](https://ghidra-decompiler-docs.netlify.com/index.html)
  - [WORKING WITH GHIDRA'S P-CODE TO IDENTIFY VULNERABLE FUNCTION CALLS](https://www.riverloopsecurity.com/blog/2019/05/pcode/)
@@ -19,6 +21,7 @@
  - [astrelsky/Ghidra-Cpp-Class-Analyzer](https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer) C++ Class and Run Time Type Information Analyzer
  - [Ghidra Plugin: JNIAnalyzer](https://www.ayrx.me/ghidra-jnianalyzer)
  - [AN ABSTRACT INTERPRETATION-BASED DEOBFUSCATION PLUGIN FOR GHIDRA](https://www.msreverseengineering.com/blog/2019/4/17/an-abstract-interpretation-based-deobfuscation-plugin-for-ghidra)
+ - [Blog](https://reversing.technology/) with a couple of posts about developing for it without eclipse
 
 ## Scripting
 
