@@ -25,3 +25,7 @@ specifies only signals, clock cycles and high/low levels.
  - Some example from ZipCPU
    - [An Overview of a Wishbone-UART Bridge](https://zipcpu.com/blog/2017/06/05/wb-bridge-overview.html)
    - [Building a simple wishbone slave](https://zipcpu.com/zipcpu/2017/05/29/simple-wishbone.html)
+
+## SIM
+
+ - [Recovering the SIM card PIN from the ZTE WF721 cellular home phone](https://ripitapart.com/2019/12/21/recovering-the-sim-card-pin-from-the-zte-wf721-cellular-home-phone/)
