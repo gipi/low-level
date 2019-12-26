@@ -139,6 +139,7 @@ Num Vaddr      Paddr      Len Size Section  Type  String
 
  - [The Go low-level calling convention on x86-64](https://science.raphael.poss.name/go-calling-convention-x86-64.html)
  - [Reversing GO binaries like a pro](https://rednaga.io/2016/09/21/reversing_go_binaries_like_a_pro/)
+ - [Reverse Engineering Go, Part I](https://blog.osiris.cyber.nyu.edu/2019/12/19/go-deepdive/)
 
 ### Android 
 
