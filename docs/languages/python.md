@@ -1,6 +1,7 @@
 # Python
 
  - http://mirnazim.org/writings/python-ecosystem-introduction/
+ - [WTF Python](https://github.com/satwikkansal/wtfpython/blob/master/README.md) Exploring and understanding Python through surprising snippets
  - [Code Like a Pythonista: Idiomatic Python](http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html)
  - http://effbot.org/zone/python-with-statement.htm
  - http://www.python.org/dev/peps/
@@ -27,6 +28,7 @@
  - [Decorator cheat sheet](http://www.pydanny.com/python-decorator-cheatsheet.html)
  - https://wiki.python.org/moin/TimeComplexity
  - [Writing sustainable Python scripts](https://vincent.bernat.ch/en/blog/2019-sustainable-python-script)
+ - [Why print became a function in python3](https://snarky.ca/why-print-became-a-function-in-python-3/)
 
 ## Internals
 
