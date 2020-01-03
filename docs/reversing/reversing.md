@@ -54,6 +54,7 @@
  - [Finding the actual Thumb code in firmware](https://reverseengineering.stackexchange.com/questions/5945/finding-the-actual-thumb-code-in-firmware)
  - [Reverse Engineering Exercises](https://github.com/rotlogix/arm_reverse_engineering_exercises) for ARM
  - [Static analysis of an unknown compression format](https://blog.lse.epita.fr/articles/8-static-analysis-of-an-unknown-compression-format.html)
+ - [Reverse Engineering Encrypted Code Segments](https://medium.com/@ryancor/reverse-engineering-encrypted-code-segments-b01aead67701)
 
 ### ARM
 
