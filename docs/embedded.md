@@ -10,14 +10,38 @@
  - [GNU Build IDs for Firmware](https://interrupt.memfault.com/blog/gnu-build-id-for-firmware)
  - [ARM Cortex-M RTOS Context Switching](https://interrupt.memfault.com/blog/cortex-m-rtos-context-switching)
  - [ARM-X Firmware Emulation Framework](https://armx.exploitlab.net/)
+ - [Awesome IOT](https://github.com/phodal/awesome-iot)
+ - [Analyzing Malware for Embedded Devices: TheMoon Worm](https://w00tsec.blogspot.it/2014/02/analyzing-malware-for-embedded-devices.html)
+ - [Build a Debian Jessie root filesystem](http://www.acmesystems.it/debian_jessie)
+ - [Device Tree for dummies](http://free-electrons.com/pub/conferences/2013/elce/petazzoni-device-tree-dummies/petazzoni-device-tree-dummies.pdf)
+ - [Device Tree Usage](https://elinux.org/Device_Tree_Usage)
+ - Series about hardware analysis and firmware reversing
+     - [Part 1](http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/) Hunting for Debug Ports
+     - [Part 2](http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/) Scouting the Firmware
+     - [Part 3](http://jcjc-dev.com/2016/05/23/reversing-huawei-3-sniffing/) Following the Data
+     - [Part 4](http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/) Dumping the Flash
+     - [Part 5](http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/) Digging Through the Firmware
+
+ - [nvram-faker](https://github.com/zcutlip/nvram-faker) A simple library to intercept calls to libnvram when running embedded linux applications in emulated environments.
+
+## Power management
+
+ - [Racing to Sleep](https://www.embeddedrelated.com/showarticle/1316.php)
 
 ## Build Systems
+
+ - [Build systems](http://elinux.org/Build_Systems)
 
 ### Yocto
 
  - [Yocto project](https://www.yoctoproject.org/)
  - [OpenEmbedded layers index](https://layers.openembedded.org/)
  - [Improving Your Embedded Linux Security Posture with Yocto](/documents/improving-embedded-linux-security-yocto.pdf)
+ - [Building Raspberry Pi Systems with Yocto](http://www.jumpnowtek.com/rpi/Raspberry-Pi-Systems-with-Yocto.html)
+ - [Creating Linux based Embedded System Images with Yocto](https://github.com/Nuand/bladeRF/wiki/Creating-Linux-based-Embedded-System-Images-with-Yocto)
+ - [Integrating Yocto and OpenEmbedded](https://elinux.org/images/d/de/Elc2011_kooi.pdf)
+ - [Yocto Project Quick Start](https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html)
+ - [Building Our First Poky Image for the Raspberry Pi](https://hub.packtpub.com/building-our-first-poky-image-raspberry-pi/)
 
 ## Bootloader
 
@@ -54,21 +78,6 @@ num2gpio = lambda x: (x /32 + 1, x%32)
 
 
 ## Embedded systems
-
- - [Awesome IOT](https://github.com/phodal/awesome-iot)
- - [Analyzing Malware for Embedded Devices: TheMoon Worm](https://w00tsec.blogspot.it/2014/02/analyzing-malware-for-embedded-devices.html)
- - [Build a Debian Jessie root filesystem](http://www.acmesystems.it/debian_jessie)
- - [Device Tree for dummies](http://free-electrons.com/pub/conferences/2013/elce/petazzoni-device-tree-dummies/petazzoni-device-tree-dummies.pdf)
- - [Device Tree Usage](https://elinux.org/Device_Tree_Usage)
- - Series about hardware analysis and firmware reversing
-     - [Part 1](http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/) Hunting for Debug Ports
-     - [Part 2](http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/) Scouting the Firmware
-     - [Part 3](http://jcjc-dev.com/2016/05/23/reversing-huawei-3-sniffing/) Following the Data
-     - [Part 4](http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/) Dumping the Flash
-     - [Part 5](http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/) Digging Through the Firmware
-
- - [Build systems](http://elinux.org/Build_Systems)
- - [nvram-faker](https://github.com/zcutlip/nvram-faker) A simple library to intercept calls to libnvram when running embedded linux applications in emulated environments.
 
 In order to generate a rootfs for testing on QEMU of architecture on your desktop you can use ``multistrap``
 
@@ -158,14 +167,6 @@ BusyBox v1.23.2 (2017-05-14 19:59:13 CEST) built-in shell (ash)
  -----------------------------------------------------
 root@(none):/#
 ```
-
-## Yocto
-
- - [Building Raspberry Pi Systems with Yocto](http://www.jumpnowtek.com/rpi/Raspberry-Pi-Systems-with-Yocto.html)
- - [Creating Linux based Embedded System Images with Yocto](https://github.com/Nuand/bladeRF/wiki/Creating-Linux-based-Embedded-System-Images-with-Yocto)
- - [Integrating Yocto and OpenEmbedded](https://elinux.org/images/d/de/Elc2011_kooi.pdf)
- - [Yocto Project Quick Start](https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html)
- - [Building Our First Poky Image for the Raspberry Pi](https://hub.packtpub.com/building-our-first-poky-image-raspberry-pi/)
 
 ## Single board computers
 
