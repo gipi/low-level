@@ -6,7 +6,7 @@
  - [The Reports of CVE's Death Have Been Greatly Exaggerated](https://grsecurity.net/reports_of_cves_death_greatly_exaggerated)
 
 ## List
-
+ - [CVE-2019-11484](https://securitylab.github.com/research/ubuntu-whoopsie-CVE-2019-11484)
  - [CVE-2019-2215](https://dayzerosec.com/posts/analyzing-androids-cve-2019-2215-dev-binder-uaf/) Android's ``/dev/binder`` UAF
  - [CVE-2019-11707](https://blog.bi0s.in/2019/08/18/Pwn/Browser-Exploitation/cve-2019-11707-writeup/) Exploit code for a vulnerability in Firefox, found by saelo and coinbase security
  - [CVE-2019-11932](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) How a double-free bug in WhatsApp turns to RCE
