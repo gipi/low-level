@@ -36,6 +36,17 @@ Related to that there are **Hypervisor**s
  - [How to run Docker containers using common Linux tools (without Docker)](https://ilearnedhowto.wordpress.com/tag/unshare/)
  - [Debugging network stalls on Kubernetes](https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/)
 
+## Containers
+
+ - [What even is a container: namespaces and cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
+ - [p8952/bocker](https://github.com/p8952/bocker) Docker implemented in around 100 lines of bash
+ - [Demystifying Containers - Part I: Kernel Space](https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504)
+ - [Demystifying Containers - Part II: Container Runtimes](https://medium.com/@saschagrunert/demystifying-containers-part-ii-container-runtimes-e363aa378f25)
+ - [containers/skopeo](https://github.com/containers/skopeo) Work with remote images registries - retrieving information, images, signing content
+ - [rootlesscontaine.rs/](https://rootlesscontaine.rs/) Rootless containers refers to the ability for an unprivileged user to create, run and otherwise manage containers
+ - [Lesser known Docker tips for advanced users](https://offby2.com/posts/001-docker-lesser-known-tips/)
+ - [Understanding how uid and gid work in Docker containers](https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf)
+
 ### MM
 
  - [How The Kernel Manages Your Memory](https://manybutfinite.com/post/how-the-kernel-manages-your-memory/)
