@@ -34,8 +34,9 @@ Related to that there are **Hypervisor**s
  - [Linux Capabilities In Practice](https://blog.container-solutions.com/linux-capabilities-in-practice)
  - [A deep dive into Linux namespaces](http://ifeanyi.co/posts/linux-namespaces-part-1/)
  - [How to run Docker containers using common Linux tools (without Docker)](https://ilearnedhowto.wordpress.com/tag/unshare/)
+ - [Debugging network stalls on Kubernetes](https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/)
 
-## MM
+### MM
 
  - [How The Kernel Manages Your Memory](https://manybutfinite.com/post/how-the-kernel-manages-your-memory/)
 
