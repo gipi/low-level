@@ -43,4 +43,4 @@ Exist a ``curses`` interface
  - [Tips for Productive Debugging with GDB](https://metricpanda.com/tips-for-productive-debugging-with-gdb)
  - [GEF](https://github.com/hugsy/gef) Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers 
  - [Automate Debugging with GDB Python API](https://interrupt.memfault.com/blog/automate-debugging-with-gdb-python-api)
-
+ - [dlinject](https://github.com/DavidBuchanan314/dlinject) Inject a shared library (i.e. arbitrary code) into a live linux process, without ptrace
