@@ -32,6 +32,7 @@
    - [part 4/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part4.html)
  - [pr0cf5/kernel-exploit-practice](https://github.com/pr0cf5/kernel-exploit-practice) repository for kernel exploit practice
  - [bcoles/kasld](https://github.com/bcoles/kasld) A collection of various techniques to bypass KASLR and retrieve the Linux kernel base virtual address on x86 / x86_64 architectures as an unprivileged user.
+ - [milabs/lkrg-bypass](https://github.com/milabs/lkrg-bypass) LKRG bypass methods
 
 ## Heap
 
