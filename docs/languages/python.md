@@ -42,6 +42,7 @@
  - [Understanding internals of Python classes](https://rushter.com/blog/python-class-internals/)
  - [Python Descriptors Demystified](https://nbviewer.jupyter.org/urls/gist.github.com/ChrisBeaumont/5758381/raw/descriptor_writeup.ipynb)
  - [Python Attribute Access and the Descriptor Protocol](https://amir.rachum.com/blog/2019/10/16/descriptors/)
+ - [How python implements super long integers?](https://arpitbhayani.me/blogs/super-long-integers)
 
 ## Exceptions
 
