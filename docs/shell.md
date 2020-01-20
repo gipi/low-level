@@ -30,6 +30,7 @@ An useful diagram from [here](https://clementc.github.io/blog/2018/01/25/moving_
  - http://blog.hostilefork.com/where-printf-rubber-meets-road/
  - https://sourceware.org/glibc/wiki/LibioVtables
  - [SO question and answer](https://unix.stackexchange.com/questions/117981/what-are-the-responsibilities-of-each-pseudo-terminal-pty-component-software) What are the responsibilities of each Pseudo-Terminal (PTY) component (software, master side, slave side)?
+ - [!!Con West 2019 - Tabitha Sable: My, my, TTY!](https://www.youtube.com/watch?v=bdBQPwMFkFY)
 
 ## Links
 
