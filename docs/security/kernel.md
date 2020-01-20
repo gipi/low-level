@@ -34,6 +34,16 @@
  - [bcoles/kasld](https://github.com/bcoles/kasld) A collection of various techniques to bypass KASLR and retrieve the Linux kernel base virtual address on x86 / x86_64 architectures as an unprivileged user.
  - [milabs/lkrg-bypass](https://github.com/milabs/lkrg-bypass) LKRG bypass methods
 
+## Paper
+
+### KEPLER: Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities
+
+ - [presentation](https://www.usenix.org/conference/usenixsecurity19/presentation/wu-wei)
+
+### ret2dir: Rethinking Kernel Isolation
+
+ - [paper](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kemerlis.pdf)
+
 ## Heap
 
  - [Linux Kernel universal heap spray](https://duasynt.com/blog/linux-kernel-heap-spray)
