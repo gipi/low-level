@@ -113,6 +113,7 @@ The Ricoh 5A22 is a microprocessor produced by Ricoh for the Super Nintendo Ente
 and is based on the MOS Technology 6502 family of processors.
 
  - [The Edge of Emulation](https://byuu.org/articles/edge-of-emulation): the limit of software emulation for the PPU
+ - [THE POLYGONS OF ANOTHER WORLD: SUPER NINTENDO](http://fabiensanglard.net/another_world_polygons_SNES/index.html)
 
 ### RISC-V
 
