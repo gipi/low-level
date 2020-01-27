@@ -8,6 +8,7 @@ User input **must** be sanitized!
  - [Page](http://www.cs.dartmouth.edu/~sergey/wm/) about weird machines by halvar flake
  - [Weird machines, exploitability, and provable
 unexploitability](http://ieeexplore.ieee.org/stamp/stamp.jsp?reload=true&tp=&arnumber=8226852) also [slide](https://docs.google.com/presentation/d/1lfQGEX2aGEA1H7flsXw4V30ZkbnrfikYk9IrctuwZO8/edit)
+ - [Limiting weird machines](https://docs.google.com/presentation/d/1-7XQWUHpGTrFls8M5OysefpF_HZ2YYCYW3huLPo6ArM/edit#slide=id.p) Putting boundaries around emergent insecurity
  - [Exploitation and state machines](http://archives.scovetta.com/pub/conferences/infiltrate_2011/Fundamentals_of_exploitation_revisited.pdf) Programming the “weird machine”, revisited)
  - [Hacking & Computer Science](https://events.ccc.de/congress/2010/Fahrplan/attachments/1807_ccc-hacker-research.pdf)
  - [The science of insecurity](http://langsec.org/insecurity-theory-28c3.pdf)
