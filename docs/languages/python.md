@@ -42,7 +42,7 @@
  - [Understanding internals of Python classes](https://rushter.com/blog/python-class-internals/)
  - [Python Descriptors Demystified](https://nbviewer.jupyter.org/urls/gist.github.com/ChrisBeaumont/5758381/raw/descriptor_writeup.ipynb)
  - [Python Attribute Access and the Descriptor Protocol](https://amir.rachum.com/blog/2019/10/16/descriptors/)
- - [How python implements super long integers?](https://arpitbhayani.me/blogs/super-long-integers)
+ - [How python implements long integers?](https://arpitbhayani.me/blogs/super-long-integers)
  - [open and CPython](http://hondu.co/blog/open-and-python)
 
 ## Exceptions
@@ -82,6 +82,7 @@
  - http://pyvideo.org/video/1674/getting-started-with-automated-testing
  - http://hynek.me/talks/python-deployments/
  - http://pyrandom.blogspot.nl/2013/04/super-wrong.html
+ - [Python’s super() considered super!](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
  - http://ozkatz.github.io/better-python-apis.html
  - http://www.huyng.com/posts/python-performance-analysis/
  - http://tech.marksblogg.com/better-python-package-management.html
