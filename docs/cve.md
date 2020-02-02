@@ -6,6 +6,8 @@
  - [The Reports of CVE's Death Have Been Greatly Exaggerated](https://grsecurity.net/reports_of_cves_death_greatly_exaggerated)
 
 ## List
+
+ - [CVE-2019-18634](https://www.sudo.ws/alerts/pwfeedback.html) In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigger a stack-based buffer overflow in the privileged sudo process.
  - [CVE-2019-11484](https://securitylab.github.com/research/ubuntu-whoopsie-CVE-2019-11484)
  - [CVE-2019-2215](https://dayzerosec.com/posts/analyzing-androids-cve-2019-2215-dev-binder-uaf/) Android's ``/dev/binder`` UAF
  - [CVE-2019-11707](https://blog.bi0s.in/2019/08/18/Pwn/Browser-Exploitation/cve-2019-11707-writeup/) Exploit code for a vulnerability in Firefox, found by saelo and coinbase security
