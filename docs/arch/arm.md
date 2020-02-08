@@ -103,3 +103,6 @@ for example, is p14.
  - [Whirlwind Tour of ARM Assembly](http://www.coranac.com/tonc/text/asm.htm)
  - [Online ARM To Hex Converter](http://armconverter.com/)
  - [White Paper: DSP capabilities of Cortex-M4 and Cortex-M7](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/white-paper-dsp-capabilities-of-cortex-m4-and-cortex-m7)
+ - [posborne/cmsis-svd](https://github.com/posborne/cmsis-svd) This repository seeks to provide value to developers targetting ARM platforms in two main ways:
+    - Provide a convenient place to access and aggregate CMSIS-SVD hardware descriptions from multiple sources.
+    - Provide parsers that make code generation and tooling based on SVD easier to build. Most parsers simply parse a provided SVD file and turn it into a data structure more easily used in that language.

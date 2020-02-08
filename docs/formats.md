@@ -11,6 +11,7 @@
 
  - [One hot](https://en.wikipedia.org/wiki/One-hot) is an encoding such that only one bit is one, all the other are zero
  - [The secret life of NaN](https://anniecherkaev.com/the-secret-life-of-nan)
+ - [Float toy](https://evanw.github.io/float-toy/)
 
 ## Character encoding
 
@@ -171,6 +172,7 @@ Relocations are the entities used by the linking process, dynamic or not
 
  - [core(5) man page](http://man7.org/linux/man-pages/man5/core.5.html)
  - [core File Format](https://www.ibm.com/support/knowledgecenter/ssw_aix_61/com.ibm.aix.files/core.htm)
+ - [slide](https://averageradical.github.io/Linux_Core_Dumps.pdf) Linux Core Dumps
 
 ### TLS
 
@@ -199,6 +201,7 @@ Relocations are the entities used by the linking process, dynamic or not
  - [Executable and Linkable Format 101 - Part 1 Sections and Segments](http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/)
  - [Executable and Linkable Format 101. Part 2: Symbols](http://www.intezer.com/executable-linkable-format-101-part-2-symbols/)
  - [Shared libraries and execute permissions](https://www.technovelty.org/linux/shared-libraries-and-execute-permissions.html)
+ - [Custom ELF program headers—what, why and how](https://www.cs.kent.ac.uk/people/staff/srk21/blog/2017/02/14/)
  - Introduction to the ELF Format
    - [ELF Header](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html)
    - [Understanding Program Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html)
@@ -209,6 +212,10 @@ Relocations are the entities used by the linking process, dynamic or not
 ## MS-DOS&PE
 
  - [A closer look at Portable Executable MS-DOS Stub](https://marcin-chwedczuk.github.io/a-closer-look-at-portable-executable-msdos-stub)
+
+## Mach-O
+
+ - [Mach-O File Format: Introduction](https://h3adsh0tzz.com/2020/01/macho-file-format/)
 
 ## QRcode
 

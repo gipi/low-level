@@ -70,5 +70,6 @@ Related to that there are **Hypervisor**s
  - [An Introduction to the Video4Linux Framework](https://events.static.linuxfound.org/sites/events/files/slides/v4l2-testing.pdf)
  - [Linux media subsystem docs](https://linuxtv.org/downloads/v4l-dvb-apis/index.html)
  - [Linux kernel module cheat](https://github.com/cirosantilli/linux-kernel-module-cheat) The perfect emulation setup to study and modify the Linux kernel, kernel modules, QEMU and gem5
+ - [Writing USB Device Drivers](https://www.kernel.org/doc/html/v4.15/driver-api/usb/writing_usb_driver.html)
 
 

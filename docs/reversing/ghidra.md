@@ -15,6 +15,7 @@
  - [Reversing Raw Binary Firmware Files in Ghidra](https://gist.github.com/nstarke/ed0aba2c882b8b3078747a567ee00520)
  - [An Introduction To Code Analysis With Ghidra](https://threatvector.cylance.com/en_us/home/an-introduction-to-code-analysis-with-ghidra.html)
  - [SVD-Loader for Ghidra: Simplifying bare-metal ARM reverse engineering](https://leveldown.de/blog/svd-loader/)
+ - [leveldown-security/SVD-Loader-Ghidra](https://github.com/leveldown-security/SVD-Loader-Ghidra)
  - [Analysing RPC With Ghidra and Neo4j](https://blog.xpnsec.com/analysing-rpc-with-ghidra-neo4j/)
  - [How to get the address of vertex in Function graph by using some python api?](https://github.com/NationalSecurityAgency/ghidra/issues/734)
  - [Ghidra -- A quick start guide with pictures and a C++ example](http://hwreblog.com/projects/ghidra.html)
@@ -24,6 +25,7 @@
  - [Blog](https://reversing.technology/) with a couple of posts about developing for it without eclipse
  - [Reverse Engineering Go, Part II](https://blog.osiris.cyber.nyu.edu/2019/12/19/ugo-ghidra-plugin/) This post is on how the Ghidra decompiler works, and how to make it work for Go
  - [Ghidra Decompiler wireformat](https://medium.com/@remco_verhoef/ghidra-decompiler-wireformat-ed9b11a793ec)
+ - [threatrack/ghidra-fidb-repo](https://github.com/threatrack/ghidra-fidb-repo) Ghidra Function ID dataset repository
 
 ## Scripting
 

@@ -1,5 +1,8 @@
 # Cryptography
 
+ - [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html)
+ - [Too much crypto](https://aumasson.jp/data/talks/TMC-RWC20.pdf)
+
 ## RNG
 
  - Discussion on [hacker news](https://news.ycombinator.com/item?id=21185594) about ``/dev/random`` going out of randomness and its non-senseness

@@ -35,7 +35,7 @@
  - [milabs/lkrg-bypass](https://github.com/milabs/lkrg-bypass) LKRG bypass methods
  - [Control Flow Integrity (CFI) in the Linux kernel](https://outflux.net/slides/2020/lca/cfi.pdf)
 
-## Paper
+## Papers
 
 ### KEPLER: Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities
 
@@ -44,6 +44,10 @@
 ### ret2dir: Rethinking Kernel Isolation
 
  - [paper](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kemerlis.pdf)
+
+### KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities
+
+ - [paper](https://www.usenix.org/system/files/sec20summer_chen-weiteng_prepub.pdf)
 
 ## Heap
 

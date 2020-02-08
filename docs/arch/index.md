@@ -83,6 +83,7 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 #### Links
 
  - [MIPS alternative registers name](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Mips/altReg.html)
+ - [Cheat sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
  - [MIPS Basic Training Course](https://community.imgtec.com/developers/mips/resources/training-courses/mips-basic-training-course/)
  - [MIPS32® Instruction Set Quick Reference](https://www.cs.duke.edu/courses/fall13/compsci250/MIPS32_QRC.pdf)
  - [MIPS: non-virtualizable architecture (Part 1)](http://www.nulltrace.org/2011/04/mips-non-virtualizable-architecture.html)
