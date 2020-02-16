@@ -90,6 +90,7 @@ Linux ASLR can be configured through /proc/sys/kernel/randomize_va_space. The fo
 
  - [ASLR implementation in Linux Kernel 3.7](http://shell-storm.org/blog/ASLR-implementation-in-Linux-Kernel-3.7/)
  - [To disable randomization](https://gcc.gnu.org/wiki/Randomization)
+ - [The never ending problems of local ASLR holes in Linux](https://blog.blazeinfosec.com/the-never-ending-problems-of-local-aslr-holes-in-linux/)
 
 ## RELRO
 

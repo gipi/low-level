@@ -19,6 +19,7 @@ pages:
   - Home: programming.md
   - Data structures: data_structures/index.md
   - Languages:
+    - C++: languages/cpp.md
     - Python: languages/python.md
   - Ptrace: ptrace.md
   - Randomness: randomness.md
