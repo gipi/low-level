@@ -1,4 +1,6 @@
 #include "linked.h"
+#include "tree.h"
+#include <string>
 
 int main(int argc, char* argv[]) {
     Node<int> n1 = Node<int>(0x01);
@@ -12,6 +14,17 @@ int main(int argc, char* argv[]) {
 
     head->remove(n1);
     head->remove(*n2);
+
+    TreeNode<int> tn = TreeNode<int>(0);
+
+    tn.insert(100);
+    tn.insert(-100);
+
+    tn.find(100);
+    tn.remove(100);
+
+    /* look ma! I can create a Tree with strings!!! */
+    TreeNode<std::string>* strtn = new TreeNode<std::string>("miao");
 #if 0
     Node<int>& n;
 

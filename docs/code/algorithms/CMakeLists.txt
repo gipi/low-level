@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(algorithms SHARED
   linked.cpp
+  tree.h
   linked.h
 )
 
