@@ -23,23 +23,30 @@
  */
 #ifndef TREE_H
 #define TREE_H
+#include <iterator>
+
 
 template<typename T>
 class TreeNode {
 public:
     T& data; /* in this way you have to externally manage the allocation of the instance */
-    TreeNode(T d) : data(d) {};
+    TreeNode<T>(T& d) : data(d) {};/* use reference to avoid copy constructor */
     TreeNode<T>* find(T x);
-    TreeNode<T>* insert(T x);
+    TreeNode<T>* insert(T& x);
     TreeNode<T>* remove(T x);
     TreeNode<T>* smallest();
     TreeNode<T>* greatest();
-
+    TreeNode<T>(const TreeNode<T>&) = delete;
 private:
     TreeNode* parent = nullptr;
     TreeNode* left = nullptr;
     TreeNode* right = nullptr;
 
+    /*
+     * utility class for internal search.
+     *
+     * TODO: probably is better to use a struct.
+     */
     class _Search {
         friend TreeNode;
     public:
@@ -57,6 +64,63 @@ private:
     };
 
     _Search* _find(T x);
+
+    /*
+     * This is the iterator to obtain the elements of the tree following
+     * a certain criteria.
+     */
+    class iterator: public std::iterator<std::forward_iterator_tag,   // iterator_category
+            T,                      // value_type
+            long,                      // difference_type
+            const long*,               // pointer
+            long                       // reference
+    >{
+    public:
+        explicit iterator(const TreeNode<T>* tree) : node(tree) {};
+        iterator& operator++() {
+            /* we just entered the node from above */
+            if (node->left != nullptr && prev == node->parent) {
+                prev = node;
+                node = node->left;
+            /* we are going right after we reached the most left */
+            } else if (node->right != nullptr && prev == node->left) {
+                prev = node;
+                node = node->right;
+            /* we are coming from a parent that hasn't a left child */
+            } else if (node->right != nullptr && prev == node->parent) {
+                prev = node;
+                node = node->right;
+            /* we have reached a leaf */
+            } else if (node->left == nullptr && node->right == nullptr) {
+                prev = node;
+                node = node->parent;
+            } else if (prev == node->left || prev == node->right) {
+                prev = node;
+                node = node->parent;
+            }
+
+            return *this;
+        }
+        // iterator operator++(int) {}
+        bool operator==(iterator other) const { return (node->data == other.node->data) && (prev == other.prev); }
+        bool operator!=(iterator other) const { return !(this->operator==(other)); }
+        T& operator*() const { return node->data; }
+        iterator(TreeNode<T>* n, TreeNode<T>* p) : node(n), prev(p) {};
+    private:
+        const TreeNode<T>* node;
+        const TreeNode<T>* prev = nullptr;
+    };
+public:
+    iterator begin() { return iterator(this); };
+    iterator end() {
+        /* here we try to recreate the microstate of the final iterator */
+        TreeNode<T>* prev = nullptr;
+        if (this->right == nullptr && this->left != nullptr) {
+            prev = this->left;
+        } else {
+            prev = this->right;
+        }
+        return iterator(this, prev);};
 };
 
 /**
@@ -98,7 +162,7 @@ TreeNode<T>* TreeNode<T>::find(T x) {
 }
 
 template <typename T>
-TreeNode<T>* TreeNode<T>::insert(T data) {
+TreeNode<T>* TreeNode<T>::insert(T& data) {
     _Search* search = this->_find(data);
 
     TreeNode<T>* returnValue = nullptr;
