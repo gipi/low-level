@@ -10,6 +10,10 @@ add_library(algorithms SHARED
   linked.cpp
   tree.h
   linked.h
+  strbuilder.h
+  strbuilder.cpp
+  arraylist.h
+  arraylist.cpp
 )
 
 add_executable(test test.cpp)

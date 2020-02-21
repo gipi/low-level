@@ -1,7 +1,16 @@
 #include "linked.h"
 #include "tree.h"
+#include "strbuilder.h"
 #include <iostream>
 #include <string>
+
+void test_string_builder() {
+    StringBuilder builder("bau");
+    builder.append("kebab");
+    builder.append("onion");
+
+    std::cout << builder.build() << std::endl;
+}
 
 int main(int argc, char* argv[]) {
     Node<int> n1 = Node<int>(0x01);
