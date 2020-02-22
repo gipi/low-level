@@ -124,6 +124,8 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
 
  - [JTAGing Mobile Phones](https://sysforensics.org/2016/08/jtaging-mobile-phones/)
  - [The JTAG Interface: AN ATTACKER’S PERSPECTIVE](https://optivstorage.blob.core.windows.net/web/file/55e86eae3f04450d9bafcbb3a94559ca/JTAG.Whitepaper.pdf)
+ - [Extracting firmware from devices using JTAG](https://embeddedbits.org/2020-02-20-extracting-firmware-from-devices-using-jtag/)
+ - [MIPS EJTAG specification](http://www.t-es-t.hu/download/mips/md00047f.pdf)
 
 ## Exploit
 

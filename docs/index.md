@@ -1,11 +1,7 @@
 
- - [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
- - [C Primer Plus, Fifth Edition](http://faculty.euc.ac.cy/scharalambous/csc131/books/C%20book%201.pdf)
- - [C++ tutorial for C users](http://www.ericbrasseur.org/cppcen.html)
  - [Build-your-own-X](https://github.com/danistefanovic/build-your-own-x)
  - [Color](http://jamie-wong.com/post/color/)
  - [Practical Guide to Bare Metal C++](https://arobenko.gitbooks.io/bare_metal_cpp)
- - [Writing C++17 for 16-bit x86](https://dev.krzaq.cc/post/writing-cpp17-for-16bit-x86/)
  - [Anatomy of a Program in Memory](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
  - [The Kernel Boot Process](http://duartes.org/gustavo/blog/post/kernel-boot-process/)
  - [CPU Rings, Privilege, and Protection](http://duartes.org/gustavo/blog/post/cpu-rings-privilege-and-protection/)

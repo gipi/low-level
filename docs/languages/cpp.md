@@ -1,6 +1,9 @@
 # C++
 
  - [cppreference.com](https://en.cppreference.com/)
+ - http://yosefk.com/c++fqa
+ - [C++ tutorial for C users](http://www.ericbrasseur.org/cppcen.html)
+ - [Writing C++17 for 16-bit x86](https://dev.krzaq.cc/post/writing-cpp17-for-16bit-x86/)
 
 ## Constructor
 
@@ -35,6 +38,10 @@ Time t = Time(12, 0, 0);
 
 in reality, under the hood, the constructor is called of T for the right hand side
 and then the copy constructor for the assignment to the left hand side.
+
+### Copy constructor
+
+It's in the form ``Class(const Class&)``.
 
 ## Inheritance
 
@@ -86,3 +93,24 @@ public:
     virtual std::string getName() = 0;
 };
 ```
+
+## Strings
+
+C++ has the C well known ``char*`` with the same behaviour; the "standard" way of using strings in C++ is
+by the ``std::string`` class. Obviously you usually do something like this when coding
+
+```c++
+void some_function(std::string);
+
+int main() {
+    ...
+    some_function("foobar");
+    ...
+}
+```
+
+take in mind that ``"foobar"`` is in a readonly memory, under the hood it's converted to ``std::string``
+copying its content.
+
+ - [std::string copy constructor NOT deep in GCC 4.1.2?](https://stackoverflow.com/questions/16604925/stdstring-copy-constructor-not-deep-in-gcc-4-1-2)
+ - [Is std::string refcounted in GCC 4.x / C++11?](https://stackoverflow.com/questions/12520192/is-stdstring-refcounted-in-gcc-4-x-c11)

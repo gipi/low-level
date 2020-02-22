@@ -19,7 +19,6 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - http://me.veekun.com/blog/2013/03/03/the-controller-pattern-is-awful-and-other-oo-heresy/
  - [The C10K problem](http://www.kegel.com/c10k.html)
  - http://damienkatz.net/2013/01/the_unreasonable_effectiveness_of_c.html
- - http://yosefk.com/c++fqa
  - [Hiding Bugs from Branch Coverage](http://blog.regehr.org/archives/872)
  - https://github.com/thoughtbot/guides/tree/master/code-review
  - http://natureofcode.com
@@ -79,12 +78,6 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - gamedevelopment.tutsplus.com/tutorials/avoiding-the-blob-antipattern-a-pragmatic-approach-to-entity-composition--gamedev-1113
  - http://blog.seancassidy.me/better-java.html
 
-## Complexity&Data structures
-
- - http://bigocheatsheet.com/
- - [Think Complexity](http://greenteapress.com/complexity/index.html): free book about data structures and algorithm
- - [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/)
-
 ## Algorithm
 
  - [Ramer–Douglas–Peucker algorithm](http://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm): is an algorithm for reducing the number of points in a curve that is approximated by a series of points.
@@ -131,6 +124,8 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
 
 ## C&C++
 
+ - [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
+ - [C Primer Plus, Fifth Edition](http://faculty.euc.ac.cy/scharalambous/csc131/books/C%20book%201.pdf)
  - [JPL Institutional Coding Standard for the C Programming Language ](http://lars-lab.jpl.nasa.gov/JPL_Coding_Standard_C.pdf)
  - [How to C 2016](https://matt.sh/howto-c)
  - [Some notes C in 2016](http://blog.erratasec.com/2016/01/some-notes-c-in-2016.html)
