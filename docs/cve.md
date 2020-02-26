@@ -10,11 +10,13 @@
  - [CVE-2019-18683](https://a13xp0p0v.github.io/2020/02/15/CVE-2019-18683.html): Linux kernel UAF caused by a race condition in the V4L subsystem.
  - CVE-2019-18634: [first writeup](https://www.sudo.ws/alerts/pwfeedback.html), [second writeup](https://iamalsaher.tech/posts/2020-02-08-cve-2019-18634/) In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigger a stack-based buffer overflow in the privileged sudo process.
  - [CVE-2019-11484](https://securitylab.github.com/research/ubuntu-whoopsie-CVE-2019-11484)
- - [CVE-2019-2215](https://dayzerosec.com/posts/analyzing-androids-cve-2019-2215-dev-binder-uaf/) Android's ``/dev/binder`` UAF
  - [CVE-2019-11707](https://blog.bi0s.in/2019/08/18/Pwn/Browser-Exploitation/cve-2019-11707-writeup/) Exploit code for a vulnerability in Firefox, found by saelo and coinbase security
  - [CVE-2019-11932](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) How a double-free bug in WhatsApp turns to RCE
  - [CVE-2019-14378](https://blog.bi0s.in/2019/08/24/Pwn/VM-Escape/2019-07-29-qemu-vm-escape-cve-2019-14378/) Qemu escape
  - [CVE-2019-13272](https://bugs.chromium.org/p/project-zero/issues/detail?id=1903) Linux 4.10 < 5.1.17 PTRACE_TRACEME local root [PoC](https://github.com/bcoles/kernel-exploits/blob/master/CVE-2019-13272/poc.c)
+ - CVE-2019-2215
+   - [Android's ``/dev/binder`` UAF](https://dayzerosec.com/posts/analyzing-androids-cve-2019-2215-dev-binder-uaf/)
+   - [Bad Binder: Android In-The-Wild Exploit](https://googleprojectzero.blogspot.com/2019/11/bad-binder-android-in-wild-exploit.html)
  - [CVE-2019-2107](https://github.com/marcinguy/CVE-2019-2107) Android stagefright-like HW vulnerability
  - [CVE-2019–0708](https://medium.com/@straightblast426/a-debugging-primer-with-cve-2019-0708-ccfa266682f6) A Debugging Primer with CVE-2019–0708
  - [CVE-2019–0708](https://www.malwaretech.com/2019/09/bluekeep-a-journey-from-dos-to-rce-cve-2019-0708.html) BlueKeep: A Journey from DoS to RCE (CVE-2019-0708)
@@ -22,6 +24,7 @@
  - [CVE-2019-0211](https://cfreal.github.io/carpe-diem-cve-2019-0211-apache-local-root.html) Apache Root Privilege Escalation
  - [CVE-2018-13784: PrestaShop 1.6.x Privilege Escalation](https://www.ambionics.io/blog/prestashop-privilege-escalation)
  - [CVE-2018-8120](https://www.welivesecurity.com/2018/05/15/tale-two-zero-days/) RCE in Acrobat reader
+ - [CVE-1028-7445](https://medium.com/@maxi./finding-and-exploiting-cve-2018-7445-f3103f163cc1) Finding and exploiting CVE-2018–7445 (unauthenticated RCE in MikroTik’s RouterOS SMB)
  - CVE-2017-11176:  A step-by-step Linux Kernel exploitation
    - [part 1/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part1.html)
    - [part 2/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part2.html)

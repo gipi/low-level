@@ -24,6 +24,7 @@ An useful diagram from [here](https://clementc.github.io/blog/2018/01/25/moving_
 
 ![](moving_cli.png)
 
+ - [How to use arguments from previous command?](https://stackoverflow.com/questions/4009412/how-to-use-arguments-from-previous-command/32332694)
  - [Programming with ANSI escape codes](http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html)
  - [The TTY demystified](http://www.linusakesson.net/programming/tty/)
  - [Abusing the FILE structure](https://outflux.net/blog/archives/2011/12/22/abusing-the-file-structure/)

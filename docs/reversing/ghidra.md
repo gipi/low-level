@@ -26,6 +26,7 @@
  - [Reverse Engineering Go, Part II](https://blog.osiris.cyber.nyu.edu/2019/12/19/ugo-ghidra-plugin/) This post is on how the Ghidra decompiler works, and how to make it work for Go
  - [Ghidra Decompiler wireformat](https://medium.com/@remco_verhoef/ghidra-decompiler-wireformat-ed9b11a793ec)
  - [threatrack/ghidra-fidb-repo](https://github.com/threatrack/ghidra-fidb-repo) Ghidra Function ID dataset repository
+ - [Writing a GHIDRA Loader: STM32 Edition](https://wrongbaud.github.io/writing-a-ghidra-loader/)
 
 ## Scripting
 
@@ -90,3 +91,4 @@ $ ./decomp_dbg
 [decomp]>
 ```
 
+ - [Ghidra_Decompiler_Notes.md](https://gist.github.com/v-p-b/5be986dfe494249374cecf058d4dd41c)

@@ -21,6 +21,7 @@
  - [Deobfuscating MoVfuscator - Part 2](https://x0r19x91.github.io/2019/swamp-future-fun)
  - [[DSCTF 2019] CPU Adventure – Unknown CPU Reversing](https://www.robertxiao.ca/hacking/dsctf-2019-cpu-adventure-unknown-cpu-reversing/)
  - [Weisfeiler-Lehman Graph Kernel for Binary Function Analysis](https://blog.quarkslab.com/weisfeiler-lehman-graph-kernel-for-binary-function-analysis.html)
+ - [malrev/ABD](https://github.com/malrev/ABD) Course materials for Advanced Binary Deobfuscation by NTT Secure Platform Laboratories
  
 
 ## Hardware

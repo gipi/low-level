@@ -34,6 +34,7 @@
  - [bcoles/kasld](https://github.com/bcoles/kasld) A collection of various techniques to bypass KASLR and retrieve the Linux kernel base virtual address on x86 / x86_64 architectures as an unprivileged user.
  - [milabs/lkrg-bypass](https://github.com/milabs/lkrg-bypass) LKRG bypass methods
  - [Control Flow Integrity (CFI) in the Linux kernel](https://outflux.net/slides/2020/lca/cfi.pdf)
+ - [a13xp0p0v/linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
 
 ## Papers
 

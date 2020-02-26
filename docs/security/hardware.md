@@ -44,6 +44,7 @@
  - [Hacking microcontroller firmware through a USB](https://securelist.com/hacking-microcontroller-firmware-through-a-usb/89919/)
   - [36C3 - Hacking Sony PlayStation Blu-ray Drives](https://media.ccc.de/v/36c3-10567-hacking_sony_playstation_blu-ray_drives#t=0)
   - [PAN](https://siguza.github.io/PAN/) about broken “PAN” (Privileged Access Never)
+ - [david-oswald/hwsec_lecture_notes](https://github.com/david-oswald/hwsec_lecture_notes) Lecture notes for the Hardware and Embedded Systems Security lecture
 
 ## Bootloader
 

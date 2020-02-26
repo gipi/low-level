@@ -6,6 +6,7 @@
  - [Shenanigans With Hash Tables](http://thume.ca/2019/07/29/shenanigans-with-hash-tables/)
  - [Think Complexity](http://greenteapress.com/complexity/index.html): free book about data structures and algorithm
  - [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/)
+ - [Lynda - Data Structure](https://archive.org/details/0102WhatYouShouldKnow)
 
 ## Hash tables
 
