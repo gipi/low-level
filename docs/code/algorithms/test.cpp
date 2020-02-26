@@ -1,80 +1,65 @@
 #include "linked.h"
 #include "tree.h"
+#include "arraylist.h"
 #include "strbuilder.h"
+#include "stack.h"
 #include <iostream>
 #include <string>
 
-void test_string_builder() {
+class Integer {
+public:
+    Integer(int v) : value(v) {};
+    ~Integer() {};
+    int value;
+};
+
+std::string* get_favorite_food() {
     StringBuilder builder("bau");
     builder.append("kebab");
     builder.append("onion");
 
-    std::cout << builder.build() << std::endl;
+    return builder.build(", ");
+}
+
+void test_string_builder() {
+    std::string* result = get_favorite_food();
+    std::cout << *result << std::endl;
+
+    delete result;
+}
+
+void test_arraylist() {
+    ArrayList<int> a_empty;
+    int a_static[] = {1, 2, 3, 4, 5};
+    ArrayList<int>A(a_static, 5);
+}
+
+void test_stack() {
+    Integer v1(1);
+    Integer v2(2);
+    Integer v3(3);
+    Integer v4(4);
+
+    Stack<Integer> stack;
+    stack.push(v1);
+    stack.push(v2);
+
+    stack.pop();
+
+    stack.push(v3);
+    stack.push(v4);
+
+    stack.pop();
 }
 
 int main(int argc, char* argv[]) {
-    Node<int> n1 = Node<int>(0x01);
+    (void)argc;
+    (void)argv;
 
-    Node<int>* n2 = new Node<int>(0x02);
+    test_arraylist();
+    test_string_builder();
 
-    Head<int>* head = new Head<int>();
+    test_stack();
 
-    head->insert(n1);
-    head->insert(*n2);
-
-    head->remove(n1);
-    head->remove(*n2);
-
-    /*
-    int first = 0;
-    TreeNode<int> tn = TreeNode<int>(first);
-
-    tn.insert(100);
-    tn.insert(-100);
-
-    tn.find(100);
-    tn.remove(100);
-*/
-    /* look ma! I can create a Tree with strings!!! */
-    std::string miao = std::string("miao");
-    TreeNode<std::string>* strtn = new TreeNode<std::string>(miao);
-    std::string tmp = std::string("bau");
-    strtn->insert(tmp);
-    auto kebab = std::string("kebab");
-    strtn->insert(kebab);
-
-    for (std::string name : *strtn) {
-        std::cout << name << std::endl;
-    }
-#if 0
-    Node<int>& n;
-
-    ll_for_each(head, n) {
-        printf("%x\n", n->value);
-    }
-
-    ll_insert(head, &n1);
-
-    ll_for_each(head, n) {
-        printf("%x\n", n->value);
-    }
-
-    ll_insert(head, &n2);
-    ll_for_each(head, n) {
-        printf("%x\n", n->value);
-    }
-
-
-    ll_remove(head, &n2);
-    ll_for_each(head, n) {
-        printf("%x\n", n->value);
-    }
-
-    ll_remove(head, &n1);
-    ll_for_each(head, n) {
-        printf("%x\n", n->value);
-    }
-
-#endif
     return 0;
 }

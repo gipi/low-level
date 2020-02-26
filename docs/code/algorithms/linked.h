@@ -27,9 +27,8 @@
 template<typename T>
 class Node {
 public:
-    T value;
-    Node() {};
-    Node(T v): value(v) {};
+    T& value;
+    Node(T& v): value(v) {};
 
     template<typename U>
     friend class Head;
@@ -38,11 +37,13 @@ private:
 };
 
 template <typename T>
-class Head : Node<T> {
+class Head {
 public:
     Head() {};
     void insert(Node<T>& n);
     void remove(Node<T>& n);
+protected:
+    Node<T>* next = nullptr;
 };
 
 
@@ -57,12 +58,18 @@ void Head<T>::insert(Node<T>& node) {
 template<typename T>
 void Head<T>::remove(Node<T>& node) {
     Node<T>* ref = this->next;
+    Node<T>* prev = nullptr;
 
     for ( ; ref ; ref = ref->next) {
-        if (ref->next && ref->next == &node) {
-            ref->next = ref->next->next;
+        if (ref == &node && prev) {
+            prev->next = ref->next;
+            break;
+        } else if (ref == &node && !prev) {
+            /* TODO: it's a little hacky! */
+            this->next = ref->next;
             break;
         }
+        prev = ref;
     }
 }
 #endif // LINKED_H

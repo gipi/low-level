@@ -10,6 +10,7 @@ add_library(algorithms SHARED
   linked.cpp
   tree.h
   linked.h
+  stack.h
   strbuilder.h
   strbuilder.cpp
   arraylist.h
