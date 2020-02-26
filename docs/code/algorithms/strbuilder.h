@@ -11,15 +11,17 @@
  * std::string* str = builder.build();
  */
 #include <iostream>
+#include "arraylist.h"
 
 
-class StringBuilder {
+class StringBuilder : ArrayList<std::string> {
 public:
     StringBuilder();
     StringBuilder(const char* prefix);
     StringBuilder(const std::string& prefix);
+    StringBuilder(const StringBuilder&) = delete;
     StringBuilder& append(const std::string& str);
-    std::string* build();
+    std::string* build(const char* delimiter = "");
 };
 
 #endif // STRBUILDER_H
