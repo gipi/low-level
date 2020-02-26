@@ -34,7 +34,52 @@ not being a **cyclic group** we know that it will not span all the domain.
 
 ## Trees
 
+A tree is a graph that is not cyclic.
+
+### Binary tree
+
+This is a subset of trees where nodes can only have up to to 2 child, usually named **left**
+and **right**.
+
+There are a couple of ordering mechanism: take the following binary tree
+
+```
+      <A>
+     /   \
+   <B>   <C>
+  /   \
+<D>   <E>
+```
+
+**pre-order** returns ``A, B, D, E, C``performing the following steps
+
+ - return the root node
+ - traverse recursively the left subtree
+ - traverse recursively the right subtree
+
+**in-order** returns ``D, B, E, A, C`` performing the following steps
+
+ - traverse recursively the left subtree
+ - return the root node
+ - traverse recursively the right subtree
+
+**post-order** returns ``D, E, B, C, A`` instead with the following procedure
+
+ - traverse recursively the left subtree
+ - traverse recursively the right subtree
+ - return the root node
+
+**level-order** returns ``A, B, C, D, E``, the steps are
+
+ 1. add the root node to a queue
+ 2. pop the last node from the queue and return it
+ 3. add all children  of popped node to queue and continue from step 2 until queue is empty
+
+### Links
+
  - [django-mptt/django-mptt](https://github.com/django-mptt/django-mptt) Utilities for implementing a modified pre-order traversal tree in django
+ - [Tree traversal algorithms](https://www.coderbyte.com/algorithm/tree-traversal-algorithms)
+ - [Inorder Tree Traversal without Recursion](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/)
 
 
 ## Tools
