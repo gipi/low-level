@@ -11,6 +11,9 @@ public:
     Integer(int v) : value(v) {};
     ~Integer() {};
     int value;
+    bool operator==(Integer& other) { return value == other.value; };
+    bool operator<(Integer& other) { return value < other.value; };
+    bool operator>(Integer& other) { return value > other.value; };
 };
 
 std::string* get_favorite_food() {
