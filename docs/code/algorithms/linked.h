@@ -100,7 +100,6 @@ private:
     iterator end() {return iterator(nullptr); };
 };
 
-
 template <typename T>
 void Head<T>::insert(T& value) {
     Node<T>* node = new Node<T>(value);
@@ -115,18 +114,28 @@ void Head<T>::remove(T& value) {
     Node<T>* ref = this->next;
     Node<T>* prev = nullptr;
 
+    bool found = false;
+
     for ( ; ref ; ref = ref->next) {
         /* here the case for all but the first node */
         if (ref->value == value && prev) {
             prev->next = ref->next;
+            found = true;
             break;
         /* here the case for the first node (we have to update the Head itself) */
         } else if (ref->value == value && !prev) {
             /* TODO: it's a little hacky! */
             this->next = ref->next;
+            found = true;
             break;
         }
         prev = ref;
+    }
+
+    if (found) {
+        delete ref;
+    } else {
+        throw std::string("element not found");
     }
 }
 
