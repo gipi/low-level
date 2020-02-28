@@ -37,23 +37,8 @@ void test_arraylist() {
     ArrayList<int>A(a_static, 5);
 }
 
-void test_stack() {
-    Integer v1(1);
-    Integer v2(2);
-    Integer v3(3);
-    Integer v4(4);
 
-    Stack<Integer> stack;
-    stack.push(v1);
-    stack.push(v2);
 
-    stack.pop();
-
-    stack.push(v3);
-    stack.push(v4);
-
-    stack.pop();
-}
 
 int main(int argc, char* argv[]) {
     (void)argc;
@@ -61,8 +46,6 @@ int main(int argc, char* argv[]) {
 
     test_arraylist();
     test_string_builder();
-
-    test_stack();
 
     return 0;
 }

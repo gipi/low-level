@@ -65,6 +65,7 @@ public:
     ~Head() { this->empty(); };
     void insert(T& t);
     void remove(T& t);
+    T& removeFirst();
     bool isEmpty();
     void empty();
 protected:
@@ -109,6 +110,27 @@ void Head<T>::insert(T& value) {
     node->next = next;
 }
 
+/* this function allows to remove node also
+ * in case T doesn't have comparison
+ * operators defined
+ */
+template<typename T>
+T& Head<T>::removeFirst() {
+    if (this->next == nullptr) {
+        throw std::string("I could not remove an element from an empty list");
+    }
+
+    Node<T>* victim = this->next;
+
+    this->next = victim->next;
+
+    T& result = victim->value;
+
+    delete victim;
+
+    return result;
+}
+
 template<typename T>
 void Head<T>::remove(T& value) {
     Node<T>* ref = this->next;
@@ -147,7 +169,7 @@ bool Head<T>::isEmpty() {
 template<typename T>
 void Head<T>::empty() {
     while (!this->isEmpty()) {
-        this->remove(this->next->value);
+        this->removeFirst();
     }
 }
 #endif // LINKED_H

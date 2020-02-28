@@ -23,13 +23,7 @@ T& Stack<T>::push(T& value) {
 
 template<typename T>
 T& Stack<T>::pop() {
-    if (this->isEmpty()) {
-        throw std::string("stack empty, you cannot pop from it");
-    }
-    T& value = this->next->value;
-    this->remove(value);
-
-    return value;
+    return this->removeFirst();
 }
 
 #endif // STACK_H
