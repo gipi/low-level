@@ -64,6 +64,8 @@ public:
     Head() {};
     void insert(T& t);
     void remove(T& t);
+    bool isEmpty();
+    void empty();
 protected:
     Node<T>* next = nullptr;
 
@@ -124,6 +126,18 @@ void Head<T>::remove(T& value) {
             break;
         }
         prev = ref;
+    }
+}
+
+template<typename T>
+bool Head<T>::isEmpty() {
+    return this->next == nullptr;
+}
+
+template<typename T>
+void Head<T>::empty() {
+    while (!this->isEmpty()) {
+        this->remove(this->next->value);
     }
 }
 #endif // LINKED_H
