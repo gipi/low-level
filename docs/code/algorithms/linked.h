@@ -15,6 +15,26 @@
  *           -------- ---
  *          | <data> | * |
  *           -------- ---
+ *             .-------'
+ *             |
+ *            \ /
+ *             '
+ *             .
+ *             .
+ *             .
+ *             |
+ *            \ /
+ *             '
+ *           -------- ---
+ *          | <data> | * |
+ *           -------- ---
+ *             .-------'
+ *             |
+ *            \ /
+ *             '
+ *           -------- ---
+ *          | <data> | * |
+ *           -------- ---
  *
  * In this implementation I use a head that is not a node
  * so to have special cases sorted out without special
@@ -48,6 +68,12 @@ protected:
     Node<T>* next = nullptr;
 
 public:
+    /*
+     * Iterator for the linked list: as a simple design, we use the node
+     * itself as a representation of the iterator.
+     *
+     * So end() returns simply the NULL pointer.
+     */
     class iterator: public std::iterator<std::forward_iterator_tag,   // iterator_category
             T,                      // value_type
             long,                      // difference_type
@@ -87,9 +113,11 @@ void Head<T>::remove(T& value) {
     Node<T>* prev = nullptr;
 
     for ( ; ref ; ref = ref->next) {
+        /* here the case for all but the first node */
         if (ref->value == value && prev) {
             prev->next = ref->next;
             break;
+        /* here the case for the first node (we have to update the Head itself) */
         } else if (ref->value == value && !prev) {
             /* TODO: it's a little hacky! */
             this->next = ref->next;
