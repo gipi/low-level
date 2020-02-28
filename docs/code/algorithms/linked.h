@@ -23,6 +23,8 @@
  */
 #ifndef LINKED_H
 #define LINKED_H
+#include <iterator>
+
 
 template<typename T>
 class Node {
@@ -44,6 +46,29 @@ public:
     void remove(T& t);
 protected:
     Node<T>* next = nullptr;
+
+public:
+    class iterator: public std::iterator<std::forward_iterator_tag,   // iterator_category
+            T,                      // value_type
+            long,                      // difference_type
+            const long*,               // pointer
+            long                       // reference
+    >{
+    public:
+        explicit iterator(const Node<T>* n) : node(n) {};
+    T& operator* () { return this->node->value; };
+    iterator& operator++() {
+        this->node = this->node->next;
+        return *this;
+    };
+    bool operator==(const iterator& other) { return this->node == other.node; };
+    bool operator!=(const iterator& other) { return !this->operator==(other); };
+
+private:
+        const Node<T>* node;
+    };
+    iterator begin() { return iterator(this->next); };
+    iterator end() {return iterator(nullptr); };
 };
 
 
