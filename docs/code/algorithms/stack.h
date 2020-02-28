@@ -11,7 +11,6 @@ class Stack : public Head<T> {
 public:
     T& push(T&);
     T& pop();
-    bool isEmpty();
 };
 
 
@@ -24,6 +23,9 @@ T& Stack<T>::push(T& value) {
 
 template<typename T>
 T& Stack<T>::pop() {
+    if (this->isEmpty()) {
+        throw std::string("stack empty, you cannot pop from it");
+    }
     T& value = this->next->value;
     this->remove(value);
 
