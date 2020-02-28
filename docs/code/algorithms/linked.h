@@ -40,31 +40,32 @@ template <typename T>
 class Head {
 public:
     Head() {};
-    void insert(Node<T>& n);
-    void remove(Node<T>& n);
+    void insert(T& t);
+    void remove(T& t);
 protected:
     Node<T>* next = nullptr;
 };
 
 
 template <typename T>
-void Head<T>::insert(Node<T>& node) {
+void Head<T>::insert(T& value) {
+    Node<T>* node = new Node<T>(value);
     Node<T>* next = this->next;
 
-    this->next = &node;
-    node.next = next;
+    this->next = node;
+    node->next = next;
 }
 
 template<typename T>
-void Head<T>::remove(Node<T>& node) {
+void Head<T>::remove(T& value) {
     Node<T>* ref = this->next;
     Node<T>* prev = nullptr;
 
     for ( ; ref ; ref = ref->next) {
-        if (ref == &node && prev) {
+        if (ref->value == value && prev) {
             prev->next = ref->next;
             break;
-        } else if (ref == &node && !prev) {
+        } else if (ref->value == value && !prev) {
             /* TODO: it's a little hacky! */
             this->next = ref->next;
             break;

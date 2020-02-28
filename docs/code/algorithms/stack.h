@@ -17,20 +17,15 @@ public:
 
 template<typename T>
 T& Stack<T>::push(T& value) {
-    Node<T>* wrapper = new Node<T>(value);
-    this->insert(*wrapper);
+    this->insert(value);
 
     return value;
 }
 
 template<typename T>
 T& Stack<T>::pop() {
-    Node<T>& top = *this->next;
-    this->remove(top);
-
-    T& value = top.value;
-
-    delete &top;
+    T& value = this->next->value;
+    this->remove(value);
 
     return value;
 }
