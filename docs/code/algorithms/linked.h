@@ -62,6 +62,7 @@ template <typename T>
 class Head {
 public:
     Head() {};
+    ~Head() { this->empty(); };
     void insert(T& t);
     void remove(T& t);
     bool isEmpty();
