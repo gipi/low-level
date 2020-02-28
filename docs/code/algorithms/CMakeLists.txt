@@ -19,6 +19,7 @@ add_library(algorithms SHARED
 
 add_executable(test test.cpp)
 add_executable(test_linked test_linked.cpp)
+add_executable(test_stack test_stack.cpp)
 target_link_libraries(test algorithms)
 
 #target_compile_definitions(algorithms PRIVATE ALGORITHMS_LIBRARY)
