@@ -99,6 +99,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - Basic Side channel framework [repository](https://github.com/phonchi/Basic-Side-Channel-Framework): provide a basic framework for side-channel analysis. Currently, it combines SAKURA-G, Chipwhispere, OpenADC, Jupyter Notebook...etc.
  - [Escalating Privileges in Linux using Voltage Fault Injection](https://www.riscure.com/uploads/2017/10/Riscure_Whitepaper_Escalating_Privileges_in_Linux_using_Fault_Injection.pdf)
  - [Glitching a $20k Piece of History](https://yifan.lu/2019/08/16/glitching-a-20k-piece-of-history/)
+ - [Differential Fault Injection Against AES on Atmega328](https://rot256.io/post/glitch/)
 
 
 ### Power analysis
