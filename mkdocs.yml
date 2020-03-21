@@ -28,6 +28,7 @@ pages:
   - Ptrace: ptrace.md
   - Randomness: randomness.md
   - Memory: memory.md
+  - Computer vision&Machine learning: cv.md
 - Security:
   - 'Home': security/index.md
   - 'Browers': security/browser.md
@@ -46,6 +47,7 @@ pages:
   - Shellcode: shellcode.md
   - Counter measure: counter-measure.md
   - Sandbox: security/sandbox.md
+  - Fuzzing: fuzzing.md
 - Reversing:
   - Home: reversing/reversing.md
   - Ghidra: reversing/ghidra.md
@@ -53,7 +55,5 @@ pages:
 - Networking:
   - Home: networking.md
   - Iptables: networking/iptables.md
-- Fuzzing: fuzzing.md
-- Computer vision: cv.md
 - Physics: physics.md
 theme: readthedocs
