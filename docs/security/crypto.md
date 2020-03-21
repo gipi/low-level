@@ -2,6 +2,7 @@
 
  - [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html)
  - [Too much crypto](https://aumasson.jp/data/talks/TMC-RWC20.pdf)
+ - [Cryptanalysis Cheatsheet :: Notes from Overthewire Krypton](https://sumit-ghosh.com/articles/cryptanalysis-cheatsheet-notes-overthewire-krypton/)
 
 ## RNG
 

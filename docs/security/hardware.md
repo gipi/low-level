@@ -100,6 +100,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Escalating Privileges in Linux using Voltage Fault Injection](https://www.riscure.com/uploads/2017/10/Riscure_Whitepaper_Escalating_Privileges_in_Linux_using_Fault_Injection.pdf)
  - [Glitching a $20k Piece of History](https://yifan.lu/2019/08/16/glitching-a-20k-piece-of-history/)
  - [Differential Fault Injection Against AES on Atmega328](https://rot256.io/post/glitch/)
+ - [36C3 - TrustZone-M(eh): Breaking ARMv8-M's security](youtube.com/watch?v=4u6BAH8mEDw)
 
 
 ### Power analysis

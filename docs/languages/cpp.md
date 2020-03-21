@@ -80,6 +80,7 @@ is called for that class; to avoid that overhead you can use a ``const`` referen
 
  - [C++ Iterators](https://users.cs.northwestern.edu/~riesbeck/programming/c++/stl-iterators.html)
  - [Defining C++ Iterators](https://users.cs.northwestern.edu/~riesbeck/programming/c++/stl-iterator-define.html)
+ - [Implementing Iterator pattern of a single Linked List](https://www.geeksforgeeks.org/implementing-iterator-pattern-of-a-single-linked-list/)
 
 ## Mutables
 
