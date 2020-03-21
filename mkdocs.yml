@@ -11,7 +11,11 @@ pages:
     - AVR: arch/avr.md
     - X86/AMD64: arch/x86.md
   - OS: os/index.md
-  - Embedded Systems: embedded.md
+  - Embedded Systems:
+    - General: embedded/index.md
+    - Microcontrollers: embedded/micro.md
+    - Build&Integration systems: embedded/build.md
+    - Boards: embedded/board.md
   - Shells: shell.md
   - Formats: formats.md
   - Filesystem: filesystem.md
