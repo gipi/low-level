@@ -35,7 +35,7 @@ pages:
   - 'XXE': security/xxe.md
   - 'XSS': security/xss.md
   - 'CTF': security/ctf.md
-  - 'CVE': cve.md
+  - 'CVE': security/cve.md
   - 'Hardware': security/hardware.md
   - 'Heap': security/heap.md
   - 'Kernel': security/kernel.md
