@@ -20,15 +20,15 @@ pages:
   - Formats: formats.md
   - Filesystem: filesystem.md
 - Programming:
-  - Home: programming.md
+  - Home: programming/programming.md
   - Data structures: data_structures/index.md
   - Languages:
     - C++: languages/cpp.md
     - Python: languages/python.md
-  - Ptrace: ptrace.md
-  - Randomness: randomness.md
-  - Memory: memory.md
-  - Computer vision&Machine learning: cv.md
+  - Ptrace: programming/ptrace.md
+  - Randomness: programming/randomness.md
+  - Memory: programming/memory.md
+  - Computer vision&Machine learning: programming/cv.md
 - Security:
   - 'Home': security/index.md
   - 'Browers': security/browser.md

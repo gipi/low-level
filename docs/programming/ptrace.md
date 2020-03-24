@@ -7,9 +7,9 @@ primarly by debuggers like gdb to do their stuffs.
 
 Idea: write a ptrace-based command that take a list of address, set breakpoint
 and dump a list of local variables, based with respect to the ``esp``/``ebp``
-offset; also intercept ``SEGFAULT`` and stop. First POC's code: [ptrace](code/ptrace_on_segfault.c).
+offset; also intercept ``SEGFAULT`` and stop. First POC's code: [ptrace](../code/ptrace_on_segfault.c).
 
-For test you can use [i_crash.c](code/i_crash.c)
+For test you can use [i_crash.c](../code/i_crash.c)
 
 ```
 $ ./ptrace_on_segfault  ./i_crash 265
