@@ -39,6 +39,11 @@ Time t = Time(12, 0, 0);
 in reality, under the hood, the constructor is called of T for the right hand side
 and then the copy constructor for the assignment to the left hand side.
 
+### Default constructor
+
+A default constructor is a constructor that either has no parameters, or if it
+has parameters, all the parameters have default values.
+
 ### Copy constructor
 
 It's in the form ``Class(const Class&)``.
@@ -46,6 +51,11 @@ It's in the form ``Class(const Class&)``.
 ## Inheritance
 
 It's possible to have multiple parent classes.
+
+## virtual
+
+ - https://stackoverflow.com/questions/2391679/why-do-we-need-virtual-functions-in-c
+ - https://en.cppreference.com/w/cpp/language/virtual
 
 ## Visibility
 

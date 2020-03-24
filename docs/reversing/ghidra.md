@@ -1,6 +1,7 @@
 # Ghidra
 
  - [Ghidra's Online Courses](http://ghidra.re/online-courses/)
+ - [awesome-ghidra](https://github.com/AllsafeCyberSecurity/awesome-ghidra)
  - [Ghidra - Journey from Classified NSA Tool to Open Source](youtube.com/watch?v=kx2xp7IQNSc) Black Hat 2019 talk
  - [Mike Bell: Extending Ghidra: from Script to Plugins and Beyond](https://thecyberwire.com/stories/Mike-Bell-Extending-Ghidra-from-Script-to-Plugins-and-Beyond.html) Mike Bell speaking at the Jailbreak Brewing Company Security Summit on Friday, October 11, 2019
  - [ghidraninja/ghidra_scripts](https://github.com/ghidraninja/ghidra_scripts)

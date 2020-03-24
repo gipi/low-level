@@ -162,6 +162,49 @@ Token: '34'
 >>> sorted_x = sorted(x.iteritems(), key=operator.itemgetter(1))
 ```
 
+### Getopt
+
+```
+import getopt, sys
+
+def main():
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], "ho:v", ["help", "output="])
+    except getopt.GetoptError as err:
+        # print help information and exit:
+        print(err) # will print something like "option -a not recognized"
+        usage()
+        sys.exit(2)
+    output = None
+    verbose = False
+    for o, a in opts:
+        if o == "-v":
+            verbose = True
+        elif o in ("-h", "--help"):
+            usage()
+            sys.exit()
+        elif o in ("-o", "--output"):
+            output = a
+        else:
+            assert False, "unhandled option"
+    # ...
+
+if __name__ == "__main__":
+    main()
+```
+
+### PySerial
+
+ - [documentation](https://pyserial.readthedocs.io/en/latest/)
+
+```python
+import serial
+ser = serial.Serial('/dev/ttyUSB0')  # open serial port
+print(ser.name)         # check which port was really used
+ser.write(b'hello')     # write a string
+ser.close()
+```
+
 ### Decorator
 
 ```python
@@ -231,6 +274,8 @@ Print out some docstring for documentation purpose
 
 ## Logging
 
+ - [Documentation](https://docs.python.org/3.1/library/logging.html)
+
 Add a debug level (http://stackoverflow.com/a/16955098/1935366)
 
  - http://victorlin.me/posts/2012/08/26/good-logging-practice-in-python
@@ -283,7 +328,7 @@ return any(x)
 
  - [Multi line formatting](http://fruch.github.io/2014/11/06/taming-the-logging-formatter/)
 
- ## Traceback
+## Traceback
 
 ```python
     try:
