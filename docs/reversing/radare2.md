@@ -139,4 +139,4 @@ $ r2 -nn file.elf
  - THC2018 [slide](https://www.radare.org/get/THC2018.pdf)
  - [Deobfuscating APT32 Flow Graphs with Cutter and Radare2](https://research.checkpoint.com/2019/deobfuscating-apt32-flow-graphs-with-cutter-and-radare2/)
  - [Radare2 - Using Emulation To Unpack Metasploit Encoders](https://xpnsec.tumblr.com/post/156211722581/radare2-using-emulation-to-unpack-metasploit)
-
+ - [Reversing Firmware With Radare](https://www.bored-nerds.com/reversing/radare/automotive/2019/07/07/reversing-firmware-with-radare.html)

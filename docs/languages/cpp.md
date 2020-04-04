@@ -125,3 +125,26 @@ copying its content.
 
  - [std::string copy constructor NOT deep in GCC 4.1.2?](https://stackoverflow.com/questions/16604925/stdstring-copy-constructor-not-deep-in-gcc-4-1-2)
  - [Is std::string refcounted in GCC 4.x / C++11?](https://stackoverflow.com/questions/12520192/is-stdstring-refcounted-in-gcc-4-x-c11)
+## Exceptions
+
+```c++
+#include <stdexcept>
+
+class DivideDyZero : public runtime_error {
+    public:
+        DivideDyZero() :
+         runtime_error("divide by zero exception") {}
+};
+
+void whatever() {
+    ...
+    try{
+        ...
+    } catch (DivideDyZero & err) {
+        std::cerr << err.what() << std::endl;
+    } catch (...) {
+        std::cerr << "Catch all" << std::endl;
+    }
+    ...
+}
+```

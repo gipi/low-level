@@ -13,6 +13,12 @@
  - [The secret life of NaN](https://anniecherkaev.com/the-secret-life-of-nan)
  - [Float toy](https://evanw.github.io/float-toy/)
 
+$$
+e^{i\pi} + 1^{{\tt NaN}\cdot\inf} = 0
+$$
+
+([source](http://tom7.org/nand/nand.pdf)).
+
 ## Character encoding
 
  - [A tutorial on character code issues](https://www.cs.tut.fi/~jkorpela/chars.html)
@@ -113,6 +119,7 @@ The most common compression formats are all using the ``DEFLATE`` algorithm defi
 ## PNG
 
  - [PNG Merge](http://wiki.yobi.be/wiki/PNG_Merge) this is a Poc (Proof of Concept) to create a PNG file that contains different images somehow entangled together. 
+ - [How To Bypass CSP By Hiding JavaScript In A PNG Image](https://www.secjuice.com/hiding-javascript-in-png-csp-bypass/)
 
 ## PDF
 
@@ -212,6 +219,7 @@ Relocations are the entities used by the linking process, dynamic or not
 ## MS-DOS&PE
 
  - [A closer look at Portable Executable MS-DOS Stub](https://marcin-chwedczuk.github.io/a-closer-look-at-portable-executable-msdos-stub)
+ - [Modern PE Mangling](https://n0.lol/a/pemangle.html)
 
 ## Mach-O
 

@@ -106,3 +106,4 @@ for example, is p14.
  - [posborne/cmsis-svd](https://github.com/posborne/cmsis-svd) This repository seeks to provide value to developers targetting ARM platforms in two main ways:
     - Provide a convenient place to access and aggregate CMSIS-SVD hardware descriptions from multiple sources.
     - Provide parsers that make code generation and tooling based on SVD easier to build. Most parsers simply parse a provided SVD file and turn it into a data structure more easily used in that language.
+ - [libopencm3/libopencm3](https://github.com/libopencm3/libopencm3) Open source ARM Cortex-M microcontroller library

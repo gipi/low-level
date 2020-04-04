@@ -45,6 +45,7 @@
   - [36C3 - Hacking Sony PlayStation Blu-ray Drives](https://media.ccc.de/v/36c3-10567-hacking_sony_playstation_blu-ray_drives#t=0)
   - [PAN](https://siguza.github.io/PAN/) about broken “PAN” (Privileged Access Never)
  - [david-oswald/hwsec_lecture_notes](https://github.com/david-oswald/hwsec_lecture_notes) Lecture notes for the Hardware and Embedded Systems Security lecture
+ - [Exception(al) Failure - Breaking the STM32F1 Read-Out Protection](https://blog.zapb.de/stm32f1-exceptional-failure/)
 
 ## Bootloader
 
@@ -135,3 +136,4 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Developing MIPS Exploits to Hack Routers](36806.pdf)
  - [Nifty Tricks and Sage Advice for Shellcode on Embedded Systems](https://conference.hitb.org/hitbsecconf2013ams/materials/D1T1%20-%20Travis%20Goodspeed%20-%20Nifty%20Tricks%20and%20Sage%20Advice%20for%20Shellcode%20on%20Embedded%20Systems.pdf)
  - [Pandora’s Cash Box: The Ghost Under Your POS](https://recon.cx/2015/slides/recon2015-17-nitay-artenstein-shift-reduce-Pandora-s-Cash-Box-The-Ghost-Under-Your-POS.pdf)
+ - [Security Advisories: D-Link DSL-2640B](https://raelize.com/posts/d-link-dsl-2640b-security-advisories/)

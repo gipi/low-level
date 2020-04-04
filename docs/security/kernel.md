@@ -35,6 +35,8 @@
  - [milabs/lkrg-bypass](https://github.com/milabs/lkrg-bypass) LKRG bypass methods
  - [Control Flow Integrity (CFI) in the Linux kernel](https://outflux.net/slides/2020/lca/cfi.pdf)
  - [a13xp0p0v/linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
+ - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html) This is a collection of lectures and labs Linux kernel topics. The lectures focus on theoretical and Linux kernel exploration.
+ - [The Plight of TTY in the Linux Kernel](https://pr0cf5.github.io/ctf/2020/03/09/the-plight-of-tty-in-the-linux-kernel.html)
 
 ## Papers
 

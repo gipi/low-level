@@ -49,6 +49,7 @@
  - [Reverse Engineering a Philips TriMedia CPU based IP camera - Part 1](https://blog.quarkslab.com/reverse-engineering-a-philips-trimedia-cpu-based-ip-camera-part-1.html)
  - [REVERSE ENGINEERING ARCHITECTURE AND PINOUT OF CUSTOM ASICS](https://sec-consult.com/en/blog/2019/02/reverse-engineering-architecture-pinout-plc/)
  - [Hardware Debugging for Reverse Engineers Part 1: SWD, OpenOCD and Xbox One Controllers](https://wrongbaud.github.io/stm-xbox-jtag/)
+ - [Reverse Engineering a Digital Answering Machine (part 1)](https://ivanwick.github.io/2020/03/15/answering-machine-pt1.html)
 
 ## Software
 
@@ -77,6 +78,7 @@
  - [Reversing Microsoft Visual C++ Part I: Exception Handling](http://www.openrce.org/articles/full_view/21)
  - [Reversing Microsoft Visual C++ Part II: Classes, Methods and RTTI](http://www.openrce.org/articles/full_view/23)
  - [PortEx](https://github.com/katjahahn/PortEx) Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness
+ - [Applied Reverse Engineering: Exceptions And Interrupts](https://revers.engineering/applied-re-exceptions/)
 
 ### Java
 
