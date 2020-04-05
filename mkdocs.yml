@@ -21,6 +21,7 @@ pages:
   - Filesystem: filesystem.md
 - Programming:
   - Home: programming/programming.md
+  - Algorithms: programming/algorithms.md
   - Build systems: programming/build.md
   - Data structures: data_structures/index.md
   - Languages:
