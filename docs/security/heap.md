@@ -34,3 +34,4 @@
  - [HEAP OVERFLOWS AND THE IOS KERNEL HEAP](https://azeria-labs.com/heap-overflows-and-the-ios-kernel-heap/)
  - [How a double-free bug in WhatsApp turns to RCE](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/)
  - [yannayl/glibc_malloc_for_exploiters](https://github.com/yannayl/glibc_malloc_for_exploiters) GlibC Malloc for Exploiters presentation
+ - House of Husk: [here](https://maxwelldulin.com/BlogPost?post=3107454976) and [here](https://ptr-yudai.hatenablog.com/entry/2020/04/02/111507) for more explanation

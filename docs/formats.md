@@ -89,6 +89,8 @@ loopb:  lodsb
 
 ![](/images/regex.png)
 
+ - [GREP cheat sheet](https://staff.washington.edu/weller/grep.html)
+
 ## Compression related (Zip, GZip)
 
 The most common compression formats are all using the ``DEFLATE`` algorithm defined in

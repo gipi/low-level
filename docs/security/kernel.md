@@ -38,6 +38,11 @@
  - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html) This is a collection of lectures and labs Linux kernel topics. The lectures focus on theoretical and Linux kernel exploration.
  - [The Plight of TTY in the Linux Kernel](https://pr0cf5.github.io/ctf/2020/03/09/the-plight-of-tty-in-the-linux-kernel.html)
 
+## Heap
+
+ - [Linux Kernel universal heap spray](https://duasynt.com/blog/linux-kernel-heap-spray)
+ - [An Analysis of Linux Kernel Heap Hardening](https://blog.infosectcbr.com.au/2020/04/an-analysis-of-linux-kernel-heap.html)
+
 ## Papers
 
 ### KEPLER: Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities
@@ -52,6 +57,3 @@
 
  - [paper](https://www.usenix.org/system/files/sec20summer_chen-weiteng_prepub.pdf)
 
-## Heap
-
- - [Linux Kernel universal heap spray](https://duasynt.com/blog/linux-kernel-heap-spray)

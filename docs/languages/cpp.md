@@ -125,6 +125,7 @@ copying its content.
 
  - [std::string copy constructor NOT deep in GCC 4.1.2?](https://stackoverflow.com/questions/16604925/stdstring-copy-constructor-not-deep-in-gcc-4-1-2)
  - [Is std::string refcounted in GCC 4.x / C++11?](https://stackoverflow.com/questions/12520192/is-stdstring-refcounted-in-gcc-4-x-c11)
+
 ## Exceptions
 
 ```c++
@@ -148,3 +149,10 @@ void whatever() {
     ...
 }
 ```
+
+## PIMPL
+
+Idiom to break compilation dependencies.
+
+ - https://www.bfilipek.com/2018/01/pimpl.html
+ - https://en.cppreference.com/w/cpp/language/pimpl

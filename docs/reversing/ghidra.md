@@ -28,6 +28,7 @@
  - [Ghidra Decompiler wireformat](https://medium.com/@remco_verhoef/ghidra-decompiler-wireformat-ed9b11a793ec)
  - [threatrack/ghidra-fidb-repo](https://github.com/threatrack/ghidra-fidb-repo) Ghidra Function ID dataset repository
  - [Writing a GHIDRA Loader: STM32 Edition](https://wrongbaud.github.io/writing-a-ghidra-loader/)
+ - [esaulenka/ghidra_v850](https://github.com/esaulenka/ghidra_v850) Ghidra support for Renesas V850 MCUs
 
 ## Scripting
 
