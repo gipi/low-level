@@ -9,6 +9,7 @@ pages:
     - General: arch/index.md
     - ARM: arch/arm.md
     - AVR: arch/avr.md
+    - MIPS: arch/mips.md
     - X86/AMD64: arch/x86.md
   - OS: os/index.md
   - Embedded Systems:
