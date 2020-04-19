@@ -75,6 +75,18 @@ There are a couple of ordering mechanism: take the following binary tree
  2. pop the last node from the queue and return it
  3. add all children  of popped node to queue and continue from step 2 until queue is empty
 
+The number of **unlabeled** trees with \\(N\\) nodes is given by the Catalan's numbers
+
+$$
+T(N) = \sum_{i=1}^{N} T(i - 1)\cdot T(N - i) = {(2N)!\over(N + 1)!N!}
+$$
+
+instead for **labeled** binary tree we have
+
+$$
+T^\prime(N)= N!T(N) = {(2N)!\over(N + 1)!}
+$$
+
 ### Links
 
  - [django-mptt/django-mptt](https://github.com/django-mptt/django-mptt) Utilities for implementing a modified pre-order traversal tree in django

@@ -23,6 +23,7 @@ pages:
 - Programming:
   - Home: programming/programming.md
   - Algorithms: programming/algorithms.md
+  - Design Patterns: programming/design_patterns.md
   - Build systems: programming/build.md
   - Data structures: data_structures/index.md
   - Languages:

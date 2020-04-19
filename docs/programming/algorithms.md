@@ -1,5 +1,18 @@
 # Algorithms
 
+ - [Ramer–Douglas–Peucker algorithm](http://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm): is an algorithm for reducing the number of points in a curve that is approximated by a series of points.
+ - [PID controller](http://playground.arduino.cc/Code/PIDLibrary): calculates an 'error' value as the difference between a measured [Input] and a desired setpoint. The controller attempts to minimize the error by adjusting [an Output].
+ - http://brm.io/game-physics-for-beginners/
+ - http://spin.atomicobject.com/2014/09/03/visualizing-garbage-collection-algorithms/
+ - http://fabiensanglard.net/rayTracing_back_of_business_card/index.php
+ - http://rayli.net/blog/data/top-10-data-mining-algorithms-in-plain-english/
+ - https://pograph.wordpress.com/2009/06/04/notes-on-gzip-and-deflate-format/
+ - [Stable sorting in javascript](http://blog.vjeux.com/2010/javascript/javascript-sorting-table.html)
+ - [Blob Sallad — Canvas Tag and JavaScript Physics Simulation Experiment](https://dev.opera.com/articles/blob-sallad-canvas-tag-and-javascript/)
+ - [algorithm-cheat](https://github.com/cirosantilli/algorithm-cheat) Algorithm tutorials and simple multi-language implementations with unit tests.
+ - [Modified preorder tree traversal](https://www.caktusgroup.com/blog/2016/01/04/modified-preorder-tree-traversal-django/)
+ - [Answer](http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773) with a list of implemented algorithms in well known softwares
+
 ## Sorting
 
 ### Selection sort
@@ -45,3 +58,9 @@ This is a divide and conquer algorithm that works in the following way
  1. picks a **pivot element**
  2. reorders the elements so that
 
+
+ - [Insertion sort vs Bubble Sort Algorithms](https://stackoverflow.com/questions/17270628/insertion-sort-vs-bubble-sort-algorithms)
+
+## Procedural generation
+
+ - [Wave Function Collapse tips and tricks](https://www.boristhebrave.com/2020/02/08/wave-function-collapse-tips-and-tricks/)
