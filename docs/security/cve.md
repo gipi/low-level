@@ -8,6 +8,7 @@
 
 ## List
 
+ - [CVE-2020-11060](https://offsec.almond.consulting/playing-with-gzip-rce-in-glpi.html) An arbitrary path and a hashed path disclosure can be abused to execute code on a GLPI host, by creating a PHP/GZIP polyglot file.
  - [CVE-2019-18683](https://a13xp0p0v.github.io/2020/02/15/CVE-2019-18683.html): Linux kernel UAF caused by a race condition in the V4L subsystem.
  - CVE-2019-18634: [first writeup](https://www.sudo.ws/alerts/pwfeedback.html), [second writeup](https://iamalsaher.tech/posts/2020-02-08-cve-2019-18634/) In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigger a stack-based buffer overflow in the privileged sudo process.
  - [CVE-2019-11484](https://securitylab.github.com/research/ubuntu-whoopsie-CVE-2019-11484)
@@ -15,6 +16,7 @@
  - [CVE-2019-11932](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) How a double-free bug in WhatsApp turns to RCE
  - [CVE-2019-14378](https://blog.bi0s.in/2019/08/24/Pwn/VM-Escape/2019-07-29-qemu-vm-escape-cve-2019-14378/) Qemu escape
  - [CVE-2019-13272](https://bugs.chromium.org/p/project-zero/issues/detail?id=1903) Linux 4.10 < 5.1.17 PTRACE_TRACEME local root [PoC](https://github.com/bcoles/kernel-exploits/blob/master/CVE-2019-13272/poc.c)
+ - [CVE-2020-8835](https://www.thezdi.com/blog/2020/4/8/cve-2020-8835-linux-kernel-privilege-escalation-via-improper-ebpf-program-verification)
  - CVE-2019-2215
    - [Android's ``/dev/binder`` UAF](https://dayzerosec.com/posts/analyzing-androids-cve-2019-2215-dev-binder-uaf/)
    - [Bad Binder: Android In-The-Wild Exploit](https://googleprojectzero.blogspot.com/2019/11/bad-binder-android-in-wild-exploit.html)
@@ -35,6 +37,7 @@
  - [CVE-2016-5195](https://dirtycow.ninja/) also known as **Dirty Cow**, another [writeup](https://chao-tic.github.io/blog/2017/05/24/dirty-cow)
  - [CVE-2016-3714](https://imagetragick.com) ImageMagick RCE
  - [CVE-2016-3132](http://www.libnex.org/blog/doublefreeinstandardphplibrarydoublelinklist) Double Free in Standard PHP Library Double Link List
+ - [CVE-2016-2384](https://xairy.github.io/blog/2016/cve-2016-2384) Exploiting a double-free in the USB-MIDI Linux kernel driver
  - [CVE-2016-0728](http://perception-point.io/2016/01/14/analysis-and-exploitation-of-a-linux-kernel-vulnerability-cve-2016-0728/)
  - [CVE-2015-3864](https://www.usenix.org/sites/default/files/conference/protected-files/woot16_slides_drake.pdf) stagefright
  - [Analysis of PHP's CVE-2016-6289 and CVE-2016-6297](https://blog.fortinet.com/2016/08/10/analysis-of-php-s-cve-2016-6289-and-cve-2016-6297)

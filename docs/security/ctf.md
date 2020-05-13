@@ -30,6 +30,7 @@
  - [root-me](https://www.root-me.org)
  - [CRYPTOHACK](https://cryptohack.org/)
  - [hack the box](https://www.hackthebox.eu)
+ - [Nightmare](https://guyinatuxedo.github.io/) is an intro to binary exploitation / reverse engineering course based around ctf challenges
 
 ## RHME
 

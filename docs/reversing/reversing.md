@@ -23,6 +23,7 @@
  - [Weisfeiler-Lehman Graph Kernel for Binary Function Analysis](https://blog.quarkslab.com/weisfeiler-lehman-graph-kernel-for-binary-function-analysis.html)
  - [malrev/ABD](https://github.com/malrev/ABD) Course materials for Advanced Binary Deobfuscation by NTT Secure Platform Laboratories
  - [Bootstrapping Understanding](http://www.muppetlabs.com/~breadbox/txt/bure.html): reversing the level data file for "Chip's Challenge" game
+ - [Reverse engineering Flutter apps (Part 1)](https://blog.tst.sh/reverse-engineering-flutter-apps-part-1/)
  
 
 ## Hardware
@@ -79,6 +80,7 @@
  - [Reversing Microsoft Visual C++ Part II: Classes, Methods and RTTI](http://www.openrce.org/articles/full_view/23)
  - [PortEx](https://github.com/katjahahn/PortEx) Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness
  - [Applied Reverse Engineering: Exceptions And Interrupts](https://revers.engineering/applied-re-exceptions/)
+ - [Methodology for Static Reverse Engineering of Windows Kernel Drivers](https://posts.specterops.io/methodology-for-static-reverse-engineering-of-windows-kernel-drivers-3115b2efed83)
 
 ### Java
 

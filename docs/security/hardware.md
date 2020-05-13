@@ -1,6 +1,5 @@
 # Hardware
 
- - [SWD – ARM’S ALTERNATIVE TO JTAG](https://research.kudelskisecurity.com/2019/05/16/swd-arms-alternative-to-jtag/)
  - [The hackers hardware toolkit](https://github.com/yadox666/The-Hackers-Hardware-Toolkit)
  - [A FRAMEWORK FOR EMBEDDED HARDWARE SECURITY ANALYSIS](https://pdfs.semanticscholar.org/2a2d/23cd993f5fbc77470ae7d04720e8ed7dfa89.pdf)
  - [Overview of Hardware Hacking for Security Assessment](https://medium.com/@LargeCardinal/pentesting-hardware-42cf915c4b21)
@@ -46,6 +45,8 @@
   - [PAN](https://siguza.github.io/PAN/) about broken “PAN” (Privileged Access Never)
  - [david-oswald/hwsec_lecture_notes](https://github.com/david-oswald/hwsec_lecture_notes) Lecture notes for the Hardware and Embedded Systems Security lecture
  - [Exception(al) Failure - Breaking the STM32F1 Read-Out Protection](https://blog.zapb.de/stm32f1-exceptional-failure/)
+ - Console Hacking: Nintendo Switch [video](youtube.com/watch?v=C6ZI4lt-TRQ)
+ - [xairy/hardware-village](https://github.com/xairy/hardware-village) Materials for my Hardware Village talks
 
 ## Bootloader
 
@@ -130,6 +131,8 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [The JTAG Interface: AN ATTACKER’S PERSPECTIVE](https://optivstorage.blob.core.windows.net/web/file/55e86eae3f04450d9bafcbb3a94559ca/JTAG.Whitepaper.pdf)
  - [Extracting firmware from devices using JTAG](https://embeddedbits.org/2020-02-20-extracting-firmware-from-devices-using-jtag/)
  - [MIPS EJTAG specification](http://www.t-es-t.hu/download/mips/md00047f.pdf)
+ - [Hardware Debugging for Reverse Engineers Part 2: JTAG, SSDs and Firmware Extraction](https://wrongbaud.github.io/jtag-hdd/)
+ - [SWD – ARM’S ALTERNATIVE TO JTAG](https://research.kudelskisecurity.com/2019/05/16/swd-arms-alternative-to-jtag/)
 
 ## Exploit
 

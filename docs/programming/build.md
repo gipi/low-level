@@ -14,3 +14,9 @@ variable instead.
 invoke the linker, ld. LOADLIBES is a deprecated (but still supported)
 alternative to LDLIBS. Non-library linker flags, such as -L, should go in the
 LDFLAGS variable.
+
+## CMake
+
+```
+$ CC=gcc CXX=g++ cmake ..
+```

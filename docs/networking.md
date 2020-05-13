@@ -4,15 +4,22 @@
  - [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
  - [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
  - [Monitoring and Tuning the Linux Networking Stack: Receiving Data](http://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data/)
- - [Tun/Tap interface tutorial](http://backreference.org/2010/03/26/tuntap-interface-tutorial/)
- - [The TCP/IP Drinking Game](http://valerieaurora.org/tcpip.html)
  - [Iptables](https://wiki.archlinux.org/index.php/iptables)
  - [SSH Tunnel - Local and Remote Port Forwarding Explained With Examples](http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html)
  - [Escape and Evasion Egressing Restricted Networks](https://www.optiv.com/blog/escape-and-evasion-egressing-restricted-networks)
- - [Linux Bridge - how it works](http://goyalankit.com/blog/linux-bridge)
  - [Linux Raw Sockets](https://www.schoenitzer.de/blog/2018/Linux%20Raw%20Sockets.html)
+
+## TCP/IP
+
+ - [The TCP/IP Drinking Game](http://valerieaurora.org/tcpip.html)
  - Let's code a TCP/IP stack
    - [Ethernet & ARP](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
+
+## Bridge
+
+ - [Tun/Tap interface tutorial](http://backreference.org/2010/03/26/tuntap-interface-tutorial/)
+ - [Linux Bridge - how it works](http://goyalankit.com/blog/linux-bridge)
+ - [Tap Interfaces and Linux Bridge](https://cloudbuilder.in/blogs/2013/12/08/tap-interfaces-linux-bridge/)
 
 ## Code example
 
