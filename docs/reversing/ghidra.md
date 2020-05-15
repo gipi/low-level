@@ -30,6 +30,7 @@
  - [Writing a GHIDRA Loader: STM32 Edition](https://wrongbaud.github.io/writing-a-ghidra-loader/)
  - [esaulenka/ghidra_v850](https://github.com/esaulenka/ghidra_v850) Ghidra support for Renesas V850 MCUs
  - [reb311ion/replica](https://github.com/reb311ion/replica) Ghidra Analysis Enhancer
+ - [cetfor/GhidraSnippets](https://github.com/cetfor/GhidraSnippets) is a collection of Python examples showing how to work with Ghidra APIs
 
 ## Scripting
 

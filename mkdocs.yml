@@ -33,6 +33,7 @@ pages:
   - Randomness: programming/randomness.md
   - Memory: programming/memory.md
   - Computer vision&Machine learning: programming/cv.md
+  - Web: programming/web.md
 - Security:
   - 'Home': security/index.md
   - 'Browers': security/browser.md

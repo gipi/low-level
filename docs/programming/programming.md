@@ -39,6 +39,7 @@
  - [whitequark/unfork](https://github.com/whitequark/unfork) unfork(2) is the inverse of fork(2). sort of.
  - [The Error Model](http://joeduffyblog.com/2016/02/07/the-error-model/)
  - https://blog.cloudflare.com/when-bloom-filters-dont-bloom/
+ - [printf format cheat sheet](https://alvinalexander.com/programming/printf-format-cheat-sheet/)
 
 ## Compilers
 
@@ -47,6 +48,7 @@
  - [Compiler explorer](http://godbolt.org/)
  - [Compile-time stack requirements analysis with GCC](https://www.adacore.com/uploads/technical-papers/Stack_Analysis.pdf)
  - [A Guide to Undefined Behavior in C and C++, Part 1](https://blog.regehr.org/archives/213)
+ - [Writing a GCC back end](https://kristerw.blogspot.com/2017/08/writing-gcc-backend_4.html)
 
 ## Linkers
 
