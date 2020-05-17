@@ -1,6 +1,7 @@
 # C++
 
  - [cppreference.com](https://en.cppreference.com/)
+ - https://isocpp.org/wiki/faq
  - http://yosefk.com/c++fqa
  - [C++ tutorial for C users](http://www.ericbrasseur.org/cppcen.html)
  - [Writing C++17 for 16-bit x86](https://dev.krzaq.cc/post/writing-cpp17-for-16bit-x86/)
