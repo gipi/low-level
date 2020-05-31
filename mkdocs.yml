@@ -29,6 +29,7 @@ pages:
   - Languages:
     - C++: languages/cpp.md
     - Python: languages/python.md
+    - Verilog: languages/verilog.md
   - Ptrace: programming/ptrace.md
   - Randomness: programming/randomness.md
   - Memory: programming/memory.md
