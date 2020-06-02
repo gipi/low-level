@@ -8,6 +8,8 @@
 
 ## Constructor
 
+[CPP reference](https://en.cppreference.com/w/cpp/language/constructor)
+
 There are two differente ways to create an object
 
 ```
@@ -124,8 +126,51 @@ int main() {
 take in mind that ``"foobar"`` is in a readonly memory, under the hood it's converted to ``std::string``
 copying its content.
 
+### Find substring
+
+It exists a special value ``std::string::npos``, from the [documentation](https://en.cppreference.com/w/cpp/string/basic_string/npos)
+
+> This is a special value equal to the maximum value representable by the type
+> size_type. The exact meaning depends on context, but it is generally used
+> either as end of string indicator by the functions that expect a string index
+> or as the error indicator by the functions that return a string index.
+
+```c++
+std::string::size_type indexU = mOpcode.find('u');
+
+bool isUpper = (indexU != std::string::npos);
+```
+
+### Print integers using hexadecimal representation
+
+```c++
+int value = 0xbad1d34;
+std::cout << std::setfill('0') <<  std::setw(8) << std::hex << value << std::endl;
+```
+
+### Links
+
  - [std::string copy constructor NOT deep in GCC 4.1.2?](https://stackoverflow.com/questions/16604925/stdstring-copy-constructor-not-deep-in-gcc-4-1-2)
  - [Is std::string refcounted in GCC 4.x / C++11?](https://stackoverflow.com/questions/12520192/is-stdstring-refcounted-in-gcc-4-x-c11)
+
+## IO
+
+```c++
+#include <ifstream>
+
+std::ifstream source("file.auaua", std::ios::in);
+
+while (true) {
+    char line[21];
+
+    source.getline(line, 20);
+
+    if (source.fail()) {
+        break;
+    }
+    ...
+}
+```
 
 ## Exceptions
 

@@ -12,6 +12,9 @@
  - [algorithm-cheat](https://github.com/cirosantilli/algorithm-cheat) Algorithm tutorials and simple multi-language implementations with unit tests.
  - [Modified preorder tree traversal](https://www.caktusgroup.com/blog/2016/01/04/modified-preorder-tree-traversal-django/)
  - [Answer](http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773) with a list of implemented algorithms in well known softwares
+ - [Image Quadrangulation](https://estebanhufstedler.com/2020/05/05/image-quadrangulation/)
+ - [Image Triangulation](https://estebanhufstedler.com/2020/05/14/image-triangulation/)
+ - [Image Triangulation: Voronoi Method](https://estebanhufstedler.com/2020/05/14/image-triangulation-voronoi-method/)
 
 ## Sorting
 

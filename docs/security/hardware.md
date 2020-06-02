@@ -76,6 +76,7 @@
  - [On-Device Power Analysis Across Hardware Security Domains](https://eprint.iacr.org/2019/689.pdf)
  - [In Transactional Memory, No One Can Hear You Scream](http://blog.ret2.io/2019/06/26/attacking-intel-tsx/)
  - [Bypassing KPTI Using the Speculative Behavior of the SWAPGS Instruction](https://businessresources.bitdefender.com/hubfs/noindex/Bitdefender-WhitePaper-SWAPGS.pdf)
+ - [Foreshadow](https://foreshadowattack.eu/) Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution
 
 ### Glitching
 
