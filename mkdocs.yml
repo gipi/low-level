@@ -20,6 +20,7 @@ pages:
   - Shells: shell.md
   - Formats: formats.md
   - Filesystem: filesystem.md
+  - Applications: applications.md
 - Programming:
   - Home: programming/programming.md
   - Algorithms: programming/algorithms.md
