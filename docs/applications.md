@@ -220,6 +220,21 @@ gst-launch-1.0 \
  t. ! queue ! autovideosink
 ```
 
+### Muxing
+
+```
+$ gst-launch-1.0 -v -e v4l2src ! \
+  video/x-raw ! \
+  videoconvert ! \
+  vp8enc ! tee name=t ! \
+  queue ! \
+  matroskamux name=m ! filesink location=1.mkv  \
+  pulsesrc ! vorbisenc ! \
+  m.   \
+  t. ! \
+  queue ! webmmux ! filesink location=1.webm
+```
+
 ### Build from source
 
 Using ``scripts/create-uninstalled-setup.sh`` is possible to create a checkout of the sources
