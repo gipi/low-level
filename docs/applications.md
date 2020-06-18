@@ -51,8 +51,10 @@ $ gst-launch -v playbin uri="file:///home/gipi/Video/Nature by Numbers.mp4"
 Play an image
 
 ```
-$ gst-launch -v multifilesrc location=~/Image/debswirl-1280x1024.png caps="image/png, framerate=1/1" ! \
-        pngdec ! ffmpegcolorspace ! ximagesink
+$ gst-launch-1.0 multifilesrc location=tmp_frames/frame_%02d.png caps="image/png, framerate=1/1" ! \
+    pngdec ! \
+    videoconvert ! \
+    autovideosink
 ```
 
 Autodetect streams and play it
