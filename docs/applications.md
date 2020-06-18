@@ -207,6 +207,19 @@ $ gst-launch-1.0 ximagesrc ! \
    mux. webmmux name=mux ! filesink location=screencast.webm
 ```
 
+### Tee
+
+```
+gst-launch-1.0 \
+ multifilesrc location=tmp_frames/frame_%02d.png caps="image/png, framerate=1/1" ! \
+ pngdec ! \
+ videoconvert ! \
+ video/x-raw ! \
+ queue ! tee name=t ! \
+ queue ! videoconvert ! autovideosink \
+ t. ! queue ! autovideosink
+```
+
 ### Build from source
 
 Using ``scripts/create-uninstalled-setup.sh`` is possible to create a checkout of the sources
