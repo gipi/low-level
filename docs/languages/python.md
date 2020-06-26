@@ -30,6 +30,7 @@
  - [Writing sustainable Python scripts](https://vincent.bernat.ch/en/blog/2019-sustainable-python-script)
  - [Why print became a function in python3](https://snarky.ca/why-print-became-a-function-in-python-3/)
  - [Python 101: iterators, generators, coroutines](https://www.integralist.co.uk/posts/python-generators/)
+ - [How to Bootstrap a Python Project](https://blog.emacsos.com/bootstrap-a-python-project.html)
 
 ## Internals
 
