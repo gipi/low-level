@@ -90,8 +90,16 @@ Composite two videos, rescaling them to 900x600 pixels
 
 ```
 $ gst-launch-1.0  -v  \
-    filesrc location='0870_00_60.mkv' ! decodebin ! queue ! videoscale ! video/x-raw,width=900,height=600 ! queue ! videobox border-alpha=0 left=-900  ! videomixer name=mix ! videoconvert ! timeoverlay ! autovideosink \
-    filesrc location='0870_00_60.mkv' ! decodebin ! queue ! videoscale ! video/x-raw,width=900,height=600 ! queue ! videobox border-alpha=0 left=0 ! mix.
+    filesrc location='0870_00_60.mkv' ! \
+    decodebin ! \
+    queue ! \
+    videoscale ! video/x-raw,width=900,height=600 ! \
+    queue ! videobox border-alpha=0 left=-900  ! videomixer name=mix ! \
+    videoconvert ! timeoverlay ! autovideosink \
+    filesrc location='0870_00_60.mkv' ! decodebin ! \
+    queue ! \
+    videoscale ! video/x-raw,width=900,height=600 ! \
+    queue ! videobox border-alpha=0 left=0 ! mix.
 ```
 
 Show an overlay over the video
@@ -242,4 +250,35 @@ needed in ``~/gst``; in that directory a script ``gst-head`` is created: this is
 to configure all the environment variables correctly and make the build success.
 
 ## Tmux
+
+By default uses ``Ctrl-b`` as a control sequence
+
+### Windows
+
+| Key | Description |
+|-----|-------------|
+| ``c`` | create |
+| ``w`` | list |
+| ``n`` | next |
+| ``p`` | previous |
+| ``f`` | find |
+| ``,`` | name |
+| ``&`` | kill |
+| ``l`` | last |
+
+### Panes
+
+| Key | Description |
+|-----|-------------|
+| ``%`` | vertical split |
+| ``"`` | horizontal split |
+| ``o`` | swap |
+| ``q`` | show pane number |
+| ``+`` | break pane into windows |
+| ``-`` | restore pane from window |
+| ``z`` | maximize |
+| ``<space> `` | switch between layouts |
+| ``{`` | move pan to the left |
+| ``}`` | move pan to the right |
+| ``t`` | big clock |
 
