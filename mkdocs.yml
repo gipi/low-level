@@ -20,7 +20,9 @@ pages:
   - Shells: shell.md
   - Formats: formats.md
   - Filesystem: filesystem.md
-  - Applications: applications.md
+  - Applications:
+    - General: applications/index.md
+    - Git: applications/git.md
 - Programming:
   - Home: programming/programming.md
   - Algorithms: programming/algorithms.md
