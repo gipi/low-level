@@ -22,7 +22,6 @@
  - http://sebastianraschka.com/Articles/2014_python_performance_tweaks.html
  - [Parallelism in one line](https://medium.com/p/40e9b2b36148)
  - http://www.fullstackpython.com/
- - [Reraising exception](http://blog.ionelmc.ro/2014/08/03/the-most-underrated-feature-in-python-3/)
  - [Writing Python 2-3 compatible code](http://python-future.org/compatible_idioms.html)
  - https://github.com/faif/python-patterns
  - [Decorator cheat sheet](http://www.pydanny.com/python-decorator-cheatsheet.html)
@@ -31,6 +30,12 @@
  - [Why print became a function in python3](https://snarky.ca/why-print-became-a-function-in-python-3/)
  - [Python 101: iterators, generators, coroutines](https://www.integralist.co.uk/posts/python-generators/)
  - [How to Bootstrap a Python Project](https://blog.emacsos.com/bootstrap-a-python-project.html)
+
+## Typing
+
+ - [mypy](http://www.mypy-lang.org/) is an optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typin
+ - [python/mypy](https://github.com/python/mypy) Optional static typing for Python 3 and 2 (PEP 484)
+ - [Python: better typed than you think](https://beepb00p.xyz/mypy-error-handling.html) mypy assisted error handling, exception mechanisms in other languages, fun with pattern matching and type variance
 
 ## Internals
 
@@ -45,10 +50,6 @@
  - [Python Attribute Access and the Descriptor Protocol](https://amir.rachum.com/blog/2019/10/16/descriptors/)
  - [How python implements long integers?](https://arpitbhayani.me/blogs/super-long-integers)
  - [open and CPython](http://hondu.co/blog/open-and-python)
-
-## Exceptions
-
- - https://julien.danjou.info/blog/2015/python-retrying
 
 ## Metaclass
 
@@ -65,7 +66,6 @@
  - http://www.canonical.org/~kragen/isinstance/
  - http://www.artima.com/weblogs/viewpost.jsp?thread=236278
  - http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html
- - http://victorlin.me/2012/08/good-logging-practice-in-python/
  - http://net.tutsplus.com/tutorials/python-tutorials/behavior-driven-development-in-python/
  - http://nvie.com/posts/pin-your-packages/
  - [Things you didn't know about Python](https://speakerdeck.com/u/mitsuhiko/p/didntknow): interesting presentation about Python internal and stuff.
@@ -77,19 +77,23 @@
  - http://ozkatz.github.com/improving-your-python-productivity.html
  - http://ozkatz.github.com/better-python-apis.html
  - [Lazy](http://fulmicoton.com/posts/lazy/) evaluation
- - [Exception](http://www.jeffknupp.com/blog/2013/02/06/write-cleaner-python-use-exceptions/) in python make code clearer, see also [this](https://speakerdeck.com/pyconslides/how-to-except-when-youre-excepting-by-esther-nam).
- - http://hynek.me/articles/taking-some-pain-out-of-python-logging/
  - https://speakerdeck.com/rwarren/a-brief-intro-to-profiling-in-python
  - http://pyvideo.org/video/1674/getting-started-with-automated-testing
  - http://hynek.me/talks/python-deployments/
  - http://pyrandom.blogspot.nl/2013/04/super-wrong.html
  - [Python’s super() considered super!](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
- - http://ozkatz.github.io/better-python-apis.html
  - http://www.huyng.com/posts/python-performance-analysis/
  - http://tech.marksblogg.com/better-python-package-management.html
  - https://tommikaikkonen.github.io/timezones/
  - [format()](https://zerokspot.com/weblog/2015/12/31/new-string-formatting-in-python/)
  - [pyformat.info/](https://pyformat.info/)
+
+## Exceptions
+
+ - [Exception](http://www.jeffknupp.com/blog/2013/02/06/write-cleaner-python-use-exceptions/) in python make code clearer, see also [this](https://speakerdeck.com/pyconslides/how-to-except-when-youre-excepting-by-esther-nam).
+ - https://julien.danjou.info/blog/2015/python-retrying
+ - [Reraising exception](http://blog.ionelmc.ro/2014/08/03/the-most-underrated-feature-in-python-3/)
+
 
 ## LIBRARIES
 
@@ -276,6 +280,9 @@ Print out some docstring for documentation purpose
 ## Logging
 
  - [Documentation](https://docs.python.org/3.1/library/logging.html)
+ - http://victorlin.me/2012/08/good-logging-practice-in-python/
+ - http://hynek.me/articles/taking-some-pain-out-of-python-logging/
+ - [Multi line formatting](http://fruch.github.io/2014/11/06/taming-the-logging-formatter/)
 
 Add a debug level (http://stackoverflow.com/a/16955098/1935366)
 
@@ -327,7 +334,6 @@ return False
 return any(x)
 ```
 
- - [Multi line formatting](http://fruch.github.io/2014/11/06/taming-the-logging-formatter/)
 
 ## Traceback
 

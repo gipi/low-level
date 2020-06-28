@@ -202,3 +202,27 @@ Idiom to break compilation dependencies.
 
  - https://www.bfilipek.com/2018/01/pimpl.html
  - https://en.cppreference.com/w/cpp/language/pimpl
+
+## Logging
+
+A easy way to add logging in a ``C++`` project is to use [plog](https://github.com/SergiusTheBest/plog/),
+you can easily add it as a submodule
+
+```c++
+#include <plog/Log.h> /* this for all the code that needs the PLOG_* stuff */
+#include <plog/Init.h> /* this only for the initialization */
+#include <plog/Formatters/TxtFormatter.h>
+#include <plog/Appenders/ColorConsoleAppender.h>
+
+int main() {
+
+    /* initialization */
+    static plog::ColorConsoleAppender<plog::TxtFormatter> consoleAppender(plog::streamStdErr);
+    plog::init(plog::verbose, &consoleAppender);
+
+    /* code */
+
+    PLOG_INFO << "reading source file '" << argv[1] << "'";
+    /* code after */
+}
+```

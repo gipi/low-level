@@ -230,3 +230,6 @@ HDMI-0 connected 1280x720+0+0 (0x42) normal (normal left inverted right x axis y
         v: height  480 start  490 end  492 total  525           clock   59.9Hz
 ```
 
+## nRF52840 MDK USB Dongle
+
+ - [Home page](https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/getting-started/)
