@@ -1,7 +1,5 @@
 # Applications
 
-## GIT
-
 ## Gstreamer
 
  - [Home page](http://gstreamer.freedesktop.org/)
