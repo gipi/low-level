@@ -282,7 +282,7 @@ Print out some docstring for documentation purpose
  - [Documentation](https://docs.python.org/3.1/library/logging.html)
  - http://victorlin.me/2012/08/good-logging-practice-in-python/
  - http://hynek.me/articles/taking-some-pain-out-of-python-logging/
- - [Multi line formatting](http://fruch.github.io/2014/11/06/taming-the-logging-formatter/)
+ - [Multi line formatting](https://fruch.github.io/2014/11/06/taming-the-logging-formatter/)
 
 Add a debug level (http://stackoverflow.com/a/16955098/1935366)
 
