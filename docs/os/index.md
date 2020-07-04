@@ -38,7 +38,7 @@ Related to that there are **Hypervisor**s
  - [Eleven syscalls that suck](https://www.cloudatomiclab.com/antisyscall/)
  - [Eleven syscalls that rock the world](https://www.cloudatomiclab.com/prosyscall/)
 
-## Containers
+### Containers
 
  - [What even is a container: namespaces and cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
  - [p8952/bocker](https://github.com/p8952/bocker) Docker implemented in around 100 lines of bash
@@ -74,4 +74,6 @@ Related to that there are **Hypervisor**s
  - [Linux kernel module cheat](https://github.com/cirosantilli/linux-kernel-module-cheat) The perfect emulation setup to study and modify the Linux kernel, kernel modules, QEMU and gem5
  - [Writing USB Device Drivers](https://www.kernel.org/doc/html/v4.15/driver-api/usb/writing_usb_driver.html)
 
+## Windows
 
+ - [All the Details of many versions of both MBR (Master Boot Records) and OS Boot Sectors (also called: Volume Boot Records)](https://thestarman.pcministry.com/asm/mbr/index.html)
