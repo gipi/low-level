@@ -12,6 +12,7 @@
  - [Integrating Yocto and OpenEmbedded](https://elinux.org/images/d/de/Elc2011_kooi.pdf)
  - [Yocto Project Quick Start](https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html)
  - [Building Our First Poky Image for the Raspberry Pi](https://hub.packtpub.com/building-our-first-poky-image-raspberry-pi/)
+ - [KAS](https://kas.readthedocs.io/)
 
 ## OpenWRT
 
