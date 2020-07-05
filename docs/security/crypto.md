@@ -32,6 +32,10 @@
  - [Sybil attack](https://en.wikipedia.org/wiki/Sybil_attack) the attacker subverts the reputation system of a
  peer-to-peer network by creating a large number of pseudonymous identities and uses them to gain a disproportionately large influence
 
+## TLS/SSL
+
+ - [Breaking HTTPS in the IoT: Practical Attacks For Reverse Engineers](https://labs.bishopfox.com/tech-blog/breaking-https-in-the-iot)
+
 ## Links
 
  - [cryptopals](https://cryptopals.com/) We've built a collection of 48 exercises that demonstrate attacks on real-world crypto.

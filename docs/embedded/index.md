@@ -51,3 +51,12 @@ num2gpio = lambda x: (x /32 + 1, x%32)
  - [Definitive GPIO guide](https://www.kosagi.com/w/index.php?title=Definitive_GPIO_guide)
 
 
+## Update mechanisms
+
+ - [Mender](https://mender.io/) Mender is a secure and robust software update
+   system designed to handle large number of devices. Mender is designed
+   according to a simple client/server architecture, allowing central management
+   of deployments to all devices.
+ - [RAUC](https://rauc.readthedocs.io/) is a lightweight update client that runs
+   on your embedded device and reliably controls the procedure of updating your
+   device with a new firmware revision

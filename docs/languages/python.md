@@ -33,6 +33,8 @@
 
 ## Typing
 
+ - [typing documentation](https://docs.python.org/3/library/typing.html)
+ - [PEP 483 - The Theory of Type Hints](https://www.python.org/dev/peps/pep-0483/)
  - [mypy](http://www.mypy-lang.org/) is an optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typin
  - [python/mypy](https://github.com/python/mypy) Optional static typing for Python 3 and 2 (PEP 484)
  - [Python: better typed than you think](https://beepb00p.xyz/mypy-error-handling.html) mypy assisted error handling, exception mechanisms in other languages, fun with pattern matching and type variance

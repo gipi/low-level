@@ -4,6 +4,18 @@
 
  - [Makefile implicit variables](https://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html)
 
+### Targets
+
+From the documentation are indicated some [standard targets](https://www.gnu.org/software/make/manual/html_node/Standard-Targets.html)
+like ``all``, ``install``, ``clean`` etc...
+
+The default target (when one is not indicated) is the first defined in the
+``Makefile`` if ``.DEFAULT_GOAL`` is not set.
+
+A particular type of target is a [phony target](https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html),
+i.e. a target that doesn't reflect an actual file on the filesystem.
+
+
 ### Variables
 
 Exists **substitution references** (see

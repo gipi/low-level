@@ -141,3 +141,4 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Nifty Tricks and Sage Advice for Shellcode on Embedded Systems](https://conference.hitb.org/hitbsecconf2013ams/materials/D1T1%20-%20Travis%20Goodspeed%20-%20Nifty%20Tricks%20and%20Sage%20Advice%20for%20Shellcode%20on%20Embedded%20Systems.pdf)
  - [Pandora’s Cash Box: The Ghost Under Your POS](https://recon.cx/2015/slides/recon2015-17-nitay-artenstein-shift-reduce-Pandora-s-Cash-Box-The-Ghost-Under-Your-POS.pdf)
  - [Security Advisories: D-Link DSL-2640B](https://raelize.com/posts/d-link-dsl-2640b-security-advisories/)
+ - [FreeDVDBoot - Hacking the PlayStation 2 through its DVD player](https://cturt.github.io/freedvdboot.html)
