@@ -3,6 +3,7 @@
 ## Gstreamer
 
  - [Home page](http://gstreamer.freedesktop.org/)
+ - [QtMultimedia, FFMpeg, Gstreamer: comparing multimedia frameworks](https://www.ulduzsoft.com/2016/06/qtmultimedia-ffmpeg-gstreamer-comparing-multimedia-frameworks/)
  - http://www.einarsundgren.se/gstreamer-basic-real-time-streaming-tutorial/
  - [Original documetation from source code](http://cgit.freedesktop.org/gstreamer/gstreamer/tree/docs/design/part-overview.txt)
  - http://wiki.oz9aec.net/index.php/Gstreamer_cheat_sheet
