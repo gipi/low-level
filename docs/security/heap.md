@@ -35,3 +35,4 @@
  - [How a double-free bug in WhatsApp turns to RCE](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/)
  - [yannayl/glibc_malloc_for_exploiters](https://github.com/yannayl/glibc_malloc_for_exploiters) GlibC Malloc for Exploiters presentation
  - House of Husk: [here](https://maxwelldulin.com/BlogPost?post=3107454976) and [here](https://ptr-yudai.hatenablog.com/entry/2020/04/02/111507) for more explanation
+ - [House of Io](https://awaraucom.wordpress.com/2020/07/19/house-of-io-remastered/): bypass **safe-linking** by targeting directly the main tcache metadata that is pointed to from free()d allocations
