@@ -102,6 +102,11 @@ Use ``&&`` to repeat the last substitution.
 
  - https://devhints.io/vimscript
 
+## Insert mode
+
+ - ``Ctrl-r %``: relative path of the current file
+
+
 ## Cookbook
 
 ### Multiline editing
