@@ -17,6 +17,15 @@
  - [Image Triangulation: Voronoi Method](https://estebanhufstedler.com/2020/05/14/image-triangulation-voronoi-method/)
  - [Algorithms for sampling without replacement](https://timvieira.github.io/blog/post/2019/09/16/algorithms-for-sampling-without-replacement/)
 
+## Bloom filter
+
+Bloom filters are space-efficient probablistic data structures used to test whether an element is a member of a set.
+
+ - [Wikipedia entry](https://en.wikipedia.org/wiki/Bloom_filter)
+ - [Bloom filter calculator](https://hur.st/bloomfilter/)
+ - [Bloom filters debunked: Dispelling 30 Years of bad math with Coq!](https://gopiandcode.uk/logs/log-bloomfilters-debunked.html)
+ - [When Bloom filters don't bloom](https://blog.cloudflare.com/when-bloom-filters-dont-bloom/)
+
 ## Sorting
 
 ### Selection sort
