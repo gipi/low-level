@@ -85,6 +85,14 @@ is called for that class; to avoid that overhead you can use a ``const`` referen
 
 ## Templates
 
+```c++
+template<typename T>
+class Node {
+public:
+ ...
+}
+```
+
  - [Why templates can only be implemented in the header file](http://stackoverflow.com/questions/495021/why-can-templates-only-be-implemented-in-the-header-file)
  - https://stackoverflow.com/questions/43268146/why-is-stditerator-deprecated
  - https://softwareengineering.stackexchange.com/questions/386614/c-iterator-why-is-there-no-iterator-base-class-all-iterators-inherit-from
