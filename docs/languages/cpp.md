@@ -5,6 +5,20 @@
  - http://yosefk.com/c++fqa
  - [C++ tutorial for C users](http://www.ericbrasseur.org/cppcen.html)
  - [Writing C++17 for 16-bit x86](https://dev.krzaq.cc/post/writing-cpp17-for-16bit-x86/)
+ - [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
+ - [C Primer Plus, Fifth Edition](http://faculty.euc.ac.cy/scharalambous/csc131/books/C%20book%201.pdf)
+ - [JPL Institutional Coding Standard for the C Programming Language ](http://lars-lab.jpl.nasa.gov/JPL_Coding_Standard_C.pdf)
+ - [How to C 2016](https://matt.sh/howto-c)
+ - [Some notes C in 2016](http://blog.erratasec.com/2016/01/some-notes-c-in-2016.html)
+ - [negating an unsigned number is well defined in C.](http://stackoverflow.com/questions/1269019/what-should-happen-to-the-negation-of-a-size-t-i-e-sizeofstruct-foo/1269049#1269049)
+ - http://rus.har.mn/blog/2014-05-19/strtol-error-checking/
+ - http://www.catb.org/esr/structure-packing/
+ - [Why does calloc exist?](https://vorpus.org/blog/why-does-calloc-exist/)
+ - [mem­cpy (and friends) with NULL pointers](https://www.imperialviolet.org/2016/06/26/nonnull.html)
+ - [How to Write Portable C Without Complicating Your Build](http://nullprogram.com/blog/2017/03/30/)
+ - [C is not your friend: sizeof and side-effects](http://blog.tjd.phlegethon.org/post/159564806182/c-is-not-your-friend-sizeof-and-side-effects)
+ - [Inside the C Standard Library](https://begriffs.com/posts/2019-01-19-inside-c-standard-lib.html)
+ - [Unwinding the Stack](https://github.com/CppCon/CppCon2018/blob/master/Presentations/unwinding_the_stack_exploring_how_cpp_exceptions_work_on_windows/unwinding_the_stack_exploring_how_cpp_exceptions_work_on_windows__james_mcnellis__cppcon_2018.pdf) Exploring how C++ Exceptions work on Windows
 
 ## Constructor
 

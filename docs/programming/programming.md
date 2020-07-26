@@ -11,7 +11,6 @@
  - https://github.com/thoughtbot/guides/tree/master/code-review
  - http://natureofcode.com
  - http://coding.smashingmagazine.com/2013/04/18/introduction-to-programming-type-systems/
- - [Algorithm tutorials](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index)
  - http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
  - http://en.wikipedia.org/wiki/Time-of-check-to-time-of-use
  - http://en.wikipedia.org/wiki/Dependency_hell
@@ -27,7 +26,6 @@
  - https://cryptocoding.net/
  - http://brikis98.blogspot.it/2014/05/you-are-what-you-document.html
  - http://www.software.ac.uk/blog/2013-07-09-recomputation-manifesto
- - http://bost.ocks.org/mike/algorithms/
  - [10 Rules for Writing Safety Critical Code](http://spinroot.com/p10/)
  - https://github.com/angrave/SystemProgramming/wiki
  - [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
@@ -64,28 +62,6 @@
  - gamedevelopment.tutsplus.com/tutorials/avoiding-the-blob-antipattern-a-pragmatic-approach-to-entity-composition--gamedev-1113
  - http://blog.seancassidy.me/better-java.html
 
-### Channel coding
-
- - [Reed-Solomon Codes](http://tesi.cab.unipd.it/43857/1/martini_tommaso_1008717_reedSolomonCodes.pdf)
-
-### Error-correcting codes
-
-#### Reed-Solomon
-
- - [Linear Feedback Shift Registers for the Uninitiated, Part XVI: Reed-Solomon Error Correction](https://www.embeddedrelated.com/showarticle/1182.php)
-
-#### CRC
-
- - [Cyclic Redundancy Check (CRC)](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
- - [Cyclic Redundancy Check: TMS320C64+ Implementation](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
- - [What Truncated polynomial mean in CRC16 CCITT context](https://stackoverflow.com/questions/40787529/what-truncated-polynomial-mean-in-crc16-ccitt-context)
- - [Best CRC Polynomials](https://users.ece.cmu.edu/~koopman/crc/)
- - [Brute forcing CRC parameters](http://sitsec.net/blog/2012/02/10/brute-forcing-crc-parameters/)
- - [CRC16-CCITT](http://srecord.sourceforge.net/crc16-ccitt.html)
- - [crcmod](http://crcmod.sourceforge.net/) python module
- - [CRC Tool Kit](https://github.com/henryk/ctk)
-
-
 ## Threads
 
  - http://developers.memsql.com/blog/common-pitfalls-in-writing-lock-free-algorithms/
@@ -93,23 +69,6 @@
 ## Linux
 
  - [Ptrace](http://mikecvet.wordpress.com/2010/08/14/ptrace-tutorial/)
-
-## C&C++
-
- - [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
- - [C Primer Plus, Fifth Edition](http://faculty.euc.ac.cy/scharalambous/csc131/books/C%20book%201.pdf)
- - [JPL Institutional Coding Standard for the C Programming Language ](http://lars-lab.jpl.nasa.gov/JPL_Coding_Standard_C.pdf)
- - [How to C 2016](https://matt.sh/howto-c)
- - [Some notes C in 2016](http://blog.erratasec.com/2016/01/some-notes-c-in-2016.html)
- - [negating an unsigned number is well defined in C.](http://stackoverflow.com/questions/1269019/what-should-happen-to-the-negation-of-a-size-t-i-e-sizeofstruct-foo/1269049#1269049)
- - http://rus.har.mn/blog/2014-05-19/strtol-error-checking/
- - http://www.catb.org/esr/structure-packing/
- - [Why does calloc exist?](https://vorpus.org/blog/why-does-calloc-exist/)
- - [mem­cpy (and friends) with NULL pointers](https://www.imperialviolet.org/2016/06/26/nonnull.html)
- - [How to Write Portable C Without Complicating Your Build](http://nullprogram.com/blog/2017/03/30/)
- - [C is not your friend: sizeof and side-effects](http://blog.tjd.phlegethon.org/post/159564806182/c-is-not-your-friend-sizeof-and-side-effects)
- - [Inside the C Standard Library](https://begriffs.com/posts/2019-01-19-inside-c-standard-lib.html)
- - [Unwinding the Stack](https://github.com/CppCon/CppCon2018/blob/master/Presentations/unwinding_the_stack_exploring_how_cpp_exceptions_work_on_windows/unwinding_the_stack_exploring_how_cpp_exceptions_work_on_windows__james_mcnellis__cppcon_2018.pdf) Exploring how C++ Exceptions work on Windows
 
 ## Low level
 

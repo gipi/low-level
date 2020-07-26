@@ -1,5 +1,7 @@
 # Algorithms
 
+ - [Algorithm tutorials](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index)
+ - [http://bost.ocks.org/mike/algorithms/]()
  - [Ramer–Douglas–Peucker algorithm](http://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm): is an algorithm for reducing the number of points in a curve that is approximated by a series of points.
  - [PID controller](http://playground.arduino.cc/Code/PIDLibrary): calculates an 'error' value as the difference between a measured [Input] and a desired setpoint. The controller attempts to minimize the error by adjusting [an Output].
  - http://brm.io/game-physics-for-beginners/
@@ -25,6 +27,22 @@ Bloom filters are space-efficient probablistic data structures used to test whet
  - [Bloom filter calculator](https://hur.st/bloomfilter/)
  - [Bloom filters debunked: Dispelling 30 Years of bad math with Coq!](https://gopiandcode.uk/logs/log-bloomfilters-debunked.html)
  - [When Bloom filters don't bloom](https://blog.cloudflare.com/when-bloom-filters-dont-bloom/)
+
+## Channel coding&Error-correcting codes
+
+ - [Reed-Solomon Codes](http://tesi.cab.unipd.it/43857/1/martini_tommaso_1008717_reedSolomonCodes.pdf)
+ - [Linear Feedback Shift Registers for the Uninitiated, Part XVI: Reed-Solomon Error Correction](https://www.embeddedrelated.com/showarticle/1182.php)
+
+### CRC
+
+ - [Cyclic Redundancy Check (CRC)](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
+ - [Cyclic Redundancy Check: TMS320C64+ Implementation](http://ww1.microchip.com/downloads/en/appnotes/01148a.pdf)
+ - [What Truncated polynomial mean in CRC16 CCITT context](https://stackoverflow.com/questions/40787529/what-truncated-polynomial-mean-in-crc16-ccitt-context)
+ - [Best CRC Polynomials](https://users.ece.cmu.edu/~koopman/crc/)
+ - [Brute forcing CRC parameters](http://sitsec.net/blog/2012/02/10/brute-forcing-crc-parameters/)
+ - [CRC16-CCITT](http://srecord.sourceforge.net/crc16-ccitt.html)
+ - [crcmod](http://crcmod.sourceforge.net/) python module
+ - [CRC Tool Kit](https://github.com/henryk/ctk)
 
 ## Sorting
 
