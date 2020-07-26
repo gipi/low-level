@@ -24,6 +24,7 @@ pages:
     - General: applications/index.md
     - Vim: applications/vim.md
     - Git: applications/git.md
+    - Qt: applications/qt.md
 - Programming:
   - Home: programming/programming.md
   - Algorithms: programming/algorithms.md
