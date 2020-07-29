@@ -18,6 +18,13 @@ $ git reset HEAD^
 $ git rebase --continue
 ```
 
+## Set upstream for branch
+
+```
+(gp/falafel) $ git branch -u origin/kebab
+Branch 'gp/falafel' set up to track remote branch 'kebab' from 'origin'.
+```
+
 ## Diffing
 
 A part from the normal ``git diff`` and the options predates from ``diff(1)``,
