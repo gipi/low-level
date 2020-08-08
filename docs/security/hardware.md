@@ -125,6 +125,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [NMOS IC Reverse Engineering](https://www.wdj-consulting.com/blog/nmos-sample.html)
  - [siliconpr0n](https://siliconpr0n.org/)
  - [Inside the 74181 ALU chip: die photos and reverse engineering](http://www.righto.com/2017/01/die-photos-and-reverse-engineering.html)
+ - [Reverse-Engineering a Cryptographic RFID Tag](https://static.usenix.org/event/sec08/tech/full_papers/nohl/nohl.pdf)
 
 ## JTAG
 

@@ -11,7 +11,9 @@ pages:
     - AVR: arch/avr.md
     - MIPS: arch/mips.md
     - X86/AMD64: arch/x86.md
-  - OS: os/index.md
+  - OS:
+    - 'Home': os/index.md
+    - 'Windows': os/windows.md
   - Embedded Systems:
     - General: embedded/index.md
     - Microcontrollers: embedded/micro.md
@@ -44,8 +46,6 @@ pages:
   - 'Home': security/index.md
   - 'Browers': security/browser.md
   - 'Crypto': security/crypto.md
-  - 'XXE': security/xxe.md
-  - 'XSS': security/xss.md
   - 'CTF': security/ctf.md
   - 'CVE': security/cve.md
   - 'Hardware': security/hardware.md
@@ -59,6 +59,10 @@ pages:
   - Counter measure: counter-measure.md
   - Sandbox: security/sandbox.md
   - Fuzzing: fuzzing.md
+  - Web:
+    - 'Home': security/web/index.md
+    - 'XXE': security/web/xxe.md
+    - 'XSS': security/web/xss.md
 - Reversing:
   - Home: reversing/reversing.md
   - Ghidra: reversing/ghidra.md

@@ -36,3 +36,4 @@
  - [yannayl/glibc_malloc_for_exploiters](https://github.com/yannayl/glibc_malloc_for_exploiters) GlibC Malloc for Exploiters presentation
  - House of Husk: [here](https://maxwelldulin.com/BlogPost?post=3107454976) and [here](https://ptr-yudai.hatenablog.com/entry/2020/04/02/111507) for more explanation
  - [House of Io](https://awaraucom.wordpress.com/2020/07/19/house-of-io-remastered/): bypass **safe-linking** by targeting directly the main tcache metadata that is pointed to from free()d allocations
+ - [Safe-Linking – Eliminating a 20 year-old malloc() exploit primitive](https://research.checkpoint.com/2020/safe-linking-eliminating-a-20-year-old-malloc-exploit-primitive/) xoring the pointers in the single linked lists using the base address of the ``mmaping``

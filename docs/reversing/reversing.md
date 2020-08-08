@@ -26,6 +26,10 @@
  - [Reverse engineering Flutter apps (Part 1)](https://blog.tst.sh/reverse-engineering-flutter-apps-part-1/)
  
 
+## Protocol
+
+ - [Analyzing WhatsApp Calls with Wireshark, radare2 and Frida](https://medium.com/@schirrmacher/analyzing-whatsapp-calls-176a9e776213)
+
 ## Hardware
 
 ### Links

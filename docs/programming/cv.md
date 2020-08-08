@@ -25,6 +25,7 @@
 ## Papers
 
  - [SSD: Single Shot MultiBox Detector](https://arxiv.org/pdf/1512.02325.pdf)
+ - Manifold Mixup: Better Representations by Interpolating Hidden States: [paper](https://arxiv.org/abs/1806.05236) [video](https://www.youtube.com/watch?v=1L83tM8nwHU)
 
 ## Datasets
 

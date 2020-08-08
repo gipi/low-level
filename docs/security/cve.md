@@ -9,6 +9,7 @@
 ## List
 
  - [CVE-2020-11060](https://offsec.almond.consulting/playing-with-gzip-rce-in-glpi.html) An arbitrary path and a hashed path disclosure can be abused to execute code on a GLPI host, by creating a PHP/GZIP polyglot file.
+ - [CVE-2020-10713](https://capsule8.com/blog/grubbing-secure-boot-the-wrong-way-cve-2020-10713/) Grubbing Secure Boot the Wrong Way: OOB in the GRUB parser
  - [CVE-2019-18683](https://a13xp0p0v.github.io/2020/02/15/CVE-2019-18683.html): Linux kernel UAF caused by a race condition in the V4L subsystem.
  - CVE-2019-18634: [first writeup](https://www.sudo.ws/alerts/pwfeedback.html), [second writeup](https://iamalsaher.tech/posts/2020-02-08-cve-2019-18634/) In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigger a stack-based buffer overflow in the privileged sudo process.
  - [CVE-2019-11484](https://securitylab.github.com/research/ubuntu-whoopsie-CVE-2019-11484)

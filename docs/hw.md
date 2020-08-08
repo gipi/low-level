@@ -1,4 +1,4 @@
-# Hardware
+# Hardware&Protocols
 
  - [Pentesting hardware - a pratical handbook](https://github.com/unprovable/PentestHardware)
  - [hardware-effects](https://github.com/Kobzol/hardware-effects): repo with demonstration of various hardware effects.
@@ -29,3 +29,11 @@ specifies only signals, clock cycles and high/low levels.
 ## SIM
 
  - [Recovering the SIM card PIN from the ZTE WF721 cellular home phone](https://ripitapart.com/2019/12/21/recovering-the-sim-card-pin-from-the-zte-wf721-cellular-home-phone/)
+
+## Protocols
+
+### BLE
+
+ - [Introduction to Bluetooth Low Energy](https://www.pentestpartners.com/security-blog/introduction-to-bluetooth-low-energy/)
+ - [Getting Started with ESP32 Bluetooth Low Energy (BLE) on Arduino IDE](https://randomnerdtutorials.com/esp32-bluetooth-low-energy-ble-arduino-ide/)
+
