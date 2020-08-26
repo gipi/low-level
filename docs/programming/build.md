@@ -56,3 +56,9 @@ LDFLAGS variable.
 ```
 $ CC=gcc CXX=g++ cmake ..
 ```
+
+It's possible to indicate variable like the following
+
+```
+$ cmake -DUSE_QT5=1 -DCMAKE_BUILD_TYPE=Debug ..
+```
