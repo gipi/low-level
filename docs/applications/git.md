@@ -7,6 +7,12 @@
 $ git commit --amend
 ```
 
+## Reset first commit
+
+```
+$ git update-ref -d HEAD
+```
+
 ## Edit commit in an interactive rebase
 
 ```
