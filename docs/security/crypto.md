@@ -4,6 +4,8 @@
  - [Too much crypto](https://aumasson.jp/data/talks/TMC-RWC20.pdf)
  - [Cryptanalysis Cheatsheet :: Notes from Overthewire Krypton](https://sumit-ghosh.com/articles/cryptanalysis-cheatsheet-notes-overthewire-krypton/)
  - [Why AES-GCM Sucks](https://soatok.blog/2020/05/13/why-aes-gcm-sucks/)
+ - [Padding Oracles: An Animated Primer](https://dylanpindur.com/blog/padding-oracles-an-animated-primer/)
+ - [The Joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) is a textbook for an undergraduate course in cryptography.
 
 ## RNG
 

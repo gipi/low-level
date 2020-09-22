@@ -47,6 +47,7 @@
  - [A Guide to Undefined Behavior in C and C++, Part 1](https://blog.regehr.org/archives/213)
  - [Writing a GCC back end](https://kristerw.blogspot.com/2017/08/writing-gcc-backend_4.html)
  - [A Deep Introduction to JIT Compilers: JITs are not very Just-in-time](https://carolchen.me/blog/jits-intro/)
+ - [How JIT Compilers are Implemented and Fast: Pypy, LuaJIT, Graal and More](https://carolchen.me/blog/jits-impls/)
 
 ## Linkers
 

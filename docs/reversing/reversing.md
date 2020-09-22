@@ -24,6 +24,7 @@
  - [malrev/ABD](https://github.com/malrev/ABD) Course materials for Advanced Binary Deobfuscation by NTT Secure Platform Laboratories
  - [Bootstrapping Understanding](http://www.muppetlabs.com/~breadbox/txt/bure.html): reversing the level data file for "Chip's Challenge" game
  - [Reverse engineering Flutter apps (Part 1)](https://blog.tst.sh/reverse-engineering-flutter-apps-part-1/)
+ - [Analyzing the USB Controller's Firmware](https://8051enthusiast.github.io/2020/04/14/001-USB_Firmware.html)
  
 
 ## Protocol
@@ -64,6 +65,7 @@
  - [Reverse Engineering Exercises](https://github.com/rotlogix/arm_reverse_engineering_exercises) for ARM
  - [Static analysis of an unknown compression format](https://blog.lse.epita.fr/articles/8-static-analysis-of-an-unknown-compression-format.html)
  - [Reverse Engineering Encrypted Code Segments](https://medium.com/@ryancor/reverse-engineering-encrypted-code-segments-b01aead67701)
+ - [Reverse engineer USB stack of Exynos BootROM](https://fredericb.info/2020/06/reverse-engineer-usb-stack-of-exynos-bootrom.html)
 
 ### ARM
 

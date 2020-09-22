@@ -80,3 +80,7 @@ Related to that there are **Hypervisor**s
 
  - [Project page](https://www.zephyrproject.org/)
  - [Documentation](https://docs.zephyrproject.org/)
+
+## Fuchsia
+
+ - [Playing Around With The Fuchsia Operating System](https://blog.quarkslab.com/playing-around-with-the-fuchsia-operating-system.html)

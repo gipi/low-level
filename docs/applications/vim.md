@@ -20,6 +20,12 @@ Variables have also scope (see ``:help internal-variables``)
 
  - [How to view variables in Vim](https://codeyarns.com/2010/11/26/how-to-view-variables-in-vim/)
 
+### Predefined variables
+
+| Name | Description |
+|------|-------------|
+| ``:scrollbind`` | Binds two or more windows to scroll together |
+
 ## Environment
 
 | Command | Description |
@@ -106,6 +112,12 @@ Use ``&&`` to repeat the last substitution.
 
  - ``Ctrl-r %``: relative path of the current file
 
+## Window
+
+| Shortcut | Description |
+|----------|-------------|
+| ``Ctrl-w + K`` | change vertical split to horizontal |
+| ``Ctrl-w + H`` | change horizontal split to vertical |
 
 ## Cookbook
 

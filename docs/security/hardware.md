@@ -47,6 +47,12 @@
  - [Exception(al) Failure - Breaking the STM32F1 Read-Out Protection](https://blog.zapb.de/stm32f1-exceptional-failure/)
  - Console Hacking: Nintendo Switch [video](youtube.com/watch?v=C6ZI4lt-TRQ)
  - [xairy/hardware-village](https://github.com/xairy/hardware-village) Materials for my Hardware Village talks
+ - [Tool Release: Sinking U-Boots with Depthcharge](https://research.nccgroup.com/2020/07/22/depthcharge/), with [documentation](https://depthcharge.readthedocs.io/)
+
+## Consoles
+
+ - [The naked PSP](https://uofw.github.io/upspd/docs/software/naked_psp.pdf)
+ - [Trinity: PSP Emulator Escape](https://theofficialflow.github.io/2019/06/18/trinity.html)
 
 ## Bootloader
 
@@ -77,6 +83,7 @@
  - [In Transactional Memory, No One Can Hear You Scream](http://blog.ret2.io/2019/06/26/attacking-intel-tsx/)
  - [Bypassing KPTI Using the Speculative Behavior of the SWAPGS Instruction](https://businessresources.bitdefender.com/hubfs/noindex/Bitdefender-WhitePaper-SWAPGS.pdf)
  - [Foreshadow](https://foreshadowattack.eu/) Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution
+ - [Speculative Dereferencing of Registers: Reviving Foreshadow](https://arxiv.org/pdf/2008.02307.pdf) latest paper with a more **correct** view on speculation attack on CPUs
 
 ### Glitching
 
@@ -104,6 +111,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Glitching a $20k Piece of History](https://yifan.lu/2019/08/16/glitching-a-20k-piece-of-history/)
  - [Differential Fault Injection Against AES on Atmega328](https://rot256.io/post/glitch/)
  - [36C3 - TrustZone-M(eh): Breaking ARMv8-M's security](youtube.com/watch?v=4u6BAH8mEDw)
+ - [Espressif ESP32: Controlling PC during Secure Boot](https://raelize.com/posts/espressif-systems-esp32-controlling-pc-during-sb/)
 
 
 ### Power analysis
@@ -143,3 +151,5 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Pandora’s Cash Box: The Ghost Under Your POS](https://recon.cx/2015/slides/recon2015-17-nitay-artenstein-shift-reduce-Pandora-s-Cash-Box-The-Ghost-Under-Your-POS.pdf)
  - [Security Advisories: D-Link DSL-2640B](https://raelize.com/posts/d-link-dsl-2640b-security-advisories/)
  - [FreeDVDBoot - Hacking the PlayStation 2 through its DVD player](https://cturt.github.io/freedvdboot.html)
+ - [an EL1/EL3 coldboot vulnerability affecting 7 years of LG Android devices](https://douevenknow.us/post/619763074822520832/an-el1el3-coldboot-vulnerability)
+ - [KINIBI TEE: TRUSTED APPLICATION EXPLOITATION](https://www.synacktiv.com/en/publications/kinibi-tee-trusted-application-exploitation.html)

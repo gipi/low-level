@@ -162,4 +162,6 @@ $ git fetch kebab.bundle
 ## Links
 
  - [Git Submodules vs Git Subtrees](https://codewinsarguments.co/2016/05/01/git-submodules-vs-git-subtrees/)
+ - [Ignoring mass reformatting commits with git blame](https://akrabat.com/ignoring-revisions-with-git-blame/)
+ - [Git pre-push hook](https://riptutorial.com/git/example/27005/git-pre-push-hook)
 

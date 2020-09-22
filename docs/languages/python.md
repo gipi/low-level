@@ -261,12 +261,15 @@ It's possible to write the documentation along with the code.
 
 ### TESTS
 
+ - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
  - https://www.youtube.com/watch?v=wWu_iRuBjKs
 
 
 - https://wiki.python.org/moin/TimeComplexity
 
-The maximum float (http://stackoverflow.com/questions/3477283/maximum-float-in-python)
+### Maximum float
+
+[Source](http://stackoverflow.com/questions/3477283/maximum-float-in-python):
 
 ```python
 >>> infinity = float("inf")

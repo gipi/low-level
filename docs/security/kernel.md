@@ -31,17 +31,29 @@
    - [part 3/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part3.html)
    - [part 4/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part4.html)
  - [pr0cf5/kernel-exploit-practice](https://github.com/pr0cf5/kernel-exploit-practice) repository for kernel exploit practice
- - [bcoles/kasld](https://github.com/bcoles/kasld) A collection of various techniques to bypass KASLR and retrieve the Linux kernel base virtual address on x86 / x86_64 architectures as an unprivileged user.
  - [milabs/lkrg-bypass](https://github.com/milabs/lkrg-bypass) LKRG bypass methods
  - [Control Flow Integrity (CFI) in the Linux kernel](https://outflux.net/slides/2020/lca/cfi.pdf)
  - [a13xp0p0v/linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
  - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html) This is a collection of lectures and labs Linux kernel topics. The lectures focus on theoretical and Linux kernel exploration.
  - [The Plight of TTY in the Linux Kernel](https://pr0cf5.github.io/ctf/2020/03/09/the-plight-of-tty-in-the-linux-kernel.html)
 
+## Fuzzing
+
+ - Fuzzing the Linux kernel (x86) entry code, [part 1](https://blogs.oracle.com/linux/fuzzing-the-linux-kernel-x86-entry-code%2c-part-1-of-3), [part 2](https://blogs.oracle.com/linux/fuzzing-the-linux-kernel-x86-entry-code%2c-part-2-of-3), [part 3](https://blogs.oracle.com/linux/fuzzing-the-linux-kernel-x86-entry-code%2c-part-3-of-3)
+
+## KASLR
+
+ - [bcoles/kasld](https://github.com/bcoles/kasld) A collection of various techniques to bypass KASLR and retrieve the Linux kernel base virtual address on x86 / x86_64 architectures as an unprivileged user.
+
 ## Heap
 
  - [Linux Kernel universal heap spray](https://duasynt.com/blog/linux-kernel-heap-spray)
  - [An Analysis of Linux Kernel Heap Hardening](https://blog.infosectcbr.com.au/2020/04/an-analysis-of-linux-kernel-heap.html)
+
+## iOS
+
+ - [One Byte to rule them all](https://googleprojectzero.blogspot.com/2020/07/one-byte-to-rule-them-all.html)
+ - [Writing an iOS Kernel Exploit from Scratch](https://secfault-security.com/blog/chain3.html)
 
 ## Papers
 

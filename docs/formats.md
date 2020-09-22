@@ -174,6 +174,8 @@ This is a prime that is also an ``ELF``:
  - [Why doesn't `strip` remove section headers from ELF executables?](https://unix.stackexchange.com/questions/267070/why-doesnt-strip-remove-section-headers-from-elf-executables)
  - [0pack](https://github.com/Luis-Hebendanz/0pack) A novel technique to hide code from debuggers
  - [Analyzing ELF Binaries with Malformed Headers Part 1 - Emulating Tiny Programs](https://binaryresearch.github.io/2019/09/17/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-1-Emulating-Tiny-Programs.html)
+ - [Palindromic 64 bit ELF binaries](https://n0.lol/bggp/writeup.html)
+ - [ELF program header virtual address and file offset](https://stackoverflow.com/questions/42599558/elf-program-header-virtual-address-and-file-offset)
 
 ### Relocation
 

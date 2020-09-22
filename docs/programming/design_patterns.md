@@ -13,6 +13,17 @@ From [Basics of the Unix Philosophy](http://catb.org/~esr/writings/taoup/html/ch
  - Principle of last astonishment and python by [Armin Ronacher](http://lucumr.pocoo.org/2011/7/9/python-and-pola/)
  - http://en.wikipedia.org/wiki/Convention_over_configuration
  - Single responsability principle [pdf](http://www.objectmentor.com/resources/articles/srp.pdf): THERE SHOULD NEVER BE MORE THAN ONE REASON FOR A CLASS TO CHANGE.
+ - [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
+    - Each unit should have only limited knowledge about other units: only units "closely" related to the current unit.
+    - Each unit should only talk to its friends; don't talk to strangers.
+    - Only talk to your immediate friends.
+ - **SOLID**
+    - **S**ingle Responsibility Principle
+    - **O**pen Closed Princple
+    - **L**iskov's Substitutablilty Principle
+    - **I**nterface Segregation Principle
+    - **D**ependency Inversion Principle
+ - [A Pythonic Guide to SOLID Design Principles](https://dev.to/ezzy1337/a-pythonic-guide-to-solid-design-principles-4c8i)
  - http://12factor.net/
  - http://me.veekun.com/blog/2013/03/03/the-controller-pattern-is-awful-and-other-oo-heresy/
  - http://en.wikipedia.org/wiki/Magic_(programming)
