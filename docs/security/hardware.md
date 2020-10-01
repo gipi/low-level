@@ -153,3 +153,4 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [FreeDVDBoot - Hacking the PlayStation 2 through its DVD player](https://cturt.github.io/freedvdboot.html)
  - [an EL1/EL3 coldboot vulnerability affecting 7 years of LG Android devices](https://douevenknow.us/post/619763074822520832/an-el1el3-coldboot-vulnerability)
  - [KINIBI TEE: TRUSTED APPLICATION EXPLOITATION](https://www.synacktiv.com/en/publications/kinibi-tee-trusted-application-exploitation.html)
+ - [Backdoors and other vulnerabilities in HiSilicon based hardware video encoders](https://kojenov.com/2020-09-15-hisilicon-encoder-vulnerabilities/)

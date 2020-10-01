@@ -32,6 +32,7 @@ execution context.
  - [Microsoft Edge - Universal XSS](https://leucosite.com/Microsoft-Edge-uXSS/?q)
  - [Remote Code Execution in Firefox beyond memory corruptions](https://frederik-braun.com/firefox-ui-xss-leading-to-rce.html)
  - [Microsoft Edge (Chromium) - EoP via XSS to Potential RCE](https://leucosite.com/Edge-Chromium-EoP-RCE/)
+ - [Redefining Impossible: XSS without arbitrary JavaScript](https://portswigger.net/research/redefining-impossible-xss-without-arbitrary-javascript)
 
 ## RPO
 

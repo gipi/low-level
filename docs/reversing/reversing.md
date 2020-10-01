@@ -66,6 +66,9 @@
  - [Static analysis of an unknown compression format](https://blog.lse.epita.fr/articles/8-static-analysis-of-an-unknown-compression-format.html)
  - [Reverse Engineering Encrypted Code Segments](https://medium.com/@ryancor/reverse-engineering-encrypted-code-segments-b01aead67701)
  - [Reverse engineer USB stack of Exynos BootROM](https://fredericb.info/2020/06/reverse-engineer-usb-stack-of-exynos-bootrom.html)
+ - [r2-pay: anti-debug, anti-root & anti-frida (part 1)](https://www.romainthomas.fr/post/20-09-r2con-obfuscated-whitebox-part1/)
+ - [r2-pay: whitebox (part 2)](https://www.romainthomas.fr/post/20-09-r2con-obfuscated-whitebox-part2/)
+ - [Undocumented Fastboot Oem Commands](https://carlo.marag.no/posts/undocumented-fastboot-oem/)
 
 ### ARM
 
