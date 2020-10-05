@@ -29,6 +29,8 @@
  - https://answers.opencv.org/question/202017/how-to-use-gstreamer-pipeline-in-opencv/
  - [gst-inference](https://github.com/RidgeRun/gst-inference) A GStreamer Deep Learning Inference Framework
  - [Creating Gstreamer Multimedia Pipeline With C++ Part 2](https://medium.com/analytics-vidhya/creating-gstreamer-multimedia-pipeline-with-c-part-2-d3085c471747)
+ - [Debugging tools](https://gstreamer.freedesktop.org/documentation/tutorials/basic/debugging-tools.html?gi-language=c)
+ - http://lifestyletransfer.com/how-to-use-gstreamer-appsink-in-python/
 
 First of all, a video came with two main types of data: audio and video. Since space is important, is important to compress data but since quality is important also, during the years has been developed a lot of codecs (this name came from their functions: *coder* and *encoder*). For a technical video overview look at the Xiph [videos](http://xiph.org/video/).
 
