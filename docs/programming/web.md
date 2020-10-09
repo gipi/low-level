@@ -20,6 +20,7 @@
  - [jmcarp/nplusone](https://github.com/jmcarp/nplusone) is a library for detecting the n+1 queries problem in Python ORMs, including SQLAlchemy, Peewee, and the Django ORM
  - [Authentication with Django and Single Page Apps](https://mikesukmanowsky.com/authentication-with-django-and-spas/)
  - [Django 3.1 Async](https://wersdoerfer.de/blogs/ephes_blog/django-31-async/)
+ - [How To reset migrations](https://simpleisbetterthancomplex.com/tutorial/2016/07/26/how-to-reset-migrations.html)
 
 ### Admin
 
