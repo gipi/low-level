@@ -53,6 +53,7 @@ Related to that there are **Hypervisor**s
 ### MM
 
  - [How The Kernel Manages Your Memory](https://manybutfinite.com/post/how-the-kernel-manages-your-memory/)
+ - [ARM32 Page Tables](https://people.kernel.org/linusw/arm32-page-tables)
 
 ### Gate
 

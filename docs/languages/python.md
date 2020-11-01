@@ -10,7 +10,6 @@
  - http://agiliq.com/blog/2012/06/understanding-args-and-kwargs/
  - http://pythonbooks.revolunet.com/
  - http://farmdev.com/talks/unicode/ ``# -*- coding: utf-8 -*-``
- - http://www.scotttorborg.com/python-packaging/index.html
  - What's [__main__.py](http://stackoverflow.com/questions/4042905/what-is-main-py)
  - http://blog.amir.rachum.com/post/39501813266/python-the-dictionary-playbook
  - https://developers.google.com/edu/python/
@@ -18,7 +17,6 @@
  - http://blog.amir.rachum.com/post/54770419679/python-common-newbie-mistakes-part-1
  - http://blog.amir.rachum.com/post/55024295793/python-common-newbie-mistakes-part-2
  - http://pypix.com/tools-and-tips/advanced-regular-expression-tips-techniques/
- - [Value error](http://stackoverflow.com/questions/11536764/attempted-relative-import-in-non-package-even-with-init-py) Attempted relative import in non-package
  - http://sebastianraschka.com/Articles/2014_python_performance_tweaks.html
  - [Parallelism in one line](https://medium.com/p/40e9b2b36148)
  - http://www.fullstackpython.com/
@@ -31,6 +29,13 @@
  - [Python 101: iterators, generators, coroutines](https://www.integralist.co.uk/posts/python-generators/)
  - [How to Bootstrap a Python Project](https://blog.emacsos.com/bootstrap-a-python-project.html)
  - [Massive memory overhead: Numbers in Python and how NumPy helps](https://pythonspeed.com/articles/python-integers-memory/)
+
+## Packaging
+
+ - http://www.scotttorborg.com/python-packaging/index.html
+ - http://nvie.com/posts/pin-your-packages/
+ - http://tech.marksblogg.com/better-python-package-management.html
+ - [Value error](http://stackoverflow.com/questions/11536764/attempted-relative-import-in-non-package-even-with-init-py) Attempted relative import in non-package
 
 ## Typing
 
@@ -60,6 +65,12 @@
  - http://www.slideshare.net/hychen/what-can-meta-class-do-for-you-pycon-taiwan-2012
  - http://www.slideshare.net/gwiener/metaclasses-in-python
 
+## TESTS
+
+ - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
+ - https://www.youtube.com/watch?v=wWu_iRuBjKs
+ - https://www.integralist.co.uk/posts/toxini/
+
 ## BEST PRACTICES
 
  - [PEP8](http://www.python.org/dev/peps/pep-0008/): Style Guide for Python Code
@@ -70,7 +81,6 @@
  - http://www.artima.com/weblogs/viewpost.jsp?thread=236278
  - http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html
  - http://net.tutsplus.com/tutorials/python-tutorials/behavior-driven-development-in-python/
- - http://nvie.com/posts/pin-your-packages/
  - [Things you didn't know about Python](https://speakerdeck.com/u/mitsuhiko/p/didntknow): interesting presentation about Python internal and stuff.
  - [Copying list, the right way](http://henry.precheur.org/python/copy_list)
  - Make [one archive](http://blog.ablepear.com/2012/10/bundling-python-files-into-stand-alone.html) python executable
@@ -86,7 +96,6 @@
  - http://pyrandom.blogspot.nl/2013/04/super-wrong.html
  - [Python’s super() considered super!](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
  - http://www.huyng.com/posts/python-performance-analysis/
- - http://tech.marksblogg.com/better-python-package-management.html
  - https://tommikaikkonen.github.io/timezones/
  - [format()](https://zerokspot.com/weblog/2015/12/31/new-string-formatting-in-python/)
  - [pyformat.info/](https://pyformat.info/)
@@ -100,7 +109,6 @@
 
 ## LIBRARIES
 
- - http://tech.marksblogg.com/better-python-package-management.html
  - https://github.com/kennethreitz/envoy
  - https://github.com/kennethreitz/requests
  - http://www.nicosphere.net/clint-command-line-library-for-python/
@@ -258,11 +266,6 @@ $ python -m doctest c1.py
 It's possible to write the documentation along with the code.
 
  http://sphinx.pocoo.org/markup/toctree.html#toctree-directive
-
-### TESTS
-
- - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
- - https://www.youtube.com/watch?v=wWu_iRuBjKs
 
 
 - https://wiki.python.org/moin/TimeComplexity

@@ -18,6 +18,7 @@
  - [Image Triangulation](https://estebanhufstedler.com/2020/05/14/image-triangulation/)
  - [Image Triangulation: Voronoi Method](https://estebanhufstedler.com/2020/05/14/image-triangulation-voronoi-method/)
  - [Algorithms for sampling without replacement](https://timvieira.github.io/blog/post/2019/09/16/algorithms-for-sampling-without-replacement/)
+ - [How a Kalman filter works, in pictures](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
 
 ## Bloom filter
 

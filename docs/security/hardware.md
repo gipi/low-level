@@ -112,7 +112,8 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Differential Fault Injection Against AES on Atmega328](https://rot256.io/post/glitch/)
  - [36C3 - TrustZone-M(eh): Breaking ARMv8-M's security](youtube.com/watch?v=4u6BAH8mEDw)
  - [Espressif ESP32: Controlling PC during Secure Boot](https://raelize.com/posts/espressif-systems-esp32-controlling-pc-during-sb/)
-
+ - [nRF52 Debug Resurrection (APPROTECT Bypass) Part 1](https://limitedresults.com/2020/06/nrf52-debug-resurrection-approtect-bypass/)
+ - [There’s A Hole In Your SoC: Glitching The MediaTek BootROM](https://research.nccgroup.com/2020/10/15/theres-a-hole-in-your-soc-glitching-the-mediatek-bootrom/)
 
 ### Power analysis
 
