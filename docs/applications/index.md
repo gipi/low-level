@@ -217,6 +217,14 @@ $ gst-launch-1.0 ximagesrc ! \
     vorbisenc ! \
    mux. webmmux name=mux ! filesink location=screencast.webm
 ```
+```
+$ gst-launch-1.0 --eos-on-shutdown  ximagesrc xid=0x9400014 show-pointer=true use-damage=false  ! \
+  videoconvert ! \
+  queue ! \
+  x264enc pass=5 quantizer=26 speed-preset=6 ! \
+  mp4mux fragment-duration=500 ! \
+  filesink location=output.mp4
+```
 
 ### Tee
 
