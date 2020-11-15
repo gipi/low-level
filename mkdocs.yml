@@ -25,8 +25,11 @@ pages:
   - Applications:
     - General: applications/index.md
     - Vim: applications/vim.md
+    - Gdb: applications/gdb.md
     - Git: applications/git.md
     - Qt: applications/qt.md
+    - nmap: applications/nmap.md
+    - SSH: applications/ssh.md
 - Programming:
   - Home: programming/programming.md
   - Algorithms: programming/algorithms.md

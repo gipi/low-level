@@ -94,8 +94,7 @@
  - Fault attacks on secure chips: from glitch to flash [PDF](https://www.cl.cam.ac.uk/~sps32/ECRYPT2011_1.pdf)
  - [How the PS3 hypervisor was hacked](https://rdist.root.org/2010/01/27/how-the-ps3-hypervisor-was-hacked/)
  - [Firmware dumping technique for an ARM Cortex-M0 SoC](http://blog.includesecurity.com/2015/11/NordicSemi-ARM-SoC-Firmware-dumping-technique.html)
- - [An In-depth and Black-box characterization of
-the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0bcd/7c1ddac0667f54cb3e05739409f47a0d6467.pdf)
+ - [An In-depth and Black-box characterization of the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0bcd/7c1ddac0667f54cb3e05739409f47a0d6467.pdf)
  - [Electromagnetic fault injection: towards a fault model on a 32-bit microcontroller](https://arxiv.org/pdf/1402.6421.pdf)
  - [Glitching the switch](https://media.ccc.de/v/c4.openchaos.2018.06.glitching-the-switch)
  - Injecting Software Vulnerabilities with Voltage Glitching [PDF](https://yifan.lu/images/2019/01/Injecting_Software_Vulnerabilities_with_Voltage_Glitching.pdf)
@@ -114,6 +113,7 @@ the effects of Clock Glitches on 8-bit MCUs](https://pdfs.semanticscholar.org/0b
  - [Espressif ESP32: Controlling PC during Secure Boot](https://raelize.com/posts/espressif-systems-esp32-controlling-pc-during-sb/)
  - [nRF52 Debug Resurrection (APPROTECT Bypass) Part 1](https://limitedresults.com/2020/06/nrf52-debug-resurrection-approtect-bypass/)
  - [There’s A Hole In Your SoC: Glitching The MediaTek BootROM](https://research.nccgroup.com/2020/10/15/theres-a-hole-in-your-soc-glitching-the-mediatek-bootrom/)
+ - [CHIP.FAIL – GLITCHING THE SILICON OF THE CONNECTED WORLD](https://sector.ca/sessions/chip-fail-glitching-the-silicon-of-the-connected-world/) 
 
 ### Power analysis
 
