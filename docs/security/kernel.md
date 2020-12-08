@@ -49,11 +49,13 @@
 
  - [Linux Kernel universal heap spray](https://duasynt.com/blog/linux-kernel-heap-spray)
  - [An Analysis of Linux Kernel Heap Hardening](https://blog.infosectcbr.com.au/2020/04/an-analysis-of-linux-kernel-heap.html)
+ - [SLAB quarantine](https://a13xp0p0v.github.io/2020/11/30/slab-quarantine.html)
 
 ## iOS
 
  - [One Byte to rule them all](https://googleprojectzero.blogspot.com/2020/07/one-byte-to-rule-them-all.html)
  - [Writing an iOS Kernel Exploit from Scratch](https://secfault-security.com/blog/chain3.html)
+ - [An iOS zero-click radio proximity exploit odyssey](https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html)
 
 ## Papers
 

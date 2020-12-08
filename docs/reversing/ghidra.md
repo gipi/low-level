@@ -25,6 +25,7 @@
  - [AN ABSTRACT INTERPRETATION-BASED DEOBFUSCATION PLUGIN FOR GHIDRA](https://www.msreverseengineering.com/blog/2019/4/17/an-abstract-interpretation-based-deobfuscation-plugin-for-ghidra)
  - [Blog](https://reversing.technology/) with a couple of posts about developing for it without eclipse
  - [Reverse Engineering Go, Part II](https://blog.osiris.cyber.nyu.edu/2019/12/19/ugo-ghidra-plugin/) This post is on how the Ghidra decompiler works, and how to make it work for Go
+ - [Reverse Engineering Go Binaries with Ghidra](https://cujo.com/reverse-engineering-go-binaries-with-ghidra/)
  - [Ghidra Decompiler wireformat](https://medium.com/@remco_verhoef/ghidra-decompiler-wireformat-ed9b11a793ec)
  - [threatrack/ghidra-fidb-repo](https://github.com/threatrack/ghidra-fidb-repo) Ghidra Function ID dataset repository
  - [Writing a GHIDRA Loader: STM32 Edition](https://wrongbaud.github.io/writing-a-ghidra-loader/)

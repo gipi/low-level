@@ -15,6 +15,7 @@ library, memory model etc...
  - [Intro to Chrome’s V8 from an exploit development angle](https://sensepost.com/blog/2020/intro-to-chromes-v8-from-an-exploit-development-angle/)
  - [Geluchat/chrome_v8_exploit](https://github.com/Geluchat/chrome_v8_exploit) A collection of 1days and solutions to challenges related to v8/chrome I developed
  - [Exploiting the Math.expm1 typing bug in V8](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
+ - [Modern attacks on the Chrome browser : optimizations and deoptimizations](https://doar-e.github.io/blog/2020/11/17/modern-attacks-on-the-chrome-browser-optimizations-and-deoptimizations/)
 
 ## SpiderMonkey
 

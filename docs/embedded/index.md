@@ -1,5 +1,6 @@
 # Microcontrollers&Embedded Systems
 
+ - [SO YOU WANT TO BUILD AN EMBEDDED LINUX SYSTEM?](https://jaycarlson.net/embedded-linux/) A primer on how embedded Linux systems are developed, plus an exploration of the hardware and software ecosystems of ten different commonly-available CPUs
  - [Anatomy of cross-compilation toolchains](https://elinux.org/images/1/15/Anatomy_of_Cross-Compilation_Toolchains.pdf)
  - [From zero to main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
  - [Demystifying Firmware Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)

@@ -23,6 +23,9 @@ unexploitability](http://ieeexplore.ieee.org/stamp/stamp.jsp?reload=true&tp=&arn
  - [Data oriented programming](https://huhong-nus.github.io/advanced-DOP/papers/dop.pdf)
  - [Secure Code Partitioning With ELF binaries, aka. SCOP](http://bitlackeys.org/papers/secure_code_partitioning_2018.txt)
  - [A Guide to Undefined Behavior in C and C++, Part 1](https://blog.regehr.org/archives/213)
+ - Now you C me
+   - [part 1](https://securitylab.github.com/research/now-you-c-me)
+   - [part 2](https://securitylab.github.com/research/now-you-c-me-part-two)
 
 Unrelated for now but there is an Android's vulnerabilities [CVE-2017-13156](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) where the system parses an ``APK`` or a ``DEX`` allowing to bypass signature.
 
