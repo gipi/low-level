@@ -8,6 +8,7 @@ library, memory model etc...
  - [Phrack's paper](http://www.phrack.org/papers/attacking_javascript_engines.html) .:: Attacking JavaScript Engines: A case study of JavaScriptCore and CVE-2016-4622 ::.
  - [CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/)
  - [JITSploitation I: A JIT Bug](https://googleprojectzero.blogspot.com/2020/09/jitsploitation-one.html)
+ - [THIS IS FOR THE PWNERS: EXPLOITING A WEBKIT 0-DAY IN PLAYSTATION ](https://www.synacktiv.com/publications/this-is-for-the-pwners-exploiting-a-webkit-0-day-in-playstation-4.html)
 
 ## V8
 
