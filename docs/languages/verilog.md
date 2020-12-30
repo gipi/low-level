@@ -4,6 +4,15 @@
 
 ## Cookbook
 
+### Initialize variable signal
+
+```verilog
+
+parameter WIDTH = 32;
+
+assign miao = {WIDTH{1'b0}};
+```
+
 ### Initialize array
 
 ```verilog
@@ -64,6 +73,24 @@ begin
     sum_r <= sum_r + data_i;
 end 
 ```
+
+### Strengths
+
+It's possible to assign a driving "strength" to a net using the syntax ``(strength0 [, strength1 ] ) | ( strength1 [, strength0 ] ) | cap_strength``.
+The strength of a net is derived dynamically from the strenght of the net driver(s) and will get the strength of the strongest driver. 
+The words strenght0 specifies the strength when the net drivers drive the value 0; strength1 specifies the strength when the net drivers drive the value 1.
+The cap_strength is for trireg nets only.
+
+| Strength level | Name | Keyword |
+|----------------|------|---------|
+| 7 | Supply drive | supply0 , supply1 |
+| 6 | Strong drive | strong0 , strong1 |
+| 5 | Pull drive | pull0 , pull1 |
+| 4 | Large capacitive | large |
+| 3 | Weak drive | weak0 , weak1 |
+| 2 | Medium capacitive | medium |
+| 1 | Small capacitive | small |
+| 0 | High impedance | highz0 , highz1 |
 
 ## Links
 
