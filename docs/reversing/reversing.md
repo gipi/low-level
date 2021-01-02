@@ -25,6 +25,7 @@
  - [Bootstrapping Understanding](http://www.muppetlabs.com/~breadbox/txt/bure.html): reversing the level data file for "Chip's Challenge" game
  - [Reverse engineering Flutter apps (Part 1)](https://blog.tst.sh/reverse-engineering-flutter-apps-part-1/)
  - [Analyzing the USB Controller's Firmware](https://8051enthusiast.github.io/2020/04/14/001-USB_Firmware.html)
+ - [Advanced Binary Deobfuscation](https://github.com/malrev/ABD)
  
 
 ## Protocol

@@ -26,7 +26,6 @@ Related to that there are **Hypervisor**s
  - [getauxval() and the auxiliary vector](https://lwn.net/Articles/519085/)
  - [OOPS debugging with GDB](http://mokosays.com/work/?p=22)
  - [slide](http://haifux.org/lectures/258/gpio_spi_i2c_userspace.pdf) on using ``SPI`` and ``I2C`` in user space.
- - Post about Linux implementation and history of the [Device tree](http://junyelee.blogspot.com/2014/04/linux-device-tree.html)
  - [slide](http://www.cs.fsu.edu/~cop4610t/lectures/project2/kthreads/kthreads.pdf) about kthreads
  - [Evolution of the x86 context switch in Linux](http://www.maizure.org/projects/evolution_x86_context_switch_linux/)
  - [Use mmap With Care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)
@@ -40,6 +39,12 @@ Related to that there are **Hypervisor**s
  - [An introduction to Linux kernel initcalls](https://www.collabora.com/news-and-blog/blog/2020/07/14/introduction-to-linux-kernel-initcalls/)
  - [Static calls in Linux 5.10](https://blog.yossarian.net/2020/12/16/Static-calls-in-Linux-5-10): changes on linux 5.10 to improve performances but avoid Spectre-like attacks
 
+### Device tree
+
+
+ - Post about Linux implementation and history of the [Device tree](http://junyelee.blogspot.com/2014/04/linux-device-tree.html)
+ - [A TUTORIAL ON THE DEVICE TREE](http://junyelee.blogspot.com/2015/07/a-tutorial-on-device-tree.html)
+
 ### Containers
 
  - [What even is a container: namespaces and cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
@@ -50,6 +55,7 @@ Related to that there are **Hypervisor**s
  - [rootlesscontaine.rs/](https://rootlesscontaine.rs/) Rootless containers refers to the ability for an unprivileged user to create, run and otherwise manage containers
  - [Lesser known Docker tips for advanced users](https://offby2.com/posts/001-docker-lesser-known-tips/)
  - [Understanding how uid and gid work in Docker containers](https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf)
+ - [Connection refused?](https://pythonspeed.com/articles/docker-connection-refused/) Docker networking and how it impacts your image
 
 ### MM
 

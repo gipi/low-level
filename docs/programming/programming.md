@@ -37,6 +37,7 @@
  - [whitequark/unfork](https://github.com/whitequark/unfork) unfork(2) is the inverse of fork(2). sort of.
  - [The Error Model](http://joeduffyblog.com/2016/02/07/the-error-model/)
  - [printf format cheat sheet](https://alvinalexander.com/programming/printf-format-cheat-sheet/)
+ - [Command Line Interface Guidelines](https://clig.dev/)
 
 ## Compilers
 

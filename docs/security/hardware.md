@@ -82,8 +82,15 @@
  - [On-Device Power Analysis Across Hardware Security Domains](https://eprint.iacr.org/2019/689.pdf)
  - [In Transactional Memory, No One Can Hear You Scream](http://blog.ret2.io/2019/06/26/attacking-intel-tsx/)
  - [Bypassing KPTI Using the Speculative Behavior of the SWAPGS Instruction](https://businessresources.bitdefender.com/hubfs/noindex/Bitdefender-WhitePaper-SWAPGS.pdf)
+ - [Recovering the CTR_DRBG state in 256 traces](https://www.esat.kuleuven.be/cosic/publications/article-3094.pdf)
+
+## CPUs
+
  - [Foreshadow](https://foreshadowattack.eu/) Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution
  - [Speculative Dereferencing of Registers: Reviving Foreshadow](https://arxiv.org/pdf/2008.02307.pdf) latest paper with a more **correct** view on speculation attack on CPUs
+ - [Ghostbuster: Spectre exploitation in real life](https://donjon.ledger.com/ghostbuster/)
+ - [A Systematic Evaluation of Transient Execution Attacks and Defenses](https://transient.fail/)
+ - [CROSSTALK](https://www.vusec.net/projects/crosstalk/)
 
 ### Glitching
 

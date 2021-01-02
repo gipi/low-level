@@ -28,17 +28,22 @@
  - [Reverse Engineering Go Binaries with Ghidra](https://cujo.com/reverse-engineering-go-binaries-with-ghidra/)
  - [Ghidra Decompiler wireformat](https://medium.com/@remco_verhoef/ghidra-decompiler-wireformat-ed9b11a793ec)
  - [threatrack/ghidra-fidb-repo](https://github.com/threatrack/ghidra-fidb-repo) Ghidra Function ID dataset repository
- - [Writing a GHIDRA Loader: STM32 Edition](https://wrongbaud.github.io/writing-a-ghidra-loader/)
  - [esaulenka/ghidra_v850](https://github.com/esaulenka/ghidra_v850) Ghidra support for Renesas V850 MCUs
  - [reb311ion/replica](https://github.com/reb311ion/replica) Ghidra Analysis Enhancer
  - [cetfor/GhidraSnippets](https://github.com/cetfor/GhidraSnippets) is a collection of Python examples showing how to work with Ghidra APIs
+ - [GhidraJupyter/ghidra-jupyter-kotlin](https://github.com/GhidraJupyter/ghidra-jupyter-kotlin/tree/main/ghidra_jupyter)
+ - [Ghidra: the story of _check_sec_cookie](https://mageirias.com/articles/ghidra/ghidra_a_story_of_check_sec_cookie/ghidra_check_sec_cookie.html)
+ - [Introduction to Reverse Engineering with Ghidra: A Four Session Course](https://wrongbaud.github.io/posts/ghidra-training/)
+ - [Writing a GHIDRA Loader: STM32 Edition](https://wrongbaud.github.io/writing-a-ghidra-loader/)
+ - [Implementing a brainfuck CPU in Ghidra - part 1: Setup and disassembly](https://spinsel.dev/2020/06/17/ghidra-brainfuck-processor-1.html)
+ - [A first look at Ghidra's Debugger - Game Boy Advance Edition](https://wrongbaud.github.io/posts/ghidra-debugger/)
 
 ## Scripting
 
 It is possible to use python
 
 ```python
->>> >>> currentProgram.getImageBase()
+>>> currentProgram.getImageBase()
 00400000
 >>> bytearray(getBytes(toAddr(0x4c00), 0x2a10))
 >>> getCurrentProgram().getCodeManager().getCodeUnitBefore(toAddr(0xa0010004))

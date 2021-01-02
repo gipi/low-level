@@ -13,6 +13,10 @@
  - [Myths about /dev/urandom](https://www.2uo.de/myths-about-urandom)
  - [Cracking RNGs: Linear Congruential Generators](https://tailcall.net/blog/cracking-randomness-lcgs/)
 
+## Digital signatures
+
+ - [ECDSA: Handle with Care](https://blog.trailofbits.com/2020/06/11/ecdsa-handle-with-care/)
+
 ## Hash functions
 
  - [Sponge functions](https://keccak.team/sponge_duplex.html)

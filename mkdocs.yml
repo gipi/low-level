@@ -36,6 +36,7 @@ pages:
   - Design Patterns: programming/design_patterns.md
   - Build systems: programming/build.md
   - Data structures: data_structures/index.md
+  - Graphics: data_structures/graphics.md
   - Languages:
     - C++: languages/cpp.md
     - Python: languages/python.md

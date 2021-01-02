@@ -28,6 +28,7 @@
  - [Why print became a function in python3](https://snarky.ca/why-print-became-a-function-in-python-3/)
  - [Python 101: iterators, generators, coroutines](https://www.integralist.co.uk/posts/python-generators/)
  - [How to Bootstrap a Python Project](https://blog.emacsos.com/bootstrap-a-python-project.html)
+ - [A Practical Guide to Using Setup.py](https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/)
  - [Massive memory overhead: Numbers in Python and how NumPy helps](https://pythonspeed.com/articles/python-integers-memory/)
 
 ## Packaging
@@ -116,6 +117,12 @@
  - [Get started with the Natural Language Toolkit](http://www.ibm.com/developerworks/linux/library/l-cpnltk/index.html)
  - [pdb++](https://github.com/pdbpp/pdbpp) pdb++, a drop-in replacement for pdb (the Python debugger)
  - [napari/napari](https://github.com/napari/napari) a fast, interactive, multi-dimensional image viewer for python
+ - [pydantic](https://pydantic-docs.helpmanual.io/) Data validation and settings management using python type annotations.
+ - [pySDR](https://pysdr.org/)
+
+## Scientific
+
+ - [NumPy Illustrated: The Visual Guide to NumPy](https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)
 
 ## Interesting Stuffs
 
@@ -142,6 +149,7 @@ $ PYTHONPATH=$PYTHONPATH:$PWD/../../ ../..//pypy/sandbox/pypy_interact.py pypy-c
  - [Performance analysis](https://www.huyng.com/posts/python-performance-analysis)
  - [CProfile](https://julien.danjou.info/blog/2015/guide-to-python-profiling-cprofile-concrete-case-carbonara)
  - https://stripe.com/blog/exploring-python-using-gdb
+ - [scalene](https://github.com/emeryberger/scalene) is a high-performance CPU and memory profiler for Python that does a number of things that other Python profilers do not and cannot do
 
 ## IDE
 
