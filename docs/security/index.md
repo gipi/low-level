@@ -191,3 +191,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn)
  - [JWT (JSON Web Token) (in)security](https://research.securitum.com/jwt-json-web-token-security/)
  - [Unlocking Heaven's Gate on Linux](https://redcanary.com/blog/heavens-gate-technique-on-linux/)
+ - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)

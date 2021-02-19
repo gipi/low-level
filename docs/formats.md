@@ -177,6 +177,7 @@ This is a prime that is also an ``ELF``:
  - [Analyzing ELF Binaries with Malformed Headers Part 1 - Emulating Tiny Programs](https://binaryresearch.github.io/2019/09/17/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-1-Emulating-Tiny-Programs.html)
  - [Palindromic 64 bit ELF binaries](https://n0.lol/bggp/writeup.html)
  - [ELF program header virtual address and file offset](https://stackoverflow.com/questions/42599558/elf-program-header-virtual-address-and-file-offset)
+ - [Chain loading, not preloading: the dynamic linker as a virtualization vector](https://www.cs.kent.ac.uk/people/staff/srk21/blog/2021/01/04/)
 
 ### Relocation
 
@@ -237,6 +238,7 @@ Relocations are the entities used by the linking process, dynamic or not
 ## QRcode
 
  - [Wikipedia page](https://en.wikipedia.org/wiki/QR_code)
+ - [Hacking QR code design](https://marienraat.nl/hacking-qr-codes.html)
 
 ## Compact disc
 

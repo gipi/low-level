@@ -89,12 +89,13 @@ but also exists
 
  - ``friend``: allows to specify methods or attributes that can access private properties
 
-## Copying, constant and references
+## Copying, moving, constant and references
 
 By default, when you pass a class as an argument of a function, the copy constructor
 is called for that class; to avoid that overhead you can use a ``const`` reference.
 
  - [Thinking in C++, 2nd ed. Volume 1/References & the Copy-Constructor](http://www.cs.ust.hk/~dekai/library/ECKEL_Bruce/TICPP-2nd-ed-Vol-one/TICPP-2nd-ed-Vol-one-html/Chapter11.html)
+ - [CppCon 2019: Klaus Iglberger “Back to Basics: Move Semantics (part 2 of 2)”](https://www.youtube.com/watch?v=pIzaZbKUw2s)
 
 ## Operators overloading
 

@@ -8,6 +8,7 @@
 
 ## List
 
+ - [CVE-2021-3156](https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt) ``sudo`` heap based overflow
  - [CVE-2020-11060](https://offsec.almond.consulting/playing-with-gzip-rce-in-glpi.html) An arbitrary path and a hashed path disclosure can be abused to execute code on a GLPI host, by creating a PHP/GZIP polyglot file.
  - [CVE-2020-10713](https://capsule8.com/blog/grubbing-secure-boot-the-wrong-way-cve-2020-10713/) Grubbing Secure Boot the Wrong Way: OOB in the GRUB parser
  - [CVE-2020-8835](https://www.thezdi.com/blog/2020/4/8/cve-2020-8835-linux-kernel-privilege-escalation-via-improper-ebpf-program-verification)

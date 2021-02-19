@@ -57,6 +57,7 @@
  - [REVERSE ENGINEERING ARCHITECTURE AND PINOUT OF CUSTOM ASICS](https://sec-consult.com/en/blog/2019/02/reverse-engineering-architecture-pinout-plc/)
  - [Hardware Debugging for Reverse Engineers Part 1: SWD, OpenOCD and Xbox One Controllers](https://wrongbaud.github.io/stm-xbox-jtag/)
  - [Reverse Engineering a Digital Answering Machine (part 1)](https://ivanwick.github.io/2020/03/15/answering-machine-pt1.html)
+ - [Reversing TL-WR840N](https://therealunicornsecurity.github.io/TPLink/)
 
 ## Software
 
@@ -169,6 +170,7 @@ Num Vaddr      Paddr      Len Size Section  Type  String
  - [CyberTruckChallenge](https://www.verso.re/posts/cybertruck/) The CyberTruckChallenge is a workshop about Android Security sponsored by NowSecure and created by @enovella.
  - [shroudedcode/apk-mitm](https://github.com/shroudedcode/apk-mitm) A CLI application that prepares Android APK files for HTTPS inspection
  - [fkie-cad/DeStroid](https://github.com/fkie-cad/DeStroid) Fighting String Encryption in Android Malware
+ - [Reverse engineering Flutter for Android](https://rloura.wordpress.com/2020/12/04/reversing-flutter-for-android-wip/)
 
 ### Python
 

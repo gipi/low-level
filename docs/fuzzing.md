@@ -6,3 +6,4 @@
  - [A gentle introduction to Linux Kernel fuzzing](https://blog.cloudflare.com/a-gentle-introduction-to-linux-kernel-fuzzing/)
  - [Side-Channel Aware Fuzzing](https://arxiv.org/pdf/1908.05012.pdf)
  - [google/syzkaller](https://github.com/google/syzkaller) kernel fuzzer
+ - [Fuzzing Like A Caveman 5: A Code Coverage Tour for Cavepeople](https://h0mbre.github.io/Fuzzing-Like-A-Caveman-5/)

@@ -37,6 +37,7 @@
  - [Writing a GHIDRA Loader: STM32 Edition](https://wrongbaud.github.io/writing-a-ghidra-loader/)
  - [Implementing a brainfuck CPU in Ghidra - part 1: Setup and disassembly](https://spinsel.dev/2020/06/17/ghidra-brainfuck-processor-1.html)
  - [A first look at Ghidra's Debugger - Game Boy Advance Edition](https://wrongbaud.github.io/posts/ghidra-debugger/)
+ - [Rhabdomancer.java ](https://github.com/0xdea/ghidra-scripts/blob/main/Rhabdomancer.java) A Ghidra vulnerability research assistant
 
 ## Scripting
 

@@ -45,6 +45,7 @@
  - [mypy](http://www.mypy-lang.org/) is an optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typin
  - [python/mypy](https://github.com/python/mypy) Optional static typing for Python 3 and 2 (PEP 484)
  - [Python: better typed than you think](https://beepb00p.xyz/mypy-error-handling.html) mypy assisted error handling, exception mechanisms in other languages, fun with pattern matching and type variance
+ - [Python Typing: Resisting the Any type](https://jaredkhan.com/blog/resist-the-any-type)
 
 ## Internals
 
@@ -59,6 +60,7 @@
  - [Python Attribute Access and the Descriptor Protocol](https://amir.rachum.com/blog/2019/10/16/descriptors/)
  - [How python implements long integers?](https://arpitbhayani.me/blogs/super-long-integers)
  - [open and CPython](http://hondu.co/blog/open-and-python)
+ - [Python behind the scenes #7: how Python attributes work](https://tenthousandmeters.com/blog/python-behind-the-scenes-7-how-python-attributes-work/)
 
 ## Metaclass
 
@@ -71,6 +73,8 @@
  - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
  - https://www.youtube.com/watch?v=wWu_iRuBjKs
  - https://www.integralist.co.uk/posts/toxini/
+ - [moto](https://github.com/spulec/moto), a library that allows you to easily mock out tests based on AWS infrastructure.
+ - [Testing Python Applications with Pytest](https://stribny.name/blog/pytest/)
 
 ## BEST PRACTICES
 
