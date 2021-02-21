@@ -25,3 +25,14 @@
 ### Admin
 
  - [farridav/django-jazzmin](https://github.com/farridav/django-jazzmin) Drop-in theme for django admin, that utilises AdminLTE 3 & Bootstrap 4 to make yo' admin look jazzy
+
+## Flask
+
+
+### Websocket
+
+This below is a PoC to get started with websocket and flask
+
+```python
+--8<-- "docs/programming/flask_websocket.py"
+```
