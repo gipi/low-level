@@ -192,3 +192,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [JWT (JSON Web Token) (in)security](https://research.securitum.com/jwt-json-web-token-security/)
  - [Unlocking Heaven's Gate on Linux](https://redcanary.com/blog/heavens-gate-technique-on-linux/)
  - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
+ - [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)

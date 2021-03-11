@@ -38,6 +38,8 @@
  - [Implementing a brainfuck CPU in Ghidra - part 1: Setup and disassembly](https://spinsel.dev/2020/06/17/ghidra-brainfuck-processor-1.html)
  - [A first look at Ghidra's Debugger - Game Boy Advance Edition](https://wrongbaud.github.io/posts/ghidra-debugger/)
  - [Rhabdomancer.java ](https://github.com/0xdea/ghidra-scripts/blob/main/Rhabdomancer.java) A Ghidra vulnerability research assistant
+ - [Ghidra script to decrypt strings in Amadey 1.09](https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-decrypt-strings-in-amadey-1-09/)
+ - [PositiveTechnologies/ghidra_nodejs](https://github.com/PositiveTechnologies/ghidra_nodejs)  plugin to parse, disassemble and decompile NodeJS Bytenode (JSC) binaries
 
 ## Scripting
 
