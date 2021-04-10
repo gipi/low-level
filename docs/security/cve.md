@@ -8,6 +8,7 @@
 
 ## List
 
+ - [CVE-2021-26708](https://a13xp0p0v.github.io/2021/02/09/CVE-2021-26708.html) Four Bytes of Power: exploiting CVE-2021-26708 in the Linux kernel
  - [CVE-2021-3156](https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt) ``sudo`` heap based overflow
  - [CVE-2020-11060](https://offsec.almond.consulting/playing-with-gzip-rce-in-glpi.html) An arbitrary path and a hashed path disclosure can be abused to execute code on a GLPI host, by creating a PHP/GZIP polyglot file.
  - [CVE-2020-10713](https://capsule8.com/blog/grubbing-secure-boot-the-wrong-way-cve-2020-10713/) Grubbing Secure Boot the Wrong Way: OOB in the GRUB parser
@@ -37,6 +38,7 @@
    - [part 3/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part3.html)
    - [part 4/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part4.html)
  - [CVE-2017-0781](https://jesux.es/exploiting/blueborne-android-6.0.1-english/) BlueBorne RCE on Android 6.0.1
+ - [CVE-2016-6187](https://duasynt.com/blog/cve-2016-6187-heap-off-by-one-exploit) Exploiting Linux kernel heap off-by-one
  - [CVE-2016-5195](https://dirtycow.ninja/) also known as **Dirty Cow**, another [writeup](https://chao-tic.github.io/blog/2017/05/24/dirty-cow)
  - [CVE-2016-3714](https://imagetragick.com) ImageMagick RCE
  - [CVE-2016-3132](http://www.libnex.org/blog/doublefreeinstandardphplibrarydoublelinklist) Double Free in Standard PHP Library Double Link List

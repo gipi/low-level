@@ -32,6 +32,7 @@ by injecting query string delimiters. ``HtmlEntities`` are out of context here.
 Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf)
  - [How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!](http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html)
  - [Vimeo upload function SSRF](https://medium.com/@dPhoeniixx/vimeo-upload-function-ssrf-7466d8630437)
+ - [Hidden OAuth attack vectors](https://portswigger.net/research/hidden-oauth-attack-vectors)
 
 ## CSRF
 

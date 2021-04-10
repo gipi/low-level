@@ -6,6 +6,7 @@
  - [Why AES-GCM Sucks](https://soatok.blog/2020/05/13/why-aes-gcm-sucks/)
  - [Padding Oracles: An Animated Primer](https://dylanpindur.com/blog/padding-oracles-an-animated-primer/)
  - [The Joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) is a textbook for an undergraduate course in cryptography.
+ - [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) WHITFIELD DIFFIE AND MARTIN E. HELLMAN
 
 ## RNG
 

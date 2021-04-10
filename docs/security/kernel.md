@@ -36,6 +36,7 @@
  - [a13xp0p0v/linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
  - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html) This is a collection of lectures and labs Linux kernel topics. The lectures focus on theoretical and Linux kernel exploration.
  - [The Plight of TTY in the Linux Kernel](https://pr0cf5.github.io/ctf/2020/03/09/the-plight-of-tty-in-the-linux-kernel.html)
+ - [Four Bytes of Power: exploiting CVE-2021-26708 in the Linux kernel](https://a13xp0p0v.github.io/2021/02/09/CVE-2021-26708.html)
 
 ## Fuzzing
 
@@ -50,6 +51,7 @@
  - [Linux Kernel universal heap spray](https://duasynt.com/blog/linux-kernel-heap-spray)
  - [An Analysis of Linux Kernel Heap Hardening](https://blog.infosectcbr.com.au/2020/04/an-analysis-of-linux-kernel-heap.html)
  - [SLAB quarantine](https://a13xp0p0v.github.io/2020/11/30/slab-quarantine.html)
+ - [Exploiting Linux kernel heap off-by-one](https://duasynt.com/blog/cve-2016-6187-heap-off-by-one-exploit)
 
 ## iOS
 
