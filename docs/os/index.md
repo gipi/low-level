@@ -31,14 +31,11 @@ Related to that there are **Hypervisor**s
  - [Use mmap With Care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)
  - [signalfd is useless](https://ldpreload.com/blog/signalfd-is-useless)
  - [Linux Capabilities In Practice](https://blog.container-solutions.com/linux-capabilities-in-practice)
- - [A deep dive into Linux namespaces](http://ifeanyi.co/posts/linux-namespaces-part-1/)
- - [How to run Docker containers using common Linux tools (without Docker)](https://ilearnedhowto.wordpress.com/tag/unshare/)
  - [Debugging network stalls on Kubernetes](https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/)
  - [Eleven syscalls that suck](https://www.cloudatomiclab.com/antisyscall/)
  - [Eleven syscalls that rock the world](https://www.cloudatomiclab.com/prosyscall/)
  - [An introduction to Linux kernel initcalls](https://www.collabora.com/news-and-blog/blog/2020/07/14/introduction-to-linux-kernel-initcalls/)
  - [Static calls in Linux 5.10](https://blog.yossarian.net/2020/12/16/Static-calls-in-Linux-5-10): changes on linux 5.10 to improve performances but avoid Spectre-like attacks
- - [Why mmap is faster than system calls](https://sasha-f.medium.com/why-mmap-is-faster-than-system-calls-24718e75ab37)
 
 ### Device tree
 
@@ -57,11 +54,18 @@ Related to that there are **Hypervisor**s
  - [Lesser known Docker tips for advanced users](https://offby2.com/posts/001-docker-lesser-known-tips/)
  - [Understanding how uid and gid work in Docker containers](https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf)
  - [Connection refused?](https://pythonspeed.com/articles/docker-connection-refused/) Docker networking and how it impacts your image
+ - [A deep dive into Linux namespaces](http://ifeanyi.co/posts/linux-namespaces-part-1/)
+ - [How to run Docker containers using common Linux tools (without Docker)](https://ilearnedhowto.wordpress.com/tag/unshare/)
+ - [Docker without Docker](https://fly.io/blog/docker-without-docker/)
 
-### MM
+### Memory
 
+ - [Why mmap is faster than system calls](https://sasha-f.medium.com/why-mmap-is-faster-than-system-calls-24718e75ab37)
  - [How The Kernel Manages Your Memory](https://manybutfinite.com/post/how-the-kernel-manages-your-memory/)
  - [ARM32 Page Tables](https://people.kernel.org/linusw/arm32-page-tables)
+ - [Kernel dynamic memory analysis](https://elinux.org/Kernel_dynamic_memory_analysis)
+ - [SLUB](https://www.programmersought.com/article/34735202546/)
+ - [SLUB debug](https://www.programmersought.com/article/34053451287/)
 
 ### Gate
 
