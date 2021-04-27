@@ -3,7 +3,7 @@ site_name: low level
 markdown_extensions:
   - pymdownx.snippets
 extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML','mathjaxhelper.js']
-pages:
+nav:
 - Home: index.md
 - Computer:
   - Hardware: hw.md
