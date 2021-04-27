@@ -54,7 +54,7 @@ for example, is p14.
 
 ## Instruction set
 
-![](/images/arm-isa.png)
+![](../images/arm-isa.png)
 
 ### Links
 
