@@ -40,6 +40,7 @@
  - [Rhabdomancer.java ](https://github.com/0xdea/ghidra-scripts/blob/main/Rhabdomancer.java) A Ghidra vulnerability research assistant
  - [Ghidra script to decrypt strings in Amadey 1.09](https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-decrypt-strings-in-amadey-1-09/)
  - [PositiveTechnologies/ghidra_nodejs](https://github.com/PositiveTechnologies/ghidra_nodejs)  plugin to parse, disassemble and decompile NodeJS Bytenode (JSC) binaries
+ - [Ghidra Script To Name Function From Capabilities](youtube.com/watch?v=s5weitGaKLw) and the [scripts](https://github.com/AGDCservices/Ghidra-Scripts) described in the video
 
 ## Scripting
 
@@ -107,3 +108,4 @@ $ ./decomp_dbg
 ```
 
  - [Ghidra_Decompiler_Notes.md](https://gist.github.com/v-p-b/5be986dfe494249374cecf058d4dd41c)
+ - [Debugging Ghidra and its decompiler](https://spinsel.dev/2021/04/02/ghidra-decompiler-debugging.html)

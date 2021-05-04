@@ -17,6 +17,7 @@ library, memory model etc...
  - [Geluchat/chrome_v8_exploit](https://github.com/Geluchat/chrome_v8_exploit) A collection of 1days and solutions to challenges related to v8/chrome I developed
  - [Exploiting the Math.expm1 typing bug in V8](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
  - [Modern attacks on the Chrome browser : optimizations and deoptimizations](https://doar-e.github.io/blog/2020/11/17/modern-attacks-on-the-chrome-browser-optimizations-and-deoptimizations/)
+ - [ELECTRIC CHROME - CVE-2020-6418 on Tesla Model 3](https://leethax0.rs/2021/04/ElectricChrome/)
 
 ## SpiderMonkey
 

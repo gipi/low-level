@@ -107,3 +107,5 @@ for example, is p14.
     - Provide a convenient place to access and aggregate CMSIS-SVD hardware descriptions from multiple sources.
     - Provide parsers that make code generation and tooling based on SVD easier to build. Most parsers simply parse a provided SVD file and turn it into a data structure more easily used in that language.
  - [libopencm3/libopencm3](https://github.com/libopencm3/libopencm3) Open source ARM Cortex-M microcontroller library
+ - [How stack trace on ARM works](https://alexkalmuk.medium.com/how-stack-trace-on-arm-works-5634b35ddca1)
+

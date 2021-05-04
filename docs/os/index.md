@@ -36,6 +36,7 @@ Related to that there are **Hypervisor**s
  - [Eleven syscalls that rock the world](https://www.cloudatomiclab.com/prosyscall/)
  - [An introduction to Linux kernel initcalls](https://www.collabora.com/news-and-blog/blog/2020/07/14/introduction-to-linux-kernel-initcalls/)
  - [Static calls in Linux 5.10](https://blog.yossarian.net/2020/12/16/Static-calls-in-Linux-5-10): changes on linux 5.10 to improve performances but avoid Spectre-like attacks
+ - [From HDL to Linux Userland](https://embed-me.com/from-hdl-to-linux-userland/)
 
 ### Device tree
 

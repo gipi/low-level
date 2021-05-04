@@ -48,6 +48,7 @@
  - Console Hacking: Nintendo Switch [video](youtube.com/watch?v=C6ZI4lt-TRQ)
  - [xairy/hardware-village](https://github.com/xairy/hardware-village) Materials for my Hardware Village talks
  - [Tool Release: Sinking U-Boots with Depthcharge](https://research.nccgroup.com/2020/07/22/depthcharge/), with [documentation](https://depthcharge.readthedocs.io/)
+ - [Exploiting Undocumented Hardware Blocks in the LPC55S69](https://oxide.computer/blog/lpc55/)
 
 ## Consoles
 
