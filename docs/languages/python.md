@@ -435,3 +435,47 @@ def elaborate_archive(filepath, **kwargs):
     tar_src.close()
 
 ```
+
+## ``pandas``
+
+```
+$ pip install pandas
+```
+
+```python
+import pandas as pd
+```
+
+You can read data from a ``CSV``
+
+```python
+df = pd.read_csv("/path/to/data")
+```
+
+or create manually one
+
+```python
+df = pd.DataFrame({
+    "column 1": [data1, data2, ..., dataN],
+    "column 2": [...],
+    ...
+})
+```
+
+To have general information about the ``DataFrame``
+
+```python
+df.info()
+```
+
+A nice feature is the filtering
+
+```python
+df[(df.duration > = 200) & (df.genre == "Drama")]
+```
+
+It's possible to plot directly
+
+```python
+df.plot(x='GE', y=['TOTALE_19', 'TOTALE_20'], figsize=(20, 10))
+```
