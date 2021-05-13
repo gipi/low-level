@@ -85,3 +85,6 @@ It's possible to indicate variable like the following
 ```
 $ cmake -DUSE_QT5=1 -DCMAKE_BUILD_TYPE=Debug ..
 ```
+
+If you want a verbose output for the Makefile generated, you can use
+``make VERBOSE=1``
