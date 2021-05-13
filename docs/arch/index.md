@@ -19,6 +19,10 @@ There are two notations: **Intel** and **AT&T**.
  - [Intel and AT&T Syntax](http://www.imada.sdu.dk/Courses/DM18/Litteratur/IntelnATT.htm)
  - [GNU As manual](http://tigcc.ticalc.org/doc/gnuasm.html)
 
+### Links
+
+ - [Polyglot Assembly](https://vojtechkral.github.io/blag/polyglot-assembly/)
+
 ## ISA
 
 Four principles of IS architecture
@@ -41,6 +45,7 @@ particular processor. A given ISA may be implemented with different
 microarchitectures; implementations may vary due to different goals of a
 given design or due to shifts in technology.
 
+ - [Branch predictor: How many "if"s are too many? Including x86 and M1 benchmarks!](https://blog.cloudflare.com/branch-predictor/)
  - [MIPS Pipeline](https://www.cs.cornell.edu/courses/cs3410/2012sp/lecture/09-pipelined-cpu-i-g.pdf)
 
 ### Computer architecture

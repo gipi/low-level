@@ -93,6 +93,7 @@ See also [shellcode](/shellcode/).
  - [commix](https://github.com/stasinopoulos/commix): Automated All-in-One OS Command Injection and Exploitation Tool
  - [How To Heap](https://github.com/shellphish/how2heap): A repository for learning various heap exploitation techniques.
  - [Pure In-Memory (Shell)Code Injection In Linux Userland](https://blog.sektor7.net/#!res/2018/pure-in-memory-linux.md)
+ - [How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit](https://blog.polybdenum.com/2021/05/05/how-i-hacked-google-app-engine-anatomy-of-a-java-bytecode-exploit.html)
 
 ## Format String
 

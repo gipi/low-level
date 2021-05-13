@@ -1,5 +1,7 @@
 # Web technologies and frameworks
 
+ - [Hosting SQLite databases on Github Pages](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/)
+
 ## NGinx
 
  - [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) The easiest way to configure a performant, secure, and stable NGINX server.

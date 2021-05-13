@@ -58,6 +58,7 @@
  - [Hardware Debugging for Reverse Engineers Part 1: SWD, OpenOCD and Xbox One Controllers](https://wrongbaud.github.io/stm-xbox-jtag/)
  - [Reverse Engineering a Digital Answering Machine (part 1)](https://ivanwick.github.io/2020/03/15/answering-machine-pt1.html)
  - [Reversing TL-WR840N](https://therealunicornsecurity.github.io/TPLink/)
+ - [Reverse Engineering an Unknown Microcontroller](http://dmitry.gr/?r=05.Projects&proj=30.%20Reverse%20Engineering%20an%20Unknown%20Microcontroller)
 
 ## Software
 
