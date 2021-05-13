@@ -10,6 +10,28 @@
 
  - [CVE-2021-26708](https://a13xp0p0v.github.io/2021/02/09/CVE-2021-26708.html) Four Bytes of Power: exploiting CVE-2021-26708 in the Linux kernel
  - [CVE-2021-3156](https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt) ``sudo`` heap based overflow
+ - [Exim's Multiple vulnerabilities](https://www.qualys.com/2021/05/04/21nails/21nails.txt):
+    - CVE-2020-28007: Link attack in Exim's log directory
+    - CVE-2020-28008: Assorted attacks in Exim's spool directory
+    - CVE-2020-28014: Arbitrary file creation and clobbering
+    - CVE-2021-27216: Arbitrary file deletion
+    - CVE-2020-28011: Heap buffer overflow in queue_run()
+    - CVE-2020-28010: Heap out-of-bounds write in main()
+    - CVE-2020-28013: Heap buffer overflow in parse_fix_phrase()
+    - CVE-2020-28016: Heap out-of-bounds write in parse_fix_phrase()
+    - CVE-2020-28015: New-line injection into spool header file (local)
+    - CVE-2020-28012: Missing close-on-exec flag for privileged pipe
+    - CVE-2020-28009: Integer overflow in get_stdinput()
+    - CVE-2020-28017: Integer overflow in receive_add_recipient()
+    - CVE-2020-28020: Integer overflow in receive_msg()
+    - CVE-2020-28023: Out-of-bounds read in smtp_setup_msg()
+    - CVE-2020-28021: New-line injection into spool header file (remote)
+    - CVE-2020-28022: Heap out-of-bounds read and write in extract_option()
+    - CVE-2020-28026: Line truncation and injection in spool_read_header()
+    - CVE-2020-28019: Failure to reset function pointer after BDAT error
+    - CVE-2020-28024: Heap buffer underflow in smtp_ungetc()
+    - CVE-2020-28018: Use-after-free in tls-openssl.c
+    - CVE-2020-28025: Heap out-of-bounds read in pdkim_finish_bodyhash()
  - [CVE-2020-11060](https://offsec.almond.consulting/playing-with-gzip-rce-in-glpi.html) An arbitrary path and a hashed path disclosure can be abused to execute code on a GLPI host, by creating a PHP/GZIP polyglot file.
  - [CVE-2020-10713](https://capsule8.com/blog/grubbing-secure-boot-the-wrong-way-cve-2020-10713/) Grubbing Secure Boot the Wrong Way: OOB in the GRUB parser
  - [CVE-2020-8835](https://www.thezdi.com/blog/2020/4/8/cve-2020-8835-linux-kernel-privilege-escalation-via-improper-ebpf-program-verification)
@@ -22,8 +44,8 @@
  - [CVE-2019-14378](https://blog.bi0s.in/2019/08/24/Pwn/VM-Escape/2019-07-29-qemu-vm-escape-cve-2019-14378/) Qemu escape
  - [CVE-2019-13272](https://bugs.chromium.org/p/project-zero/issues/detail?id=1903) Linux 4.10 < 5.1.17 PTRACE_TRACEME local root [PoC](https://github.com/bcoles/kernel-exploits/blob/master/CVE-2019-13272/poc.c)
  - CVE-2019-2215
-   - [Android's ``/dev/binder`` UAF](https://dayzerosec.com/posts/analyzing-androids-cve-2019-2215-dev-binder-uaf/)
-   - [Bad Binder: Android In-The-Wild Exploit](https://googleprojectzero.blogspot.com/2019/11/bad-binder-android-in-wild-exploit.html)
+    - [Android's ``/dev/binder`` UAF](https://dayzerosec.com/posts/analyzing-androids-cve-2019-2215-dev-binder-uaf/)
+    - [Bad Binder: Android In-The-Wild Exploit](https://googleprojectzero.blogspot.com/2019/11/bad-binder-android-in-wild-exploit.html)
  - [CVE-2019-2107](https://github.com/marcinguy/CVE-2019-2107) Android stagefright-like HW vulnerability
  - [CVE-2019–0708](https://medium.com/@straightblast426/a-debugging-primer-with-cve-2019-0708-ccfa266682f6) A Debugging Primer with CVE-2019–0708
  - [CVE-2019–0708](https://www.malwaretech.com/2019/09/bluekeep-a-journey-from-dos-to-rce-cve-2019-0708.html) BlueKeep: A Journey from DoS to RCE (CVE-2019-0708)
@@ -33,10 +55,10 @@
  - [CVE-2018-8120](https://www.welivesecurity.com/2018/05/15/tale-two-zero-days/) RCE in Acrobat reader
  - [CVE-1028-7445](https://medium.com/@maxi./finding-and-exploiting-cve-2018-7445-f3103f163cc1) Finding and exploiting CVE-2018–7445 (unauthenticated RCE in MikroTik’s RouterOS SMB)
  - CVE-2017-11176:  A step-by-step Linux Kernel exploitation
-   - [part 1/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part1.html)
-   - [part 2/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part2.html)
-   - [part 3/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part3.html)
-   - [part 4/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part4.html)
+    - [part 1/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part1.html)
+    - [part 2/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part2.html)
+    - [part 3/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part3.html)
+    - [part 4/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part4.html)
  - [CVE-2017-0781](https://jesux.es/exploiting/blueborne-android-6.0.1-english/) BlueBorne RCE on Android 6.0.1
  - [CVE-2016-6187](https://duasynt.com/blog/cve-2016-6187-heap-off-by-one-exploit) Exploiting Linux kernel heap off-by-one
  - [CVE-2016-5195](https://dirtycow.ninja/) also known as **Dirty Cow**, another [writeup](https://chao-tic.github.io/blog/2017/05/24/dirty-cow)
@@ -59,9 +81,9 @@
  - [CVE-2017-1000366](https://www.qualys.com/research/security-advisories/) Stack clash
  - [Solving a post exploitation issue with CVE-2017-7308](https://www.coresecurity.com/blog/solving-post-exploitation-issue-cve-2017-7308)
  - [CVE-2017-2636](https://a13xp0p0v.github.io/2017/03/24/CVE-2017-2636.html) race condition in the n_hdlc Linux kernel driver bypassing SMEP
-  - CVE-2018-6789: Exim Off-by-one RCE
-   - [writeup](https://devco.re/blog/2018/03/06/exim-off-by-one-RCE-exploiting-CVE-2018-6789-en/)
-   - [writeup](https://medium.com/@straightblast426/my-poc-walk-through-for-cve-2018-6789-2e402e4ff588)
+ - CVE-2018-6789: Exim Off-by-one RCE
+    - [writeup](https://devco.re/blog/2018/03/06/exim-off-by-one-RCE-exploiting-CVE-2018-6789-en/)
+    - [writeup](https://medium.com/@straightblast426/my-poc-walk-through-for-cve-2018-6789-2e402e4ff588)
 
 # Writeup
 
