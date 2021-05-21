@@ -1,6 +1,7 @@
 # Web technologies and frameworks
 
  - [Hosting SQLite databases on Github Pages](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/)
+ - [The Architecture Behind A One-Person Tech Startup](https://anthonynsimon.com/blog/one-man-saas-architecture/)
 
 ## NGinx
 

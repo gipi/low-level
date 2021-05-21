@@ -26,15 +26,62 @@
 
 ## ESP32
 
+| Specs | Description |
+|-------|-------------|
+| CPU | Xtensa LX6 |
+| #core | 2 |
+| Architecture | 32bit |
+| CPU frequency | 160MHz - 240MHz |
+| Voltage | 2v7 - 3v3 |
+| Connectivity | Bluetooth (v4.2 BR/EDR and BLE), Wi-Fi (802.11 b/g/n) |
+| RAM | 520KiB |
+| Flash | ? |
+| GPIOs | 34 (10 capacitive sensing) |
+| SPI | 4 |
+| I2C | 2 |
+| I2S | 2 |
+| UART | 3 |
+| CAN  | 1 |
+| ADC | 12bit, 18 channels |
+| DAC | 8bit, 2 channels |
+| PWM | Motor and LED (up to 16 channels) |
+| Crypto | |
+
  - [Wikipedia page](https://en.wikipedia.org/wiki/ESP32)
  - [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+
+
  - [Video](https://www.youtube.com/watch?v=k_D_Qu0cgu8) ESP32 Dual Core on Arduino IDE including Data Passing and Task Synchronization
 
 ## RP2040
 
+| Specs | Description |
+|-------|-------------|
+| CPU | Arm Cortex-M0+ |
+| #core | 2 |
+| Architecture | 32bit |
+| CPU frequency | 133Mhz |
+| Voltage | 2v7 - 3v3 |
+| Connectivity | No |
+| RAM | 264KB |
+| Flash | 2MB |
+| GPIOs | 30 |
+| SPI | 2 |
+| I2C | 2 |
+| I2S | 0 |
+| UART | 2 |
+| CAN  | 0 |
+| ADC | 12bit, 4 channels |
+| DAC | 0 |
+| Timers | 3 16bit |
+| PWM | 16 |
+| USB | 1.1 Host/Device |
+
+ - Getting started with pico [pdf](https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf)
  - [datasheet](https://datasheets.raspberrypi.org/rp2040/rp2040_datasheet.pdf)
  - [A closer look at Raspberry Pi RP2040 Programmable IOs (PIO)](https://www.cnx-software.com/2021/01/27/a-closer-look-at-raspberry-pi-rp2040-programmable-ios-pio/)
  - [Video](https://www.youtube.com/watch?v=yYnQYF_Xa8g) In-depth: Raspberry Pi Pico's PIO - programmable I/O!
+ - [majbthrd/pico-debug](https://github.com/majbthrd/pico-debug) virtual debug pod for RP2040 "Raspberry Pi Pico" with no added hardware
 
 ## STM32F103C8T6
 

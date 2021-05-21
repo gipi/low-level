@@ -12,6 +12,7 @@
  - [How to Build a TCP Connection in Scapy](https://www.fir3net.com/Programming/Python/how-to-build-a-tcp-connection-in-scapy.html)
  - [The Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy)
  - [The Ultimate PCAP](https://weberblog.net/the-ultimate-pcap/)
+ - [How NAT traversal works](https://tailscale.com/blog/how-nat-traversal-works/)
 
 ## TCP/IP
 
