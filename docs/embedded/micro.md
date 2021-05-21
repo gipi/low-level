@@ -83,6 +83,8 @@
  - [Video](https://www.youtube.com/watch?v=yYnQYF_Xa8g) In-depth: Raspberry Pi Pico's PIO - programmable I/O!
  - [majbthrd/pico-debug](https://github.com/majbthrd/pico-debug) virtual debug pod for RP2040 "Raspberry Pi Pico" with no added hardware
 
+![](../images/Pico-R3-Pinout.png)
+
 ## STM32F103C8T6
 
  [Reference manual](https://www.st.com/content/ccc/resource/technical/document/reference_manual/59/b9/ba/7f/11/af/43/d5/CD00171190.pdf/files/CD00171190.pdf/jcr:content/translations/en.CD00171190.pdf) | [datasheet](https://www.st.com/resource/en/datasheet/stm32f103c8.pdf)
