@@ -16,6 +16,7 @@ nav:
   - OS:
     - 'Home': os/index.md
     - 'Windows': os/windows.md
+    - 'MacOSX': os/osx.md
   - Embedded Systems:
     - General: embedded/index.md
     - Microcontrollers: embedded/micro.md
