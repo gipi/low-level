@@ -7,3 +7,4 @@
  - [Side-Channel Aware Fuzzing](https://arxiv.org/pdf/1908.05012.pdf)
  - [google/syzkaller](https://github.com/google/syzkaller) kernel fuzzer
  - [Fuzzing Like A Caveman 5: A Code Coverage Tour for Cavepeople](https://h0mbre.github.io/Fuzzing-Like-A-Caveman-5/)
+ - Fuzzing iOS code on macOS at native speed [Or how iOS apps on macOS work under the hood](https://googleprojectzero.blogspot.com/2021/05/fuzzing-ios-code-on-macos-at-native.html)
