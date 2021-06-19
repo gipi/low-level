@@ -49,6 +49,7 @@
  - [xairy/hardware-village](https://github.com/xairy/hardware-village) Materials for my Hardware Village talks
  - [Tool Release: Sinking U-Boots with Depthcharge](https://research.nccgroup.com/2020/07/22/depthcharge/), with [documentation](https://depthcharge.readthedocs.io/)
  - [Exploiting Undocumented Hardware Blocks in the LPC55S69](https://oxide.computer/blog/lpc55/)
+ - [Dumping K360 wireless keyboard firmware with a GreatFET](https://jamchamb.net/2021/05/29/dumping-k360-firmware.html)
 
 ## Consoles
 
@@ -95,6 +96,7 @@
 
 ### Glitching
 
+ - [Glitching the Switch](https://media.ccc.de/v/c4.openchaos.2018.06.glitching-the-switch)
  - [fault injection attacks on microcontrollers: clock glitching tutorial](http://www.t4f.org/articles/fault-injection-attacks-clock-glitching-tutorial/)
  - [Shaping the Glitch: Optimizing Voltage Fault Injection Attacks](https://tches.iacr.org/index.php/TCHES/article/view/7390/6562)
  - [Introduction to Glitch Attacks (including Glitch Explorer)](http://www.newae.com/sidechannel/cwdocs/tutorialglitch.html)

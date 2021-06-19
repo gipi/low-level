@@ -67,6 +67,10 @@ The name stands for **Reduced instruction set computing**: it's a CPU design.
 
 **Performance Optimization With Enhanced RISC**
 
+ - [Inside the Xbox 360, part I](https://arstechnica.com/features/2005/05/xbox360-1/)
+ - [Inside the Xbox 360, part II](https://arstechnica.com/features/2005/06/xbox360-2/)
+ - [Finding a CPU Design Bug in the Xbox 360](https://randomascii.wordpress.com/2018/01/07/finding-a-cpu-design-bug-in-the-xbox-360/)
+
 ### 65(C)02
 
 The MOS Technology 6502 is a little-endian 8-bit microprocessor with a 16 bit address bus 

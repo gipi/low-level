@@ -7,8 +7,11 @@ library, memory model etc...
 
  - [Phrack's paper](http://www.phrack.org/papers/attacking_javascript_engines.html) .:: Attacking JavaScript Engines: A case study of JavaScriptCore and CVE-2016-4622 ::.
  - [CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/)
+ - [Patch Gapping a Safari Type Confusion](https://blog.theori.io/research/webkit-type-confusion/)
  - [JITSploitation I: A JIT Bug](https://googleprojectzero.blogspot.com/2020/09/jitsploitation-one.html)
+ - [JITSploitation II: Getting Read/Write](https://googleprojectzero.blogspot.com/2020/09/jitsploitation-two.html)
  - [THIS IS FOR THE PWNERS: EXPLOITING A WEBKIT 0-DAY IN PLAYSTATION ](https://www.synacktiv.com/publications/this-is-for-the-pwners-exploiting-a-webkit-0-day-in-playstation-4.html)
+ - [Some Brief Notes on WebKit Heap Hardening](https://labs.f-secure.com/archive/some-brief-notes-on-webkit-heap-hardening/)
 
 ## V8
 

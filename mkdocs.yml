@@ -70,6 +70,7 @@ nav:
     - 'Home': security/web/index.md
     - 'XXE': security/web/xxe.md
     - 'XSS': security/web/xss.md
+  - Windows: security/windows.md
 - Reversing:
   - Home: reversing/reversing.md
   - Ghidra: reversing/ghidra.md

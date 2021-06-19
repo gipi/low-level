@@ -17,4 +17,5 @@ It stands for **Synchronous dynamic random-access memory**.
 
 ### Heap
 
+ - [Temeraire: Hugepage-Aware Allocator](https://google.github.io/tcmalloc/temeraire.html)
  - [Heap analysis](https://github.com/radareorg/r2con/blob/master/2016/talks/05-HeapAnalysis/HeapAnalysis_r2.pdf)

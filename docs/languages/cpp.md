@@ -23,6 +23,11 @@
  - [A beginners' guide away from scanf()](http://sekrit.de/webdocs/c/beginners-guide-away-from-scanf.html)
  - [Coroutine in C Language](http://www.vishalchovatiya.com/coroutine-in-c-language/)
 
+## Preprocessor
+
+ - [C Pre-Processor Magic](http://jhnet.co.uk/articles/cpp_magic)
+ - [C Preprocessor tricks, tips, and idioms](https://github.com/pfultz2/Cloak/wiki/C-Preprocessor-tricks,-tips,-and-idioms)
+
 ## Constructor
 
 [CPP reference](https://en.cppreference.com/w/cpp/language/constructor)

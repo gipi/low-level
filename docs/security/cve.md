@@ -8,7 +8,10 @@
 
 ## List
 
+ - [CVE-2021-31440](https://www.zerodayinitiative.com/blog/2021/5/26/cve-2021-31440-an-incorrect-bounds-calculation-in-the-linux-kernel-ebpf-verifier): AN INCORRECT BOUNDS CALCULATION IN THE LINUX KERNEL EBPF VERIFIER
+ - [CVE-2021-30465](http://blog.champtar.fr/runc-symlink-CVE-2021-30465/): runc mount destinations can be swapped via symlink-exchange to cause mounts outside the rootfs
  - [CVE-2021-26708](https://a13xp0p0v.github.io/2021/02/09/CVE-2021-26708.html) Four Bytes of Power: exploiting CVE-2021-26708 in the Linux kernel
+ - [CVE-2021-23017](https://x41-dsec.de/lab/advisories/x41-2021-002-nginx-resolver-copy/): ``nginx`` DNS Resolver Off-by-One Heap Write Vulnerability
  - [CVE-2021-3156](https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt) ``sudo`` heap based overflow
  - [Exim's Multiple vulnerabilities](https://www.qualys.com/2021/05/04/21nails/21nails.txt):
     - CVE-2020-28007: Link attack in Exim's log directory

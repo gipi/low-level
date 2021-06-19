@@ -21,3 +21,4 @@ Usually ``r0`` and ``r1`` are [fixed](https://gcc.gnu.org/wiki/avr-gcc#Fixed_Reg
  - [AVR opcodes table](https://embarc.org/man-pages/as/AVR-Opcodes.html) by ``as``
  - [Instructions encoding](http://web.csulb.edu/~hill/ee346/Lectures/16%20AVR%20Instruction%20Encoding.pdf)
  - [Table with opcode](http://www.zbasic.net/download/AVR_opcodes.txt)
+ - [GCC-AVR Inline Assembler Cookbook](https://web.stanford.edu/class/ee281/projects/aut2002/yingzong-mouse/media/GCCAVRInlAsmCB.pdf)
