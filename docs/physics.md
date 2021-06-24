@@ -3,6 +3,8 @@
  - [Dissolving the Fermi Paradox](https://aleph.se/andart2/space/seti/dissolving-the-fermi-paradox/)
  - [How can electrons be “topological”?](https://gravityandlevity.wordpress.com/2020/07/14/how-can-electrons-be-topological/)
 
+![](images/spaces.png)
+
 ## Logic
 
  - [What Gödel Discovered](https://stopa.io/post/269)
