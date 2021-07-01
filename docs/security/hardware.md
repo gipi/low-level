@@ -50,6 +50,7 @@
  - [Tool Release: Sinking U-Boots with Depthcharge](https://research.nccgroup.com/2020/07/22/depthcharge/), with [documentation](https://depthcharge.readthedocs.io/)
  - [Exploiting Undocumented Hardware Blocks in the LPC55S69](https://oxide.computer/blog/lpc55/)
  - [Dumping K360 wireless keyboard firmware with a GreatFET](https://jamchamb.net/2021/05/29/dumping-k360-firmware.html)
+ - [One Exploit to Rule them All? On the Security of Drop-in Replacement and Counterfeit Microcontrollers](https://www.usenix.org/conference/woot20/presentation/obermaier)
 
 ## Consoles
 
@@ -124,6 +125,7 @@
  - [nRF52 Debug Resurrection (APPROTECT Bypass) Part 1](https://limitedresults.com/2020/06/nrf52-debug-resurrection-approtect-bypass/)
  - [There’s A Hole In Your SoC: Glitching The MediaTek BootROM](https://research.nccgroup.com/2020/10/15/theres-a-hole-in-your-soc-glitching-the-mediatek-bootrom/)
  - [CHIP.FAIL – GLITCHING THE SILICON OF THE CONNECTED WORLD](https://sector.ca/sessions/chip-fail-glitching-the-silicon-of-the-connected-world/) 
+ - [Enter the EFM32 Gecko](https://limitedresults.com/2021/06/enter-the-efm32-gecko/) hardware exploit to unlock the debug port on the EFM32 Gecko MCUs Series 1 via an home-made EM Injection System
 
 ### Power analysis
 

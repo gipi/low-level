@@ -91,7 +91,7 @@ Punycode is a representation of Unicode with the limited ASCII character subset 
 
 ## Regex
 
-![](/images/regex.png)
+![](images/regex.png)
 
  - [GREP cheat sheet](https://staff.washington.edu/weller/grep.html)
 
@@ -178,6 +178,7 @@ This is a prime that is also an ``ELF``:
  - [Palindromic 64 bit ELF binaries](https://n0.lol/bggp/writeup.html)
  - [ELF program header virtual address and file offset](https://stackoverflow.com/questions/42599558/elf-program-header-virtual-address-and-file-offset)
  - [Chain loading, not preloading: the dynamic linker as a virtualization vector](https://www.cs.kent.ac.uk/people/staff/srk21/blog/2021/01/04/)
+ - [ELF interposition and -Bsymbolic](https://maskray.me/blog/2021-05-16-elf-interposition-and-bsymbolic)
 
 ### Relocation
 
@@ -248,6 +249,10 @@ Relocations are the entities used by the linking process, dynamic or not
 ## USB
 
  - [How does a USB keyboard work?](https://www.youtube.com/watch?v=wdgULBpRoXk) video by Ben Eater
+
+## SD Card
+
+![](images/sd-card.png)
 
 ## Miscellanea
 

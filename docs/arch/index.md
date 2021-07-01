@@ -35,6 +35,7 @@ Four principles of IS architecture
 ### Links
 
  - [Wikipedia](https://en.wikipedia.org/wiki/Instruction_set)
+ - RISC-V vs x86 - History and Key Differences Explained [video](youtube.com/watch?v=4wxNWewjCSo)
 
 ### Microarchitecture
 
