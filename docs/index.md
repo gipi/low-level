@@ -31,7 +31,7 @@ w = - a_{N - 1}\, 2^{N - 1} + \sum_{i = 0}^{N - 2} a_i\,2^i
 $$
 
 in practice the MSB has much more weight with respect to the others;
-This system can represent the range $[-2^{N - 1}, 2^{N - 1} - 1]$
+This system can represent the range \\([-2^{N - 1}, 2^{N - 1} - 1]\\).
 
 
 Below a simple python function to calculate the value
