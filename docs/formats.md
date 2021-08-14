@@ -246,6 +246,10 @@ Relocations are the entities used by the linking process, dynamic or not
  - [Compact Disc Structure](https://byuu.net/compact-discs/structure)
  - [Origins and successors of the Compact Disc](https://sci-hub.se/https://doi.org/10.1007/978-1-4020-9553-5)
 
+## UART
+
+ - [Most common baud rates table](https://lucidar.me/en/serialib/most-used-baud-rates-table/)
+
 ## USB
 
  - [How does a USB keyboard work?](https://www.youtube.com/watch?v=wdgULBpRoXk) video by Ben Eater

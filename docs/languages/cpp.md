@@ -1,5 +1,8 @@
 # C&C++
 
+**declarations** specify identifiers, whereas **definitions** specify objects.
+An object is defined at the same time it is initialized.
+
  - [cppreference.com](https://en.cppreference.com/)
  - https://isocpp.org/wiki/faq
  - http://yosefk.com/c++fqa
@@ -22,6 +25,7 @@
  - [Unit Testing Embedded C](https://colinholzman.xyz/2020/08/22/unit-testing-embedded-c)
  - [A beginners' guide away from scanf()](http://sekrit.de/webdocs/c/beginners-guide-away-from-scanf.html)
  - [Coroutine in C Language](http://www.vishalchovatiya.com/coroutine-in-c-language/)
+ - [Why I still like C and strongly dislike C++](https://codecs.multimedia.cx/2021/05/why-i-still-like-c-and-strongly-dislike-cpp/)
 
 ## Preprocessor
 

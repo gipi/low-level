@@ -225,6 +225,29 @@ if __name__ == "__main__":
     main()
 ```
 
+### argparse
+
+```python
+def argparse_vendor_product(value):
+    vendor, product = tuple(value.split(":"))
+
+    return int(vendor, 16), int(product, 16)
+
+
+def parse_args():
+    args = argparse.ArgumentParser(description='upload and run some code')
+
+    args.add_argument(
+        '--device',
+        type=argparse_vendor_product,
+        required=True,
+        help="vendor:product of the device you want to interact with")
+    args.add_argument('--binary', required=True)
+    args.add_argument('--address', type=functools.partial(int, base=0))
+
+    return args.parse_args()
+```
+
 ### PySerial
 
  - [documentation](https://pyserial.readthedocs.io/en/latest/)

@@ -89,11 +89,48 @@ void FUN_005259c0(int param_1,int *param_2,int param_3)
 ```
 
 ```python
+>>> [_ for _ in currentProgram.getFunctionManager().getFunctionsNoStubs(True)]
+[FUN_c14001f0, FUN_c14002c8, FUN_c1400434, FUN_c14004a8, FUN_c14005d8,
+FUN_c1400760, FUN_c14007f0, FUN_c1400818, FUN_c1400c40, FUN_c1400ec8,
+FUN_c1401004, FUN_c1401080, FUN_c14010ac, FUN_c1401118, FUN_c140114c,
+FUN_c14011d0, FUN_c1401240, FUN_c14012b0, FUN_c1401318, FUN_c140139c,
+FUN_c1401450, FUN_c1401500, FUN_c1401594, FUN_c14017e8, FUN_c140196c,
+FUN_c140199c, FUN_c1401b6c, FUN_c1401d2c, FUN_c1401f90, FUN_c1401fb4,
+FUN_c1401fd8, FUN_c1401ffc, FUN_c1402020, FUN_c1402050, FUN_c1402074,
+FUN_c140209c, FUN_c14020c4, FUN_c1402108, FUN_c1402148, FUN_c14021b8,
+FUN_c1402228, FUN_c14022c0, FUN_c1402340, FUN_c14024ac, FUN_c140253c,
+FUN_c1402548, FUN_c1402554, FUN_c1402560, FUN_c140256c, FUN_c1402578,
+FUN_c1402584, FUN_c1402590, FUN_c140259c, FUN_c14025a8, FUN_c14025b4,
+FUN_c14025c0, FUN_c14025cc, FUN_c14025d8, FUN_c14025e4, FUN_c14025f0,
+FUN_c14025fc, FUN_c1402608, FUN_c1402614, FUN_c1402620, FUN_c140262c,
+FUN_c1402638, FUN_c1402644, FUN_c1402974]
+```
+```python
+>>> [_ for _ in currentProgram.getListing().getInstructions(f.getBody(), True)]
+[addiu sp,sp,-0x40, sw ra,0x3c(sp), sw s8,0x38(sp), move s8,sp, sw a0,0x40(s8),
+sw a1,0x44(s8), sw a2,0x48(s8), sw zero,0x10(s8), lw v0,0x44(s8), bne
+v0,zero,0xc140022c, _nop, li v0,-0x16, sw v0,0x30(s8), b 0xc14002ac, _nop, lw
+v1,0x40(s8), lw v0,0x48(s8), addu v0,v1,v0, sltiu v0,v0,0x201, bne
+v0,zero,0xc1400254, _nop, li v0,-0x16, sw v0,0x30(s8), b 0xc14002ac, _nop, addiu
+v0,s8,0x18, move a0,v0, clear a1, li a2,0x18, jal 0xc14025e4, _nop, lw
+v0,0x44(s8), sw v0,0x18(s8), lw v0,0x40(s8), addiu v0,v0,0x200, sw v0,0x1c(s8),
+lw v0,0x48(s8), sw v0,0x20(s8), li v0,0x9, sw v0,0x24(s8), addiu v0,s8,0x18,
+move a0,v0, jal 0xc14024ac, _nop, sw v0,0x10(s8), lw v0,0x10(s8), sw
+v0,0x30(s8), lw v0,0x30(s8), move sp,s8, lw ra,0x3c(sp), lw s8,0x38(sp), addiu
+sp,sp,0x40, jr ra, _nop]
+```
+
+```python
 >>> function = currentProgram.getFunctionManager().getFunctionContaining(toAddr(0x005259c0))
 >>> list(currentProgram.getReferenceManager().getReferencesTo(function.getEntryPoint()))
 [From: 00525a78 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT, From: 00525a90 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT, From: 00525aa8 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT, From: 00525ac0 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT, From: 00525ad8 To: 005259c0 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT]
 >>> [(getInstructionAt(_.getFromAddress()).getMnemonicString(), getFunctionContaining(_.getFromAddress()),_.getReferenceType()) for _ in currentProgram.getReferenceManager().getReferencesTo(function.getEntryPoint())]
 [(u'jal', http_get_code_text, UNCONDITIONAL_CALL), (u'jal', http_get_code_text, UNCONDITIONAL_CALL), (u'jal', http_get_code_text, UNCONDITIONAL_CALL), (u'jal', http_get_code_text, UNCONDITIONAL_CALL), (u'jal', http_get_code_text, UNCONDITIONAL_CALL)]
+```
+
+```python
+>>> v = jarray.zeros(0x100, "b")
+>>> createMemoryBlock("syscall", toAddr("OTHER:0x00000000"), v, True)
 ```
 
 ## Decompiler

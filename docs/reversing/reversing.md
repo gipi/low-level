@@ -26,6 +26,8 @@
  - [Reverse engineering Flutter apps (Part 1)](https://blog.tst.sh/reverse-engineering-flutter-apps-part-1/)
  - [Analyzing the USB Controller's Firmware](https://8051enthusiast.github.io/2020/04/14/001-USB_Firmware.html)
  - [Advanced Binary Deobfuscation](https://github.com/malrev/ABD)
+ - [Defeating Code Obfuscation with Angr](https://napongizero.github.io/blog/Defeating-Code-Obfuscation-with-Angr)
+ - [Reverse Engineering WiFi on RISC-V BL602](https://lupyuen.github.io/articles/wifi)
  
 
 ## Protocol

@@ -94,6 +94,18 @@ Variables have also scope (see ``:help internal-variables``)
 | ``:winpos      `` | Vim window position (gui) |
 | ``:xmap        `` | visual mode maps only |
 
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| ``:echom[sg]`` | print message|
+| ``:norm[al]`` | run command in normal mode |
+| ``:exe[cute]`` | execute command passed as string |
+| ``:bufdo`` | execute action on each buffer |
+| ``:argdo`` | execute action on each file passed as argument when ``vim`` was started |
+| ``:windo`` | execute action on the visible buffers opened |
+| ``:r[ead] !{cmd}`` | execute ``{cmd}`` and insert the standard output |
+
 ## Quickfix and location list
 
  - https://freshman.tech/vim-quickfix-and-location-list/
@@ -126,14 +138,18 @@ Use ``&&`` to repeat the last substitution.
 It's not immediate like other editors but it's possible, the best option is to
 use a plugin like [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors).
 
-#### Append text
+### Append text
 
 This works out of the box in vim: with **Visual block mode** select the lines
 you want to append text to, press ``$`` to move the cursor at the end of line
 and then press ``A`` to start append mode. After you terminated to insert the
 text, ``ESC`` and wait the text to update.
 
+### Edit multiple files at once
+
+ - [Effective editing of multiple files in Vim](https://jovica.org/posts/vim-edit-multiple-files/)
 
 ## Plugins
 
  - [ALE](https://github.com/dense-analysis/ale) Asynchronous Lint Engine is a plugin providing linting (syntax checking and semantic errors)
+

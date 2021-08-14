@@ -15,6 +15,11 @@ The default target (when one is not indicated) is the first defined in the
 A particular type of target is a [phony target](https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html),
 i.e. a target that doesn't reflect an actual file on the filesystem.
 
+The syntax of a target is the following
+
+```
+<targets>: <normal-prerequisites> | <order-only-prerequisites>
+```
 
 ### Variables
 

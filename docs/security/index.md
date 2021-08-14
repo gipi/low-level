@@ -141,6 +141,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [PAYLOAD ALREADY INSIDE: DATA REUSE FOR ROP EXPLOITS](https://media.blackhat.com/bh-us-10/whitepapers/Le/BlackHat-USA-2010-Le-Paper-Payload-already-inside-data-reuse-for-ROP-exploits-wp.pdf)
  - [Linux ASLR and GNU Libc: Address space layout computing and defence, and “stack canary” protection bypass](/documents/offensivecon-talk.pdf)
  - [New bypass and protection techniques for ASLR on Linux](http://blog.ptsecurity.com/2018/02/new-bypass-and-protection-techniques.html)
+ - [Exploiting the notoriously unsafe gets() on a PAC-protected ARM64 binary](https://blog.ret2.io/2021/06/16/intro-to-pac-arm64/)
 
 ## Cloud
 
