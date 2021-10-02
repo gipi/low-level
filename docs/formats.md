@@ -94,6 +94,7 @@ Punycode is a representation of Unicode with the limited ASCII character subset 
 ![](images/regex.png)
 
  - [GREP cheat sheet](https://staff.washington.edu/weller/grep.html)
+ - [Balancing Clarity, Elegance, and Risk in Regular Expressions](https://gist.github.com/apthorpe/26f2355a7505f437701b5ac0b6879584)
 
 ## Compression related (Zip, GZip)
 

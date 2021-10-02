@@ -19,6 +19,8 @@
 ## Compiling&Linking
 
  - [A ToC of the 20 part linker essay](https://lwn.net/Articles/276782/)
+ - [Designing Linker Scripts with GNU Linker](https://ravikiranb.com/articles/linker-script/)
+ - [From Zero to main(): Demystifying Firmware Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
  - [LD command language](https://www.math.utah.edu/docs/info/ld_3.html)
  - [Breaking the links: Exploiting the linker](https://www.nth-dimension.org.uk/pub/BTL.pdf)
 

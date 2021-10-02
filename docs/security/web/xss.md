@@ -34,6 +34,8 @@ execution context.
  - [Microsoft Edge (Chromium) - EoP via XSS to Potential RCE](https://leucosite.com/Edge-Chromium-EoP-RCE/)
  - [Redefining Impossible: XSS without arbitrary JavaScript](https://portswigger.net/research/redefining-impossible-xss-without-arbitrary-javascript)
  - [XSS in the AWS console](https://frichetten.com/blog/xss_in_aws_console/)
+ - [Tiny XSS Payloads](https://tinyxss.terjanq.me/)
+ - [alert() without letters or numbers](https://gist.github.com/ignis-sec/a89988c3bc473c055c1c5a5228a23fc6)
 
 ## RPO
 

@@ -264,6 +264,21 @@ to configure all the environment variables correctly and make the build success.
 
 By default uses ``Ctrl-b`` as a control sequence
 
+| Command | Description |
+|---------|-------------|
+| new | create new session |
+| attach | attach to an already created session |
+| ls | |
+
+### Sessions
+
+| Key | Description |
+|-----|-------------|
+| ``s`` | visualize sessions and allow to switch between them |
+| ``$`` | rename session |
+| ``(`` | move to the previous session |
+| ``)`` | move to the next session |
+
 ### Windows
 
 | Key | Description |
@@ -292,4 +307,19 @@ By default uses ``Ctrl-b`` as a control sequence
 | ``{`` | move pan to the left |
 | ``}`` | move pan to the right |
 | ``t`` | big clock |
+
+### Clipboard
+
+``tmux`` has its own clipboard and it's useful to copy and paste stuff from a
+window/pane to another.
+
+| Key | Description |
+|-----|-------------|
+| ``[`` | enter copy mode |
+| ``space`` | start selection |
+| ``]`` | paste |
+
+An unusual key binding here is for copying into the ``tmux``'s clipboard that is ``Alt + w``.
+Otherwise ``enter`` is good enough but exit from copy mode altogether.
+
 

@@ -1,8 +1,5 @@
 # C&C++
 
-**declarations** specify identifiers, whereas **definitions** specify objects.
-An object is defined at the same time it is initialized.
-
  - [cppreference.com](https://en.cppreference.com/)
  - https://isocpp.org/wiki/faq
  - http://yosefk.com/c++fqa
@@ -26,6 +23,39 @@ An object is defined at the same time it is initialized.
  - [A beginners' guide away from scanf()](http://sekrit.de/webdocs/c/beginners-guide-away-from-scanf.html)
  - [Coroutine in C Language](http://www.vishalchovatiya.com/coroutine-in-c-language/)
  - [Why I still like C and strongly dislike C++](https://codecs.multimedia.cx/2021/05/why-i-still-like-c-and-strongly-dislike-cpp/)
+ - [Generic data structures in C](https://www.andreinc.net/2010/09/30/generic-data-structures-in-c)
+
+
+## Syntax
+
+**declarations** specify identifiers, whereas **definitions** specify objects.
+An object is defined at the same time it is initialized.
+
+ - [right-left rule](https://cseweb.ucsd.edu/~ricko/rt_lt.rule.html)
+ - [Clockwise/Spiral Rule](http://c-faq.com/decl/spiral.anderson.html)
+
+
+## Formatting
+
+| modifier | Type     | Conversion |
+|----------|----------|------------|
+| "hh"     | ``char`` | integer    |
+| "h"      | ``short`` | integer   |
+| ""       | ``signed``,``unsigned`` | integer |
+| "l"      | ``long`` | integer |
+| "ll"     | ``long long`` | integer |
+| "j"      | ``intmax_t``, ``uintmax_t | integer |
+| "z"      | ``size_t`` | integer |
+| "t"      | ``ptrdiff_t`` | integer |
+| "L"      | ``long double`` | floating point |
+
+| flag | meaning | conversion |
+|------|---------|------------|
+| "#"  | alternate form | "aAeEfFgGoxX" |
+| "0"  | zero padding | numeric |
+| "-"  | left adjustment | any |
+| " "  | space for positive number | signed |
+| "+"  | explicit sign for positive number | signed |
 
 ## Preprocessor
 

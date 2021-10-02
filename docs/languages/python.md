@@ -30,9 +30,12 @@
  - [How to Bootstrap a Python Project](https://blog.emacsos.com/bootstrap-a-python-project.html)
  - [A Practical Guide to Using Setup.py](https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/)
  - [Massive memory overhead: Numbers in Python and how NumPy helps](https://pythonspeed.com/articles/python-integers-memory/)
+ - [Reproducible Python Bytecode](https://vulns.xyz/2021/08/reproducible-python-bytecode/)
+ - [pythontutor](https://pythontutor.com/)
 
 ## Packaging
 
+ - [python-packaging.readthedocs.io](https://python-packaging.readthedocs.io/)
  - http://www.scotttorborg.com/python-packaging/index.html
  - http://nvie.com/posts/pin-your-packages/
  - http://tech.marksblogg.com/better-python-package-management.html
@@ -192,6 +195,17 @@ Token: '34'
 >>> import operator
 >>> x = {1: 2, 3: 4, 4:3, 2:1, 0:0}
 >>> sorted_x = sorted(x.iteritems(), key=operator.itemgetter(1))
+```
+
+### Two's complement
+
+```python
+>>> value = 0xb59395a9
+>>> f"{ctypes.c_uint32(value).value:032b}"
+'10110101100100111001010110101001'
+>>> f"{ctypes.c_uint32(~value).value:032b}"
+'01001010011011000110101001010110'
+
 ```
 
 ### Getopt

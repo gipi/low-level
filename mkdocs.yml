@@ -27,12 +27,14 @@ nav:
   - Filesystem: filesystem.md
   - Applications:
     - General: applications/index.md
-    - Vim: applications/vim.md
+    - ffmpeg: applications/ffmpeg.md
     - Gdb: applications/gdb.md
     - Git: applications/git.md
-    - Qt: applications/qt.md
+    - jq: applications/jq.md
     - nmap: applications/nmap.md
+    - Qt: applications/qt.md
     - SSH: applications/ssh.md
+    - Vim: applications/vim.md
 - Programming:
   - Home: programming/programming.md
   - Algorithms: programming/algorithms.md

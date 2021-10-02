@@ -61,6 +61,8 @@
  - [Reverse Engineering a Digital Answering Machine (part 1)](https://ivanwick.github.io/2020/03/15/answering-machine-pt1.html)
  - [Reversing TL-WR840N](https://therealunicornsecurity.github.io/TPLink/)
  - [Reverse Engineering an Unknown Microcontroller](http://dmitry.gr/?r=05.Projects&proj=30.%20Reverse%20Engineering%20an%20Unknown%20Microcontroller)
+ - [Reverse Engineering the M1](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Reverse-Engineering-The-M1.pdf)
+ - [Reverse Engineering the M6 Smart Fitness Bracelet](https://rbaron.net/blog/2021/07/06/Reverse-engineering-the-M6-smart-fitness-band.html)
 
 ## Software
 

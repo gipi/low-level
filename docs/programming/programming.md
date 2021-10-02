@@ -49,6 +49,7 @@
  - [Writing a GCC back end](https://kristerw.blogspot.com/2017/08/writing-gcc-backend_4.html)
  - [A Deep Introduction to JIT Compilers: JITs are not very Just-in-time](https://carolchen.me/blog/jits-intro/)
  - [How JIT Compilers are Implemented and Fast: Pypy, LuaJIT, Graal and More](https://carolchen.me/blog/jits-impls/)
+ - [GCC's assembler syntax](https://www.felixcloutier.com/documents/gcc-asm.html)
 
 ## Linkers
 

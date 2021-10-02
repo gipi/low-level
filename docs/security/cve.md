@@ -13,6 +13,9 @@
  - [CVE-2021-30465](http://blog.champtar.fr/runc-symlink-CVE-2021-30465/): runc mount destinations can be swapped via symlink-exchange to cause mounts outside the rootfs
  - [CVE-2021-26708](https://a13xp0p0v.github.io/2021/02/09/CVE-2021-26708.html) Four Bytes of Power: exploiting CVE-2021-26708 in the Linux kernel
  - [CVE-2021-23017](https://x41-dsec.de/lab/advisories/x41-2021-002-nginx-resolver-copy/): ``nginx`` DNS Resolver Off-by-One Heap Write Vulnerability
+ - [CVE-2021-22555](https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html) Turning \x00\x00 into 10000$
+ - [CVE-2021-21225](https://tiszka.com/blog/CVE_2021_21225.html) a vulnerability in V8's Array.prototype.concat implementation
+    - [part 2](https://tiszka.com/blog/CVE_2021_21225_exploit.html) with the exploit
  - [CVE-2021-21017](https://blog.exodusintel.com/2021/06/28/analysis-of-a-heap-buffer-overflow-vulnerability-in-adobe-acrobat-reader-dc/) Analysis of a Heap Buffer-Overflow Vulnerability in Adobe Acrobat Reader DC
  - [CVE-2021-3156](https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt) ``sudo`` heap based overflow
  - [Exim's Multiple vulnerabilities](https://www.qualys.com/2021/05/04/21nails/21nails.txt):
@@ -37,6 +40,7 @@
     - CVE-2020-28024: Heap buffer underflow in smtp_ungetc()
     - CVE-2020-28018: Use-after-free in tls-openssl.c
     - CVE-2020-28025: Heap out-of-bounds read in pdkim_finish_bodyhash()
+ - [CVE-2020-13629](https://raelize.com/blog/espressif-esp32-bypassing-encrypted-secure-boot-cve-2020-13629/) Espressif ESP32: Bypassing Encrypted Secure Boot
  - [CVE-2020-11060](https://offsec.almond.consulting/playing-with-gzip-rce-in-glpi.html) An arbitrary path and a hashed path disclosure can be abused to execute code on a GLPI host, by creating a PHP/GZIP polyglot file.
  - [CVE-2020-10713](https://capsule8.com/blog/grubbing-secure-boot-the-wrong-way-cve-2020-10713/) Grubbing Secure Boot the Wrong Way: OOB in the GRUB parser
  - [CVE-2020-8835](https://www.thezdi.com/blog/2020/4/8/cve-2020-8835-linux-kernel-privilege-escalation-via-improper-ebpf-program-verification)

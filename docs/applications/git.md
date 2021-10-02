@@ -99,6 +99,12 @@ of the function containing it
 $ git grep -W <some string>
 ```
 
+## Search across all branches
+
+```
+$ git grep <regex> $(git for-each-ref --format='%(refname:short)' refs/heads)
+```
+
 ## Submodules
 
 This is the most hated functionality by me: the interface is really hard to remember

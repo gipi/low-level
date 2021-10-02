@@ -27,7 +27,7 @@ Exists **substitution references** (see
 [doc](https://www.gnu.org/software/make/manual/html_node/Substitution-Refs.html))in
 the form of ``$(var:a=b)`` where the value of the variable ``var`` has the
 occurrence of the ``a`` at the end of it replaced with ``b``; for example
-``$(SOURCE:.c:.o)`` is the quick way to obtain the corresponding derived object
+``$(SOURCE:%.c=%.o)`` is the quick way to obtain the corresponding derived object
 filename from source files.
 
 #### Automatic variables
