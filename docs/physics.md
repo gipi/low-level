@@ -47,3 +47,7 @@ symbols having all the same probabilities; moreover it's possible to show that
 $$
 H(P) \leq L = \hbox{average code length}
 $$
+
+## Galois's theory
+
+ - [Field and Galois theory](http://www.math.clemson.edu/~macaule/classes/f21_math4120/slides/math4120_slides_section6_h.pdf)

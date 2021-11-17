@@ -1,5 +1,11 @@
 # Kernel exploiting
 
+Exploitation in this environment is a little special because, first of all is the kernel,
+so failure means all the system is fucked up, second you have all the particular
+subsystems (think about memory allocation for example) and mitigations designed
+specifically for it.
+
+
  - [Kernel stack overflows (basics)](https://blog.0x80.org/kernel-stack-overflows-basics/)
  - [Kernel exploitation for dummies](http://uaf.io/exploitation/misc/2016/09/10/Kernel-Exploitation-for-Dummies.html)
  - [Writing kernel exploits](https://tc.gtisc.gatech.edu/bss/2014/r/kernel-exploits.pdf)
@@ -10,7 +16,6 @@
    kernel stack data (probably fixed by now)
  - [Practical SMEP/SMAP bypass techniques on Linux](https://www.syscan360.org/slides/2016_SG_Vitaly_Nikolenko_Practical_SMEP_Bypass_Techniques.pdf)
  - [SMEP: What is It, and How to Beat It on Linux](http://vulnfactory.org/blog/2011/06/05/smep-what-is-it-and-how-to-beat-it-on-linux/)
- - [The State of Kernel Self Protection](https://outflux.net/slides/2018/lca/kspp.pdf)
  - [Linux Kernel x86-64 bypass SMEP - KASLR - kptr_restric](http://blackbunny.io/linux-kernel-x86-64-bypass-smep-kaslr-kptr_restric/)
  - Linux Kernel ROP - Ropping your way to [part 1](https://www.trustwave.com/Resources/SpiderLabs-Blog/Linux-Kernel-ROP---Ropping-your-way-to---(Part-1)/) and [part 2](https://www.trustwave.com/Resources/SpiderLabs-Blog/Linux-Kernel-ROP---Ropping-your-way-to---(Part-2)/)
  - [Hacking the PS4, part 3](https://cturt.github.io/ps4-3.html) kernel exploitation
@@ -32,19 +37,37 @@
    - [part 4/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part4.html)
  - [pr0cf5/kernel-exploit-practice](https://github.com/pr0cf5/kernel-exploit-practice) repository for kernel exploit practice
  - [milabs/lkrg-bypass](https://github.com/milabs/lkrg-bypass) LKRG bypass methods
- - [Control Flow Integrity (CFI) in the Linux kernel](https://outflux.net/slides/2020/lca/cfi.pdf)
  - [a13xp0p0v/linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
  - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html) This is a collection of lectures and labs Linux kernel topics. The lectures focus on theoretical and Linux kernel exploration.
  - [The Plight of TTY in the Linux Kernel](https://pr0cf5.github.io/ctf/2020/03/09/the-plight-of-tty-in-the-linux-kernel.html)
  - [Four Bytes of Power: exploiting CVE-2021-26708 in the Linux kernel](https://a13xp0p0v.github.io/2021/02/09/CVE-2021-26708.html)
+ - Learning Linux Kernel Exploitation
+   - [Part 1](https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/)
+   - [Part 2](https://lkmidas.github.io/posts/20210128-linux-kernel-pwn-part-2/)
+   - [Part 3](https://lkmidas.github.io/posts/20210205-linux-kernel-pwn-part-3/)
+
+## Mitigations
+
+ - Kernel stack cookies
+ - Address space layout randomization (``KASLR``)
+ - Supervisor mode access prevention (``SMAP``): all the userland pages in the
+   page table are set not executable when the system is in kernel mode
+ - Kernel page table isolation (``KPTI``): user-space and kernel-space table are
+   completely separated when in user-mode
+
+### Links
+
+ - [The State of Kernel Self Protection](https://outflux.net/slides/2018/lca/kspp.pdf)
+ - [Control Flow Integrity (CFI) in the Linux kernel](https://outflux.net/slides/2020/lca/cfi.pdf)
+
+### KASLR
+
+ - [bcoles/kasld](https://github.com/bcoles/kasld) A collection of various techniques to bypass KASLR and retrieve the Linux kernel base virtual address on x86 / x86_64 architectures as an unprivileged user.
+
 
 ## Fuzzing
 
  - Fuzzing the Linux kernel (x86) entry code, [part 1](https://blogs.oracle.com/linux/fuzzing-the-linux-kernel-x86-entry-code%2c-part-1-of-3), [part 2](https://blogs.oracle.com/linux/fuzzing-the-linux-kernel-x86-entry-code%2c-part-2-of-3), [part 3](https://blogs.oracle.com/linux/fuzzing-the-linux-kernel-x86-entry-code%2c-part-3-of-3)
-
-## KASLR
-
- - [bcoles/kasld](https://github.com/bcoles/kasld) A collection of various techniques to bypass KASLR and retrieve the Linux kernel base virtual address on x86 / x86_64 architectures as an unprivileged user.
 
 ## Heap
 

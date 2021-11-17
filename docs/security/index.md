@@ -26,6 +26,7 @@ unexploitability](http://ieeexplore.ieee.org/stamp/stamp.jsp?reload=true&tp=&arn
  - Now you C me
    - [part 1](https://securitylab.github.com/research/now-you-c-me)
    - [part 2](https://securitylab.github.com/research/now-you-c-me-part-two)
+ - [How to exploit a double free](https://github.com/stong/how-to-exploit-a-double-free) when a system (like ARM) have a "weak" memory model
 
 Unrelated for now but there is an Android's vulnerabilities [CVE-2017-13156](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) where the system parses an ``APK`` or a ``DEX`` allowing to bypass signature.
 
