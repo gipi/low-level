@@ -32,6 +32,7 @@
  - [esaulenka/ghidra_v850](https://github.com/esaulenka/ghidra_v850) Ghidra support for Renesas V850 MCUs
  - [reb311ion/replica](https://github.com/reb311ion/replica) Ghidra Analysis Enhancer
  - [cetfor/GhidraSnippets](https://github.com/cetfor/GhidraSnippets) is a collection of Python examples showing how to work with Ghidra APIs
+ - [HackOvert/GhidraSnippets](https://github.com/HackOvert/GhidraSnippets) Python snippets for Ghidra's Program and Decompiler APIs
  - [GhidraJupyter/ghidra-jupyter-kotlin](https://github.com/GhidraJupyter/ghidra-jupyter-kotlin/tree/main/ghidra_jupyter)
  - [Ghidra: the story of _check_sec_cookie](https://mageirias.com/articles/ghidra/ghidra_a_story_of_check_sec_cookie/ghidra_check_sec_cookie.html)
  - [Introduction to Reverse Engineering with Ghidra: A Four Session Course](https://wrongbaud.github.io/posts/ghidra-training/)

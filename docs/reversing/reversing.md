@@ -33,6 +33,7 @@
 ## Protocol
 
  - [Analyzing WhatsApp Calls with Wireshark, radare2 and Frida](https://medium.com/@schirrmacher/analyzing-whatsapp-calls-176a9e776213)
+ - [USB Reverse Engineering: Down the rabbit hole](devalias.net/devalias/2018/05/13/usb-reverse-engineering-down-the-rabbit-hole/)
 
 ## Hardware
 

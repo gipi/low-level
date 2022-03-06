@@ -1,5 +1,29 @@
 # Git
 
+## Revisions
+
+The most basic element needed to interact with ``git`` is the concept of
+**revisions**:
+
+| | Description |
+|-|-------------|
+| ``<sha1>`` | the full sha1 of the object you need |
+| ``<refname>`` | a symbolic ref name |
+
+
+Some useful reference are
+
+| Name | Description |
+|------|-------------|
+| ``HEAD`` | |
+| ``FETCH_HEAD`` | |
+| ``ORIG_HEAD`` | |
+| ``MERGE_HEAD`` | |
+| ``CHERRY_PICK_HEAD`` | |
+| ``BISECT_HEAD`` | |
+| ``REVERT_HEAD`` | |
+| ``REJECT_NON_FF_HEAD`` | |
+
 ## Edit commit
 
 ```
@@ -65,6 +89,18 @@ It's possible to use ``git mergetool`` in order to help with resolution, in part
 with the flag ``--tool`` is possible to indicate which tool to use.
 
  - [Resolving conflicts during a Git rebase](https://codeinthehole.com/guides/resolving-conflicts-during-a-git-rebase/)
+
+## Show the nearest tag
+
+It adds also a little more of data
+
+```
+$ git describe  --tags 
+Ghidra_10.0.4_build-481-geab247707
+```
+
+in this example, 481 are the commits from the tag itself, and ``g<hash>``
+contains the hash of the actual commit you are on.
 
 ## Notes
 

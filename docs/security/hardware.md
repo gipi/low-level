@@ -56,6 +56,8 @@
 
  - [The naked PSP](https://uofw.github.io/upspd/docs/software/naked_psp.pdf)
  - [Trinity: PSP Emulator Escape](https://theofficialflow.github.io/2019/06/18/trinity.html)
+ - [Full key extraction of NVIDIA™ TSEC](https://gist.githubusercontent.com/plutooo/733318dbb57166d203c10d12f6c24e06/raw/15c5b2612ab62998243ce5e7877496466cabb77f/tsec.txt)
+ - [Je Ne Sais Quoi - Falcons over the Horizon](https://hexkyz.blogspot.com/2021/11/je-ne-sais-quoi-falcons-over-horizon.html)
 
 ## Bootloader
 

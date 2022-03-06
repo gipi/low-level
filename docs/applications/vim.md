@@ -22,9 +22,6 @@ Variables have also scope (see ``:help internal-variables``)
 
 ### Predefined variables
 
-| Name | Description |
-|------|-------------|
-| ``:scrollbind`` | Binds two or more windows to scroll together |
 
 ## Environment
 
@@ -98,13 +95,15 @@ Variables have also scope (see ``:help internal-variables``)
 
 | Command | Description |
 |---------|-------------|
-| ``:echom[sg]`` | print message|
-| ``:norm[al]`` | run command in normal mode |
-| ``:exe[cute]`` | execute command passed as string |
-| ``:bufdo`` | execute action on each buffer |
 | ``:argdo`` | execute action on each file passed as argument when ``vim`` was started |
-| ``:windo`` | execute action on the visible buffers opened |
+| ``:bufdo`` | execute action on each buffer |
+| ``:echom[sg]`` | print message|
+| ``:exe[cute]`` | execute command passed as string |
+| ``:mks``      | save session to disk |
+| ``:norm[al]`` | run command in normal mode |
 | ``:r[ead] !{cmd}`` | execute ``{cmd}`` and insert the standard output |
+| ``:scrollbind`` | Binds two or more windows to scroll together |
+| ``:windo`` | execute action on the visible buffers opened |
 
 ## Quickfix and location list
 
@@ -120,16 +119,36 @@ Use ``&&`` to repeat the last substitution.
 
  - https://devhints.io/vimscript
 
-## Insert mode
+## Normal mode
 
- - ``Ctrl-r %``: relative path of the current file
+ - ``g Ctrl-g``: give information about selected text
+ - ``gi`` return in insert mode in the last place you exited it
+ - ``gv`` reselect the last selection
+ - ``g;`` go to older position in the changelist
+ - ``g,`` go to newer position in the changelist
+ - ``Ctrl-e``: move viewport one line up
+ - ``Ctrl-y``: move viewport one line down
 
-## Window
+| Shortcut | Description |
+|----------|-------------|
+| ``Ctrl-u`` | move a page up |
+| ``Ctrl-d`` | move a page down |
+| ``zz`` | move the current line at the center |
+
+
+### Window
 
 | Shortcut | Description |
 |----------|-------------|
 | ``Ctrl-w + K`` | change vertical split to horizontal |
 | ``Ctrl-w + H`` | change horizontal split to vertical |
+
+## Insert mode
+
+ - ``Ctrl-r %``: relative path of the current file
+ - ``Ctrl-t``: indent current line
+ - ``Ctrl-d``: backdent current line
+
 
 ## Cookbook
 

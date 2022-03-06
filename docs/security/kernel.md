@@ -96,3 +96,6 @@ specifically for it.
 
  - [paper](https://www.usenix.org/system/files/sec20summer_chen-weiteng_prepub.pdf)
 
+### A Systematic Study of Elastic Objects in Kernel Exploitation
+
+ - [paper](https://dl.acm.org/doi/pdf/10.1145/3372297.3423353)
