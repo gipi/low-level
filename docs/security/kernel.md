@@ -31,10 +31,10 @@ specifically for it.
  - [collection of verified Linux kernel exploits](https://github.com/jollheef/lpe)
  - [Tailoring CVE-2019-2215 to Achieve Root](https://hernan.de/blog/2019/10/15/tailoring-cve-2019-2215-to-achieve-root/)
  - CVE-2017-11176:  A step-by-step Linux Kernel exploitation
-   - [part 1/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part1.html)
-   - [part 2/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part2.html)
-   - [part 3/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part3.html)
-   - [part 4/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part4.html)
+    - [part 1/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part1.html)
+    - [part 2/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part2.html)
+    - [part 3/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part3.html)
+    - [part 4/4](https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part4.html)
  - [pr0cf5/kernel-exploit-practice](https://github.com/pr0cf5/kernel-exploit-practice) repository for kernel exploit practice
  - [milabs/lkrg-bypass](https://github.com/milabs/lkrg-bypass) LKRG bypass methods
  - [a13xp0p0v/linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
@@ -42,9 +42,9 @@ specifically for it.
  - [The Plight of TTY in the Linux Kernel](https://pr0cf5.github.io/ctf/2020/03/09/the-plight-of-tty-in-the-linux-kernel.html)
  - [Four Bytes of Power: exploiting CVE-2021-26708 in the Linux kernel](https://a13xp0p0v.github.io/2021/02/09/CVE-2021-26708.html)
  - Learning Linux Kernel Exploitation
-   - [Part 1](https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/)
-   - [Part 2](https://lkmidas.github.io/posts/20210128-linux-kernel-pwn-part-2/)
-   - [Part 3](https://lkmidas.github.io/posts/20210205-linux-kernel-pwn-part-3/)
+    - [Part 1](https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/)
+    - [Part 2](https://lkmidas.github.io/posts/20210128-linux-kernel-pwn-part-2/)
+    - [Part 3](https://lkmidas.github.io/posts/20210205-linux-kernel-pwn-part-3/)
 
 ## Mitigations
 
@@ -59,6 +59,7 @@ specifically for it.
 
  - [The State of Kernel Self Protection](https://outflux.net/slides/2018/lca/kspp.pdf)
  - [Control Flow Integrity (CFI) in the Linux kernel](https://outflux.net/slides/2020/lca/cfi.pdf)
+ - [Put an io_uring on it: Exploiting the Linux Kernel](https://www.graplsecurity.com/post/iou-ring-exploiting-the-linux-kernel)
 
 ### KASLR
 
@@ -99,3 +100,7 @@ specifically for it.
 ### A Systematic Study of Elastic Objects in Kernel Exploitation
 
  - [paper](https://dl.acm.org/doi/pdf/10.1145/3372297.3423353)
+
+### Jump Over ASLR: Attacking Branch Predictors to Bypass ASLR
+
+ - [paper](https://www.cs.ucr.edu/~nael/pubs/micro16.pdf)
