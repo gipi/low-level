@@ -126,6 +126,12 @@ a string as little as possible**.
  - [commix](https://github.com/commixproject/commix) Automated All-in-One OS command injection and exploitation tool.
  - [BranchScope: A New Side-Channel Attack on Directional Branch Predictor](http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf)
  - [Jump Over ASLR: Attacking Branch Predictors to Bypass ASLR](https://www.cs.ucr.edu/~nael/pubs/micro16.pdf)
+ - [Ghostbuster: Spectre exploitation in real life](https://github.com/Ledger-Donjon/ledger-donjon.github.io/blob/9e2e29704e16fa4ccad0005c916f427b6889b367/_posts/2020-11-25-ghostbuster.md)
+ - [transient.fail](https://transient.fail/)
+ - [cpu.fail](https://cpu.fail/)
+ - [Two methods for exploiting speculative control flow hijacks](https://www.usenix.org/sites/default/files/conference/protected-files/woot19_slides_mambretti.pdf) slide by Andrea Mambretti
+ - [Presentation](https://github.com/Voultapher/Presentations/blob/67e79dc4ce37cc563d1f976507095ab64c8ed8a1/retpoline/present.md) about retpoline
+ - [The BTB in contemporary Intel chips](https://xania.org/201602/bpu-part-three)
 
 You can check the vulnerability of your processor from
 ``/sys/devices/system/cpu/vulnerabilities/``.
@@ -157,6 +163,7 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
 ## Hardware
 
  - [Secure Systems and Pwning Popular Platforms](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/13/08_lecture.pdf)
+ - [Documentation about ARM Morello](https://developer.arm.com/documentation/#cf[navigationhierarchiesproducts]=Architectures,CPU%20Architecture,A-Profile,Morello)
 
 ## Tools
 

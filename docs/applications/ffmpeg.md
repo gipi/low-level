@@ -1,5 +1,10 @@
 # FFMPEG
 
+## Get info about media file
+
+``
+$ ffprobe -hide_banner <file>
+``
 
 ## Dump M3U8 video
 

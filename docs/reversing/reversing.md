@@ -105,6 +105,7 @@
  - [Using Radare to Enumerate Artifacts in a Java Class File](http://deeso.github.io/posts/2014/04/radare-java-artifact-enumeration/)
  - [The Java Virtual Machine Instruction Set](https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-6.html)
  - [Exploring Java bytecode](https://blog.nishtahir.com/2015/09/12/exploring-java-byte-code/)
+ - [charles2gan/GDA-android-reversing-Tool](https://github.com/charles2gan/GDA-android-reversing-Tool) GDA is a new fast and powerful decompiler in C++(working without Java VM) for the APK, DEX, ODEX, OAT, JAR, AAR, and CLASS file. which supports malicious behavior detection, privacy leaking detection, vulnerability detection, path solving, packer identification, variable tracking, deobfuscation, python&java scripts, device memory extraction, dat…
 
 It is possible to edit a single class file and save it, after that you can reput it into the jar with
 
