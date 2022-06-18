@@ -26,8 +26,9 @@
  - [Reverse engineering Flutter apps (Part 1)](https://blog.tst.sh/reverse-engineering-flutter-apps-part-1/)
  - [Analyzing the USB Controller's Firmware](https://8051enthusiast.github.io/2020/04/14/001-USB_Firmware.html)
  - [Advanced Binary Deobfuscation](https://github.com/malrev/ABD)
- - [Defeating Code Obfuscation with Angr](https://napongizero.github.io/blog/Defeating-Code-Obfuscation-with-Angr)
  - [Reverse Engineering WiFi on RISC-V BL602](https://lupyuen.github.io/articles/wifi)
+ - [Symbolic Execution Demystified 2022](https://github.com/JannisKirschner/SymbolicExecutionDemystified/blob/main/Symbolic%20Execution%20Demystified%202022.pdf)
+ - [Defeating Code Obfuscation with Angr](https://napongizero.github.io/blog/Defeating-Code-Obfuscation-with-Angr)
  
 
 ## Protocol
@@ -178,6 +179,7 @@ Num Vaddr      Paddr      Len Size Section  Type  String
  - [shroudedcode/apk-mitm](https://github.com/shroudedcode/apk-mitm) A CLI application that prepares Android APK files for HTTPS inspection
  - [fkie-cad/DeStroid](https://github.com/fkie-cad/DeStroid) Fighting String Encryption in Android Malware
  - [Reverse engineering Flutter for Android](https://rloura.wordpress.com/2020/12/04/reversing-flutter-for-android-wip/)
+ - [Obfuscated obfuscation](https://blog.lexfo.fr/dexguard.html): reversing of an APK of a device
 
 ### Python
 

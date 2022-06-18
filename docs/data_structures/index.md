@@ -1,6 +1,6 @@
 # Data structures
 
- - http://bigocheatsheet.com/
+ - [bigocheatsheet](http://bigocheatsheet.com/)
  - [Open Data Structures (in pseudocode)](http://opendatastructures.org/ods-python.pdf)
  - [Coding Interview University](https://github.com/jwasham/coding-interview-university) A complete computer science study plan to become a software engineer.
  - [Shenanigans With Hash Tables](http://thume.ca/2019/07/29/shenanigans-with-hash-tables/)

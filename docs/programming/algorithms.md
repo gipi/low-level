@@ -1,7 +1,7 @@
 # Algorithms
 
  - [Algorithm tutorials](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index)
- - [http://bost.ocks.org/mike/algorithms/]()
+ - [Visualizing Algorithms](http://bost.ocks.org/mike/algorithms/)
  - [Ramer–Douglas–Peucker algorithm](http://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm): is an algorithm for reducing the number of points in a curve that is approximated by a series of points.
  - [PID controller](http://playground.arduino.cc/Code/PIDLibrary): calculates an 'error' value as the difference between a measured [Input] and a desired setpoint. The controller attempts to minimize the error by adjusting [an Output].
  - http://brm.io/game-physics-for-beginners/
@@ -45,6 +45,23 @@ Bloom filters are space-efficient probablistic data structures used to test whet
  - [CRC16-CCITT](http://srecord.sourceforge.net/crc16-ccitt.html)
  - [crcmod](http://crcmod.sourceforge.net/) python module
  - [CRC Tool Kit](https://github.com/henryk/ctk)
+
+## Search
+
+### Breadth First Search (BFS)
+
+In this mode you explore all states that can be reached on one step, then all
+states that can be reached in two steps, etc...
+
+Its time complexity can be expressed as
+
+$$
+O\left(\| V \| + \| E \|\right)
+$$
+
+#### 0-1 BFS
+
+It's used for weighted graphs.
 
 ## Sorting
 

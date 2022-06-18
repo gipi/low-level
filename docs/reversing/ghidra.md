@@ -44,6 +44,8 @@
  - [PositiveTechnologies/ghidra_nodejs](https://github.com/PositiveTechnologies/ghidra_nodejs)  plugin to parse, disassemble and decompile NodeJS Bytenode (JSC) binaries
  - [Ghidra Script To Name Function From Capabilities](youtube.com/watch?v=s5weitGaKLw) and the [scripts](https://github.com/AGDCservices/Ghidra-Scripts) described in the video
  - [Creating a Ghidra processor module in SLEIGH using V8 bytecode as an example](https://swarm.ptsecurity.com/creating-a-ghidra-processor-module-in-sleigh-using-v8-bytecode-as-an-example/)
+ - [Ghidra script to handle stack strings](https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-handle-stack-strings/)
+ - [EXPANDING THE DRAGON: ADDING AN ISA TO GHIDRA](https://trenchant.io/expanding-the-dragon-adding-an-isa-to-ghidra/)
 
 ## Scripting
 
@@ -399,6 +401,45 @@ It's also possible to take a look at the all the analyzers available:
                                                                        CFStrings	ghidra.macosx.analyzers.CFStringAnalyzer
                                                    Mach-O Constructor/Destructor	ghidra.macosx.analyzers.MachoConstructorDestructorAnalyzer
                                                                             Test	ghidra.macosx.analyzers.TestAnalyzer
+```
+
+```
+def getXref(func):
+    target_addr = func.entryPoint
+    references = getReferencesTo(target_addr)
+    callers = []
+    for xref in references:
+        call_addr = xref.getFromAddress()
+        caller = getFunctionContaining(call_addr)
+        callers.append(caller)
+    return list(set(callers))
+```
+
+```
+def getCallerInfo(caller, options = DecompileOptions(), monitor = ConsoleTaskMonitor(), ifc = DecompInterface()):
+    ifc.setOptions(options)
+    ifc.openProgram(currentProgram)
+    res = ifc.decompileFunction(caller, 60, monitor)
+    high_func = res.getHighFunction()
+    lsm = high_func.getLocalSymbolMap()
+    symbols = lsm.getSymbols()
+    if high_func:
+        opiter = high_func.getPcodeOps()
+        while opiter.hasNext():
+            op = opiter.next()
+            mnemonic = str(op.getMnemonic())
+            if mnemonic == "CALL":
+                inputs = op.getInputs()
+                addr = inputs[0].getAddress()
+                args = inputs[1:] # List of VarnodeAST types
+                if addr == target_addr:
+                    print("Call to {} at {} has {} arguments: {}".format(addr, op.getSeqnum().getTarget(), len(args), args))
+                    for arg in args:
+                        # Do stuff with each `arg` here...
+                        # Not sure what to do? Check out this great article by Lars A. Wallenborn for some ideas:
+                        # https://blag.nullteilerfrei.de/2020/02/02/defeating-sodinokibi-revil-string-obfuscation-in-ghidra/
+                        # Specifically, search for the function implementation of "traceVarnodeValue"
+                        pass
 ```
 
 ## Decompiler

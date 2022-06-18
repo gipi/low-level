@@ -1,6 +1,7 @@
 # C&C++
 
  - [cppreference.com](https://en.cppreference.com/)
+ - [cppiceberg](https://fouronnes.github.io/cppiceberg/)
  - https://isocpp.org/wiki/faq
  - http://yosefk.com/c++fqa
  - [C++ tutorial for C users](http://www.ericbrasseur.org/cppcen.html)
@@ -100,8 +101,12 @@ and then the copy constructor for the assignment to the left hand side.
 
 ### Default constructor
 
-A default constructor is a constructor that either has no parameters, or if it
+A [default constructor](https://en.cppreference.com/w/cpp/language/default_constructor) is a constructor that either has no parameters, or if it
 has parameters, all the parameters have default values.
+
+If no user-declared constructors of any kind are provided for a class type
+(struct, class, or union), the compiler will always declare a default
+constructor as an inline public member of its class.
 
 ### Copy constructor
 
@@ -111,11 +116,53 @@ It's in the form ``Class(const Class&)``.
 
 It's possible to have multiple parent classes.
 
-## virtual
+## Virtual functions
+
+The importance of ``virtual`` keyword is that allows for **runtime polymorphism**, i.e.,
+it tells the compiler to resolve the function call at runtime.
+
+From [here](https://en.cppreference.com/w/cpp/language/virtual)
+
+    The virtual specifier specifies that a non-static member function is virtual and
+    supports dynamic dispatch. It may only appear in the decl-specifier-seq of the
+    initial declaration of a non-static member function (i.e., when it is declared
+    in the class definition).
+
+    If some member function vf is declared as virtual in a class Base, and some
+    class Derived, which is derived, directly or indirectly, from Base, has a
+    declaration for member function with the same
+
+    name
+    parameter type list (but not the return type)
+    cv-qualifiers
+    ref-qualifiers
+
+    Then this function in the class Derived is also virtual (whether or not the
+    keyword virtual is used in its declaration) and overrides Base::vf (whether or
+    not the word override is used in its declaration).
+
+    Base::vf does not need to be accessible or visible to be overridden. (Base::vf
+    can be declared private, or Base can be inherited using private inheritance. Any
+    members with the same name in a base class of Derived which inherits Base do not
+    matter for override determination, even if they would hide Base::vf during name
+    lookup.)
+
+
+
+To be noted that this specifier has to be applied to the base class, it's the
+derived class that is affected though.
 
  - https://stackoverflow.com/questions/2391679/why-do-we-need-virtual-functions-in-c
- - https://en.cppreference.com/w/cpp/language/virtual
- - 
+
+## Virtual base class
+
+It's possible to indicate ``virtual`` for the parent class during the declaration of a subclass.
+This means [that](https://en.cppreference.com/w/cpp/language/derived_class)
+
+    For each distinct base class that is specified virtual, the most derived object
+    contains only one base class subobject of that type, even if the class appears
+    many times in the inheritance hierarchy (as long as it is inherited virtual
+    every time).
 
 ## Visibility
 

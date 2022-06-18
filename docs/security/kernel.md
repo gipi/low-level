@@ -45,6 +45,9 @@ specifically for it.
     - [Part 1](https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/)
     - [Part 2](https://lkmidas.github.io/posts/20210128-linux-kernel-pwn-part-2/)
     - [Part 3](https://lkmidas.github.io/posts/20210205-linux-kernel-pwn-part-3/)
+ - [Writing a Linux Kernel Remote in 2022](https://blog.immunityinc.com/p/writing-a-linux-kernel-remote-in-2022/)
+ - [Learning Linux kernel exploitation - Part 2](https://0x434b.dev/learning-linux-kernel-exploitation-part-2-cve-2022-0847/) Continuing to walk down Linux Kernel exploitation lane. This time around with an unanticipated topic: DirtyPipe as it actually nicely fits the series as an example.
+ - [The Android kernel mitigations obstacle race](https://github.blog/2022-06-16-the-android-kernel-mitigations-obstacle-race/) CVE-2022-22057, a use-after-free in the Qualcomm gpu kernel driver
 
 ## Mitigations
 
@@ -69,6 +72,7 @@ specifically for it.
 ## Fuzzing
 
  - Fuzzing the Linux kernel (x86) entry code, [part 1](https://blogs.oracle.com/linux/fuzzing-the-linux-kernel-x86-entry-code%2c-part-1-of-3), [part 2](https://blogs.oracle.com/linux/fuzzing-the-linux-kernel-x86-entry-code%2c-part-2-of-3), [part 3](https://blogs.oracle.com/linux/fuzzing-the-linux-kernel-x86-entry-code%2c-part-3-of-3)
+ - [Looking for Remote Code Execution bugs in the Linux kernel](https://xairy.io/articles/syzkaller-external-network) This article covers my experience with fuzzing the Linux kernel externally over the network. I’ll explain how I extended a kernel fuzzer called syzkaller for this purpose and show off the found bugs.
 
 ## Heap
 
@@ -76,6 +80,7 @@ specifically for it.
  - [An Analysis of Linux Kernel Heap Hardening](https://blog.infosectcbr.com.au/2020/04/an-analysis-of-linux-kernel-heap.html)
  - [SLAB quarantine](https://a13xp0p0v.github.io/2020/11/30/slab-quarantine.html)
  - [Exploiting Linux kernel heap off-by-one](https://duasynt.com/blog/cve-2016-6187-heap-off-by-one-exploit)
+ - [Playing for K(H)eaps: Understanding and Improving Linux Kernel Exploit Reliability](https://www.usenix.org/system/files/sec22fall_zeng.pdf)
 
 ## iOS
 

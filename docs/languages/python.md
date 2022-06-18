@@ -135,6 +135,8 @@
 
  - [NumPy Illustrated: The Visual Guide to NumPy](https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)
  - [Scipy Lecture Notes](http://scipy-lectures.org/)
+ - [Panda's Hierarchical Indexing](https://jakevdp.github.io/PythonDataScienceHandbook/03.05-hierarchical-indexing.html)
+ - [Panda's Indexing and selecting data](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html)
 
 ## Interesting Stuffs
 

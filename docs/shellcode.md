@@ -34,6 +34,9 @@ source code: for example the kernel can log a line like
 
     kernel: myapp[15514]: segfault at 794ef0 ip 080513b sp 794ef0 error 6 in myapp[8048000+24000]
 
+This [link](https://wiki.debian.org/InterpretingKernelOutputAtProcessCrash) can
+help on analyze the meaning.
+
 If you want to capture the segmentation fault error you can do something like [this](https://unix.stackexchange.com/questions/53289/does-segmentation-fault-message-come-under-stderr)
 
     { ./code; } >&log
@@ -49,6 +52,11 @@ If you want to capture the segmentation fault error you can do something like [t
  *   bit 4 ==                           1: fault was an instruction fetch
  */
 ```
+
+So
+ 
+ - if the error code is 4, then the faulty memory access is a read from userland
+ - if the error code is 6, then the faulty memory access is a write from userland
 
 ## Stack-based
 

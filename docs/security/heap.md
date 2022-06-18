@@ -38,3 +38,4 @@
  - [House of Io](https://awaraucom.wordpress.com/2020/07/19/house-of-io-remastered/): bypass **safe-linking** by targeting directly the main tcache metadata that is pointed to from free()d allocations
  - [Bypassing GLIBC 2.32’s Safe-Linking Without Leaks into Code Execution: The House of Rust](https://c4ebt.github.io/2021/01/22/House-of-Rust.html)
  - [Safe-Linking – Eliminating a 20 year-old malloc() exploit primitive](https://research.checkpoint.com/2020/safe-linking-eliminating-a-20-year-old-malloc-exploit-primitive/) xoring the pointers in the single linked lists using the base address of the ``mmaping``
+ - [Exploiting a Use-After-Free for code execution in every version of Python 3](https://pwn.win/2022/05/11/python-buffered-reader.html)

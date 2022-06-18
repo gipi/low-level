@@ -51,6 +51,7 @@
  - [Exploiting Undocumented Hardware Blocks in the LPC55S69](https://oxide.computer/blog/lpc55/)
  - [Dumping K360 wireless keyboard firmware with a GreatFET](https://jamchamb.net/2021/05/29/dumping-k360-firmware.html)
  - [One Exploit to Rule them All? On the Security of Drop-in Replacement and Counterfeit Microcontrollers](https://www.usenix.org/conference/woot20/presentation/obermaier)
+ - [A Primer on Cold Boot Attacks Against Embedded Systems](https://sec-consult.com/blog/detail/a-primer-on-cold-boot-attacks-against-embedded-systems/)
 
 ## Consoles
 
@@ -58,6 +59,12 @@
  - [Trinity: PSP Emulator Escape](https://theofficialflow.github.io/2019/06/18/trinity.html)
  - [Full key extraction of NVIDIA™ TSEC](https://gist.githubusercontent.com/plutooo/733318dbb57166d203c10d12f6c24e06/raw/15c5b2612ab62998243ce5e7877496466cabb77f/tsec.txt)
  - [Je Ne Sais Quoi - Falcons over the Horizon](https://hexkyz.blogspot.com/2021/11/je-ne-sais-quoi-falcons-over-horizon.html)
+ - [shogihax - Remote Code Execution on Nintendo 64 through Morita Shogi 64](https://cturt.github.io/shogihax.html)
+ - [bd-j exploit chain](https://hackerone.com/reports/1379975) 5 vulnerabilities
+   chained together that allows an attacker to gain JIT capabilities and execute
+   arbitrary payloads on PS4/PS5
+ - [Exploiting the Wii U's USB Descriptor parsing](https://garyodernichts.blogspot.com/2022/06/exploiting-wii-us-usb-descriptor-parsing.html?m=1)
+ - [PS4 Aux Hax 5: Flawed Instructions Get Optimized](https://fail0verflow.com/blog/2022/ps4-psvr/)
 
 ## Bootloader
 
@@ -72,6 +79,7 @@
  - [De Rebus Antiquis](https://xerub.github.io/ios/iboot/2018/05/10/de-rebus-antiquis.html) exploiting the recursive stack overflow bug in the iOS 7 bootchain
  - [Analysis of Qualcomm Secure Boot Chains](https://blog.quarkslab.com/analysis-of-qualcomm-secure-boot-chains.html)
  - [Exploiting Qualcomm EDL Programmers (1): Gaining Access & PBL Internals](https://alephsecurity.com/2018/01/22/qualcomm-edl-1/)
+ - [Pwn­ing the bcm61650](https://blog.xilokar.info/pwning-the-bcm61650.html)
 
 ## Jailbreak
 

@@ -95,6 +95,7 @@ See also [shellcode](/shellcode/).
  - [How To Heap](https://github.com/shellphish/how2heap): A repository for learning various heap exploitation techniques.
  - [Pure In-Memory (Shell)Code Injection In Linux Userland](https://blog.sektor7.net/#!res/2018/pure-in-memory-linux.md)
  - [How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit](https://blog.polybdenum.com/2021/05/05/how-i-hacked-google-app-engine-anatomy-of-a-java-bytecode-exploit.html)
+ - [Ret2dl_resolve x64: Exploiting Dynamic Linking Procedure In x64 ELF Binaries](https://syst3mfailure.io/ret2dl_resolve)
 
 ## Format String
 

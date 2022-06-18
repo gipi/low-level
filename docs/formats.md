@@ -2,6 +2,7 @@
 
  - [Linux Foundation Referenced Specifications](https://refspecs.linuxfoundation.org/)
  - [CyberChef](https://gchq.github.io/CyberChef/) A simple, intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages. CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression.
+ - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
 
 ## Endianess
 
@@ -118,6 +119,7 @@ The most common compression formats are all using the ``DEFLATE`` algorithm defi
  - [How to make compressed file quines, step by step](https://blog.matthewbarber.io/2019/07/22/how-to-make-compressed-file-quines)
  - [YouFLATE](https://github.com/XlogicX/YouFLATE) An interactive tool that allows you to DEFLATE (compress) data using your own length-distance pairs, not merely the most efficient ones as is default with DEFLATE.
  - [infgen](https://github.com/madler/infgen) Deflate disassember to convert a deflate, zlib, or gzip stream into a readable form.
+ - [Gzip = Zip = Zlib = Deflate ?](https://speakerdeck.com/ange/gzip-equals-zip-equals-zlib-equals-deflate)
 
 ## JPEG
 
@@ -232,6 +234,7 @@ Relocations are the entities used by the linking process, dynamic or not
 
  - [A closer look at Portable Executable MS-DOS Stub](https://marcin-chwedczuk.github.io/a-closer-look-at-portable-executable-msdos-stub)
  - [Modern PE Mangling](https://n0.lol/a/pemangle.html)
+ - [The .NET File Format](https://www.ntcore.com/files/dotnetformat.htm)
 
 ## Mach-O
 
@@ -262,3 +265,7 @@ Relocations are the entities used by the linking process, dynamic or not
 ## Miscellanea
 
  - [500 Byte Images: The Haiku Vector Icon Format](http://blog.leahhanson.us/post/recursecenter2016/haiku_icons.html)
+
+## Polyglot
+
+ - [αcτµαlly pδrταblε εxεcµταblε](https://justine.lol/ape.html) 

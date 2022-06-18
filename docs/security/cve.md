@@ -8,6 +8,12 @@
 
 ## List
 
+ - [CVE-2022-29867](https://hackerone.com/reports/1350653) Remote kernel heap overflow on PS4
+ - [CVE-2022-23088](https://www.zerodayinitiative.com/blog/2022/6/15/cve-2022-23088-exploiting-a-heap-overflow-in-the-freebsd-wi-fi-stack) exploiting a heap overflow in the freebsd wi-fi stack
+ - [CVE-2022-22057](https://github.blog/2022-06-16-the-android-kernel-mitigations-obstacle-race/) a use-after-free in the Qualcomm gpu kernel driver
+ - [CVE-2022-21449](https://neilmadden.blog/2022/04/19/psychic-signatures-in-java/): Psychic Signatures in Java
+ - [CVE-2022-1015-1016](https://blog.dbouman.nl/2022/04/02/How-The-Tables-Have-Turned-CVE-2022-1015-1016/)  two vulnerabilties found in the ``nf_tables`` component of the netfilter subsystem in the Linux kernel.
+ - [CVE-2022-0847](https://0x434b.dev/learning-linux-kernel-exploitation-part-2-cve-2022-0847/) [dirty pipe](https://lolcads.github.io/posts/2022/06/dirty_pipe_cve_2022_0847/)
  - [CVE-2021-33909](https://www.qualys.com/2021/07/20/cve-2021-33909/sequoia-local-privilege-escalation-linux.txt) Sequoia: A deep root in Linux's filesystem layer
  - [CVE-2021-31440](https://www.zerodayinitiative.com/blog/2021/5/26/cve-2021-31440-an-incorrect-bounds-calculation-in-the-linux-kernel-ebpf-verifier): AN INCORRECT BOUNDS CALCULATION IN THE LINUX KERNEL EBPF VERIFIER
  - [CVE-2021-30465](http://blog.champtar.fr/runc-symlink-CVE-2021-30465/): runc mount destinations can be swapped via symlink-exchange to cause mounts outside the rootfs
