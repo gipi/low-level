@@ -46,6 +46,17 @@
  - [Creating a Ghidra processor module in SLEIGH using V8 bytecode as an example](https://swarm.ptsecurity.com/creating-a-ghidra-processor-module-in-sleigh-using-v8-bytecode-as-an-example/)
  - [Ghidra script to handle stack strings](https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-handle-stack-strings/)
  - [EXPANDING THE DRAGON: ADDING AN ISA TO GHIDRA](https://trenchant.io/expanding-the-dragon-adding-an-isa-to-ghidra/)
+ - [Automating binary vulnerability discovery with Ghidra and Semgrep](https://security.humanativaspa.it/automating-binary-vulnerability-discovery-with-ghidra-and-semgrep/)
+
+## Tools
+
+ - [GhidraEmu](https://github.com/Nalen98/GhidraEmu) Native Pcode emulator
+ - [Ghidra Bridge](https://github.com/justfoxing/ghidra_bridge) Python 3 bridge to Ghidra's Python scripting
+ - [ghidra_ExportToX64dbg](https://github.com/schlafwandler/ghidra_ExportToX64dbg) A Ghidra script to export data to a x64dbg database
+
+## PCode
+
+ - [P-Code Reference Manual](https://spinsel.dev/assets/2020-06-17-ghidra-brainfuck-processor-1/ghidra_docs/language_spec/html/pcoderef.html)
 
 ## Scripting
 

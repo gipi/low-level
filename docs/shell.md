@@ -44,4 +44,5 @@ An useful diagram from [here](https://clementc.github.io/blog/2018/01/25/moving_
  - [Command Injection Without Spaces](http://www.betterhacker.com/2016/10/command-injection-without-spaces.html)
  - [HINTS FOR WRITING UNIX TOOLS](https://monkey.org/~marius/unix-tools-hints.html)
  - [PIPES, FORKS, & DUPS: UNDERSTANDING COMMAND EXECUTION AND INPUT/OUTPUT DATA FLOW](http://www.rozmichelle.com/pipes-forks-dups/)
+ - [How fast are Linux pipes anyway?](https://mazzo.li/posts/fast-pipes.html)
  - [What exactly was the point of ``[ “x$var” = “xval” ]``?](https://www.vidarholen.net/contents/blog/?p=1035)

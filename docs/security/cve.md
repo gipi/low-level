@@ -23,6 +23,7 @@
  - [CVE-2021-21225](https://tiszka.com/blog/CVE_2021_21225.html) a vulnerability in V8's Array.prototype.concat implementation
     - [part 2](https://tiszka.com/blog/CVE_2021_21225_exploit.html) with the exploit
  - [CVE-2021-21017](https://blog.exodusintel.com/2021/06/28/analysis-of-a-heap-buffer-overflow-vulnerability-in-adobe-acrobat-reader-dc/) Analysis of a Heap Buffer-Overflow Vulnerability in Adobe Acrobat Reader DC
+ - [CVE-2021-4034](https://blog.qualys.com/vulnerabilities-threat-research/2022/01/25/pwnkit-local-privilege-escalation-vulnerability-discovered-in-polkits-pkexec-cve-2021-4034) PwnKit: Local Privilege Escalation Vulnerability Discovered in polkit’s pkexec
  - [CVE-2021-3156](https://www.qualys.com/2021/01/26/cve-2021-3156/baron-samedit-heap-based-overflow-sudo.txt) ``sudo`` heap based overflow
  - [Exim's Multiple vulnerabilities](https://www.qualys.com/2021/05/04/21nails/21nails.txt):
     - CVE-2020-28007: Link attack in Exim's log directory

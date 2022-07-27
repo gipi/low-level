@@ -233,3 +233,7 @@ HDMI-0 connected 1280x720+0+0 (0x42) normal (normal left inverted right x axis y
 ## nRF52840 MDK USB Dongle
 
  - [Home page](https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/getting-started/)
+
+## Rpi
+
+ - [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer) 24 channel, 100Msps logic analyzer hardware and software

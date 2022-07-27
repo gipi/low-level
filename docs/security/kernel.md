@@ -81,6 +81,7 @@ specifically for it.
  - [SLAB quarantine](https://a13xp0p0v.github.io/2020/11/30/slab-quarantine.html)
  - [Exploiting Linux kernel heap off-by-one](https://duasynt.com/blog/cve-2016-6187-heap-off-by-one-exploit)
  - [Playing for K(H)eaps: Understanding and Improving Linux Kernel Exploit Reliability](https://www.usenix.org/system/files/sec22fall_zeng.pdf)
+ - [Linux kernel heap feng shui in 2022](https://duasynt.com/blog/linux-kernel-heap-feng-shui-2022)
 
 ## iOS
 

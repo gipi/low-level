@@ -38,6 +38,7 @@ Related to that there are **Hypervisor**s
  - [Static calls in Linux 5.10](https://blog.yossarian.net/2020/12/16/Static-calls-in-Linux-5-10): changes on linux 5.10 to improve performances but avoid Spectre-like attacks
  - [From HDL to Linux Userland](https://embed-me.com/from-hdl-to-linux-userland/)
  - [understanding thread stack sizes and how alpine is different](https://ariadne.space/2021/06/25/understanding-thread-stack-sizes-and-how-alpine-is-different/)
+ - [How fast are Linux pipes anyway?](https://mazzo.li/posts/fast-pipes.html)
 
 ### Device tree
 

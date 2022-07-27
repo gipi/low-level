@@ -93,6 +93,7 @@ Open source ISA
 
  - [Home page](https://riscv.org/)
  - [potato](https://github.com/skordal/potato) A simple RISC-V processor for use in FPGA designs.
+ - [RISC-V: An Overview	of	the	Instruction	Set	Architecture](https://web.cecs.pdx.edu/~harry/riscv/RISCV-Summary.pdf)
 
 
 ## Links

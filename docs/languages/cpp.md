@@ -1,5 +1,6 @@
 # C&C++
 
+ - [Beej's Guide to C Programming](https://beej.us/guide/bgc/)
  - [cppreference.com](https://en.cppreference.com/)
  - [cppiceberg](https://fouronnes.github.io/cppiceberg/)
  - https://isocpp.org/wiki/faq
@@ -25,6 +26,7 @@
  - [Coroutine in C Language](http://www.vishalchovatiya.com/coroutine-in-c-language/)
  - [Why I still like C and strongly dislike C++](https://codecs.multimedia.cx/2021/05/why-i-still-like-c-and-strongly-dislike-cpp/)
  - [Generic data structures in C](https://www.andreinc.net/2010/09/30/generic-data-structures-in-c)
+ - [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/)
 
 
 ## Syntax
@@ -35,6 +37,7 @@ An object is defined at the same time it is initialized.
  - [right-left rule](https://cseweb.ucsd.edu/~ricko/rt_lt.rule.html)
  - [Clockwise/Spiral Rule](http://c-faq.com/decl/spiral.anderson.html)
 
+An rvalue is a temporary that does not persist beyond the expression that defines it, such as an intermediate function result which is never stored in a variable.
 
 ## Formatting
 
@@ -184,6 +187,8 @@ is called for that class; to avoid that overhead you can use a ``const`` referen
  - [Thinking in C++, 2nd ed. Volume 1/References & the Copy-Constructor](http://www.cs.ust.hk/~dekai/library/ECKEL_Bruce/TICPP-2nd-ed-Vol-one/TICPP-2nd-ed-Vol-one-html/Chapter11.html)
  - [CppCon 2019: Klaus Iglberger “Back to Basics: Move Semantics (part 2 of 2)”](https://www.youtube.com/watch?v=pIzaZbKUw2s)
 
+An rvalue is a temporary that does not persist beyond the expression that defines it, such as an intermediate function result which is never stored in a variable.
+
 ## Operators overloading
 
  - [C++ Operator Overloading Guidelines](http://courses.cms.caltech.edu/cs11/material/cpp/donnie/cpp-ops.html)
@@ -198,9 +203,57 @@ public:
 }
 ```
 
+The special expression ``template<>`` is called **template specialization** and allows customizing the template code for a given set of template arguments.
+
  - [Why templates can only be implemented in the header file](http://stackoverflow.com/questions/495021/why-can-templates-only-be-implemented-in-the-header-file)
  - https://stackoverflow.com/questions/43268146/why-is-stditerator-deprecated
  - https://softwareengineering.stackexchange.com/questions/386614/c-iterator-why-is-there-no-iterator-base-class-all-iterators-inherit-from
+ - [Recursive template metaprogramming (Part I)](https://eopxd.com/2021/05/05/recursive-template-metaprogramming-part-i/)
+ - [TEMPLATE METAPROGRAMMING](https://accu.org/journals/overload/9/46/walker_424/)
+
+## Pointers-to-members
+
+These allow to refer to non-static members of class objects (including functions).
+
+```c++
+#include <iostream>
+using namespace std;
+
+class X {
+public:
+  int a;
+  void f(int b) {
+    cout << "The value of b is "<< b << endl;
+  }
+};
+
+int main() {
+
+  // declare pointer to data member
+  int X::*ptiptr = &X::a;
+
+  // declare a pointer to member function
+  void (X::* ptfptr) (int) = &X::f;
+
+  // create an object of class type X
+  X xobject;
+
+  // initialize data member
+  xobject.*ptiptr = 10;
+
+  cout << "The value of a is " << xobject.*ptiptr << endl;
+
+  // call member function
+  (xobject.*ptfptr) (20);
+}
+```
+
+The pointer to member operators ``.*`` and ``->*`` are used to bind a pointer to a
+member of a specific class object. Because the precedence of ``()`` (function call
+operator) is higher than ``.*`` and ``->*``, you must use parentheses to call the
+function pointed to by ``ptf``.
+
+ - [post by IBM](https://www.ibm.com/docs/en/i/7.4?topic=only-pointers-members-c)
 
 ## Iterators
 

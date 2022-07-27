@@ -96,6 +96,7 @@
  - [In Transactional Memory, No One Can Hear You Scream](http://blog.ret2.io/2019/06/26/attacking-intel-tsx/)
  - [Bypassing KPTI Using the Speculative Behavior of the SWAPGS Instruction](https://businessresources.bitdefender.com/hubfs/noindex/Bitdefender-WhitePaper-SWAPGS.pdf)
  - [Recovering the CTR_DRBG state in 256 traces](https://www.esat.kuleuven.be/cosic/publications/article-3094.pdf)
+ - [Read secure firmware from STM32F1xx flash using ChipWhisperer](https://prog.world/read-secure-firmware-from-stm32f1xx-flash-using-chipwhisperer/)
 
 ## CPUs
 
