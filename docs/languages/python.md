@@ -1,5 +1,94 @@
 # Python
 
+``python`` is an interpreted language, that looks a lot like pseudocode.
+
+## Data Types
+
+The [standard type hierarchy](https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy)
+
+| Name | Description |
+|------|-------------|
+| ``None`` | particular type used as a null that is only representative of its type |
+| ``numbers.Number`` | representation of numerical entities |
+
+
+
+https://docs.python.org/3/library/stdtypes.html?
+
+
+**container** here means that it's not limited to a single data type but can
+have mixed types together. The opposite of container is **flat**.
+
+**hashable**: object that has a hash value which never changes during its lifetime
+
+| Name     | Description | Mutable | Container |
+|----------|-------------|---------|-----------|
+| ``int``, ``float`` and ``complex`` | unlimited precision numerical types | ✅ | ❌ |
+| ``range`` | sequence of numbers | ❌ | ❌ |
+| ``tuple``| built-in sequence | ❌ | ✅ |
+| ``list`` | built-in sequence | ✅ | ✅ |
+| ``str``  | text sequence | ❌ | ❌ |
+| ``bytes`` | bytes sequence | ❌ | ❌ |
+| ``bytearray`` | bytes sequence | ✅ | ❌ |
+| ``set``  | unordered collection of hashable objects | ✅ | ✅ |
+| ``frozenset``  | unordered collection of hashable objects that is hashable | ❌ | ✅ |
+| ``dict`` | mapping from hashable objects to an arbitrary object | ✅ | ✅ |
+| ``memoryview`` | view to internal data of objects | ❓ | ❌ |
+
+Sequences/containers can implement a particular sub-type that is the
+**iterator**: in practice you tell the external world that your object supports
+iteration via the ``__iter__()`` method that returns the actual iterator.
+
+The iterator must implement the ``__next__()`` method that returns the next
+element in the sequence. When the sequence has not more element, this method
+must raise ``StopIteration``.
+
+Related to this exists the **generator** type, roughly speaking a function that
+using the ``yield`` keyword allows to build an iterator. Take in mind that has
+other methods other the ones from the iterator protocols, like ``send()``,
+``throw()`` and ``close()``.
+
+For example, directly from the [documentation](https://docs.python.org/3.8/reference/expressions.html#examples)
+
+```python
+>>> def echo(value=None):
+...     print("Execution starts when 'next()' is called for the first time.")
+...     try:
+...         while True:
+...             try:
+...                 value = (yield value)
+...             except Exception as e:
+...                 value = e
+...     finally:
+...         print("Don't forget to clean up when 'close()' is called.")
+...
+>>> generator = echo(1)
+>>> print(next(generator))
+Execution starts when 'next()' is called for the first time.
+1
+>>> print(next(generator))
+None
+>>> print(generator.send(2))
+2
+>>> generator.throw(TypeError, "spam")
+TypeError('spam',)
+>>> generator.close()
+Don't forget to clean up when 'close()' is called.
+
+```
+
+It exists also a **generator expression**
+
+```python
+>>> sum(i*i for i in range(10))         # sum of squares 0, 1, 4, ... 81
+285
+```
+
+
+
+
+## Links
+
  - http://mirnazim.org/writings/python-ecosystem-introduction/
  - [WTF Python](https://github.com/satwikkansal/wtfpython/blob/master/README.md) Exploring and understanding Python through surprising snippets
  - [Code Like a Pythonista: Idiomatic Python](http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html)
@@ -32,6 +121,7 @@
  - [Massive memory overhead: Numbers in Python and how NumPy helps](https://pythonspeed.com/articles/python-integers-memory/)
  - [Reproducible Python Bytecode](https://vulns.xyz/2021/08/reproducible-python-bytecode/)
  - [pythontutor](https://pythontutor.com/)
+ - [Less copies in Python with the buffer protocol and memoryviews]( https://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-protocol-and-memoryviews)
 
 ## Packaging
 
@@ -42,6 +132,19 @@
  - [Value error](http://stackoverflow.com/questions/11536764/attempted-relative-import-in-non-package-even-with-init-py) Attempted relative import in non-package
 
 ## Typing
+
+
+
+For python3.7+, you can indicate that the function returns an istance of the
+enclosing class
+
+```python
+from __future__ import annotations
+
+class Position:
+    def __add__(self, other: Position) -> Position:
+            ...
+```
 
  - [typing documentation](https://docs.python.org/3/library/typing.html)
  - [PEP 483 - The Theory of Type Hints](https://www.python.org/dev/peps/pep-0483/)
@@ -78,6 +181,20 @@
  - https://www.integralist.co.uk/posts/toxini/
  - [moto](https://github.com/spulec/moto), a library that allows you to easily mock out tests based on AWS infrastructure.
  - [Testing Python Applications with Pytest](https://stribny.name/blog/pytest/)
+
+### pytest
+
+```python
+@pytest.mark.parametrize('count', [
+    0, 1, 6, 17,
+])
+def test_tree42(count):
+    values = list(range(count))
+
+    bt = XBinarySearchTree.from_array(values)
+
+    assert list(bt.inorder_traversal()) == values
+```
 
 ## BEST PRACTICES
 
@@ -349,12 +466,23 @@ Print out some docstring for documentation purpose
  - http://hynek.me/articles/taking-some-pain-out-of-python-logging/
  - [Multi line formatting](https://fruch.github.io/2014/11/06/taming-the-logging-formatter/)
 
-Add a debug level (http://stackoverflow.com/a/16955098/1935366)
 
  - http://victorlin.me/posts/2012/08/26/good-logging-practice-in-python
 
 Remember that ``logger.basicConfig()`` attaches the stream handler by default, if you want
 to fine tune the logging you have to set it by yourself.
+
+```python
+import logging
+import os
+
+logging.basicConfig()
+logger = logging.getLogger(__name__)
+logger.setLevel(os.getenv("LOG") or "INFO")
+```
+
+It's possible to define a custom level
+like ``SUBDEBUG`` (http://stackoverflow.com/a/16955098/1935366)
 
 ```python
 import logging
@@ -380,6 +508,15 @@ logger = logging.getLogger(__file__)
 logger.setLevel(logging.DEBUG)
 logger.addHandler(stream)
 stream.setFormatter(formatter)
+```
+
+If you want that your logging string impact performance when the level is not
+used you should let the logger itself doing the formatting: the various logging
+functions accept a format string with the ``%`` style and a list of positional
+arguments like
+
+```python
+logger.debug("this is a string: '%s'", string_to_log)
 ```
 
 ## Flatten list
