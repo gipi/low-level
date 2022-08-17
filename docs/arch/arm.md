@@ -108,4 +108,8 @@ for example, is p14.
     - Provide parsers that make code generation and tooling based on SVD easier to build. Most parsers simply parse a provided SVD file and turn it into a data structure more easily used in that language.
  - [libopencm3/libopencm3](https://github.com/libopencm3/libopencm3) Open source ARM Cortex-M microcontroller library
  - [How stack trace on ARM works](https://alexkalmuk.medium.com/how-stack-trace-on-arm-works-5634b35ddca1)
+ - [The AArch64 processor (aka arm64), part 1: Introduction](https://devblogs.microsoft.com/oldnewthing/20220726-00/?p=106898)
+ - [The AArch64 processor (aka arm64), part 2: Extended register operations](https://devblogs.microsoft.com/oldnewthing/20220727-00/?p=106907)
+ - [The AArch64 processor (aka arm64), part 3: Addressing modes](https://devblogs.microsoft.com/oldnewthing/20220728-00/?p=106912)
+ - [ENCODING OF IMMEDIATE VALUES ON AARCH64](https://dinfuehr.github.io/blog/encoding-of-immediate-values-on-aarch64/)
 

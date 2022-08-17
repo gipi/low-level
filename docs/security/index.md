@@ -209,3 +209,4 @@ In ``PHP`` this is more dangerous when a conversion from ``JSON`` is done.
  - [Unlocking Heaven's Gate on Linux](https://redcanary.com/blog/heavens-gate-technique-on-linux/)
  - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
  - [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
+ - [A Threat Modeling Field Guide](https://shellsharks.com/threat-modeling)

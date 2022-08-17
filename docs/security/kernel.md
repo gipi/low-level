@@ -48,6 +48,7 @@ specifically for it.
  - [Writing a Linux Kernel Remote in 2022](https://blog.immunityinc.com/p/writing-a-linux-kernel-remote-in-2022/)
  - [Learning Linux kernel exploitation - Part 2](https://0x434b.dev/learning-linux-kernel-exploitation-part-2-cve-2022-0847/) Continuing to walk down Linux Kernel exploitation lane. This time around with an unanticipated topic: DirtyPipe as it actually nicely fits the series as an example.
  - [The Android kernel mitigations obstacle race](https://github.blog/2022-06-16-the-android-kernel-mitigations-obstacle-race/) CVE-2022-22057, a use-after-free in the Qualcomm gpu kernel driver
+ - [DirtyCred](https://i.blackhat.com/USA-22/Thursday/US-22-Lin-Cautious-A-New-Exploitation-Method.pdf): A New Exploitation Method! No Pipe but as Nasty as Dirty Pipe
 
 ## Mitigations
 
