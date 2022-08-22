@@ -94,8 +94,3 @@ UNIT TEST
 
  - Scroll Back: The Theory and Practice of Cameras in Side-Scrollers [docs](https://docs.google.com/document/d/1iNSQIyNpVGHeak6isbP6AHdHD50gs8MNXF1GCf08efg/pub)
 
-## Orchestration
-
- - [Snakemake](https://snakemake.readthedocs.io/en/stable/)
- - [Nomad](https://www.nomadproject.io/)
- - [“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes/)

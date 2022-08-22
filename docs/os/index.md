@@ -9,6 +9,17 @@ Related to that there are **Hypervisor**s
  - [Hypervisor From Scratch – Part 1: Basic Concepts & Configure Testing Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
  - [Learning KVM - implement your own Linux kernel ](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)
 
+## Unix quirkness
+
+There are some aspects of ``UNIX`` that are broken
+
+ - [Epoll is broken](https://idea.popcount.org/2017-03-20-epoll-is-fundamentally-broken-22/)
+ - [POSIX close(2) is broken](https://www.daemonology.net/blog/2011-12-17-POSIX-close-is-broken.html)
+ - [Eleven syscalls that suck](https://www.cloudatomiclab.com/antisyscall/)
+ - [Use mmap With Care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)
+ - [signalfd is useless](https://ldpreload.com/blog/signalfd-is-useless)
+
+
 ## Linux
 
  - [The definitive guide to linux system calls](http://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/)
@@ -18,7 +29,6 @@ Related to that there are **Hypervisor**s
     * [part1](https://blogs.oracle.com/ksplice/entry/hello_from_a_libc_free)
     * [part2](https://blogs.oracle.com/ksplice/entry/hello_from_a_libc_free1)
  - [Ftrace](https://jvns.ca/blog/2017/03/19/getting-started-with-ftrace/)
- - [Epoll is broken](https://idea.popcount.org/2017-03-20-epoll-is-fundamentally-broken-22/)
  - [The Design and Implementation of Userland Exec](https://grugq.github.io/docs/ul_exec.txt)
  - [How main() is executed on Linux](http://www.tldp.org/LDP/LG/issue84/hawk.html)
  - [__libc_start_main() specification](https://refspecs.linuxbase.org/LSB_3.0.0/LSB-PDA/LSB-PDA/baselib---libc-start-main-.html)
@@ -28,11 +38,8 @@ Related to that there are **Hypervisor**s
  - [slide](http://haifux.org/lectures/258/gpio_spi_i2c_userspace.pdf) on using ``SPI`` and ``I2C`` in user space.
  - [slide](http://www.cs.fsu.edu/~cop4610t/lectures/project2/kthreads/kthreads.pdf) about kthreads
  - [Evolution of the x86 context switch in Linux](http://www.maizure.org/projects/evolution_x86_context_switch_linux/)
- - [Use mmap With Care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)
- - [signalfd is useless](https://ldpreload.com/blog/signalfd-is-useless)
  - [Linux Capabilities In Practice](https://blog.container-solutions.com/linux-capabilities-in-practice)
  - [Debugging network stalls on Kubernetes](https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/)
- - [Eleven syscalls that suck](https://www.cloudatomiclab.com/antisyscall/)
  - [Eleven syscalls that rock the world](https://www.cloudatomiclab.com/prosyscall/)
  - [An introduction to Linux kernel initcalls](https://www.collabora.com/news-and-blog/blog/2020/07/14/introduction-to-linux-kernel-initcalls/)
  - [Static calls in Linux 5.10](https://blog.yossarian.net/2020/12/16/Static-calls-in-Linux-5-10): changes on linux 5.10 to improve performances but avoid Spectre-like attacks
@@ -90,8 +97,6 @@ Related to that there are **Hypervisor**s
  - [Linux media subsystem docs](https://linuxtv.org/downloads/v4l-dvb-apis/index.html)
  - [Linux kernel module cheat](https://github.com/cirosantilli/linux-kernel-module-cheat) The perfect emulation setup to study and modify the Linux kernel, kernel modules, QEMU and gem5
  - [Writing USB Device Drivers](https://www.kernel.org/doc/html/v4.15/driver-api/usb/writing_usb_driver.html)
-
-## Windows
 
 ## Zephyr
 

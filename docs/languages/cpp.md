@@ -2,7 +2,9 @@
 
  - [Beej's Guide to C Programming](https://beej.us/guide/bgc/)
  - [cppreference.com](https://en.cppreference.com/)
+ - [LEARN C++](https://www.learncpp.com/)
  - [cppiceberg](https://fouronnes.github.io/cppiceberg/)
+ - [C xor C++ Programming](https://docs.google.com/document/d/16B36r0HksR0LqQAGLA1syYCtZvYaVC0hEF2D00ZAd0o/edit)
  - https://isocpp.org/wiki/faq
  - http://yosefk.com/c++fqa
  - [C++ tutorial for C users](http://www.ericbrasseur.org/cppcen.html)
@@ -27,6 +29,7 @@
  - [Why I still like C and strongly dislike C++](https://codecs.multimedia.cx/2021/05/why-i-still-like-c-and-strongly-dislike-cpp/)
  - [Generic data structures in C](https://www.andreinc.net/2010/09/30/generic-data-structures-in-c)
  - [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/)
+ - [C++ Explained: Object initialization and assignment, lvalues and rvalues, copy and move semantics and the copy-and-swap idiom](https://katyscode.wordpress.com/2013/02/27/c-explained-object-initialization-and-assignment-lvalues-and-rvalues-copy-and-move-semantics-and-the-copy-and-swap-idiom/)
 
 
 ## Syntax
@@ -65,6 +68,10 @@ An rvalue is a temporary that does not persist beyond the expression that define
 
  - [C Pre-Processor Magic](http://jhnet.co.uk/articles/cpp_magic)
  - [C Preprocessor tricks, tips, and idioms](https://github.com/pfultz2/Cloak/wiki/C-Preprocessor-tricks,-tips,-and-idioms)
+
+## Value categories
+
+ - [value categories on cppreference.com](https://en.cppreference.com/w/cpp/language/value_category)
 
 ## Constructor
 

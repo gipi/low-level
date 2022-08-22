@@ -167,6 +167,7 @@
  - [MIPS EJTAG specification](http://www.t-es-t.hu/download/mips/md00047f.pdf)
  - [Hardware Debugging for Reverse Engineers Part 2: JTAG, SSDs and Firmware Extraction](https://wrongbaud.github.io/jtag-hdd/)
  - [SWD – ARM’S ALTERNATIVE TO JTAG](https://research.kudelskisecurity.com/2019/05/16/swd-arms-alternative-to-jtag/)
+ - [The hitchhacker’s guide to iPhone Lightning & JTAG hacking](https://media.defcon.org/DEF%20CON%2030/DEF%20CON%2030%20presentations/stacksmashing%20-%20The%20hitchhackers%20guide%20to%20iPhone%20Lightning%20%20%20JTAG%20hacking.pdf)
 
 ## Exploit
 

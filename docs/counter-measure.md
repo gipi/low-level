@@ -4,6 +4,7 @@
  - [Stack Smashing as of Today](https://www.blackhat.com/presentations/bh-europe-09/Fritsch/Blackhat-Europe-2009-Fritsch-Bypassing-aslr-slides.pdf)
  - [Address Space Layout Random Randomization](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/15/09_lecture.pdf)
  - http://www.productive-cpp.com/hardening-cpp-programs-stack-protector/
+ - [Clang Hardening Cheat Sheet](https://blog.quarkslab.com/clang-hardening-cheat-sheet.html)
 
 You can find a script to check in this repo: ``https://github.com/slimm609/checksec.sh``.
 

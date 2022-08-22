@@ -35,6 +35,9 @@ have mixed types together. The opposite of container is **flat**.
 | ``dict`` | mapping from hashable objects to an arbitrary object | ✅ | ✅ |
 | ``memoryview`` | view to internal data of objects | ❓ | ❌ |
 
+From a practical point of view, see [here](https://wiki.python.org/moin/TimeComplexity) the time complexity
+associated with the data types.
+
 Sequences/containers can implement a particular sub-type that is the
 **iterator**: in practice you tell the external world that your object supports
 iteration via the ``__iter__()`` method that returns the actual iterator.
@@ -278,6 +281,7 @@ def test_myoutput(capsys):  # or use "capfd" for fd-level
  - http://stackoverflow.com/questions/6655258/using-the-socket-module-in-sandboxed-pypy
  - http://pypy.readthedocs.org/en/latest/sandbox.html
  - http://blog.delroth.net/2013/03/escaping-a-python-sandbox-ndh-2013-quals-writeup/
+ - [Python "sandbox" escape](https://gynvael.coldwind.pl/n/python_sandbox_escape)
 
 Instructions for ``pypy-2.1``
 
