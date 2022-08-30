@@ -8,6 +8,20 @@
  - [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/)
  - [Lynda - Data Structure](https://archive.org/details/0102WhatYouShouldKnow)
 
+| Name        | Insert   | Deletion | Search | Note |
+|-------------|----------|----------|--------|------|
+| Linked list | O(1)     | O(1)     | O(N)   |      |
+| Array       | O(1)     | O(1)     | O(N)   | insertion and deletion should take into account the memory management |
+| Stack       | O(1)     | O(N)     | O(N)   | there is not proper delete/search operation |
+| Queue       | O(1)     | O(N)     | O(N)   | there is not proper delete/search operation |
+| BST         | O(N), O(log N) | O(N), O(log N) | O(N), O(log N) | depend strongly on how balanced is |
+| Dictionary  | O(1)     | O(1)     | O(1)   | |
+
+
+| Name        | Insert   | Extract Min | Min  |
+|-------------|----------|-------------|------|
+| Heap        | O(log N) | O(log N)    | O(1) |
+
 ## Hash tables
 
 ### Multiplicative hashing
