@@ -91,6 +91,22 @@ Variables have also scope (see ``:help internal-variables``)
 | ``:winpos      `` | Vim window position (gui) |
 | ``:xmap        `` | visual mode maps only |
 
+## Registers
+
+There are ten types of registers (see ``:help registers``):
+
+ 1. The unnamed register ``""``
+ 2. 10 numbered registers ``"0`` to ``"9``
+ 3. The small delete register "-
+ 4. 26 named registers ``"a`` to ``"z`` or ``"A`` to ``"Z``
+ 5. Three read-only registers ``":`` (most recent executed command line), ``".`` (last inserted text) and ``"%`` (relative file path)
+ 6. Alternate buffer register ``"#``
+ 7. The expression register ``"=``
+ 8. The selection and drop registers ``"*``, ``"+`` and ``"~`` 
+ 9. The black hole register ``"_``
+ 10. Last search pattern register ``"/``
+
+
 ## Commands
 
 | Command | Description |
