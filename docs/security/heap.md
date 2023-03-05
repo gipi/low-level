@@ -40,3 +40,6 @@
  - [Safe-Linking – Eliminating a 20 year-old malloc() exploit primitive](https://research.checkpoint.com/2020/safe-linking-eliminating-a-20-year-old-malloc-exploit-primitive/) xoring the pointers in the single linked lists using the base address of the ``mmaping``
  - [Exploiting a Use-After-Free for code execution in every version of Python 3](https://pwn.win/2022/05/11/python-buffered-reader.html)
  - [Overview of GLIBC heap exploitation techniques](https://0x434b.dev/overview-of-glibc-heap-exploitation-techniques/) up to GLIBC 2.34, including their ideas and introduced mitigations along the way (february 2022)
+ - [heap-exploitation](https://heap-exploitation.dhavalkapil.com/) short book written for people who want to understand the internals of 'heap memory'
+ - [MeshyJSON: A TP-Link tdpServer JSON Stack Overflow](https://research.nccgroup.com/2022/12/19/meshyjson-a-tp-link-tdpserver-json-stack-overflow/): the heap of the musl libc library is involved.
+ - [The Return of the JIT (Part 1)](https://rh0dev.github.io/blog/2017/the-return-of-the-jit/) exploiting the heap using JIT-spray

@@ -46,6 +46,12 @@ There are some aspects of ``UNIX`` that are broken
  - [From HDL to Linux Userland](https://embed-me.com/from-hdl-to-linux-userland/)
  - [understanding thread stack sizes and how alpine is different](https://ariadne.space/2021/06/25/understanding-thread-stack-sizes-and-how-alpine-is-different/)
  - [How fast are Linux pipes anyway?](https://mazzo.li/posts/fast-pipes.html)
+ - [random.c Inside the Linux kernel RNG](https://www.zx2c4.com/projects/linux-rng-5.17-5.18/inside-linux-kernel-rng-presentation-sept-13-2022.pdf)
+
+### Networking
+
+ - [Monitoring and Tuning the Linux Networking Stack: Sending Data](https://blog.packagecloud.io/monitoring-tuning-linux-networking-stack-sending-data/)
+ - [Monitoring and Tuning the Linux Networking Stack: Receiving Data](https://blog.packagecloud.io/monitoring-tuning-linux-networking-stack-receiving-data/)
 
 ### Device tree
 
@@ -97,6 +103,11 @@ There are some aspects of ``UNIX`` that are broken
  - [Linux media subsystem docs](https://linuxtv.org/downloads/v4l-dvb-apis/index.html)
  - [Linux kernel module cheat](https://github.com/cirosantilli/linux-kernel-module-cheat) The perfect emulation setup to study and modify the Linux kernel, kernel modules, QEMU and gem5
  - [Writing USB Device Drivers](https://www.kernel.org/doc/html/v4.15/driver-api/usb/writing_usb_driver.html)
+
+### eBPF
+
+ - [eBPF homepage](https://ebpf.io)
+ - [Hardening Hostile Code in eBPF](https://samsung.github.io/kspp-study/bpf.html)
 
 ## Zephyr
 

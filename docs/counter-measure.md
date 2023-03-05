@@ -5,6 +5,8 @@
  - [Address Space Layout Random Randomization](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/15/09_lecture.pdf)
  - http://www.productive-cpp.com/hardening-cpp-programs-stack-protector/
  - [Clang Hardening Cheat Sheet](https://blog.quarkslab.com/clang-hardening-cheat-sheet.html)
+ - [GCC's new fortification level: The gains and costs](https://developers.redhat.com/articles/2022/09/17/gccs-new-fortification-level) introduces ``_FORTIFY_SOURCE=3``
+ - [immutable userland mappings for OpenBSD](https://undeadly.org/cgi?action=article;sid=20220902100648)
 
 You can find a script to check in this repo: ``https://github.com/slimm609/checksec.sh``.
 

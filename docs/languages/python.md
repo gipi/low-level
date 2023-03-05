@@ -2,6 +2,33 @@
 
 ``python`` is an interpreted language, that looks a lot like pseudocode.
 
+## Syntax
+
+The formal definition via ``BNF`` grammar is the following (from the [official
+documentation](https://docs.python.org/3/reference/compound_stmts.html#grammar-token-python-grammar-compound_stmt))
+
+```
+compound_stmt ::=  if_stmt
+                   | while_stmt
+                   | for_stmt
+                   | try_stmt
+                   | with_stmt
+                   | match_stmt
+                   | funcdef
+                   | classdef
+                   | async_with_stmt
+                   | async_for_stmt
+                   | async_funcdef
+suite         ::=  stmt_list NEWLINE | NEWLINE INDENT statement+ DEDENT
+statement     ::=  stmt_list NEWLINE | compound_stmt
+stmt_list     ::=  simple_stmt (";" simple_stmt)* [";"]
+```
+
+that in practice means that a **compound statement** is composed of a header
+starting with a specific keyword and ending with a colon, followed by a line of
+statements separated by semicolons or a list of statements indented with respect
+the correspective header. These two last cases form a **suite**.
+
 ## Data Types
 
 The [standard type hierarchy](https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy)
@@ -87,8 +114,78 @@ It exists also a **generator expression**
 285
 ```
 
+### Dictionary
+
+A particular to keep in mind when interacting with dictionary is that
+the objects returned by dict.keys(), dict.values() and dict.items() are view
+objects. They provide a dynamic view on the dictionary’s entries, which means
+that when the dictionary changes, the view reflects these changes.
+
+### Objects
+
+Classes are not "subclasses" of ``type`` but instances of it
+
+| Name | Description |
+|------|-------------|
+|``__new__()``      | |
+|``__init__()``     | |
+|``__del__()``      | |
+|``__hash__()``     | |
+|``__str__()``      | |
+|``__repr__()``     | |
+|``__bytes__()``    | Called by bytes to compute a byte-string representation of an object. This should return a bytes object. |
+|``__format__()``   | Called by the format() built-in function, and by extension, evaluation of formatted string literals and the str.format() method, to produce a “formatted” string representation of an object. |
+|``__weak_ref__()`` | |
+|``__slots__()``    | |
+|``__copy__()``     | Used to define the implementation of a copy used by the ``copy`` module |
 
 
+Take in mind that exists two convention for internal attributes on an object
+
+ - if the name starts with ``_`` is considered "internal"
+ - if the name starts with ``__`` is considered "private" but also the
+   interpreter mangles the name so that ``__<name>`` becomes ``_<class name>__<name>``
+
+### Structural pattern matching
+
+Introduced in python 3.10 via [PEP-638](https://peps.python.org/pep-0638/) [PEP-636](https://peps.python.org/pep-0636/) and [PEP-634](https://peps.python.org/pep-0634/)
+
+```python
+match <expression>:
+    case <pattern> [guard]:
+        <block>
+```
+
+where ``<expression>`` is whatever python expression returns something that
+might match with the ``<pattern>`` and optionally must "pass" the ``guard``
+expression.
+
+The simplest match is the "literal" matching, where you are trying to match a
+constant, a value; a more complex pattern matching is one that cause
+**name bindings**. When you use an identifier as pattern then on matching the
+value will be bounded to that name for the scope of the subsequent block.
+
+**Note:** if you want to use a value coming from an attribute, to avoid the name
+binding you need to use a qualified name (an unqualified name is a name without
+dots).
+
+**Note:** there is difference between ``(<pattern>)`` and ``[<pattern>]`` or
+``(<pattern>,)``. The first is a **group** pattern, the second a **sequence**
+pattern.
+
+Here some practical examples
+
+```python
+    match op.opcode, *args:
+        case Operatore.Store, Constant() as offset, Click(offset=(x, y)):
+            ...
+```
+
+``Operatore.Store`` is matching with a literal, ``Constant()`` is matching with
+a type and binding the parameter is matching with the name ``offset``; the last
+one looks for an element of type ``Click`` that has a tuple of two elements
+associated with the attribute ``offset`` and binds this two elements to the name
+``x`` and ``y``.
 
 ## Links
 
@@ -125,6 +222,7 @@ It exists also a **generator expression**
  - [Reproducible Python Bytecode](https://vulns.xyz/2021/08/reproducible-python-bytecode/)
  - [pythontutor](https://pythontutor.com/)
  - [Less copies in Python with the buffer protocol and memoryviews]( https://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-protocol-and-memoryviews)
+ - [Advanced Python: Achieving High Performance with Code Generation](https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79)
 
 ## Packaging
 
@@ -151,10 +249,14 @@ class Position:
 
  - [typing documentation](https://docs.python.org/3/library/typing.html)
  - [PEP 483 - The Theory of Type Hints](https://www.python.org/dev/peps/pep-0483/)
+ - [PEP 585 – Type Hinting Generics In Standard Collections](https://peps.python.org/pep-0585/)
+ - [PEP 612 – Parameter Specification Variables](https://peps.python.org/pep-0612/)
  - [mypy](http://www.mypy-lang.org/) is an optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typin
  - [python/mypy](https://github.com/python/mypy) Optional static typing for Python 3 and 2 (PEP 484)
  - [Python: better typed than you think](https://beepb00p.xyz/mypy-error-handling.html) mypy assisted error handling, exception mechanisms in other languages, fun with pattern matching and type variance
  - [Python Typing: Resisting the Any type](https://jaredkhan.com/blog/resist-the-any-type)
+ - [Professional-grade mypy configuration](https://blog.wolt.com/engineering/2021/09/30/professional-grade-mypy-configuration/)
+ - [Using Mypy in production at Spring](https://notes.crmarsh.com/using-mypy-in-production-at-spring)
 
 ## Internals
 
@@ -170,12 +272,14 @@ class Position:
  - [How python implements long integers?](https://arpitbhayani.me/blogs/super-long-integers)
  - [open and CPython](http://hondu.co/blog/open-and-python)
  - [Python behind the scenes #7: how Python attributes work](https://tenthousandmeters.com/blog/python-behind-the-scenes-7-how-python-attributes-work/)
+ - [When Python can’t thread: a deep-dive into the GIL’s impact](https://pythonspeed.com/articles/python-gil/)
 
-## Metaclass
+## Metaclasses and introspection
 
  - What's a metaclasse by [stackoverflow](http://stackoverflow.com/questions/100003/what-is-a-metaclass-in-python)
  - http://www.slideshare.net/hychen/what-can-meta-class-do-for-you-pycon-taiwan-2012
  - http://www.slideshare.net/gwiener/metaclasses-in-python
+ - [Python’s “Disappointing” Superpowers](https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/)
 
 ## TESTS
 
@@ -184,6 +288,7 @@ class Position:
  - https://www.integralist.co.uk/posts/toxini/
  - [moto](https://github.com/spulec/moto), a library that allows you to easily mock out tests based on AWS infrastructure.
  - [Testing Python Applications with Pytest](https://stribny.name/blog/pytest/)
+ - [Assertion rewriting in Pytest part 4: The implementation](https://www.pythoninsight.com/2018/02/assertion-rewriting-in-pytest-part-4-the-implementation/)
 
 ### pytest
 
@@ -209,6 +314,12 @@ def test_myoutput(capsys):  # or use "capfd" for fd-level
     print("next")
     captured = capsys.readouterr()
     assert captured.out == "next\n"
+```
+
+```python
+@pytest.mark.skip(reason="no way of currently testing this")
+def test_the_unknown():
+    ...
 ```
 
 ## BEST PRACTICES
@@ -246,6 +357,31 @@ def test_myoutput(capsys):  # or use "capfd" for fd-level
 
 ## Exceptions
 
+From the [official documentation](https://docs.python.org/3/reference/compound_stmts.html?highlight=try#the-try-statement)
+
+```
+try_stmt  ::=  try1_stmt | try2_stmt | try3_stmt
+try1_stmt ::=  "try" ":" suite
+               ("except" [expression ["as" identifier]] ":" suite)+
+               ["else" ":" suite]
+               ["finally" ":" suite]
+try2_stmt ::=  "try" ":" suite
+               ("except" "*" expression ["as" identifier] ":" suite)+
+               ["else" ":" suite]
+               ["finally" ":" suite]
+try3_stmt ::=  "try" ":" suite
+               "finally" ":" suite
+```
+
+The optional ``else`` clause is executed if the control flow leaves the ``try`` suite,
+no exception was raised, and no ``return``, ``continue``, or ``break`` statement was
+executed. Exceptions in the ``else`` clause are not handled by the preceding ``except``
+clauses.
+
+The ``finally`` clause is always executed, also in case the ``try`` has a
+``return``, ``break`` or ``continue`` and since the last ``return`` is what
+counts in a function, a ``return`` in the ``finally`` superseed the previous encountered one.
+
  - [Exception](http://www.jeffknupp.com/blog/2013/02/06/write-cleaner-python-use-exceptions/) in python make code clearer, see also [this](https://speakerdeck.com/pyconslides/how-to-except-when-youre-excepting-by-esther-nam).
  - https://julien.danjou.info/blog/2015/python-retrying
  - [Reraising exception](http://blog.ionelmc.ro/2014/08/03/the-most-underrated-feature-in-python-3/)
@@ -265,8 +401,20 @@ def test_myoutput(capsys):  # or use "capfd" for fd-level
 
 ## Scientific
 
+### Numpy
+
  - [NumPy Illustrated: The Visual Guide to NumPy](https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)
+
+### Matplotlib
+
+ - [The Magic of Matplotlib Stylesheets](https://www.datafantic.com/the-magic-of-matplotlib-stylesheets/)
+
+### Scipy
+
  - [Scipy Lecture Notes](http://scipy-lectures.org/)
+
+### Pandas
+
  - [Panda's Hierarchical Indexing](https://jakevdp.github.io/PythonDataScienceHandbook/03.05-hierarchical-indexing.html)
  - [Panda's Indexing and selecting data](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html)
 
@@ -481,8 +629,6 @@ Print out some docstring for documentation purpose
  - http://victorlin.me/2012/08/good-logging-practice-in-python/
  - http://hynek.me/articles/taking-some-pain-out-of-python-logging/
  - [Multi line formatting](https://fruch.github.io/2014/11/06/taming-the-logging-formatter/)
-
-
  - http://victorlin.me/posts/2012/08/26/good-logging-practice-in-python
 
 Remember that ``logger.basicConfig()`` attaches the stream handler by default, if you want

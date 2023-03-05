@@ -322,4 +322,13 @@ window/pane to another.
 An unusual key binding here is for copying into the ``tmux``'s clipboard that is ``Alt + w``.
 Otherwise ``enter`` is good enough but exit from copy mode altogether.
 
+## ImageMagick
 
+Create a 2x2 composite image
+
+```
+$ convert \
+    \( 1.jpeg 2.jpeg +append \) \
+    \( 3.jpeg 4.jpeg +append \) \
+    -append output.jpg
+```

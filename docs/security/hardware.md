@@ -9,6 +9,7 @@
  - [Repo](https://app.assembla.com/spaces/chipwhisperer/git/source/master) for chipwhisperer
  - Breaking Crypto For Dummies [Slide](https://2016.zeronights.ru/wp-content/uploads/2016/12/nabdullin_brcrdu_dark.pdf)
  - [A practical guide to RFID badge copying](https://blog.nviso.be/2017/01/11/a-practical-guide-to-rfid-badge-copying/)
+ - [Replicant: Reproducing a Fault Injection Attack on the Trezor One](https://voidstarsec.com/blog/replicant-part-1)
  - [Vuln research on the WAG54G home router](https://www.elttam.com.au/blog/vuln-research-on-the-WAG54G-home-router/)
  - [Exploiting PSoC4 for fun and profit](http://dmitry.gr/index.php?r=05.Projects&proj=23.%20PSoC4)
  - [A2: Analog Malicious Hardware](http://static1.1.sqspcdn.com/static/f/543048/26931843/1464016046717/A2_SP_2016.pdf)
@@ -52,6 +53,9 @@
  - [Dumping K360 wireless keyboard firmware with a GreatFET](https://jamchamb.net/2021/05/29/dumping-k360-firmware.html)
  - [One Exploit to Rule them All? On the Security of Drop-in Replacement and Counterfeit Microcontrollers](https://www.usenix.org/conference/woot20/presentation/obermaier)
  - [A Primer on Cold Boot Attacks Against Embedded Systems](https://sec-consult.com/blog/detail/a-primer-on-cold-boot-attacks-against-embedded-systems/)
+ - [Breaking Secure Boot on Google Nest Hub (2nd Gen) to run Ubuntu](https://fredericb.info/2022/06/breaking-secure-boot-on-google-nest-hub-2nd-gen-to-run-ubuntu.html)
+ - [Hacking more secure portable storage devices](https://www.deepsec.net/docs/Slides/2022/Hacking_More_Secure_Portable_Storage_Devices_Matthias_Deeg.pdf)
+ - [Firmware key extraction by gaining EL3](https://blog.xilokar.info/firmware-key-extraction-by-gaining-el3.html)
 
 ## Consoles
 

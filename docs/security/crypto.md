@@ -14,6 +14,7 @@
  - Discussion on [hacker news](https://news.ycombinator.com/item?id=21185594) about ``/dev/random`` going out of randomness and its non-senseness
  - [Myths about /dev/urandom](https://www.2uo.de/myths-about-urandom)
  - [Cracking RNGs: Linear Congruential Generators](https://tailcall.net/blog/cracking-randomness-lcgs/)
+ - [random.c Inside the Linux kernel RNG](https://www.zx2c4.com/projects/linux-rng-5.17-5.18/inside-linux-kernel-rng-presentation-sept-13-2022.pdf)
 
 ## Digital signatures
 

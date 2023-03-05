@@ -30,6 +30,11 @@
  - [Symbolic Execution Demystified 2022](https://github.com/JannisKirschner/SymbolicExecutionDemystified/blob/main/Symbolic%20Execution%20Demystified%202022.pdf)
  - [Defeating Code Obfuscation with Angr](https://napongizero.github.io/blog/Defeating-Code-Obfuscation-with-Angr)
  - [Guy's 30 Reverse Engineering Tips & Tricks](https://whtaguy.com/2020/05/01/Guy-27s-30-Reverse-Engineering-Tips-26-Tricks.html)
+
+## Intermediate languages and representations
+
+ - [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html)
+ - [LLVM Passes for Security: A Brief Introduction (Part 1/4)](https://elmanto.github.io/posts/llvm_for_security_1_4)
  
 
 ## Protocol
@@ -222,6 +227,37 @@ MIT licensed SMT solver from Microsoft Research
 
  - [Z3 API in Python](https://github.com/Z3Prover/z3/blob/master/examples/python/tutorial/jupyter/guide.ipynb)
  - [Breaking Algorithms - SMT Solvers for WebApp Security](https://alephsecurity.com/2019/09/02/Z3-for-webapp-security/)
+ - [Z3 by example](https://sat-smt.codes/SAT_SMT_by_example.pdf)
+ - [A gentle introduction to SMT-based program analysis](https://furalabs.com/blog/2023/02/12/intro_to_smt_analysis)
+
+```python
+import z3
+
+b = [
+    106, 196, 106, 178, 174, 102, 31, 91,
+    66, 255, 86, 196, 74, 139, 219, 166,
+    106, 4, 211, 68, 227, 72, 156, 38, 239,
+    153, 223, 225, 73, 171, 51, 4, 234, 50,
+    207, 82, 18, 111, 180, 212, 81, 189, 73, 76
+]
+
+
+solver = z3.Solver()
+
+B39 = z3.BitVec("B39", 8)
+
+solver.add(B39 == 212)
+
+B39 -= b[18] + b[16] + b[8] + b[19] + b[5] + b[23] + 36
+
+solver.add(B39 <= 0x7f)
+solver.add(B39 >= 0x20)
+
+print(solver.check())
+print(solver.model())
+
+print(chr(solver.model().eval(B39).as_long()))
+```
 
 ### Binwalk
 

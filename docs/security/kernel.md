@@ -10,6 +10,7 @@ specifically for it.
  - [Kernel exploitation for dummies](http://uaf.io/exploitation/misc/2016/09/10/Kernel-Exploitation-for-Dummies.html)
  - [Writing kernel exploits](https://tc.gtisc.gatech.edu/bss/2014/r/kernel-exploits.pdf)
  - [Linux Kernel Exploitation](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20Linux%20Kernel%20Exploitation%20-%20Patrick%20Biernat.pdf) slides from Modern Binary Exploitation
+ - [PAWNYABLE](https://pawnyable.cafe/linux-kernel/)
  - [repo](https://github.com/xairy/kernel-exploits) with a bunch of proof-of-concept exploits for the Linux kernel
  - [repo](https://github.com/xairy/linux-kernel-exploitation) with some writeup about kernel exploitation tecnique and exploit
  - [Presentation](https://jon.oberheide.org/files/summercon11-stackjacking.pdf) about **stackjacking** disclosure of
@@ -49,6 +50,7 @@ specifically for it.
  - [Learning Linux kernel exploitation - Part 2](https://0x434b.dev/learning-linux-kernel-exploitation-part-2-cve-2022-0847/) Continuing to walk down Linux Kernel exploitation lane. This time around with an unanticipated topic: DirtyPipe as it actually nicely fits the series as an example.
  - [The Android kernel mitigations obstacle race](https://github.blog/2022-06-16-the-android-kernel-mitigations-obstacle-race/) CVE-2022-22057, a use-after-free in the Qualcomm gpu kernel driver
  - [DirtyCred](https://i.blackhat.com/USA-22/Thursday/US-22-Lin-Cautious-A-New-Exploitation-Method.pdf): A New Exploitation Method! No Pipe but as Nasty as Dirty Pipe
+ - [Exploiting CVE-2022-42703 - Bringing back the stack attack](https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html)
 
 ## Mitigations
 
@@ -83,6 +85,7 @@ specifically for it.
  - [Exploiting Linux kernel heap off-by-one](https://duasynt.com/blog/cve-2016-6187-heap-off-by-one-exploit)
  - [Playing for K(H)eaps: Understanding and Improving Linux Kernel Exploit Reliability](https://www.usenix.org/system/files/sec22fall_zeng.pdf)
  - [Linux kernel heap feng shui in 2022](https://duasynt.com/blog/linux-kernel-heap-feng-shui-2022)
+ - [CVE-2022-1786 | A Journey To The Dawn](https://blog.kylebot.net/2022/10/16/CVE-2022-1786/)
 
 ## iOS
 
@@ -111,3 +114,9 @@ specifically for it.
 ### Jump Over ASLR: Attacking Branch Predictors to Bypass ASLR
 
  - [paper](https://www.cs.ucr.edu/~nael/pubs/micro16.pdf)
+
+### Dirty Cred
+
+This exploitation method swaps unprivileged and privileged kernel credentials
+
+ - [paper](https://zplin.me/papers/DirtyCred.pdf)

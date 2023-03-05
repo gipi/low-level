@@ -109,17 +109,19 @@ There are ten types of registers (see ``:help registers``):
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| ``:argdo`` | execute action on each file passed as argument when ``vim`` was started |
-| ``:bufdo`` | execute action on each buffer |
-| ``:echom[sg]`` | print message|
-| ``:exe[cute]`` | execute command passed as string |
-| ``:mks``      | save session to disk |
-| ``:norm[al]`` | run command in normal mode |
-| ``:r[ead] !{cmd}`` | execute ``{cmd}`` and insert the standard output |
-| ``:scrollbind`` | Binds two or more windows to scroll together |
-| ``:windo`` | execute action on the visible buffers opened |
+| Command | Description | Binding |
+|---------|-------------|---------|
+| ``:argdo`` | execute action on each file passed as argument when ``vim`` was started | |
+| ``:bufdo`` | execute action on each buffer | |
+| ``:diffthis`` | make the current window part of the diff window | |
+| ``:echom[sg]`` | print message| |
+| ``:exe[cute]`` | execute command passed as string | |
+| ``:mks``      | save session to disk | |
+| ``:norm[al]`` | run command in normal mode | |
+| ``:r[ead] !{cmd}`` | execute ``{cmd}`` and insert the standard output | |
+| ``:scrollbind`` | Binds two or more windows to scroll together | |
+| ``:vsplit`` | split vertically | Ctrl-w v |
+| ``:windo`` | execute action on the visible buffers opened | |
 
 ## Quickfix and location list
 

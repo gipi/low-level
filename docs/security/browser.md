@@ -12,6 +12,8 @@ library, memory model etc...
  - [JITSploitation II: Getting Read/Write](https://googleprojectzero.blogspot.com/2020/09/jitsploitation-two.html)
  - [THIS IS FOR THE PWNERS: EXPLOITING A WEBKIT 0-DAY IN PLAYSTATION ](https://www.synacktiv.com/publications/this-is-for-the-pwners-exploiting-a-webkit-0-day-in-playstation-4.html)
  - [Some Brief Notes on WebKit Heap Hardening](https://labs.f-secure.com/archive/some-brief-notes-on-webkit-heap-hardening/)
+ - [Step-by-Step Walkthrough of CVE-2022-32792 - WebKit B3ReduceStrength Out-of-Bounds Write](https://starlabs.sg/blog/2022/09-step-by-step-walkthrough-of-cve-2022-32792/)
+ - [Exploiting WebKit JSPropertyNameEnumerator Out-of-Bounds Read (CVE-2021-1789)](https://starlabs.sg/blog/2022/08-exploiting-webkit-jspropertynameenumerator-out-of-bounds-read-cve-2021-1789/)
 
 ## V8
 
@@ -21,10 +23,13 @@ library, memory model etc...
  - [Exploiting the Math.expm1 typing bug in V8](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
  - [Modern attacks on the Chrome browser : optimizations and deoptimizations](https://doar-e.github.io/blog/2020/11/17/modern-attacks-on-the-chrome-browser-optimizations-and-deoptimizations/)
  - [ELECTRIC CHROME - CVE-2020-6418 on Tesla Model 3](https://leethax0.rs/2021/04/ElectricChrome/)
+ - [V8 Exploitation Series](https://www.madstacks.dev/categories/v8-series/)
+ - [Chrome Browser Exploitation, Part 3: Analyzing and Exploiting CVE-2018-17463](https://jhalon.github.io/chrome-browser-exploitation-3/)
 
 ## SpiderMonkey
 
  - [Exploiting CVE-2019-17026 - A Firefox JIT Bug](https://labs.f-secure.com/blog/exploiting-cve-2019-17026-a-firefox-jit-bug/)
+ - [BUT YOU TOLD ME YOU WERE SAFE: ATTACKING THE MOZILLA FIREFOX RENDERER (PART 1)](https://www.zerodayinitiative.com/blog/2022/8/17/but-you-told-me-you-were-safe-attacking-the-mozilla-firefox-renderer-part-1)
 
 ## Links
 

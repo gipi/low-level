@@ -44,6 +44,7 @@
  - [PositiveTechnologies/ghidra_nodejs](https://github.com/PositiveTechnologies/ghidra_nodejs)  plugin to parse, disassemble and decompile NodeJS Bytenode (JSC) binaries
  - [Ghidra Script To Name Function From Capabilities](youtube.com/watch?v=s5weitGaKLw) and the [scripts](https://github.com/AGDCservices/Ghidra-Scripts) described in the video
  - [Creating a Ghidra processor module in SLEIGH using V8 bytecode as an example](https://swarm.ptsecurity.com/creating-a-ghidra-processor-module-in-sleigh-using-v8-bytecode-as-an-example/)
+ - [Guide to P-code Injection: Changing the intermediate representation of code on the fly in Ghidra](https://swarm.ptsecurity.com/guide-to-p-code-injection/)
  - [Ghidra script to handle stack strings](https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-handle-stack-strings/)
  - [EXPANDING THE DRAGON: ADDING AN ISA TO GHIDRA](https://trenchant.io/expanding-the-dragon-adding-an-isa-to-ghidra/)
  - [Automating binary vulnerability discovery with Ghidra and Semgrep](https://security.humanativaspa.it/automating-binary-vulnerability-discovery-with-ghidra-and-semgrep/)
@@ -53,6 +54,8 @@
  - [GhidraEmu](https://github.com/Nalen98/GhidraEmu) Native Pcode emulator
  - [Ghidra Bridge](https://github.com/justfoxing/ghidra_bridge) Python 3 bridge to Ghidra's Python scripting
  - [ghidra_ExportToX64dbg](https://github.com/schlafwandler/ghidra_ExportToX64dbg) A Ghidra script to export data to a x64dbg database
+ - [GhiHorn: Path Analysis in Ghidra Using SMT Solvers](https://insights.sei.cmu.edu/blog/ghihorn-path-analysis-in-ghidra-using-smt-solvers/)
+ - https://github.com/zxgio/ghidra_stack_strings
 
 ## PCode
 
@@ -458,7 +461,7 @@ def getCallerInfo(caller, options = DecompileOptions(), monitor = ConsoleTaskMon
 From [this issue](https://github.com/NationalSecurityAgency/ghidra/issues/720) some indication on how to debug the decompiler
 
 ```
-$ cd Ghidra/Feature/Decompiler/src/decompile/cpp
+$ cd Ghidra/Features/Decompiler/src/decompile/cpp
 $ make decomp_dbg
 $ export SLEIGHHOME=~/git/ghidra/
 $ ./decomp_dbg 

@@ -56,6 +56,11 @@
  - [10 LDFLAGS I Love](https://blog.jessfraz.com/post/top-10-favorite-ldflags/)
  - [The Most Thoroughly Commented Linker Script in The Worl](https://github.com/theacodes/Winterbloom_Castor_and_Pollux/blob/master/firmware/scripts/samd21g18a.ld)
 
+## Analysis tools
+
+ - [Valgrind](https://valgrind.org/)
+ - [ASAN](https://clang.llvm.org/docs/AddressSanitizer.html)
+
 ## Architecture, Interface&pattern design
 
  - [Fluent](http://martinfowler.com/bliki/FluentInterface.html) interface.

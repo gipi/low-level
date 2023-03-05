@@ -103,6 +103,7 @@ $$
 
 ### Links
 
+ - [Modified pre order traversal tree](https://imrannazar.com/Modified-Preorder-Tree-Traversal)
  - [django-mptt/django-mptt](https://github.com/django-mptt/django-mptt) Utilities for implementing a modified pre-order traversal tree in django
  - [Tree traversal algorithms](https://www.coderbyte.com/algorithm/tree-traversal-algorithms)
  - [Inorder Tree Traversal without Recursion](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/)

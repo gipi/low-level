@@ -1,6 +1,7 @@
 # C&C++
 
  - [Beej's Guide to C Programming](https://beej.us/guide/bgc/)
+ - [Polymorphism in C](https://itnext.io/polymorphism-in-c-tutorial-bd95197ddbf9)
  - [cppreference.com](https://en.cppreference.com/)
  - [LEARN C++](https://www.learncpp.com/)
  - [cppiceberg](https://fouronnes.github.io/cppiceberg/)
@@ -30,6 +31,13 @@
  - [Generic data structures in C](https://www.andreinc.net/2010/09/30/generic-data-structures-in-c)
  - [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/)
  - [C++ Explained: Object initialization and assignment, lvalues and rvalues, copy and move semantics and the copy-and-swap idiom](https://katyscode.wordpress.com/2013/02/27/c-explained-object-initialization-and-assignment-lvalues-and-rvalues-copy-and-move-semantics-and-the-copy-and-swap-idiom/)
+ - [C23 implications for C libraries](https://gustedt.gitlabpages.inria.fr/c23-library/)
+ - [Let's write a setjmp](https://nullprogram.com/blog/2023/02/12/)
+ - [The joys and perils of C and C++ aliasing, Part 1](https://developers.redhat.com/blog/2020/06/02/the-joys-and-perils-of-c-and-c-aliasing-part-1)
+
+## Undefined behaviour
+
+ - [Undefined behavior, and the Sledgehammer Principle](https://thephd.dev/c-undefined-behavior-and-the-sledgehammer-guideline)
 
 
 ## Syntax
@@ -41,6 +49,36 @@ An object is defined at the same time it is initialized.
  - [Clockwise/Spiral Rule](http://c-faq.com/decl/spiral.anderson.html)
 
 An rvalue is a temporary that does not persist beyond the expression that defines it, such as an intermediate function result which is never stored in a variable.
+
+## Data types
+
+There are four classes of integers, the specification 
+
+| Name          | Minimal bits | Description |
+|---------------|---------------|-------------|
+| ``char``      | | Smallest addressable unit of the machine. It contains ``CHAR_BIT`` bits |
+| ``short``     | 16 | |
+| ``int``       | 16 | |
+| ``long``      | 32 | |
+| ``long long`` | 64 | |
+
+## Control flow
+
+The following are able to change the control flow of a program
+
+ - ``if``/``else``
+ - ``while``, ``for`` and ``do{} while ()`` i.e. loops
+ - function calls
+ - ``goto`` i.e. short jumps
+ - ``setjmp()``/``longjmp()``/``getcontext()``/``setcontext()`` i.e. long jumps
+ - interrupts and signals
+ - threads
+
+## Structs
+
+ - [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
+ - [C Structure Padding Initialization](https://interrupt.memfault.com/blog/c-struct-padding-initialization)
+
 
 ## Formatting
 

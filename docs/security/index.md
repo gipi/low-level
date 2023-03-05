@@ -76,6 +76,7 @@ Obviously you need a good wordlist!
 
  - [Munging password](https://th3s3cr3tag3nt.blogspot.it/2017/03/munging-passwords.html)
  - [wordsmith](https://github.com/skahwah/wordsmith)
+ - [tasooshi/brutas](https://github.com/tasooshi/brutas)
 
 ## Privilege escalation
 

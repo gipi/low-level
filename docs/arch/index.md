@@ -47,6 +47,7 @@ microarchitectures; implementations may vary due to different goals of a
 given design or due to shifts in technology.
 
  - [Branch predictor: How many "if"s are too many? Including x86 and M1 benchmarks!](https://blog.cloudflare.com/branch-predictor/)
+ - [Branch prediction](https://danluu.com/branch-prediction/)
  - [MIPS Pipeline](https://www.cs.cornell.edu/courses/cs3410/2012sp/lecture/09-pipelined-cpu-i-g.pdf)
 
 ### Computer architecture
@@ -101,4 +102,5 @@ Open source ISA
  - What every programmer should know about memory, Part 1 [LWN](http://lwn.net/Articles/250967/)
  - [Baking Pi – Operating Systems Development](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/)
  - [Build a Debian Jessie root filesystem](http://www.acmesystems.it/debian_jessie) how to build an Debian Jessie root filesystem using ``multistrap``
+ - [Understanding CPU Microarchitecture for Performance](https://speakerdeck.com/alblue/understanding-cpu-microarchitecture-for-performance-jchampionsconf)
 
