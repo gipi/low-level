@@ -34,6 +34,7 @@
  - [C23 implications for C libraries](https://gustedt.gitlabpages.inria.fr/c23-library/)
  - [Let's write a setjmp](https://nullprogram.com/blog/2023/02/12/)
  - [The joys and perils of C and C++ aliasing, Part 1](https://developers.redhat.com/blog/2020/06/02/the-joys-and-perils-of-c-and-c-aliasing-part-1)
+ - [Bounded Flexible Arrays in C](https://people.kernel.org/kees/bounded-flexible-arrays-in-c)
 
 ## Undefined behaviour
 
