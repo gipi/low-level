@@ -82,5 +82,7 @@ nav:
 - Networking:
   - Home: networking.md
   - Iptables: networking/iptables.md
-- Physics: physics.md
+- Extra:
+  - Math: extra/math.md
+  - Physics: extra/physics.md
 theme: readthedocs
