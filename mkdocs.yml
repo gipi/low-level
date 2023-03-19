@@ -85,4 +85,4 @@ nav:
 - Extra:
   - Math: extra/math.md
   - Physics: extra/physics.md
-theme: readthedocs
+theme: material
