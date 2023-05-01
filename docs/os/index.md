@@ -104,6 +104,11 @@ There are some aspects of ``UNIX`` that are broken
  - [Linux kernel module cheat](https://github.com/cirosantilli/linux-kernel-module-cheat) The perfect emulation setup to study and modify the Linux kernel, kernel modules, QEMU and gem5
  - [Writing USB Device Drivers](https://www.kernel.org/doc/html/v4.15/driver-api/usb/writing_usb_driver.html)
 
+### Tracing and debugging
+
+ - [Linux kernel tracing](https://www.slideshare.net/vh21/linux-kernel-tracing) from COSCUP 2016
+ - [goldshtn/linux-tracing-workshop](https://github.com/goldshtn/linux-tracing-workshop) Examples and hands-on labs for Linux tracing tools workshops
+
 ### eBPF
 
  - [eBPF homepage](https://ebpf.io)

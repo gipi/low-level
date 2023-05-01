@@ -35,6 +35,8 @@
  - [Let's write a setjmp](https://nullprogram.com/blog/2023/02/12/)
  - [The joys and perils of C and C++ aliasing, Part 1](https://developers.redhat.com/blog/2020/06/02/the-joys-and-perils-of-c-and-c-aliasing-part-1)
  - [Bounded Flexible Arrays in C](https://people.kernel.org/kees/bounded-flexible-arrays-in-c)
+ - [The unsafe language doom principle](https://blog.yossarian.net/2023/02/11/The-unsafe-language-doom-principle)
+ - [Incrementing Vectors](https://travisdowns.github.io/blog/2019/08/26/vector-inc.html)
 
 ## Undefined behaviour
 
