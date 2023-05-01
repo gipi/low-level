@@ -114,3 +114,27 @@ This is a divide and conquer algorithm that works in the following way
 ## Procedural generation
 
  - [Wave Function Collapse tips and tricks](https://www.boristhebrave.com/2020/02/08/wave-function-collapse-tips-and-tricks/)
+
+## Recursion
+
+### Tail call
+
+If a recursive call happens at the very end of the function, then the recursion can be substituted
+with loop, reducing the space complexity from O(N) to O(1). For example:
+
+```c
+int sum(List* list, int acc) {
+    if (list == nullptr)
+        return acc;
+    return sum(list->next, acc + list->val);
+}
+
+
+int sum(List* list, int acc) {
+    while (list != nullptr) {
+        acc = acc + list->val;
+        list = list->next;
+    }
+    return acc;
+}
+```
