@@ -187,6 +187,28 @@ one looks for an element of type ``Click`` that has a tuple of two elements
 associated with the attribute ``offset`` and binds this two elements to the name
 ``x`` and ``y``.
 
+### Coroutines
+
+Introduced with [PEP 492](https://peps.python.org/pep-0492/), the syntax as indicated
+from the [official documentation](https://docs.python.org/3/reference/compound_stmts.html#coroutines)
+
+```
+async_funcdef ::=  [decorators] "async" "def" funcname "(" [parameter_list] ")"
+                   ["->" expression] ":" suite
+async_for_stmt ::=  "async" for_stmt
+async_with_stmt ::=  "async" with_stmt
+```
+
+In the following code
+
+```python
+async def read_data(db):
+    data = await db.fetch('SELECT ...')
+```
+
+``await`` suspends execution like ``yield from``; it accepts only an "awaitable" (raises
+a ``TypeError`` doing otherwise)
+
 ## Links
 
  - http://mirnazim.org/writings/python-ecosystem-introduction/
