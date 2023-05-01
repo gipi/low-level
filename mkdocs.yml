@@ -35,6 +35,7 @@ nav:
     - Qt: applications/qt.md
     - SSH: applications/ssh.md
     - Vim: applications/vim.md
+    - Docker: applications/docker.md
 - Cloud:
   - Home: cloud/index.md
 - Programming:
