@@ -86,4 +86,5 @@ nav:
 - Extra:
   - Math: extra/math.md
   - Physics: extra/physics.md
+  - Statistics: extra/statistics.md
 theme: material
