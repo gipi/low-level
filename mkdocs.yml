@@ -47,7 +47,9 @@ nav:
   - Graphics: programming/graphics.md
   - Languages:
     - C++: languages/cpp.md
-    - Python: languages/python.md
+    - Python:
+      - Home: languages/python/index.md
+      - Asyncio: languages/python/asyncio.md
     - Verilog: languages/verilog.md
   - Ptrace: programming/ptrace.md
   - Randomness: programming/randomness.md
