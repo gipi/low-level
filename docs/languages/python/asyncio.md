@@ -16,7 +16,6 @@ async def main():
     await asyncio.sleep(1)
     await whatever('b')
 
-
 async def main2():
     task_a = asyncio.create_task(whatever('a'))
     task_s = asyncio.create_task(asyncio.sleep(1))
@@ -25,6 +24,12 @@ async def main2():
     await task_a
     await task_s
     await task_b
+
+
+async def _runner():
+    tasks = [whatever('a'), asyncio.sleep(1), whatever('b')]
+
+    await asyncio.gather(*tasks)
 
 
 print("-- w/o tasks")
@@ -36,17 +41,27 @@ print("-- w tasks")
 start = time.time()
 
 asyncio.run(main2())
+
+print(" -- w gather")
+start = time.time()
+asyncio.run(_runner())
+
 ```
 
 ```
 -- w/o tasks
 a: 0.0002 Hello!
-a: 3.0014 Goodbye!
-b: 4.0031 Hello!
-b: 7.0052 Goodbye!
+a: 3.0034 Goodbye!
+b: 4.0050 Hello!
+b: 7.0085 Goodbye!
 -- w tasks
-a: 0.0004 Hello!
-b: 0.0005 Hello!
-a: 3.0033 Goodbye!
-b: 3.0034 Goodbye!
+a: 0.0002 Hello!
+b: 0.0002 Hello!
+a: 3.0026 Goodbye!
+b: 3.0027 Goodbye!
+ -- w gather
+a: 0.0005 Hello!
+b: 0.0006 Hello!
+a: 3.0034 Goodbye!
+b: 3.0035 Goodbye!
 ```
