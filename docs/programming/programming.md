@@ -75,7 +75,22 @@
 ## Threads
 
  - http://developers.memsql.com/blog/common-pitfalls-in-writing-lock-free-algorithms/
- 
+
+### Concurrency control
+
+ - [mutex](https://en.wikipedia.org/wiki/Mutual_exclusion)/[lock](https://en.wikipedia.org/wiki/Lock_(computer_science))
+ - [semaphore](https://en.wikipedia.org/wiki/Semaphore_(programming))
+ - [futex](https://en.wikipedia.org/wiki/Futex)
+ - [spinlock](https://en.wikipedia.org/wiki/Spinlock)
+ - [Dekker's algorithm](https://en.wikipedia.org/wiki/Dekker%27s_algorithm) is
+   the first known correct solution to the mutual exclusion problem in
+   concurrent programming where processes only communicate via shared memory
+ - [Peterson's algorithm](https://en.wikipedia.org/wiki/Peterson%27s_algorithm)
+   is a concurrent programming algorithm for mutual exclusion that allows two
+   or more processes to share a single-use resource without conflict, using
+   only shared memory for communication
+ - [Memory barrier](https://en.wikipedia.org/wiki/Memory_barrier)
+
 ## Linux
 
  - [Ptrace](http://mikecvet.wordpress.com/2010/08/14/ptrace-tutorial/)

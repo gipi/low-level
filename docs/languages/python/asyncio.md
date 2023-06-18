@@ -65,3 +65,7 @@ b: 0.0006 Hello!
 a: 3.0034 Goodbye!
 b: 3.0035 Goodbye!
 ```
+
+## Links
+
+ - [Limiting concurrency in Python asyncio: the story of async imap_unordered()](https://death.andgravity.com/limit-concurrency)
