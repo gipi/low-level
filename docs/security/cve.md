@@ -8,6 +8,7 @@
 
 ## List
 
+ - [CVE-2023-3269](https://github.com/lrh2000/StackRot): StackRot
  - [CVE-2022-29867](https://hackerone.com/reports/1350653) Remote kernel heap overflow on PS4
  - [CVE-2022-23088](https://www.zerodayinitiative.com/blog/2022/6/15/cve-2022-23088-exploiting-a-heap-overflow-in-the-freebsd-wi-fi-stack) exploiting a heap overflow in the freebsd wi-fi stack
  - [CVE-2022-22057](https://github.blog/2022-06-16-the-android-kernel-mitigations-obstacle-race/) a use-after-free in the Qualcomm gpu kernel driver

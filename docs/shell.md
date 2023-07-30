@@ -24,6 +24,72 @@ An useful diagram from [here](https://clementc.github.io/blog/2018/01/25/moving_
 
 ![](moving_cli.png)
 
+An important feature of a shell like `bash` is the stream redirection:
+by default every process has associated at least three file descriptors
+
+ - `stdin` (associated with the literal number 0)
+ - `stdout` (associated with 1)
+ - `stderr` (associated with 2)
+
+but it's possible to open/close old/new file descriptors directly from the command line
+using the following expressions
+
+ - `[n]>output`: redirect stream `n` to file `output` that it's created if needed; the file is truncated
+ - `[n]>>output`: as above but the content is appended
+ - `[n]>&word`: duplicated output file descriptor
+
+Note that the order of redirections is significant.  For example, the command
+
+```
+ls > dirlist 2>&1
+```
+
+directs both standard output and standard error to the file dirlist, while the command
+
+```
+ls 2>&1 > dirlist
+```
+
+directs only the standard output to file dirlist, because the standard error
+was duplicated from the standard output before the standard output was
+redirected to dirlist. To understand better think of an analogy where `>` is like
+the equality operator `=` and `&` is instead used as a variable definition like `$`
+
+https://unix.stackexchange.com/a/37662/32025
+
+```
+1 = /dev/tty
+2 = /dev/tty
+```
+
+`1> file.txt 2>&1`
+
+```
+1 = file.txt
+2 = $1           # and currently $1 = file.txt
+```
+
+```
+1 = file.txt
+2 = file.txt
+```
+
+`2>&1 > file.txt`
+
+```
+2 = $1           # and currently $1 = /dev/tty
+1 = file.txt
+```
+
+```
+1 = file.txt
+2 = /dev/tty
+```
+
+So you need to think about `&` as a copy of a file descriptor and not as a reference.
+
+### Links
+
  - [How to use arguments from previous command?](https://stackoverflow.com/questions/4009412/how-to-use-arguments-from-previous-command/32332694)
  - [Programming with ANSI escape codes](http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html)
  - [The TTY demystified](http://www.linusakesson.net/programming/tty/)

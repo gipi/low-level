@@ -50,6 +50,18 @@ not being a **cyclic group** we know that it will not span all the domain.
 
 A tree is a graph that is not cyclic.
 
+The number of **unlabeled** trees with \\(N\\) nodes is given by the Catalan's numbers
+
+$$
+T(N) = \sum_{i=1}^{N} T(i - 1)\cdot T(N - i) = {(2N)!\over(N + 1)!N!}
+$$
+
+instead for **labeled** binary tree we have
+
+$$
+T^\prime(N)= N!T(N) = {(2N)!\over(N + 1)!}
+$$
+
 ### Binary tree
 
 This is a subset of trees where nodes can only have up to to 2 child, usually named **left**
@@ -89,17 +101,23 @@ There are a couple of ordering mechanism: take the following binary tree
  2. pop the last node from the queue and return it
  3. add all children  of popped node to queue and continue from step 2 until queue is empty
 
-The number of **unlabeled** trees with \\(N\\) nodes is given by the Catalan's numbers
+### B-Tree
 
-$$
-T(N) = \sum_{i=1}^{N} T(i - 1)\cdot T(N - i) = {(2N)!\over(N + 1)!N!}
-$$
+Particular form of tree that extends that binary search tree
 
-instead for **labeled** binary tree we have
+According to Knuth's definition, a B-tree of order m is a tree which satisfies the following properties:
 
-$$
-T^\prime(N)= N!T(N) = {(2N)!\over(N + 1)!}
-$$
+ - Every node has at most m children.
+ - Every internal node has at least ⌈m/2⌉ children.
+ - Every non-leaf node has at least two children.
+ - All leaves appear on the same level.
+ - A non-leaf node with k children contains k−1 keys.
+
+Each internal node's keys act as separation values which divide its subtrees.
+For example, if an internal node has 3 child nodes (or subtrees) then it must
+have 2 keys: a1 and a2. All values in the leftmost subtree will be less than
+a1, all values in the middle subtree will be between a1 and a2, and all values
+in the rightmost subtree will be greater than a2.
 
 ### Links
 

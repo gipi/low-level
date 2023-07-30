@@ -51,6 +51,7 @@ specifically for it.
  - [The Android kernel mitigations obstacle race](https://github.blog/2022-06-16-the-android-kernel-mitigations-obstacle-race/) CVE-2022-22057, a use-after-free in the Qualcomm gpu kernel driver
  - [DirtyCred](https://i.blackhat.com/USA-22/Thursday/US-22-Lin-Cautious-A-New-Exploitation-Method.pdf): A New Exploitation Method! No Pipe but as Nasty as Dirty Pipe
  - [Exploiting CVE-2022-42703 - Bringing back the stack attack](https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html)
+ - [StackRot](https://github.com/lrh2000/StackRot)
 
 ## Mitigations
 

@@ -30,6 +30,7 @@
  - [Symbolic Execution Demystified 2022](https://github.com/JannisKirschner/SymbolicExecutionDemystified/blob/main/Symbolic%20Execution%20Demystified%202022.pdf)
  - [Defeating Code Obfuscation with Angr](https://napongizero.github.io/blog/Defeating-Code-Obfuscation-with-Angr)
  - [Guy's 30 Reverse Engineering Tips & Tricks](https://whtaguy.com/2020/05/01/Guy-27s-30-Reverse-Engineering-Tips-26-Tricks.html)
+ - [Unveiling Secrets in Binaries using Code Detection Strategies](https://synthesis.to/presentations/recon23_code_detection.pdf)
 
 ## Intermediate languages and representations
 

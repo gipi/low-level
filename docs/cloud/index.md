@@ -1,6 +1,7 @@
 # Cloud
 
  - [Head-First Kubernetes](https://head-first-kubernetes.github.io/)
+ - [Remote Interactive Debugging of Python Applications Running in Kubernetes](https://martinheinz.dev/blog/99)
 
 ## Orchestration
 

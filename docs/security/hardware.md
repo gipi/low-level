@@ -69,6 +69,7 @@
    arbitrary payloads on PS4/PS5
  - [Exploiting the Wii U's USB Descriptor parsing](https://garyodernichts.blogspot.com/2022/06/exploiting-wii-us-usb-descriptor-parsing.html?m=1)
  - [PS4 Aux Hax 5: Flawed Instructions Get Optimized](https://fail0verflow.com/blog/2022/ps4-psvr/)
+ - [Next-Gen Exploitation: Exploring the PS5 Security Landscape](https://hardwear.io/usa-2023/presentation/next-gen-exploitation-exploring-the-PS5-security-landscape.pdf)
 
 ## Bootloader
 
