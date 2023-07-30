@@ -121,3 +121,51 @@ T &= t_1 + t_2 + \dots + t_N\longrightarrow E[T] = E[t_1] + E[t_2] + \dots E[t_N
   &\sim N\ln N \cr
 }
 $$
+
+### The lighthouse problem
+
+A lighthouse is somewhere off a piece of straight coastline at a position \\(\alpha\\)
+along the shore and distance \\(\beta\\) out of sea.
+
+![](../images/lighthouse.png)
+
+It emits a series of short highly collimated flashes at random intervals and
+hence at random azimuts. These pulses are intercepted on the coast by
+photo-detectors that record only the fact that a flash has occurred, but not the
+angle from which it came.
+
+The relation between a flash emitted from the lighthouse at position \\(\alpha,
+\beta\\) with azimut \\(\theta\\) and the photo-detector at the shore \\(x\\) is
+given by
+
+$$
+x - \alpha = \beta\tan(\theta)
+$$
+
+To find the likelihood \\(P(x\|\alpha,\beta,I)\\) we need to start from
+\\(P(\theta\|\alpha,\beta,I)\\) but this is assumed to be uniformed distributed
+
+$$
+P(\theta\|\alpha,\beta,I) = {1\over\pi}\;\hbox{where}\;-\pi\leq\theta\lt\pi
+$$
+
+Changing variables we have that
+
+$$
+P(x\|\alpha,\beta,I) = {1\over\pi}{\beta\over\beta^2 + \left(x - \alpha\right)^2}
+$$
+
+that is a **Cauchy distribution**. Since the observations \\(\lbrace x_k\rbrace\\) are
+independent we can write
+
+$$
+P(\lbrace x_k\rbrace\|\alpha,\beta,I) = \Pi_{k=1}^N P(x_k\|\alpha,\beta,I) =
+\left(\beta\over\pi\right)^N \Pi_{k=1}^N {1\over \beta^2 + \left(x_k - \alpha\right)^2}
+$$
+
+If you want an example of **maximum likelihood estimation** see [this
+script](mle.py)
+
+## Links
+
+ - [Notes with python](https://people.duke.edu/~ccc14/sta-663/MonteCarlo.html)
