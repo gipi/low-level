@@ -55,7 +55,9 @@
  - [Ghidra Bridge](https://github.com/justfoxing/ghidra_bridge) Python 3 bridge to Ghidra's Python scripting
  - [ghidra_ExportToX64dbg](https://github.com/schlafwandler/ghidra_ExportToX64dbg) A Ghidra script to export data to a x64dbg database
  - [GhiHorn: Path Analysis in Ghidra Using SMT Solvers](https://insights.sei.cmu.edu/blog/ghihorn-path-analysis-in-ghidra-using-smt-solvers/)
+ - [airbus-cyber/ghidralligator](https://github.com/airbus-cyber/ghidralligator) is a C++ multi-architecture pcode emulator based on the Ghidra libsla, designed for fuzzing with AFL++.
  - https://github.com/zxgio/ghidra_stack_strings
+ - [nccgroup/Cartographer](https://github.com/nccgroup/Cartographer) Code Coverage Exploration Plugin for Ghidra
 
 ## PCode
 

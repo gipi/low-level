@@ -12,3 +12,7 @@ $ ffprobe -hide_banner <file>
 ffmpeg -i <m3u8 URL> -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 50 $filename.mp4
 ```
 
+## Links
+
+ - https://ffmpeg.app/
+ - https://ffmpeg.lav.io/

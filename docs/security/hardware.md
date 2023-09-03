@@ -110,6 +110,7 @@
  - [Ghostbuster: Spectre exploitation in real life](https://donjon.ledger.com/ghostbuster/)
  - [A Systematic Evaluation of Transient Execution Attacks and Defenses](https://transient.fail/)
  - [CROSSTALK](https://www.vusec.net/projects/crosstalk/)
+ - [Inception](https://comsec.ethz.ch/research/microarch/inception/) how a simple XOR can cause a Microarchitectural Stack Overflow
 
 ### Glitching
 

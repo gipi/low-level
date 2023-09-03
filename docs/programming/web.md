@@ -25,6 +25,8 @@
  - [Django 3.1 Async](https://wersdoerfer.de/blogs/ephes_blog/django-31-async/)
  - [How To reset migrations](https://simpleisbetterthancomplex.com/tutorial/2016/07/26/how-to-reset-migrations.html)
  - [Using Django Check Constraints to Prevent Self-Following](https://adamj.eu/tech/2021/02/26/django-check-constraints-prevent-self-following/)
+ - [Django ORM Cheatsheet](https://djangocentral.com/django-orm-cheatsheet/)
+ - [Django testing guide](https://atharvashah.netlify.app/posts/tech/django-testing-guide/)
 
 ### Admin
 

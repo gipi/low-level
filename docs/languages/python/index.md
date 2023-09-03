@@ -245,6 +245,7 @@ a ``TypeError`` doing otherwise)
  - [pythontutor](https://pythontutor.com/)
  - [Less copies in Python with the buffer protocol and memoryviews]( https://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-protocol-and-memoryviews)
  - [Advanced Python: Achieving High Performance with Code Generation](https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79)
+ - [Understanding Automatic Differentiation in 30 lines of Python](https://vmartin.fr/understanding-automatic-differentiation-in-30-lines-of-python.html)
 
 ## Packaging
 

@@ -37,6 +37,8 @@
  - [Bounded Flexible Arrays in C](https://people.kernel.org/kees/bounded-flexible-arrays-in-c)
  - [The unsafe language doom principle](https://blog.yossarian.net/2023/02/11/The-unsafe-language-doom-principle)
  - [Incrementing Vectors](https://travisdowns.github.io/blog/2019/08/26/vector-inc.html)
+ - [The Secret Life of C++: What Your Compiler Doesn't Want You To Know](https://web.mit.edu/tibbetts/Public/inside-c/www/)
+ - [Few lesser known tricks, quirks and features of C](https://jorengarenar.github.io/blog/less-known-c)
 
 ## Undefined behaviour
 

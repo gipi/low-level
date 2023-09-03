@@ -108,11 +108,16 @@ There are some aspects of ``UNIX`` that are broken
 
  - [Linux kernel tracing](https://www.slideshare.net/vh21/linux-kernel-tracing) from COSCUP 2016
  - [goldshtn/linux-tracing-workshop](https://github.com/goldshtn/linux-tracing-workshop) Examples and hands-on labs for Linux tracing tools workshops
+ - [Debugging disk IO](https://github.com/alexeldeib/bpf-demo/blob/master/docs/disk_io.md)
+ - [Linux debugging, profiling and tracing training](https://bootlin.com/doc/training/debugging/debugging-slides.pdf)
 
 ### eBPF
 
  - [eBPF homepage](https://ebpf.io)
  - [Hardening Hostile Code in eBPF](https://samsung.github.io/kspp-study/bpf.html)
+ - [Use our suite of eBPF libraries](https://blog.trailofbits.com/2023/08/09/use-our-suite-of-ebpf-libraries/) by trailofbits
+ - [trailofbits/ebpfault](https://github.com/trailofbits/ebpfault) A BPF-based syscall fault injector
+ - [All your tracing are belong to BPF](https://blog.trailofbits.com/2021/11/09/all-your-tracing-are-belong-to-bpf/)
 
 ## Zephyr
 
