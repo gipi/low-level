@@ -378,6 +378,26 @@ def test_the_unknown():
 
  - [Visualize multi-threaded Python programs with an open source tool](https://opensource.com/article/21/3/python-viztracer)
 
+```python
+import subprocess
+
+with subprocess.Popen(['echo', 'Hello from the child!'], stdout=subprocess.PIPE) as proc:
+  out, err = proc.communicate()
+  print(out.decode('utf-8'))
+
+  proc.kill()
+```
+
+```python
+import threading
+
+def job():
+    print("whatever")
+
+thread = threading.Thread(target=job)
+thread.start()
+```
+
 ## Exceptions
 
 From the [official documentation](https://docs.python.org/3/reference/compound_stmts.html?highlight=try#the-try-statement)
