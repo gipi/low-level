@@ -67,6 +67,7 @@ nav:
   - 'Kernel': security/kernel.md
   - 'Malware&Rootkit': security/malware.md
   - 'Video':    security/video.md
+  - 'Vulnerabilties': security/vulnerabilities.md
   - 'Reverse shell': security/reverse-shell.md
   - Remote code execution: security/rce.md
   - Shellcode: shellcode.md
