@@ -2,7 +2,7 @@ site_name: low level
 #markdown_extensions: [math]
 markdown_extensions:
   - pymdownx.snippets
-extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML','mathjaxhelper.js']
+extra_javascript: ['https://cdnjs.cloudfare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML','mathjaxhelper.js']
 nav:
 - Home: index.md
 - Computer:
