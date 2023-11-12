@@ -9,4 +9,4 @@
    paper that systematize the knowledge about various protection techniques by
    setting up a general model for memory corruption attacks
 
-![](/images/taxonomy-memory-attacks.png)
+![](../images/taxonomy-memory-attacks.png)
