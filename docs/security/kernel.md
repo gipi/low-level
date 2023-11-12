@@ -52,6 +52,8 @@ specifically for it.
  - [DirtyCred](https://i.blackhat.com/USA-22/Thursday/US-22-Lin-Cautious-A-New-Exploitation-Method.pdf): A New Exploitation Method! No Pipe but as Nasty as Dirty Pipe
  - [Exploiting CVE-2022-42703 - Bringing back the stack attack](https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html)
  - [StackRot](https://github.com/lrh2000/StackRot)
+ - [CVE-2022-29582 An io_uring vulnerability](https://ruia-ruia.github.io/2022/08/05/CVE-2022-29582-io-uring/)
+ - [Escaping the Google kCTF Container with a Data-Only Exploit](https://h0mbre.github.io/kCTF_Data_Only_Exploit/)
 
 ## Mitigations
 

@@ -207,6 +207,7 @@ Relocations are the entities used by the linking process, dynamic or not
   - https://stackoverflow.com/questions/5954140/dumping-c-structure-sizes-from-elf-object-file
   - http://wiki.dwarfstd.org/index.php?title=DWARF_FAQ
   - https://landley.net/kdocs/ols/2007/ols2007v2-pages-35-44.pdf
+  - https://maskray.me/blog/2020-11-08-stack-unwinding
 
 ### Links
 
