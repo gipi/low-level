@@ -345,6 +345,26 @@ def test_the_unknown():
     ...
 ```
 
+If you want to use a flag from command line to skip some tests:
+
+```python
+# conftest.py
+def pytest_addoption(parser):
+    parser.addoption(
+        "--disable-ptrace",
+        action="store_true",
+        default=False,
+        help="Disable tests that need ptrace APIs",
+    )
+
+# tests/test_whatever.py
+pytestmark = pytest.mark.skipif(
+    'config.getoption("--disable-ptrace")',
+    reason="Not run if ptrace is not available"
+)
+
+```
+
 ## BEST PRACTICES
 
  - [PEP8](http://www.python.org/dev/peps/pep-0008/): Style Guide for Python Code
