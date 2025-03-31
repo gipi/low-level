@@ -605,6 +605,13 @@ def parse_args():
         help="vendor:product of the device you want to interact with")
     args.add_argument('--binary', required=True)
     args.add_argument('--address', type=functools.partial(int, base=0))
+        '--sentry-extra-tags',
+        dest='sentry_extra_tags',
+        action="append",
+        nargs=2,
+        metavar=("name", "value"),
+        help="extra tags to use for the sentry.",
+    )
 
     return args.parse_args()
 ```
