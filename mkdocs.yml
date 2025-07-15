@@ -27,6 +27,7 @@ nav:
   - Filesystem: filesystem.md
   - Applications:
     - General: applications/index.md
+    - Ansible: applications/ansible.md
     - ffmpeg: applications/ffmpeg.md
     - Gdb: applications/gdb.md
     - Git: applications/git.md
